@@ -35,13 +35,13 @@ You will land on the **AUTOPILOT** tab. From there, you'll see a preview of your
 
 Click "**ENABLE AUTOPILOT**" 
 
-![](../.gitbook/assets/cleanshot-2021-06-22-at-10.26.52.jpg)
+![FlexSave Autopilot landing page with next month&apos;s savings potential displayed](../.gitbook/assets/cleanshot-2021-07-19-at-11.48.50.jpg)
 
 After enabling Autopilot mode, you'll see your FlexSave Dashboard which displays important insights into your FlexSave savings. 
 
-Let's go over the elements of your FlexSave Dashboard
+Let's go over the elements of your FlexSave Dashboard:
 
-![](../.gitbook/assets/cleanshot-2021-06-22-at-10.38.04.jpg)
+![FlexSave Autopilot Dashboard with historical, current month&apos;s, and future projected savings](../.gitbook/assets/cleanshot-2021-07-19-at-11.49.44.jpg)
 
 ### FlexSave Dashboard
 
@@ -80,13 +80,13 @@ The column displaying data for the next month contains two parts as well:
 
 If you prefer to switch to FlexSave Manual Mode, click on the vertical ellipsis in the top-right corner of the FlexSave page. Then select "Disable Autopilot"
 
-![](../.gitbook/assets/cleanshot-2021-06-22-at-11.02.22.jpg)
+![](../.gitbook/assets/cleanshot-2021-07-19-at-11.51.24.jpg)
 
 A confirmation pop-up will appear, explaining that FlexSave Autopilot will continue to generate savings until the end of the month.
 
 Click "Disable" to revert to FlexSave Manual Mode.
 
-![](../.gitbook/assets/cleanshot-2021-06-22-at-11.03.52.jpg)
+![](../.gitbook/assets/cleanshot-2021-07-19-at-11.52.01.jpg)
 
 ### View past orders
 
@@ -94,13 +94,13 @@ If you previously made reservations in FlexSave Manual Mode or its previous inca
 
 See your past orders by clicking on the vertical ellipsis in the top-right part of your screen, and select "**Show Past Orders**".
 
-![](../.gitbook/assets/cleanshot-2021-06-22-at-11.03.03.jpg)
+![](../.gitbook/assets/cleanshot-2021-07-19-at-11.52.25.jpg)
 
 A new tab will appear, named "**PAST ORDERS**", displaying various statistics around previous orders you made in Manual Mode or with Flexible Reserved Instances.
 
 Click on the "V" next to any of the orders to explore that order's utilization statistics and savings/spend further.
 
-![](../.gitbook/assets/cleanshot-2021-06-22-at-12.02.38.jpg)
+![](../.gitbook/assets/cleanshot-2021-07-19-at-11.55.09.jpg)
 
 ## FlexSave Manual Mode <a id="manual-mode"></a>
 

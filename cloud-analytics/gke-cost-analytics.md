@@ -22,6 +22,10 @@ Enabling GKE Cost Analytics involves three main steps:
 You may have already executed some or all of these steps. However, unless ALL steps have been taken, the GKE Cost Analytics feature will not function correctly in the DoiT CMP.
 {% endhint %}
 
+{% hint style="warning" %}
+GKE Cost Analytics is not applicable to **Autopilot clusters** because they currently do not support Usage Metering feature as noted [here](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#unsupported_cluster_features).
+{% endhint %}
+
 ## Step 1 - Enable the GKE Cost Analytics
 
 In order to do this, you will need to [connect your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) to the CMP. Please navigate to the Settings page via the gear icon in your lefthand navigation panel. 

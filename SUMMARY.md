@@ -29,6 +29,7 @@
 * [AWS Cost Allocation Tags](amazon-web-services/supported-aws-cost-allocation-tags.md)
 * [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
 * [AWS Quota Monitoring](amazon-web-services/aws-quotas.md)
+* [Import AWS Organizations](amazon-web-services/import-aws-orgs.md)
 
 ## FlexSave for AWS <a id="flexsave-aws"></a>
 

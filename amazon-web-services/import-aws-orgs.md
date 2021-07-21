@@ -26,5 +26,17 @@ After signing a contract with AWS, your customer success manager would contact y
 4. Create `CloudHealth` IAM role to provide access from CloudHealth
 5. Create `AWSAdmin` IAM role \(used to access billing data under AWS Channel Reseller Program\)
 
+### Frequently Asked Questions
 
+**Q: Should I expect anything to break during the process?**
+
+No, the process was designed to be disruption free.
+
+**Q: Will the features dependent on AWS Organizations continue to function?**
+
+ All AWS-organization features \(e.g. AWS SSO, AWS Backup, AWS Firewall Manager, Resource Manager, etc\) will continue to function in exactly the same way as before.
+
+**Q: Can you please share the IAM policies for the roles you're creating on master payer account?**
+
+Absolutely! You can find the policies at https://URL
 

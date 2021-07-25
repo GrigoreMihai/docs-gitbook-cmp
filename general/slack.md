@@ -10,17 +10,31 @@ The DoiT CMP Slack application helps you share rich previews of your Cloud Analy
 
 ### Enable the Integration
 
-To enable the integration, log in to both CMP and Slack, then click "Add to Slack" below:
+To enable the integration, make sure you're logged in to both the CMP and Slack. Then, in the CMP:
 
-[CMP Slack App](https://slack.com/oauth/v2/authorize?client_id=95544667184.517333928260&scope=links:read,links:write&user_scope=links:read,links:write,users:read.email,users:read)
+1. Click on the Settings icon in your lefthand navigation panel
+2. Switch to the Slack tab
+3. Click "Add to Slack"
 
-At this point, DoiT CMP is a part of your Slack workspace, and any CMP links you send in Slack will unfurl with metadata, and if applicable a chart preview.
+Or just click this link to add the DoiT CMP Slack app to your workspace.
 
-Once at least one member of your CMP organization has set up the Slack integration for their account, any other members of the Slack workspace will see a prompt the next time they paste a CMP link. The prompt will ask them to connect their own CMP account to Slack as well. If they choose to do so, Slack will guide them through the authentication flow. Once they have successfully connected CMP to Slack, any further links they paste in Slack will unfurl.
+![How to add the DoiT CMP Slack app to your Slack workspace](../.gitbook/assets/cleanshot-2021-07-25-at-11.12.51.jpg)
+
+Finally, click "Allow" to give the DoiT CMP Slack app permission to access your Slack workspace.
+
+![](../.gitbook/assets/cleanshot-2021-07-25-at-11.16.47.jpg)
+
+
+
+At this point, DoiT CMP is a part of your Slack workspace, and any CMP Report or Budget links you send in Slack will unfurl with metadata, and if applicable a chart preview.
+
+Once at least one member of your CMP organization has set up the Slack integration for their account, any other members of the Slack workspace will see a prompt the next time they paste a CMP link. The prompt will ask them to connect their own CMP account to Slack as well. If they choose to do so, Slack will guide them through the authentication flow you see above. Once they have successfully connected CMP to Slack, any further links they paste in Slack will unfurl.
 
 ### Using the Integration
 
-Once you've set up the integration, CMP links pasted in Slack will unfurl. Most links will provide some basic link metadata, and links to Reports, Budgets, Anomalies, or Dashboards and will also include a chart preview, for example:
+Once you've set up the integration, CMP links pasted in Slack will unfurl. Most links will provide some basic link metadata, and links to Reports and Budgets will include a chart preview. 
+
+For example:
 
 ![](../.gitbook/assets/image%20%2876%29.png)
 

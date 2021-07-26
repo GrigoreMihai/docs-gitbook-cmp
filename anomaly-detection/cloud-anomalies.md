@@ -15,15 +15,19 @@ Essentially, billing records that don’t align with your anticipated spending b
 
 ### Manage anomaly notifications
 
-To manage your notifications, click your profile icon in the upper-right corner of the page header, then select 'Profile'**.**
+To manage your notifications, click on the "Identity & Access" icon in your lefthand navigation panel.
 
-![](../.gitbook/assets/profile-1-%20%282%29%20%283%29%20%281%29.png)
+![](../.gitbook/assets/cleanshot-2021-07-26-at-10.47.01.jpg)
 
-By default, the threshold for email alerts is set to 'Warning', however, you can overwrite it to reduce the number of emails you receive overtime.
+Next, select your user from the users list.
+
+Navigate to the "Notifications" tab. If you'd like to be notified of potential anomalies, check the "Cloud Cost Anomalies" box and then set the minimum severity threshold you'd like to be alerted on.
+
+![](../.gitbook/assets/cleanshot-2021-07-26-at-10.50.02.jpg)
+
+By default, the threshold for email alerts is set to 'Warning', however, you can overwrite it to reduce the number of emails you receive over time.
 
 We are also storing all detected cost anomalies under the 'Cost Anomalies' page to filter/search events and zoom in on a specifically detected anomaly. Once located, you can click on 'View' to inspect the details of a detected anomaly.
-
-![](../.gitbook/assets/cost-anomaly-notification.png)
 
 ### View anomalies
 

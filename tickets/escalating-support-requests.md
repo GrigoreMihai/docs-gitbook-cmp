@@ -6,7 +6,7 @@ description: Notify Cloud Engineering team about the impact on your business
 
 If you would like to access and review previously submitted support requests, you can easily do so through the Cloud Management Platform.
 
-Star with locating the ticket you'd like to escalate on the [Support page](https://support.doit-intl.com):
+Start with locating the ticket you'd like to escalate on the [Support page](https://support.doit-intl.com):
 
 ![](../.gitbook/assets/support6.jpg)
 

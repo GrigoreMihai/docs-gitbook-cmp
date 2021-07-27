@@ -38,5 +38,5 @@ No, the process was designed to be disruption free.
 
 **Q: Can you please share the IAM policies for the roles you're creating on master payer account?**
 
-Absolutely! You can find the policies at https://URL
+Absolutely! You can find the policies at [this gist](https://gist.github.com/spark2ignite/e2a5a23fc6d239837cc3765cc0db024d).
 

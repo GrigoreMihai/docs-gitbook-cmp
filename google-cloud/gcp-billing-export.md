@@ -13,7 +13,7 @@ Customers willing to export their Google Cloud billing data are advised to [Set 
 Cloud Management Platform can automatically export detailed  billing data \(such as usage, cost estimates, and pricing data\) to a BigQuery table. Then you can access your billing data from BigQuery for detailed analysis or use a tool such as Looker to visualize your data.
 
 {% hint style="warning" %}
-**Request Access** - You will need to request access to the billing export table by opening a support request at [https://support.doit-intl.com](https://support.doit-intl.com). Please provide your Google user or service account you'd like to use when querying the billing export table
+**Request Access** - You will need to request access to the billing export table by opening a support request at [https://support.doit-intl.com](https://support.doit-intl.com). Please provide your Google user, a Google group, or a service account you'd like to use when querying the billing export table
 {% endhint %}
 
 ### Data Availability

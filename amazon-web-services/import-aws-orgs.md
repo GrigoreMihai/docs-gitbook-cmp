@@ -18,13 +18,23 @@ After signing a contract with AWS, your customer success manager would contact y
 4. Remove 2FA from the root account \(no worries, we'll re-enable it in the next step\)\]
 5. Notify your customer success manager about completing the steps 1-4
 
-### Step 2 - Onboarding \(by DoiT\)
+### Step 2 - Initial Onboarding \(by DoiT\)
 
 1. Change the root password on AWS MPA account
 2. Re-enable 2FA on the root account using software based token \(1password\)
 3. Create `doitintl_cmp` IAM role to facilitate access from Cloud Management Platform
 4. Create `CloudHealth` IAM role to provide access from CloudHealth
 5. Create `AWSAdmin` IAM role \(used to access billing data under AWS Channel Reseller Program\)
+6. Request SPP team at AWS to onboard the organization under ECAM \(End-Customer Account Model\) 
+
+### Step 3 - Account Configuration \(by DoiT\)
+
+1. Replace existing payment method with a DoiT payment method
+2. Set tax profile to the country matching DoiT's billing profile
+3. Complete Org email verification process \(need to be done because the root email has changed\)
+4. Enable "Cost and Usage Reports" \(if not enabled already\)
+5. Create a new S3 bucket \(named as `doitintl-awsops-{id}`\) to store AWS Cost and Usage report
+6. Set up a new Cost and Usage report \( `doitintl-awsops-{id})`
 
 ### Frequently Asked Questions
 

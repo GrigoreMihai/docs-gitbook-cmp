@@ -19,7 +19,7 @@
 * [Link Google Cloud Organization](google-cloud/connect-google-cloud-service-account.md)
 * [Google Cloud Quotas](google-cloud/google-cloud-quotas.md)
 * [Billing Export](google-cloud/gcp-billing-export.md)
-* [Import Historical Data](google-cloud/upload-historical-gcp-billing-data-1.md)
+* [Import Historical Data](google-cloud/import-historical-billing-data.md)
 
 ## Amazon Web Services
 

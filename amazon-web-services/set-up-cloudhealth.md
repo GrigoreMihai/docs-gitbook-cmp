@@ -42,5 +42,17 @@ Further users and administrators can be created by yourself in the [Cloudhealth 
 
 If you are yourself not an admin, you need to approach an admin in your company to do this.
 
-If you require any further assistance with the creation of the CloudHealth IAM Role, don't hesitate to contact our support at [https://support.doit-intl.com](https://support.doit-intl.com)
+If you require any further assistance with the creation of the CloudHealth IAM Role, don't hesitate to contact our support at [https://support.doit-intl.com](https://support.doit-intl.com)  
+  
+
+
+{% hint style="warning" %}
+If you have SSO enabled in CloudHealth, you will not be able to add users that use usernames and passwords. In order to add users they must first be added to the proper role group within the IDPs directory.
+{% endhint %}
+
+![Inviting a user in Setup &amp;gt; Users is not possible when SSO is enabled results in an error](../.gitbook/assets/image%20%28130%29.png)
+
+![SSO in Cloudhealth](../.gitbook/assets/image%20%28129%29.png)
+
+[more on troubleshooting](https://help.cloudhealthtech.com/administration/troubleshooting-sso-issues) SSO issues on CloudHealth
 

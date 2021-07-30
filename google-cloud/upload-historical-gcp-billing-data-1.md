@@ -2,7 +2,7 @@
 description: How to analyze cloud spend that pre-dates when you started using the CMP
 ---
 
-# Import GCP Billing Data
+# Import Historical Data
 
 ### Overview
 

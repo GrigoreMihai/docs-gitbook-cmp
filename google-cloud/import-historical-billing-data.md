@@ -33,7 +33,7 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 > ###  Grant the **BigQuery Data Viewer role**
 
 1. From GCP, navigate to the BigQuery Console and open the **dataset** where the billing data is stored, then click  "**Share dataset**"
-2. In the Dataset Permissions tab, click "**Add Member**" and paste the **service account** **email** that was linked to CMP as identified in **Step 1**.
+2. In the Dataset Permissions tab, click "**Add Member**" and paste the **service account** **email** that was linked to CMP as identified in [**Step 1**](import-historical-billing-data.md#step-1-identify-the-service-account-linked-to-cmp).
 3. Click "**Select a Role**" highlight BigQuery then choose **BigQuery Data Viewer**
 4. Click "**Add**" 
 5. Click "**Done**"

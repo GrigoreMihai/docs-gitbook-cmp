@@ -28,6 +28,10 @@ FlexSave reservations are applied to on-demand usage. Usage covered by AWS reser
 
 Yes, in [FlexSave Manual Mode](overview.md#manual-mode). FlexSave orders can be configured as "recurring" for any number of months. [Recurring orders](overview.md#setting-up-recurring-orders) will be automatically recreated every month. 
 
+### Which AWS services are supported with FlexSave?
+
+At this time, FlexSave supports AWS EC2. Other AWS services such as AWS RDS, VMware or Elasticache aren't supported at this time. Since FlexSave relies on AWS Convertible Reservations, you can check supported instances on [AWS website](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/). If there is no Convertible Reservations available for your instance type, it's either not supported with FlexSave.
+
 ### Can I send a report to the CFO with the actual realized savings?
 
 Your actual savings is displayed in your FlexSave Dashboard. Your CFO has access to this dashboard and would be able to monitor the utilization as well as the actual savings yielded by the FlexSave.

@@ -112,7 +112,7 @@ To begin, click the 'FlexSave' icon on the left-hand side of the page.
 
 You have two options in FlexSave Manual Mode when ordering FlexSave reservations:
 
-1. Utilizing [FlexSave Recommendations](https://help.doit-intl.com/flexsave/recommendations) to make orders
+1. Utilizing [FlexSave Recommendations](https://help.doit-intl.com/flexsave-aws/recommendations) to make orders
 2. Making custom orders yourself
 
 {% hint style="info" %}

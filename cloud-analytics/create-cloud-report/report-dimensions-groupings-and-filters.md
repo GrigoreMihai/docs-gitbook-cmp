@@ -1,6 +1,18 @@
 # Report Dimensions, Group By, and Filters
 
-When creating reports in Cloud Analytics, you will have every billing dimension to choose from, including any custom, project, and system labels for a detailed view of your cloud spend. You can also further customize your reports by grouping or filtering these dimensions. 
+#### When creating reports in Cloud Analytics, you will have every billing dimension to choose from, including any custom, project, and system labels for a detailed view of your cloud spend. You can also further customize your reports by grouping or filtering these dimensions. 
+
+**Dimensions** determine the fields along the X-axis of the chart and **“Group by”** determines the fields along the Y-axis of the chart. 
+
+In the screenshot below you can see that "service" is under "Group By" therefore; it is showing the service data on the Y- axis. The year, month and day have been added as "Dimensions" so the data/columns are placed on the X- axis as shown
+
+![](../../.gitbook/assets/image%20%28138%29.png)
+
+**Filters** allow you to view more specific information. For example, if you only want to look at GCP, you can Filter on Cloud = GCP without having to show AWS on the chart.
+
+This screenshot shows the  "cloud" being filtered as Google Cloud only. As previously mentioned, filters determine the data that will be shown inside the chart.
+
+![](../../.gitbook/assets/image%20%28134%29.png)
 
 ## Standard Dimensions
 

@@ -26,7 +26,7 @@ On the right-hand side of the page, click the bottom facing arrow and choosing '
 
 Choose the Billing Profile to which you're creating the account for while choosing the name of the account to which the _root email_ is associated with.
 
-![](../.gitbook/assets/create-aws-account2.png)
+![](../.gitbook/assets/image%20%28140%29.png)
 
 Click 'Create' and a popup will appear that the account was created successfully. 
 

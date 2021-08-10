@@ -125,6 +125,7 @@
 * [Manage Roles](user-management/manage-roles.md)
 * [User Permissions Explained](user-management/user-permissions-explained.md)
 * [Bulk Invite Users](user-management/bulk-invite-users.md)
+* [Manage Organizations](user-management/manage-organizations.md)
 
 ## Notifications
 

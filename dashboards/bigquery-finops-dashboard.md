@@ -55,7 +55,7 @@ Once available, you'll see the dashboard appear with the statistics of your orga
 
 The BigQuery FinOps dashboard is compiled of widgets that will provide you more insight into your organization's statistics.
 
-![](../.gitbook/assets/image%20%28151%29.png)
+![](../.gitbook/assets/image%20%28154%29.png)
 
 ### Elements of the Dashboard
 

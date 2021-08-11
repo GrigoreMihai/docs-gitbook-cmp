@@ -112,7 +112,7 @@ To begin, click the 'FlexSave' icon on the left-hand side of the page.
 
 You have two options in FlexSave Manual Mode when ordering FlexSave reservations:
 
-1. Utilizing [FlexSave Recommendations](https://help.doit-intl.com/flexsave-aws/recommendations) to make orders
+1. Utilizing [FlexSave Recommendations](recommendations.md) to make orders
 2. Making custom orders yourself
 
 {% hint style="info" %}
@@ -123,7 +123,7 @@ All users with the FlexSave Admin permission \(Admin, Power User\) are notified 
 
 FlexSave Recommendations identifies your AWS EC2 instances that aren't covered by a billing discount mechanism \(RIs, Savings Plans, etc.\), and calculates the ideal number of FlexSave reservations recommended to optimize your spend.  
   
-[**Read more about making orders via FlexSave Recommendations here.**](https://www.help.doit-intl.com/flexsave/recommendations)\*\*\*\*
+[**Read more about making orders via FlexSave Recommendations here.**](recommendations.md)\*\*\*\*
 
 ### Making Custom Orders
 

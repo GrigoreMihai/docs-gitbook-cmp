@@ -14,6 +14,20 @@ Today CMP supports Role based access control \(RBAC\) functionality that enables
 
 Organizations are used to provide a tightly scoped Cloud Analytics experience for a sub-set of your users. By creating an organization, you can help focus its members by automatically scoping all reports to only the attributions used to create it. For instance, if you have a department or group that operates independently within your company \(an acquisition, or R&D initiative\), you can use organizations to provide a focused experience within the CMP. By removing the noise of total company spend, insights and trends can be brought into focus faster and with less effort.‌
 
+## Terminology <a id="how-to-setup-organizations"></a>
+
+#### **Organization**
+
+An organization is an automatic set of attributions that filter data for its members.  When a user is a member of an organization all reports in Cloud Analytics are automatically filtered to show only relevant data
+
+**Root Organization \(The default organization\)**
+
+Ever company has a default organization named after their primary domain.  This organization, by default, sees all data within an company.  It can be restricted by attribution by editing it.  When an organization with members is deleted, users are placed in the default organization rather than being given full access to the company.  This allows you the ability to configure a restricted landing zone for users when deleting existing organizations.
+
+#### Member
+
+When a user is assigned to an organization, they are said to be a member of that organization.  Once a member, they will see only data included in the configured attributions while in Cloud Analytics or Dashboards \([with the exception of Global Dashboards](https://app.gitbook.com/@doitintl/s/cmp/~/drafts/-MhECcbsGcCOA9EdQFsO/user-management/manage-organizations#current-limitations)\)
+
 ## How to Setup Organizations <a id="how-to-setup-organizations"></a>
 
 ‌Organizations use attributions to control what data is included.‌

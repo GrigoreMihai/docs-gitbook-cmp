@@ -61,16 +61,6 @@ After signing in to the AWS Console and accepting the invitation, a final email 
 
 ## Frequently asked questions: 
 
-> ### **I have followed all the steps, accepted the invite and created the IAM access for Cloudhealth but my account is not appearing, what is the reason?**
-
-![Your account is not appearing in the &quot;Amazon Web Services&quot; section of the assets.](../.gitbook/assets/image%20%2875%29.png)
-
-If you do not have spends on your billing account, the account  will stay under “invites”. It is based on the fact that an entry/file \(CUR's\) is created and populated by AWS for our system to be able to see and parse it.
-
-If you have spends on your billing account, and after 48 hours you still see the account under "invites", please [open a support ticket.](https://help.doit-intl.com/tickets/open-a-new-support-request) 
-
-
-
 > ### **I’ve performed all the requested steps, I have spends on my AWS billing account, but my information is still not there. What could be the reason ?**
 
 Once successfully completed it takes 24-72 hours for the data to start flowing through from AWS, then our Cloud Management Platform will update. 

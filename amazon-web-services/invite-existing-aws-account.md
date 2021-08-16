@@ -65,8 +65,6 @@ After signing in to the AWS Console and accepting the invitation, a final email 
 
 Once successfully completed it takes 24-72 hours for the data to start flowing through from AWS, then our Cloud Management Platform will update. 
 
-
-
 > ### **I have not received any invitation email. What could have gone wrong?**
 
 1\) On your organization's page, check if you can see the invite: 
@@ -79,8 +77,6 @@ If you can't see that invite, check if you have left your organization as specif
 Is the invite on your spam folder? Did you enter the correct AWS account id when inviting the account? 
 
 If you are still having issues, you can [open a support ticket](https://hello.doit-intl.com/support)
-
-
 
 > ### **My CloudHealth status shows as "critical" or "unknown", what does it mean?** 
 >

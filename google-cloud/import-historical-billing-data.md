@@ -85,7 +85,7 @@ You can now import your historical billing data into CMP. You need the following
 * Source Project: Enter the "**Project ID"**
 * Source Dataset: Enter the "**Dataset ID"**
 
-![](../.gitbook/assets/image%20%28119%29.png)
+![](../.gitbook/assets/image%20%28161%29.png)
 
 Once you click "**Import**" a new card will be added to your assets reflecting the details and progress or completion status.  
 

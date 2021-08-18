@@ -212,7 +212,7 @@ If the role was created successfully, you'll be taken back to the main Roles pag
 
 After you have created the role, click on the role name to bring you to its summary page. Copy the value next to "**Role ARN**"
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 Finally, copy and paste the Role ARN to the Cloud Management Platform and click 'Add'. 
 

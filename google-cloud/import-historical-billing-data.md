@@ -91,5 +91,5 @@ Once you click "**Import**" a new card will be added to your assets reflecting t
 
 ![](../.gitbook/assets/image%20%28115%29.png)
 
-![](../.gitbook/assets/image%20%28128%29.png)
+![](../.gitbook/assets/image%20%28118%29.png)
 

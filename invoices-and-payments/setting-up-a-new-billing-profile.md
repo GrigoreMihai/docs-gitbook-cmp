@@ -26,7 +26,7 @@ After completing all the required fields in each section, you will be asked what
 
 Click **Submit** after you fill out the details.
 
-![](../.gitbook/assets/payment-method-and-currency%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../.gitbook/assets/payment-method-and-currency%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 If you receive the following error, please try again.
 

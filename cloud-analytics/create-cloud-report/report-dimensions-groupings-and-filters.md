@@ -74,7 +74,7 @@ This screenshot shows the  "cloud" being filtered as Google Cloud only. As previ
 >
 > By default, when you create a new report, the "**Year**", "**Month**", and "**Day**" dimensions would already be added as shown on the example image below.
 
-![](../../.gitbook/assets/image%20%28127%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%28127%29%20%282%29%20%282%29.png)
 
 > The Date/Time dimension is also linked to the display option "**Time Interval**", thus the selection here will add/remove a Date/Time dimension accordingly. For example, when Time Interval "Hour" is selected, "Hour" will also be automatically added to the dimensions.
 

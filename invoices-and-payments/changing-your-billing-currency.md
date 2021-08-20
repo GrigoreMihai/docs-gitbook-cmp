@@ -22,7 +22,7 @@ After completing all the required fields in each section, you will be asked what
 
 You may choose between the following payment methods and currencies; ILS, USD, EUR, GBP, or AUD & Wire Transfer, Credit Card, Bill.com, or ACH Payment.
 
-![](../.gitbook/assets/payment-method-and-currency%20%281%29%20%281%29%20%281%29.png)
+![](../.gitbook/assets/payment-method-and-currency%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 Click Submit once you've completed the entire registration form.
 

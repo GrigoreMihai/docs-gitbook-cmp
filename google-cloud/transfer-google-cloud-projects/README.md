@@ -6,7 +6,7 @@ description: >-
 
 # Transfer Google Cloud Projects
 
-### Overview
+## Overview
 
 To change the Cloud Billing account for a project, you need to be able to move a project from your existing Cloud Billing account to another Cloud Billing account provided by DoiT International. To accomplish this task, you need permissions adequate to unlink the project from the existing Cloud Billing account AND to link the project to the target Cloud Billing account.
 
@@ -25,15 +25,13 @@ The products in question are
 * MongoDB Atlas
 {% endhint %}
 
-### Transferring manually
+## Transferring manually
 
 If you have several dozens of GCP projects or less, the simplest way is to switch billing manually for each of the projects one by one. We've created screenshot-illustrated [guide](transfer-manually.md) to walk you through.
 
-### Bulk Transfer using Wizard
+## Bulk Transfer using Wizard
 
-For large amount of projects the manual transfer can be too tedious. To make this process _much faster_, DoiT International developed a Project Transfer Wizard  in the Cloud Management Platform to help you bulk-transfer all of your existing Google Cloud projects to the billing account assigned to you by DoiT International.
+For large amount of projects the manual transfer can be too tedious. To make this process _much faster_, DoiT International developed a Project Transfer Wizard in the Cloud Management Platform to help you bulk-transfer all of your existing Google Cloud projects to the billing account assigned to you by DoiT International.
 
 Please follow the guide [here](bulk-transfer-using-wizard.md).
-
-
 

@@ -20,7 +20,7 @@ Start with accessing the G Suite based Assets from the menu on the left-hand sid
 
 Once you're at the Assets page, switch to the G Suite tab.
 
-![](../.gitbook/assets/g-suite%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../.gitbook/assets/g-suite%20%282%29%20%282%29%20%282%29%20%281%29%20%282%29.png)
 
 Locate the subscription you'd like to add licenses for and click the **+** icon to add as many licenses as needed. 
 

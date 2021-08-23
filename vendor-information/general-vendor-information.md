@@ -7,7 +7,7 @@ If you need to setup DoiT International as a new vendor in your systems, you're 
 * Our company name is DoiT International USA, Inc
 * Our W9 form is available at [http://l.doit-intl.com/w9](http://l.doit-intl.com/w9)
 * Our EIN is 36-4866702
-* Our address is: 2445 Augustine Dr Suites 150, Santa Clara, CA 95054
+* Our address is: 5201 Great America Parkway, Suite 320, Santa Clara, CA 95054
 
 **United Kingdom**
 

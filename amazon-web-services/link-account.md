@@ -30,7 +30,7 @@ Then switch to the Amazon Web Services tab, and click on the "Link Account" butt
 
 Select the "**Create a role automatically**" radio button, then check the boxes next to the features you'd like to enable for this AWS account. 
 
-To explore what AWS policies each feature requires, click the "**v**" button to the left of the feature name to uncollapse the list of policies.
+To explore what AWS policies each feature requires, click the "**v**" button to the left of the feature name to expand the list of policies.
 
 ![](../.gitbook/assets/image%20%2854%29.png)
 

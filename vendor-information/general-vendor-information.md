@@ -31,7 +31,7 @@ If you need to setup DoiT International as a new vendor in your systems, you're 
 
 * Our company name is DoiT International AUS Pty, Ltd
 * The company number is 03243570
-* Our address is 152 Elizabeth Street Melbourne, VIC 3000
+* Our address is 30 Wellington Park Drive, Warranwood, VIC 3134
 
 **Israel**
 

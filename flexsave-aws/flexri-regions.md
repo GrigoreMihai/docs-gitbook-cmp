@@ -12,15 +12,15 @@ As of the September 2021, FlexSave is available in the following twelve AWS regi
 us-east-1 US East (N. Virginia)
 us-east-2 US East (Ohio)
 us-west-1 US West (N. California)
-us-west-2 US West (Oregon
+us-west-2 US West (Oregon)
 eu-central-1 Europe (Frankfurt)
 eu-west-1 Europe (Ireland)
 ap-northeast-1 Asia Pacific (Tokyo)
-ap-southeast-1 [Singapore]
-ap-southeast-2 [Sydney]
-eu-west-2 [London]
-eu-west-3 [Paris]
-ap-northeast-2 [Seoul]
+ap-southeast-1 (Singapore)
+ap-southeast-2 (Sydney)
+eu-west-2 (London)
+eu-west-3 (Paris)
+ap-northeast-2 (Seoul)
 ```
 
 ### Roadmap

@@ -54,7 +54,7 @@ With FlexSave there is:
 
 ### Which regions are supported with FlexSave?
 
-Please see our [supported regions matrix](flexri-regions.md) for more details.
+Please see our [supported regions matrix](flexsave-regions.md) for more details.
 
 
 

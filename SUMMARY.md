@@ -35,7 +35,7 @@
 
 * [FlexSave for AWS Overview](flexsave-aws/overview.md)
 * [FlexSave for AWS FAQ](flexsave-aws/faq.md)
-* [Supported AWS Regions](flexsave-aws/flexri-regions.md)
+* [Supported AWS Regions](flexsave-aws/flexsave-regions.md)
 
 ## Spot Scaling
 

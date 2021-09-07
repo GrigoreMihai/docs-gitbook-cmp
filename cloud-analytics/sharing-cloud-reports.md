@@ -52,7 +52,4 @@ In Cost Analytics &gt; Reports, once you have saved your report you can download
 
 2\) Choose between "Export to CSV" and "Export to Google Sheets"
 
-![](https://im7.ezgif.com/tmp/ezgif-7-d460df636004.gif)
-
-
-
+![](../.gitbook/assets/ezgif.com-gif-maker-1-.gif)

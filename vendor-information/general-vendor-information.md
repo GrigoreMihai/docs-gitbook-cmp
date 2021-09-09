@@ -2,7 +2,7 @@
 
 If you need to setup DoiT International as a new vendor in your systems, you're welcome to use the following information according to the geography where we do business:
 
-**North America**
+**United States**
 
 * Our company name is DoiT International USA, Inc
 * Our W9 form is available at [http://l.doit-intl.com/w9](http://l.doit-intl.com/w9)
@@ -39,13 +39,21 @@ If you need to setup DoiT International as a new vendor in your systems, you're 
 * The company number is 514554328
 * Our address is David Elazar 12, Tel Aviv, 6107408
 
-**Netherlands**  
-·        Our company name is DoiT International NL B.V.  
-·        Our VAT number is n/a  
-·        Our address is: Claude Debussylaan 10, 1082 MD Amsterdam, NL
+**Netherlands**
 
-**Switzerland**  
-·        Our company name is DoiT International CH Sarl  
-·        Our VAT number is n/a  
-·        Our address is: rue d’Italie 10, 1204 Geneve
+* Our company name is DoiT International NL B.V.
+* Our VAT number is n/a
+* Our address is: Claude Debussylaan 10, 1082 MD Amsterdam, NL
+
+**Switzerland**
+
+* Our company name is DoiT International CH Sarl
+* Our VAT number is n/a
+* Our address is: rue d’Italie 10, 1204 Geneve
+
+**Canada**
+
+* Our company name is DoiT Holdings International CA Ltd.
+* Our ABN is 40 638 259 355
+* Our address is 20th Floor, 250 Howe Street, Vancouver, VC V6C 3R8 Canada
 

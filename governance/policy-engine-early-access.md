@@ -25,7 +25,7 @@ If you would like to join the Early Access Program, navigate to the Governance A
 
 Opting in Requires the preset 'Admin' Role in the CMP
 
-![Opt-in Page for Early Access](../.gitbook/assets/image%20%281%29.png)
+![Opt-in Page for Early Access](../.gitbook/assets/image%20%2833%29.png)
 
 ### **Requirements for Access**
 

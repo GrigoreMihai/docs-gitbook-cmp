@@ -55,5 +55,5 @@ If you need to setup DoiT International as a new vendor in your systems, you're 
 
 * Our company name is DoiT Holdings International CA Ltd.
 * Our ABN is 40 638 259 355
-* Our address is 20th Floor, 250 Howe Street, Vancouver, VC V6C 3R8 Canada
+* Our address is 20th Floor, 250 Howe Street, Vancouver, BC V6C 3R8 Canada
 

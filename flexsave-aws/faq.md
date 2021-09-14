@@ -56,5 +56,13 @@ With FlexSave there is:
 
 Please see our [supported regions matrix](flexsave-regions.md) for more details.
 
+### I enabled FlexSave, but there aren't savings yet. What do I do?
+
+FlexSave goes into effect from the beginning of the next month, but you get access to the [FlexSave Dashboard](overview.md#flexsave-dashboard) right away.
+
+### It's the beginning of the month and I see no savings yet. What should I do?
+
+This happens due to a delay in receiving billing data from AWS. You can expect to see accurate savings data from the 4th day of the current month.
+
 
 

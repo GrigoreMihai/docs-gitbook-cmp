@@ -37,7 +37,7 @@ After enabling FlexSave, you'll see your FlexSave Dashboard which displays impor
 
 Let's go over the elements of your FlexSave Dashboard:
 
-![FlexSave Dashboard with historical, current month&apos;s, and future projected savings](../.gitbook/assets/cleanshot-2021-09-13-at-17.32.40.jpg)
+![](../.gitbook/assets/cleanshot-2021-09-14-at-11.51.28.jpg)
 
 ### FlexSave Dashboard
 

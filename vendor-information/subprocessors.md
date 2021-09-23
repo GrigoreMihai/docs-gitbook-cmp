@@ -8,8 +8,6 @@ description: >-
 
 The table shows what activity each entity performs and indicates if an entity is only relevant to a specific Service or Region. More information about each activity is provided directly below. This explains the limited processing of Customer Data the entity is authorized to perform.
 
-
-
 <table>
   <thead>
     <tr>
@@ -31,8 +29,7 @@ The table shows what activity each entity performs and indicates if an entity is
       <td style="text-align:left">Seattle, WA</td>
       <td style="text-align:left">
         <p><a href="https://cloud.google.com/security/gdpr/">Compliant</a>.</p>
-        <p><a href="https://support.google.com/cloud/contact/dpo">Contact Info</a>
-        </p>
+        <p><a href="https://support.google.com/cloud/contact/dpo">Contact</a>.</p>
       </td>
     </tr>
     <tr>
@@ -42,10 +39,9 @@ The table shows what activity each entity performs and indicates if an entity is
         basis.</td>
       <td style="text-align:left">Mountain View, CA</td>
       <td style="text-align:left">
-        <p><a href="https://aws.amazon.com/compliance/gdpr-center/">Compliant. </a>
+        <p><a href="https://aws.amazon.com/compliance/gdpr-center/">Compliant.</a>
         </p>
-        <p><a href="https://aws.amazon.com/privacy">Contact Info</a>
-        </p>
+        <p><a href="https://aws.amazon.com/privacy">Contact</a>.</p>
       </td>
     </tr>
     <tr>
@@ -57,10 +53,8 @@ The table shows what activity each entity performs and indicates if an entity is
         industry.</td>
       <td style="text-align:left">San Francisco, CA</td>
       <td style="text-align:left">
-        <p><a href="https://stripe.com/guides/general-data-protection-regulation#stripe-and-the-gdpr">Compliant</a>
-        </p>
-        <p><a href="mailto:dpo@stripe.com">Contact Info</a>
-        </p>
+        <p><a href="https://stripe.com/guides/general-data-protection-regulation#stripe-and-the-gdpr">Compliant</a>.</p>
+        <p><a href="mailto:dpo@stripe.com">Contact</a>.</p>
       </td>
     </tr>
     <tr>
@@ -72,10 +66,8 @@ The table shows what activity each entity performs and indicates if an entity is
         manage and automate our sales processes.</td>
       <td style="text-align:left">Cambridge, MA</td>
       <td style="text-align:left">
-        <p><a href="https://www.hubspot.com/hubfs/security_documents/HubSpot_Security_Overview.pdf">Compliant</a>
-        </p>
-        <p><a href="mailto:privacy@hubspot.com">Contact Info</a>
-        </p>
+        <p><a href="https://www.hubspot.com/hubfs/security_documents/HubSpot_Security_Overview.pdf">Compliant</a>.</p>
+        <p><a href="mailto:privacy@hubspot.com">Contact</a>.</p>
       </td>
     </tr>
     <tr>
@@ -86,10 +78,8 @@ The table shows what activity each entity performs and indicates if an entity is
         support services.</td>
       <td style="text-align:left">San Francisco, CA</td>
       <td style="text-align:left">
-        <p><a href="https://www.zendesk.com/company/privacy-and-data-protection/#gdpr-sub">Compliant</a>
-        </p>
-        <p><a href="mailto: privacy@zendesk.com">Contact Info</a>
-        </p>
+        <p><a href="https://www.zendesk.com/company/privacy-and-data-protection/#gdpr-sub">Compliant</a>.</p>
+        <p><a href="mailto: privacy@zendesk.com">Contact</a>.</p>
       </td>
     </tr>
     <tr>
@@ -100,10 +90,8 @@ The table shows what activity each entity performs and indicates if an entity is
         features of search, analysis and monitoring.</td>
       <td style="text-align:left">San Francisco, CA</td>
       <td style="text-align:left">
-        <p><a href="https://www.algolia.com/solutions/security">Compliant</a>
-        </p>
-        <p><a href="mailto:privacy@algolia.com">Contact Info</a>
-        </p>
+        <p><a href="https://www.algolia.com/solutions/security">Compliant</a>.</p>
+        <p><a href="mailto:privacy@algolia.com">Contact</a>.</p>
       </td>
     </tr>
     <tr>
@@ -123,10 +111,8 @@ The table shows what activity each entity performs and indicates if an entity is
         and retention.</td>
       <td style="text-align:left">San Francisco, CA</td>
       <td style="text-align:left">
-        <p><a href="https://mixpanel.com/legal/mixpanel-gdpr/">Compliant</a>
-        </p>
-        <p><a href="mailto:dpo@mixpanel.com">Contact Info</a>
-        </p>
+        <p><a href="https://mixpanel.com/legal/mixpanel-gdpr/">Compliant</a>.</p>
+        <p><a href="mailto:dpo@mixpanel.com">Contact</a>.</p>
       </td>
     </tr>
     <tr>
@@ -140,8 +126,7 @@ The table shows what activity each entity performs and indicates if an entity is
       <td style="text-align:left">
         <p><a href="https://segment.com/product/gdpr">Compliant</a>
         </p>
-        <p><a href="mailto:privacy@segment.com">Contact Info</a>
-        </p>
+        <p><a href="mailto:privacy@segment.com">Contact</a>.</p>
       </td>
     </tr>
   </tbody>

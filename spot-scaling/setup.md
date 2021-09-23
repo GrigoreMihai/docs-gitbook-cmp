@@ -20,9 +20,9 @@ In the same article linked above, read the section on [**how to create a policy 
 
 If your account was already linked prior to enabling Spot Scaling functionality, you need to update the role attached to the account with the additional requisite permissions for Spot Scaling**.**
 
-**Follow **[**these instructions**](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#adding-a-feature)** on adding a feature to an already-linked AWS account. **Be sure to check the box next to "Spot Scaling", as shown below.
+**Follow** [these instructions](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#adding-a-feature)**on adding a feature to an already-linked AWS account**. Be sure to check the box next to "Spot Scaling", as shown below.
 
-![](<../.gitbook/assets/image (69).png>)
+![A screenshot showing the checkbox next to _Spot Scaling_](<../.gitbook/assets/image (69).png>)
 
 ## Implement Spot Scaling Recommendations
 
@@ -30,17 +30,17 @@ If your account was already linked prior to enabling Spot Scaling functionality,
 
 To navigate to your Spot Scaling recommendations, click on the Spot Scaling icon in your lefthand navigation panel.
 
-![](../.gitbook/assets/cleanshot-2021-06-22-at-13.44.17.jpg)
+![A screenshot showing the location of the _Spot Scaling_ menu item](../.gitbook/assets/cleanshot-2021-06-22-at-13.44.17.jpg)
 
-Once an AWS account is linked, any Auto Scaling Groups (ASGs) associated with it which aren't optimized will appear in your Spot Scaling page. 
+Once an AWS account is linked, any Auto Scaling Groups (ASGs) associated with it which aren't optimized will appear in your Spot Scaling page.
 
 These ASGs will have a value of "Not Optimized" under the "Optimization Status" column.
 
-![](../.gitbook/assets/spotscalingnotoptimized.jpg)
+![A screenshot showing the location of the _Optimization Status_ column](../.gitbook/assets/spotscalingnotoptimized.jpg)
 
 Click on the ASG to view its Spot Scaling recommendation.
 
-![](../.gitbook/assets/spotscalingclickasg.jpg)
+![A screenshot showing the location of the _ASG_ link](../.gitbook/assets/spotscaling-click-asg.jpg)
 
 Your ASG's current configuration is displayed under the "Current Values" column. Spot Scaling's recommendations are displayed under the "Recommended Values" column.
 
@@ -48,25 +48,24 @@ Your ASG's current configuration is displayed under the "Current Values" column.
 
 With Spot Scaling you have two optional features you can turn on when optimizing your ASG's configuration:
 
-* **Keep my ASG up to date**: If turned on, Spot Scaling will automatically update the ASG's configuration to continuously maximize system runtime and spot-related EC2 savings.\
+* **Keep my ASG up to date**: If turned on, Spot Scaling will automatically update the ASG's configuration to continuously maximize system runtime and spot-related EC2 savings.
 
 * **Fallback to On-Demand**: When there aren't where enough unused EC2 instances to meet demand for Spot instances, Spot Scaling will automatically fallback to on-demand instances.
 
-![](../.gitbook/assets/spotscalinggeneralsettings.jpg)
+![A screenshot showing the location of the _General Settings_ section](../.gitbook/assets/spotscalinggeneralsettings.jpg)
 
 ### ASG Potential Savings Metrics
 
 To better understand your potential savings for each ASG Spot Scaling can optimize, you can see two metrics for each recommendation:
 
 * **Monthly Savings Potential**: How much Spot Scaling can save you if you apply its recommendation.\
-
 * **Monthly Saving Rate**: The percentage savings over on-demand you'll realize if you apply Spot Scaling's recommendation.
 
 ### Apply Recommendations
 
 Examine the recommendations and, if the proposed changes seem satisfactory with you, click on **APPLY RECOMMENDATIONS** to reconfigure your ASG according to Spot Scaling's recommendations.
 
-![](../.gitbook/assets/spotscalingapplyrec.jpg)
+![A screenshot showing the location of the Apply Recommendations_ button](../.gitbook/assets/spotscalingapplyrec.jpg)
 
 If you want to tweak the recommendation, you may also modify the values under the following rows before applying it:
 
@@ -74,14 +73,14 @@ If you want to tweak the recommendation, you may also modify the values under th
 * On-Demand Instances
 * Spot Instances
 
-Once you've applied the recommendation, the "Recommended Values" column will disappear. 
+Once you've applied the recommendation, the "Recommended Values" column will disappear.
 
 The values under the "Current Values" column will update, reflecting the changes you made when applying the recommendation.
 
-![](../.gitbook/assets/spotscalingrecapplied.jpg)
+![A screenshot showing the _Current Values_ column](../.gitbook/assets/spotscalingrecapplied.jpg)
 
 Additionally, once you apply a recommendation, the metrics appearing at the top will update, showing you the previous month's savings and the current month's savings. You will see a breakdown of hours and cost under each metric for both spot and on-demand instances.
 
 Finally, after applying a recommendation, your ASG will see a value of "Optimized" under the "Optimization Status" column.
 
-![](../.gitbook/assets/spotscalingnowoptimized.jpg)
+![A screenshot showing an _Optimized_ status under the _Optimized Status_ column](../.gitbook/assets/spotscalingnowoptimized.jpg)

@@ -1,0 +1,6 @@
+root: ./
+
+redirects:
+  flexible-reservations/flexri-faq: ./flexible-reservations/flex-ri-faq.md
+  flexible-reservations/flexri-regions: ./flexible-reservations/flex-ri-regions.md
+  flexible-reservations/flexri: ./flexible-reservations/flex-ri.md

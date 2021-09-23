@@ -12,7 +12,7 @@ Perks are service-based benefits available to DoiT International customers at no
 
 Access your Perks library via the Perks icon on the left-hand navigation panel.
 
-![](../.gitbook/assets/perks.jpg)
+![A screenshot showing the location of the _Perks_ menu item](../.gitbook/assets/perks.jpg)
 
  In the Perks library, you will find a list of all of the available Perks your team can request. For each Perk, you will see the:
 
@@ -33,11 +33,11 @@ To request a Perk, first, click on the "Learn More" link associated with the sel
 
 To request the perk for your team, click on the "Request Perk" button at the top-right corner of the Perks page.
 
-![](../.gitbook/assets/perkspecifics.jpg)
+![A screenshot showing the location of the _Request Perk_ button](../.gitbook/assets/perk-specifics.jpg)
 
 After a few seconds, you will see the following message on the lower-left corner of your screen if the request is successful:
 
-![](../.gitbook/assets/perkrequest.jpg)
+!["Your request is submitted. We'll reach out to you during the next 48 hours"](../.gitbook/assets/perk-request.jpg)
 
 Additionally, you will receive an email confirming that your request has been received.
 
@@ -48,4 +48,3 @@ In the ticket, you and the engineers will arrange a suitable time for the worksh
 View the bite-sized video below for a closer look at viewing and requesting Perks.
 
 {% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team_library" %}
-

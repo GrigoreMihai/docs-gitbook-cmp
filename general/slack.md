@@ -12,7 +12,7 @@ The DoiT CMP Slack application helps you share rich previews of your Cloud Analy
 Only Slack Workspace Admins can install Slack applications.
 {% endhint %}
 
-### Enable the Integration
+## Enable the Integration
 
 To enable the integration, make sure you're logged in to both the CMP and Slack. Then, in the CMP:
 
@@ -22,33 +22,30 @@ To enable the integration, make sure you're logged in to both the CMP and Slack.
 
 Or just click this link to add the DoiT CMP Slack app to your workspace.
 
-![How to add the DoiT CMP Slack app to your Slack workspace](../.gitbook/assets/cleanshot-2021-07-25-at-11.12.51.jpg)
+![A screenshot showing the location of the _Settings_ icon, _Slack_ tab, and _Add to Slack_ button](../.gitbook/assets/cleanshot-2021-07-25-at-11.12.51.jpg)
 
 Finally, click "Allow" to give the DoiT CMP Slack app permission to access your Slack workspace.
 
-![](../.gitbook/assets/cleanshot-2021-07-25-at-11.16.47.jpg)
-
-
+![A screenshot of the permission request screen](../.gitbook/assets/cleanshot-2021-07-25-at-11.16.47.jpg)
 
 At this point, DoiT CMP is a part of your Slack workspace, and any CMP Report or Budget links you send in Slack will unfurl with metadata, and if applicable a chart preview.
 
 Once at least one member of your CMP organization has set up the Slack integration for their account, any other members of the Slack workspace will see a prompt the next time they paste a CMP link. The prompt will ask them to connect their own CMP account to Slack as well. If they choose to do so, Slack will guide them through the authentication flow you see above. Once they have successfully connected CMP to Slack, any further links they paste in Slack will unfurl.
 
-### Using the Integration
+## Using the Integration
 
-Once you've set up the integration, CMP links pasted in Slack will unfurl. Most links will provide some basic link metadata, and links to Reports and Budgets will include a chart preview. 
+Once you've set up the integration, CMP links pasted in Slack will unfurl. Most links will provide some basic link metadata, and links to Reports and Budgets will include a chart preview.
 
 For example:
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![A screenshot of an unfurled link in Slack](../.gitbook/assets/image%20%2876%29.png)
 
-### Permissions
+## Permissions
 
 Only Slack Workspace Admins can install Slack applications. If you aren't an Admin for your Slack Workspace, forward this article to an Admin or guide them to add the DoiT Slack app via the DoiT CMP.
 
 After the CMP is connected to Slack, any Slack user who posts a CMP link will be prompted to connect their own account in order to unfurl report previews. By performing this integration at the user level, it ensures that only reports the user has access to will unfurl in Slack.
 
-### Privacy
+## Privacy
 
-The CMP Slack app adheres to DoiT International overall privacy policy, available in full here: https://www.doit-intl.com/privacy
-
+The CMP Slack app adheres to DoiT International overall [privacy policy](https://www.doit-intl.com/privacy).

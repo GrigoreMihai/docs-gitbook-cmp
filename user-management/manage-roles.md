@@ -6,7 +6,7 @@ description: >-
 
 # Manage Roles
 
-If you don't want to give a user full access to the Cloud Management Platform, you can let them perform only a subset of tasks by assigning a role. Roles make it easy to assign multiple permissions and manage users more efficiently in your organization. 
+If you don't want to give a user full access to the Cloud Management Platform, you can let them perform only a subset of tasks by assigning a role. Roles make it easy to assign multiple permissions and manage users more efficiently in your organization.
 
 {% hint style="info" %}
 Required permission to manage and assign roles: **User Manager**
@@ -16,36 +16,36 @@ Required permission to manage and assign roles: **User Manager**
 Prior to Roles, CMP users were manually assigned permissions. These legacy permissions are forward-compatible, so you will not lose access to any functionalities you previously had access to.
 {% endhint %}
 
-### Pre-built roles
+## Pre-built roles
 
 There are a few pre-built roles in your account for your convenience. The easiest way to give user privileges is to assign pre-built roles. Each role grants one or more privileges that together, allow performing a common business function. For example, one role allows managing user accounts, another role manages financial aspects, another role manages IT functions, and so on.
 
-#### **Basic Role**
+### Basic Role
 
-| Privileges | Only users with privilege can:                             |
-| ---------- | ---------------------------------------------------------- |
-| Support    | create new and access existing technical support requests  |
+| Privileges | Only users with privilege can:                            |
+| ---------- | --------------------------------------------------------- |
+| Support    | create new and access existing technical support requests |
 
-#### **IT Manager**
+### IT Manager
 
 | Privileges     | Only users with privilege can:                            |
 | -------------- | --------------------------------------------------------- |
 | Support        | create new and access existing technical support requests |
 | Assets Manager | view and manage assets, including managing licenses       |
 
-#### **Finance User**
+### Finance User
 
-| Privileges              | Only users with privilege can:                                                                    |
-| ----------------------- | ------------------------------------------------------------------------------------------------- |
-| Support                 | create new and access existing technical support requests                                         |
-| Billing Profiles Admin  | create new and manage existing billing profiles, including payment method                         |
-| Invoice Viewer          | access invoices                                                                                   |
-| Cloud Analytics         | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
-| Contracts Viewer        | provides access to the commercial contracts                                                       |
-| Perks Viewer            | access and request Perks                                                                          |
-| Anomalies Viewer        | access Cost and Usage Anomalies                                                                   |
+| Privileges             | Only users with privilege can:                                                                    |
+| ---------------------- | ------------------------------------------------------------------------------------------------- |
+| Support                | create new and access existing technical support requests                                         |
+| Billing Profiles Admin | create new and manage existing billing profiles, including payment method                         |
+| Invoice Viewer         | access invoices                                                                                   |
+| Cloud Analytics        | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
+| Contracts Viewer       | provides access to the commercial contracts                                                       |
+| Perks Viewer           | access and request Perks                                                                          |
+| Anomalies Viewer       | access Cost and Usage Anomalies                                                                   |
 
-#### **Standard User**
+### Standard User
 
 | Privileges           | Only users with privilege can:                                                                    |
 | -------------------- | ------------------------------------------------------------------------------------------------- |
@@ -60,7 +60,7 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Budgets Manager      | create, delete and manage budgets                                                                 |
 | Attributions Manager | create, delete and manage attributions                                                            |
 
-#### **Power User**
+### Power User
 
 | Privileges           | Only users with privilege can:                                                                                                                      |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -78,43 +78,43 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Budgets Manager      | create, delete and manage budgets                                                                                                                   |
 | Attributions Manager | create, delete and manage attributions                                                                                                              |
 
-#### **Admin**
+### Admin
 
-Has access to all features in the Cloud Management Platform and the CMP API, and can manage every aspect of your organization's account. 
+Has access to all features in the Cloud Management Platform and the CMP API, and can manage every aspect of your organization's account.
 
-**Summary: Pre-built Roles and Permissions **
+## Summary: Pre-built Roles and Permissions
 
 | Permissions           | **Admin** | <p><strong>Finance</strong></p><p><strong>User</strong></p> | <p><strong>IT</strong></p><p><strong>Manager</strong></p> | <p><strong>Power</strong></p><p><strong>User</strong></p> | <p><strong>Standard</strong></p><p><strong>User</strong></p> | <p><strong>superQuery</strong></p><p><strong>User</strong></p> |
 | --------------------- | :-------: | :---------------------------------------------------------: | :-------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------------: |
 | Anomalies Viewer      |     ✔     |                            **✓**                            |                             ✔                             |                           **✓**                           |                                                              |                                                                |
 | Assets Manager        |   **✓**   |                                                             |                           **✓**                           |                                                           |                                                              |                                                                |
-| Attributions Manager  |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Attributions Manager  |   **✓**   |                                                             |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
 | Billing Profile Admin |   **✓**   |                            **✓**                            |                                                           |                                                           |                                                              |                                                                |
-| Budgets Manager       |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
-| Cloud Analytics       |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
-| Contracts Viewer      |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Budgets Manager       |   **✓**   |                                                             |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
+| Cloud Analytics       |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
+| Contracts Viewer      |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
 | Flexible RI Admin     |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
 | Invoice Viewer        |   **✓**   |                            **✓**                            |                                                           |                                                           |                                                              |                                                                |
-| Issues Viewer         |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                             **✓**                            |                              **✓**                             |
+| Issues Viewer         |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                            **✓**                             |                             **✓**                              |
 | Settings Manager      |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
 | Sandbox Admin         |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
-| Sandbox User          |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Sandbox User          |   **✓**   |                                                             |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
 | Spot0                 |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
-| Support Requester     |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                             **✓**                            |                              **✓**                             |
+| Support Requester     |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                            **✓**                             |                             **✓**                              |
 | Users Manager         |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
-| superQuery            |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                              **✓**                             |
+| superQuery            |   **✓**   |                                                             |                                                           |                           **✓**                           |                            **✓**                             |                             **✓**                              |
 
-### Custom Roles
+## Custom Roles
 
 If one of the built-in roles doesn't work for you, you can create a custom role with your own set of permissions. To create a custom user role, select the "Users and Roles" icon in the lefthand navigation bar.
 
-![](../.gitbook/assets/usersandroles.jpg)
+![A screenshot showing the location of the _Users and Roles_ menu item](../.gitbook/assets/usersandroles.jpg)
 
 From there, navigate to the "Roles" tab. You will see a list of Preset Roles, as well as any other Custom Roles created by your team.
 
-![](../.gitbook/assets/rolestab.jpg)
+![A screenshot showing the location of the _Roles_ tab](../.gitbook/assets/roles-tab.jpg)
 
-Create a new role by clicking on the "**+ NEW **" button at the top right of the screen. This opens a new page with a [list of permissions](user-permissions-explained.md) available to group into the new role.
+Create a new role by clicking on the "**+NEW**" button at the top right of the screen. This opens a new page with a [list of permissions](user-permissions-explained.md) available to group into the new role.
 
 To get started:
 
@@ -122,7 +122,7 @@ To get started:
 2. _**Optional:**_ Give the role a description to give additional context around who the role is for.
 3. Select the permissions you'd like the role to contain.
 
-![](../.gitbook/assets/createrole.jpg)
+![A screenshot illustrating the process described above](../.gitbook/assets/createrole.jpg)
 
 ### Editing a Custom Role
 
@@ -132,13 +132,13 @@ You can't edit built-in roles.
 
 To modify the permissions contained in a custom role, check the box next to the role you'd like to edit, then click on the "Edit Role" icon at the top-right of your screen.
 
-![](../.gitbook/assets/editrole.jpg)
+![A screenshot showing the location of the _Edit Role_ icon](../.gitbook/assets/editrole.jpg)
 
 From there, make your edits to the permissions the role contains. When finished, click on the **<--** back arrow icon at the top-left to return to the main Roles page.
 
 ### Deleting a Custom Role
 
-To delete the custom role, you will need to make sure there are no users configured with this role. You cannot delete a role until this condition is satisfied. 
+To delete the custom role, you will need to make sure there are no users configured with this role. You cannot delete a role until this condition is satisfied.
 
 Select the role you'd like to delete and click the "Remove" button. You will need to confirm your action and the role will be removed.
 
@@ -146,7 +146,7 @@ Select the role you'd like to delete and click the "Remove" button. You will nee
 You can't remove built-in roles.
 {% endhint %}
 
-### Setting a Default Role
+## Setting a Default Role
 
 A default role is the role a new user on your team is auto-provisioned, until a role is explicitly set by an admin. Both pre-built and custom roles can be designated as a default role.
 
@@ -154,4 +154,4 @@ To set a role as the default role for your team, click on a role from your list 
 
 Finally, click "Confirm".
 
-![](<../.gitbook/assets/image (67).png>)
+![A screenshot showing the _Set Default Role_ modal dialog](<../.gitbook/assets/image (67).png>)

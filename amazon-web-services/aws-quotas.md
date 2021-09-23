@@ -7,18 +7,18 @@ description: Setting up proactive monitoring for your AWS Quotas
 Amazon Web Services maintains service limits on each AWS account to help guarantee the availability of AWS resources, as well as to minimize billing risks for the customers.
 
 {% hint style="warning" %}
-_You must have AWS Business or Enterprise Support in order to use this feature. _
+_You must have AWS Business or Enterprise Support in order to use this feature._
 {% endhint %}
 
-However, when you launch a new workload or need additional resources within the existing workloads, you may receive an error message similar to this one. 
+However, when you launch a new workload or need additional resources within the existing workloads, you may receive an error message similar to this one.
 
-![](../.gitbook/assets/elasticip.png)
+!["Elastic IP address could not be allocated."](../.gitbook/assets/elastic-ip.png)
 
 {% hint style="info" %}
 _Note: This error is related to the AWS Elastic IP service limits but you may experience service limit error related to another AWS service._
 {% endhint %}
 
-For circumstances like these, we've added Service Limit and Quota Monitoring to the Cloud Management Platform. Once you [link an Amazon Web Services IAM Role](link-account.md) to the CMP with the requisite permissions for Quota Monitoring, you will receive automatic notifications whenever you hit the 80% threshold of your AWS service limits. 
+For circumstances like these, we've added Service Limit and Quota Monitoring to the Cloud Management Platform. Once you [link an Amazon Web Services IAM Role](link-account.md) to the CMP with the requisite permissions for Quota Monitoring, you will receive automatic notifications whenever you hit the 80% threshold of your AWS service limits.
 
 ## Setting up requisite permissions for Quota Monitoring
 
@@ -28,19 +28,19 @@ Read [this article](link-account.md) to see how to link your AWS IAM Role, and s
 
 ## Adding the Quotas widget to your dashboard
 
-Once set up, you can add the 'Amazon Web Services Quotas' widget to any of your dashboards within the Cloud Management Platform. You will also start receiving the email notifications as you get close or reach the service limits. 
+Once set up, you can add the 'Amazon Web Services Quotas' widget to any of your dashboards within the Cloud Management Platform. You will also start receiving the email notifications as you get close or reach the service limits.
 
 To do so, first go to the dashboard you'd like to add the widget to. Then, locate the 'Add Widgets' button in the lower-right corner of your screen and find the 'Amazon Web Services Quotas' option.
 
-![](../.gitbook/assets/addwidgetawsquotas.jpg)
+![A screenshot of the _Amazon Web Services Quotas_ option](../.gitbook/assets/addwidgetawsquotas.jpg)
 
 Finally, click on the widget option to add it as a widget to your dashboard.
 
-![](../.gitbook/assets/awsquotaswidget.jpg)
+![A screenshot of the quotas widget](../.gitbook/assets/awsquotaswidget.jpg)
 
-To request a quota increase, click on the 'Modify' button and read the instructions provided by AWS in their [documentation](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html) of service quotas.  
+To request a quota increase, click on the 'Modify' button and read the instructions provided by AWS in their [documentation](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html) of service quotas.
 
-### Monitored Services:
+### Monitored Services
 
 * Low Utilization Amazon EC2 Instance
 * Idle Load Balancers

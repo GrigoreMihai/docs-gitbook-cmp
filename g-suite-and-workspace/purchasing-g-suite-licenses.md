@@ -4,7 +4,7 @@ description: Add more licenses to your existing G Suite or Google Workspace subs
 
 # Purchasing G Suite Licenses
 
-If you’re on the Annual or Flexible plans and use up all your licenses, you can easily purchase more. We increase your monthly payment to cover the new licenses. 
+If you’re on the Annual or Flexible plans and use up all your licenses, you can easily purchase more. We increase your monthly payment to cover the new licenses.
 
 {% hint style="info" %}
 Required Permission: **Assets Manager**
@@ -16,29 +16,29 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start with accessing the G Suite based Assets from the menu on the left-hand side of the page and clicking on Assets.
 
-![](<../.gitbook/assets/assets-icon-1- (4) (5) (5).png>)
+![A screenshot showing the location of the _Assets_ menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5).png>)
 
 Once you're at the Assets page, switch to the G Suite tab.
 
-![](<../.gitbook/assets/g-suite (2) (2) (2) (1).png>)
+![A screenshot showing the location of the _G Suite_ tab(<../.gitbook/assets/g-suite (2) (2) (2) (1).png>)
 
-Locate the subscription you'd like to add licenses for and click the **+** icon to add as many licenses as needed. 
+Locate the subscription you'd like to add licenses for and click the **+** icon to add as many licenses as needed.
 
-![](../.gitbook/assets/g-suite2.png)
+![A screenshot of available licenses](../.gitbook/assets/g-suite2.png)
 
 Add up to as many licenses as you wish, and click 'Apply'.
 
-![](../.gitbook/assets/apply.png)
+![A screenshot of a license card with an _Apply_ button](../.gitbook/assets/apply.png)
 
 Finally, you may approve the purchase by clicking the 'Approve' button.
 
-![](../.gitbook/assets/approve.png)
+![A screenshot of the _Add Licenses_ modal dialog with an _Approve_ button](../.gitbook/assets/approve.png)
 
 **Understanding License Utilization:**
 
 You can see the number of licenses in use under the _Quantity_ field, versus how many are available. In the following example, two licenses are in use from seven licenses available.
 
-![](../.gitbook/assets/quantity.png)
+![A screenshot showing the _Quantity_ field](../.gitbook/assets/quantity.png)
 
 **Decreasing the Number of Licenses:**
 

@@ -8,11 +8,11 @@ When you have a lot of Flex RI orders to place for the coming month, bulk upload
 
 Begin by navigating to the Flex RIs page, and click on the vertical ellipsis \(**⋮**\) at the top-right of your screen.
 
-![](../.gitbook/assets/bulkri1.jpg)
+![A screenshot showing the location of the vertical ellipsis icon](../.gitbook/assets/bulk-ri-1.jpg)
 
-Then, select "Upload Orders" and upload the CSV file with your order information. 
+Then, select "Upload Orders" and upload the CSV file with your order information.
 
-![](../.gitbook/assets/bulkri2.jpg)
+![A screenshot showing the location of the _Upload Orders_ option](../.gitbook/assets/bulk-ri-2.jpg)
 
 The following fields are optional and don't need to be filled for your CSV file to be processed:
 
@@ -21,5 +21,4 @@ The following fields are optional and don't need to be filled for your CSV file 
 
 To ensure your CSV file is structured properly, we recommend downloading the template below and using it to format your orders.
 
-{% file src="../.gitbook/assets/flexri-bulk-upload-template.csv" caption="Flex RI Bulk Upload Template" %}
-
+{% file src="../.gitbook/assets/flex-ri-bulk-upload-template.csv" caption="Flex RI Bulk Upload Template" %}

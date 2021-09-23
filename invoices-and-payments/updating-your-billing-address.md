@@ -6,7 +6,7 @@ description: >-
 
 # Update Billing Address
 
-You can update the Billing Address for your organization using the Cloud Management Platform. The address is used for billing and invoicing purposes.  
+You can update the Billing Address for your organization using the Cloud Management Platform. The address is used for billing and invoicing purposes.
 
 {% hint style="info" %}
 Required Permissions: **Billing Profile Admin**
@@ -18,13 +18,10 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
-![](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (3).png>)
+![A screenshot showing the location of the edit icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (3).png>)
 
 Once you're at the Billing Profile Details page, switch to the '**Billing Address**' tab. Once you're finished updating your details, go to the bottom right-hand corner of the page and click Save.
 
 The following video shows you how to Update the Billing Address:
 
 {% embed url="https://www.loom.com/share/8ec560b96541458bbd2f956af8467fcf" %}
-
-
-

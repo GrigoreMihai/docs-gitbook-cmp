@@ -16,12 +16,12 @@ Cloud Management Platform can automatically export detailed  billing data \(such
 **Request Access** - You will need to request access to the billing export table by opening a support request at [https://support.doit-intl.com](https://support.doit-intl.com). Please provide your Google user, a Google group, or a service account you'd like to use when querying the billing export table
 {% endhint %}
 
-### Data Availability
+## Data Availability
 
 * Your billing export table has Cloud Billing data incurred from the date you've joined the DoiT International consolidated billing.
 * BigQuery loads are ACID compliant, so if you query the BigQuery Cloud Billing export table while data is being loaded into it, you will not encounter partially loaded data.
 
-### Project, Dataset, and Table Name
+## Project, Dataset, and Table Name
 
 To query the Google Cloud Billing data in BigQuery, you need to specify the table name in the FROM clause. The table name is determined using three values: project.dataset.BQ\_table\_name.
 
@@ -29,19 +29,19 @@ To query the Google Cloud Billing data in BigQuery, you need to specify the tabl
 * dataset is `gcp_billing_` concatenated with the name of your Google Billing account. Dashes in the billing account ID should be replaced with underscores. For example, if your Google Billing Account ID is 006C3F-3613C3-2A2169, the dataset name would be  `gcp_billing_006C3F_3613C3_2A2169`
 * BQ\_table\_name is `gcp_billing`
 
-### Table Configuration
+## Table Configuration
 
 Please review the table partitioning and clustering schema to allow query optimization
 
-|  |  |
-| :--- | :--- |
-| Table type | Partitioned |
-| Partitioned by | Day |
-| Partitioned on field | export\_time |
-| Partition filter | Required |
-| Clustered by | project\_id, service\_description, sku\_description |
+|                      |                                                     |
+| :------------------- | :-------------------------------------------------- |
+| Table type           | Partitioned                                         |
+| Partitioned by       | Day                                                 |
+| Partitioned on field | export\_time                                        |
+| Partition filter     | Required                                            |
+| Clustered by         | project\_id, service\_description, sku\_description |
 
-### Sample Queries
+## Sample Queries
 
 This query shows the invoice total for each month since Jan 2020, as a sum of regular costs, credits, adjustments, and rounding errors.
 
@@ -60,6 +60,3 @@ WHERE
 GROUP BY
   month
 ```
-
-
-

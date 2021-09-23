@@ -26,7 +26,7 @@ Sign in to the AWS account you'd like to integrate with CloudHealth with an IAM 
 2. Click "Create Role"
 3. Select  'Another AWS Account'
 4. Provide `454464851268` as Account ID
-5. Mark "Require external ID" and paste `6cda262029ad7b34a64ff537196ab4` 
+5. Mark "Require external ID" and paste `6cda262029ad7b34a64ff537196ab4`
 6. Click "Next: Permissions"
 7. Search and select "CloudHealth" IAM Policy
 8. Click "Next: Tags"
@@ -42,9 +42,7 @@ Further users and administrators can be created by yourself in the [Cloudhealth 
 
 If you are yourself not an admin, you need to approach an admin in your company to do this.
 
-If you require any further assistance with the creation of the CloudHealth IAM Role, don't hesitate to contact our support at [https://support.doit-intl.com](https://support.doit-intl.com)\
-\
-
+If you require any further assistance with the creation of the CloudHealth IAM Role, don't hesitate to contact our support at [https://support.doit-intl.com](https://support.doit-intl.com)
 
 {% hint style="warning" %}
 If you have SSO enabled in CloudHealth, you will not be able to add users that use usernames and passwords. In order to add users they must first be added to the proper role group within the IDPs directory.
@@ -54,4 +52,4 @@ If you have SSO enabled in CloudHealth, you will not be able to add users that u
 
 ![SSO in Cloudhealth](<../.gitbook/assets/image (129).png>)
 
-[more on troubleshooting](https://help.cloudhealthtech.com/administration/troubleshooting-sso-issues) SSO issues on CloudHealth
+See also: [AWS Single Sign-On Service Integration Guide For CloudHealth](https://www.cloudhealthtech.com/blog/aws-single-sign-on-service-integration-guide-for-cloudhealth)

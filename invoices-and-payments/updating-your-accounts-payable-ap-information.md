@@ -22,7 +22,7 @@ From the main dashboard, click on the edit icon next to the Billing Profile of w
 
 Once you're at the Billing Profile Settings page, switch to the 'Invoices Contact' tab.
 
-![A screenshot showing you the location of the \_Invoices Contact\_ tab](../.gitbook/assets/invoices-contact.png)
+![A screenshot showing you the location of the _Invoices Contact_ tab](../.gitbook/assets/invoices-contact.png)
 
 Once you're finished updating your details, go to the bottom right-hand corner of the page and click Save.
 

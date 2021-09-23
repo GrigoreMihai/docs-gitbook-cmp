@@ -16,43 +16,43 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
-![](../.gitbook/assets/update-billing-profile-2-%20%284%29%20%284%29%20%281%29%20%281%29.png)
+![A screenshot showing you the location of the _edit_ icon](../.gitbook/assets/update-billing-profile-2-%20%284%29%20%284%29%20%281%29%20%281%29.png)
 
 Once you're at the Billing Profile Settings page, switch to the 'Payment Methods' tab, select 'ACH Payment', and click on 'Link New Account' to link your bank account.
 
-![](../.gitbook/assets/ach1.png)
+![A screenshot showing you the location of the _Payment Methods_ tab, _ACH Payment_ radio button, and _Link New Account_ button](../.gitbook/assets/ach1.png)
 
-### **Link Account**
+## Link Account
 
-We use Plaid \(plaid.com\) to perform secure ACH payments authorizations which don't require making small deposits to your account for verification. 
+We use Plaid \(plaid.com\) to perform secure ACH payments authorizations which don't require making small deposits to your account for verification.
 
-![](../.gitbook/assets/ach2.png)
+![A screenshot showing you the initial _Plaid_ modal dialog with a _Continue_ button](../.gitbook/assets/ach2.png)
 
 Next, choose your bank.
 
-![](../.gitbook/assets/ach3.png)
+![A screenshot of the modal dialog showing you how to select your bank](../.gitbook/assets/ach3.png)
 
 Then enter the same credentials used for your online banking account.
 
-![](../.gitbook/assets/ach4.png)
+![A screenshot of the modal dialog showing you how to enter your banking credentials](../.gitbook/assets/ach4.png)
 
 After that, choose either a 'Checking' or 'Saving' account.
 
-![](../.gitbook/assets/ach6.png)
+![A screenshot of the modal dialog showing you the ability to select between a _Checking_ or _Savings_ account](../.gitbook/assets/ach6.png)
 
 Finally, your bank account details should successfully be linked and saved for future ACH Payments.
 
-![](../.gitbook/assets/ach7.png)
+![A screenshot of the modal dialog showing you the final payment setup form](../.gitbook/assets/ach7.png)
 
-### **Pay Invoice with ACH**
+## Pay Invoice with ACH
 
 The saved ACH method will be available when you want to pay for future invoices.
 
-![](../.gitbook/assets/ach8.png)
+![A screenshot showing you a list of saved payment methods](../.gitbook/assets/ach8.png)
 
 We will automatically initiate ACH debits when your invoice is due. Please note, ACH payments take 4-7 days to process. While processing, the invoice will be shown with the "processing" state.
 
-### **Manually set up ACH payments**
+## Manually set up ACH payments
 
 There are some edge cases where our ACH verification process doesn't work properly, such as when you have a Wells Fargo or Bank of America account with two-factor authentication enabled.
 
@@ -66,4 +66,3 @@ To manually set up ACH payments, open a support ticket under the "Billing" categ
 Once we have this information, we will send two small deposits for verification purposes. Typically, these deposits take 1-2 business days to appear on your online statement.
 
 The statement has a description that includes AMTS followed by the two deposit amounts. To validate your bank account information, follow up on the support ticket with this AMTS description once you see the deposits.
-

@@ -65,8 +65,6 @@ Placing an order for a Flex RI for the following month takes all but a few click
 
 {% embed url="https://youtu.be/Si6mZvn-z7I" %}
 
-
-
 ### BigQuery FinOps
 
 As powerful as BQ is, it comes at a high cost depending on your analysts’ behavior and how your BigQuery architecture is set up. Adding on to this, trying to identify BigQuery resource inefficiencies without knowing _what_ you're looking for can be a huge time-suck.
@@ -82,8 +80,6 @@ One important aspect of the BigQuery FinOps Dashboard is the Recommendations wid
 Each recommendation category comes with further details on how to act on each recommendation.
 
 {% embed url="https://youtu.be/7r1WfwnBAA4" %}
-
-
 
 ## Cloud Enablement
 
@@ -115,7 +111,7 @@ With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md), a
 
 This way, you'll keep services always running by adjusting limits ahead of time.
 
-### Cost Anomalies 
+### Cost Anomalies
 
 With so many moving parts in the cloud, it’s critical to keep a finger on the pulse of your costs. However, unless IT regularly monitors cloud spend, sudden spikes in resource costs can remain undetected for weeks — until the monthly bill arrives.
 
@@ -128,11 +124,9 @@ Available to DoiT customers right from the CMP, it also offers:
 * Context-aware detection that treats each Google Cloud service uniquely.
 * Advanced alerting that goes beyond static budgets & thresholds
 * Fine-tune alerts by training them with your direct feedback.
-* Real-time analysis of workload activity 
+* Real-time analysis of workload activity
 
 {% embed url="https://www.youtube.com/watch?v=h6V7XfhsdmY&list=PLEBxNMZ7Mu3_hmB2I2LXcDSYt1SXcjwMz&index=1" %}
-
-
 
 ### Cloud Support and Advisory
 
@@ -158,11 +152,13 @@ Within the CMP you can:
 
 [superQuery](http://web.superquery.io) is a web-based IDE that enables you to leverage BigQuery, AWS Athena, and DynamoDB at peak efficiency. With superQuery, you get top-notch capabilities for:
 
-* Query Management with [Tabs](https://support.superquery.io/en/articles/2988041-query-tabs) and [Boards](https://support.superquery.io/en/articles/3077544-boards)
+* Query Management with [Tabs](https://help.superquery.io/superquery-editor/query-tabs) and [Boards](https://help.superquery.io/superquery-editor/organizing-queries)
 * Collaboration
-* [Ad-hoc Visualization](https://support.superquery.io/en/articles/2988069-chart)
-* [Enhanced Caching](https://support.superquery.io/en/articles/3543297-setting-up-enhanced-caching)
-* [Git functionality support](https://support.superquery.io/en/collections/1746442-superquery-key-features-explained#git-functionality-and-github)
+* [Ad-hoc Visualization](https://help.superquery.io/superquery-editor/charts)
+* [Enhanced Caching](https://help.superquery.io/superquery-editor/tab-settings#cache-preference)
+* Git functionality support
+  * [GitHub repository](https://app.gitbook.com/@doitintl/s/superquery-docs/git-integrations/connect-github) and [GitHub organization](https://app.gitbook.com/@doitintl/s/superquery-docs/git-integrations/connect-github-org) support
+  * [GitLab support](https://app.gitbook.com/@doitintl/s/superquery-docs/git-integrations/connect-gitlab)
 
 As a customer, you get unlimited superQuery seats and access to superQuery at no additional cost, and can quickly access it from the CMP.
 
@@ -204,7 +200,7 @@ From the Invoices page, you can:
 
 Any tags placed on assets will also appear in invoices so you can more easily identify invoice items.
 
-[**Invoice Bucketing**](invoices-and-payments/changing-invoice-settings.md) _\*\*_lets you create custom "buckets" and assign specific assets to those buckets.
+[**Invoice Bucketing**](invoices-and-payments/changing-invoice-settings.md) lets you create custom "buckets" and assign specific assets to those buckets.
 
 This is especially useful when you have different cost centers such as R\&D or Operations using different assets and want to bill them separately.
 
@@ -223,7 +219,7 @@ Use User Management to:
 * [Add colleagues](user-management/creating-a-new-user.md) to your CMP team.
 * Management Billing Profile assignments.
 * Configure notifications for alerts like payment reminders, new invoices, and more.
-* [Set up and grant roles ](user-management/manage-roles.md)that give access to various CMP features.
+* [Set up and grant roles](user-management/manage-roles.md)that give access to various CMP features.
 
 ### Managed Cloud Support
 

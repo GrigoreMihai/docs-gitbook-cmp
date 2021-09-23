@@ -1,0 +1,15 @@
+!boy
+!girl
+!guy
+!guys
+!he
+!her
+!hers
+!herself
+!him
+!himself
+!his
+!layman
+!man
+!she
+!woman

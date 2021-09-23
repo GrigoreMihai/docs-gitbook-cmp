@@ -12,24 +12,24 @@ To transfer the management of your existing G Suite setup you will need to retri
 
 * [ ] Go to the Retrieve [Transfer Token](http://admin.google.com/TransferToken) page. If you aren’t already logged in, ensure you are signed in as the admin user for your G Suite setup.
 * [ ] Agree to the terms and conditions by checking the required box.
-* [ ] You will be asked to enter the reseller’s public identifier
+* [ ] You will be asked to enter the reseller's public identifier
 
 {% hint style="info" %}
-🇺🇸US & AU 🇦🇺customers, please use **`C02dk8ht9`** as reseller’s public identifier
+🇺🇸US & AU 🇦🇺customers, please use <!-- cspell:disable -->**`C02dk8ht9`**<!-- cspell:enable --> as reseller's public identifier
 {% endhint %}
 
 {% hint style="warning" %}
-🇪🇺EU customers - please use **`C03cno21i`** as reseller’s public identifier
+🇪🇺EU customers - please use <!-- cspell:disable -->**`C03cno21i`**<!-- cspell:enable --> as reseller's public identifier
 {% endhint %}
 
 * [ ] Click Generate Transfer Token.
 * [ ] Click Copy Code.
-* [ ] [Submit a ticket](http://support.doit-intl.com) to our G Suite team with the Transfer Token requesting our team complete the transfer of your G Suite service over to DoiT International. Leave it to us, our team will respond to you once the transfer is complete! 
+* [ ] [Submit a ticket](http://support.doit-intl.com) to our G Suite team with the Transfer Token requesting our team complete the transfer of your G Suite service over to DoiT International. Leave it to us, our team will respond to you once the transfer is complete!
 
 **When submitting a ticket, please provide the answers to the following questions:**
 
-* [ ] Company official name: 
-* [ ] Primary domain for G Suite: 
+* [ ] Company official name:
+* [ ] Primary domain for G Suite:
 * [ ] Contact person's full name:
 * [ ] Contact person's email:
 * [ ] Contact person's phone #:
@@ -39,6 +39,4 @@ To transfer the management of your existing G Suite setup you will need to retri
 * [ ] Number of Licenses?:
 * [ ] Payment plan (Flex/Annual):
 
-_Transfer Tokens expire 14 days after being generated, if your token expires, sign in again and repeat the steps above. _
-
-__
+_Transfer Tokens expire 14 days after being generated, if your token expires, sign in again and repeat the steps above._

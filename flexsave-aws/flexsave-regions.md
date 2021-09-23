@@ -4,7 +4,7 @@ description: Supported by FlexSave for AWS Regions & Roadmap
 
 # Supported AWS Regions
 
-### Availability
+## Availability
 
 As of the September 2021, FlexSave is available in the following twelve AWS regions on shared Master Payer Accounts \(MPAs\):
 
@@ -23,7 +23,7 @@ eu-west-3 (Paris)
 ap-northeast-2 (Seoul)
 ```
 
-### Roadmap
+## Roadmap
 
 Starting Oct 2021, the following AWS regions will be supported as well on shared MPAs:
 
@@ -33,4 +33,3 @@ ap-northeast-2  Asia Pacific (Seoul)
 ca-central-1 Canada (Central)
 sa-east-1 South America (São Paulo)
 ```
-

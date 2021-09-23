@@ -4,28 +4,28 @@ description: Proactive monitoring of Google Cloud Quotas
 
 # Google Cloud Quotas
 
-Google Compute Engine enforces quotas on resource usage for a variety of reasons; i.e., quotas protect the community of Google Cloud users by preventing unforeseen spikes in usage. As your use of Google Cloud expands over time, your quotas may increase accordingly as not all projects have the same quotas. 
+Google Compute Engine enforces quotas on resource usage for a variety of reasons; i.e., quotas protect the community of Google Cloud users by preventing unforeseen spikes in usage. As your use of Google Cloud expands over time, your quotas may increase accordingly as not all projects have the same quotas.
 
-The Cloud Management Platform offers quota monitoring, so when you hit the 80% of your quota threshold, we will notify you ahead of time; you can then increase the limits before usage is blocked. In order to start receiving automatic notifications prior to reaching your Google Cloud quotas, your Google Cloud account must be successfully connected.  
+The Cloud Management Platform offers quota monitoring, so when you hit the 80% of your quota threshold, we will notify you ahead of time; you can then increase the limits before usage is blocked. In order to start receiving automatic notifications prior to reaching your Google Cloud quotas, your Google Cloud account must be successfully connected.
 
 To use Google Cloud Quotas, you must verify that your service account was successfully uploaded and granted the appropriate permissions. You can read more on how to configure your Google Cloud accounts at [Connect Your Google Cloud Organization.](connect-google-cloud-service-account.md)
 
 If successful, you will see:
 
-* Either a Healthy or Partial** **value underneath the Status column in your Configured Accounts widget
+* Either a Healthy or Partial value underneath the Status column in your Configured Accounts widget
 * Healthy status next to "Core" under the Features widget.
 
-Once that's been set up, you can add the 'Google Cloud Quotas' widget to any of your dashboards within the Cloud Management Platform. You will also start receiving the email notifications as you get close or reach the quotas. 
+Once that's been set up, you can add the 'Google Cloud Quotas' widget to any of your dashboards within the Cloud Management Platform. You will also start receiving the email notifications as you get close or reach the quotas.
 
-Navigate to the dashboard you'd like to add the widget to, locate the 'Add Widgets' button and search for 'Google Cloud Quotas', and add the widget to your dashboard. 
+Navigate to the dashboard you'd like to add the widget to, locate the 'Add Widgets' button and search for 'Google Cloud Quotas', and add the widget to your dashboard.
 
 To request a quota increase, click on the 'Modify' button, and read the instructions in the Google Cloud [documentation](https://cloud.google.com/compute/quotas).
 
 We are constantly working on monitoring as many quotas as possible. Right now, here is the list of quotas we support:
 
-**Project-based Quotas:**
+## Project-based Quotas
 
-```
+```plain
 SNAPSHOTS
 NETWORKS
 FIREWALLS
@@ -64,9 +64,9 @@ PUBLIC_DELEGATED_PREFIXES
 STATIC_BYOIP_ADDRESSES
 ```
 
-**Region-based Quotas:**
+## Region-based Quotas
 
-```
+```plain
 CPUS
 DISKS_TOTAL_GB
 STATIC_ADDRESSES

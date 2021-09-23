@@ -4,7 +4,7 @@ description: 'a radically simple, zero disruption onboarding process for our cus
 
 # Import AWS Organizations
 
-### Overview
+## Overview
 
 Customers having their own AWS Organizations \(and willing to preserve them after switching to DoiT billing\) have a new, radically simple onboarding process which eliminates most of the hassle typically involved with consolidation process.
 
@@ -25,7 +25,7 @@ After signing a contract with AWS, your customer success manager would contact y
 3. Create `doitintl_cmp` IAM role to facilitate access from Cloud Management Platform
 4. Create `CloudHealth` IAM role to provide access from CloudHealth
 5. Create `AWSAdmin` IAM role \(used to access billing data under AWS Channel Reseller Program\)
-6. Request SPP team at AWS to onboard the organization under ECAM \(End-Customer Account Model\) 
+6. Request SPP team at AWS to onboard the organization under ECAM \(End-Customer Account Model\)
 
 ### Step 3 - Account Configuration \(by DoiT\)
 
@@ -44,9 +44,8 @@ No, the process was designed to be disruption free.
 
 **Q: Will the features dependent on AWS Organizations continue to function?**
 
- All AWS-organization features \(e.g. AWS SSO, AWS Backup, AWS Firewall Manager, Resource Manager, etc\) will continue to function in exactly the same way as before.
+All AWS-organization features \(e.g. AWS SSO, AWS Backup, AWS Firewall Manager, Resource Manager, etc\) will continue to function in exactly the same way as before.
 
 **Q: Can you please share the IAM policies for the roles you're creating on master payer account?**
 
 Absolutely! You can find the policy for DoiT Cloud Management Platform at [this gist](https://gist.github.com/spark2ignite/e2a5a23fc6d239837cc3765cc0db024d). If your contract includes CloudHealth, its IAM policy is at [this gist](https://gist.github.com/spark2ignite/136441bb23eb90a256b1d550ea7df5c3).
-

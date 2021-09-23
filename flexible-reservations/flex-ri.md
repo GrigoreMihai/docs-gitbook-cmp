@@ -4,7 +4,7 @@ description: How to purchase AWS EC2 Flexible Reservations and monitor their uti
 
 # Flexible Reservations Overview
 
-### Overview
+## Overview
 
 Flexible Reserved Instances let you commit to EC2 Reserved Instances in one-month intervals while still sharing in the AWS-listed RI commitment discount. With Flex RIs, you'll eliminate RI lock-in risk for your less predictable workloads.
 
@@ -14,35 +14,35 @@ In order to use Flexible Reservations, your AWS account/s should be consolidated
 Required Permissions: **Flexible RI Admin**
 {% endhint %}
 
-### How to purchase Flex RIs
+## How to purchase Flex RIs
 
 To begin, click the 'Flexible RIs' icon on the left-hand side of the page. Once you're at the Flexible Reserved Instances page, click on 'New Order', located on the right-hand side of the page.
 
-![](../.gitbook/assets/cleanshot-2020-11-26-at-10.42.36.jpg)
+![A screenshot showing the location of the _New Order_ menu item](../.gitbook/assets/cleanshot-2020-11-26-at-10.42.36.jpg)
 
-Complete your Flexible Reserved Instances order by providing the following information: 
+Complete your Flexible Reserved Instances order by providing the following information:
 
-| Field | Description |
-| :--- | :--- |
-| Account | AWS account for this order |
-| Region | AWS region for this order |
-| Instance Type | note, only instances not associated with existing reservations or saving plans are shown |
+| Field            | Description                                                                                               |
+| :--------------- | :-------------------------------------------------------------------------------------------------------- |
+| Account          | AWS account for this order                                                                                |
+| Region           | AWS region for this order                                                                                 |
+| Instance Type    | note, only instances not associated with existing reservations or saving plans are shown                  |
 | Operating System | **Options include:** Linux/UNIX, Windows, Windows/SQL.Std, Windows BYOL, Windows/SQL.Ent, Windows/SQL.Web |
-| Qty | how many instances of the selected "Instance Type" the order should include |
-| Recurring | For orders with a recurring basis, select the last month you want this order to go  |
-| Notes | Use notes to give more context to your order such as PO numbers, workload names, etc. |
+| Qty              | how many instances of the selected "Instance Type" the order should include                               |
+| Recurring        | For orders with a recurring basis, select the last month you want this order to go                        |
+| Notes            | Use notes to give more context to your order such as PO numbers, workload names, etc.                     |
 
-![](../.gitbook/assets/image%20%286%29.png)
+![A screenshot of the _Flexible Reserved Instances Order_ modal dialog](../.gitbook/assets/image%20%286%29.png)
 
 Click "Submit" and your order will be created and become visible in the list:
 
-![](../.gitbook/assets/flexriordersuccess.jpg)
+![A screenshot showing your new order](../.gitbook/assets/flex-ri-order-success.jpg)
 
 {% hint style="info" %}
 Please note that new orders and editing previous orders can only be submitted up until the last 24 hours of the current month. After that date, orders will become **Pending** while we conduct an internal review before activating your Flexible Reservations.
 {% endhint %}
 
-### Monitoring Flex RIs
+## Monitoring Flex RIs
 
 At the top of the Flex RI page, you'll see four Flex RI Reporting metrics that give you a high-level overview of your past and existing Flex RI purchases:
 
@@ -55,7 +55,7 @@ At the top of the Flex RI page, you'll see four Flex RI Reporting metrics that g
 Note: The first three metrics are based on what is shown in the table, meaning taking into account any filters you've set on your orders. The last metric takes _every_ Flex RI order into account when calculating the number.
 {% endhint %}
 
-#### Flex RI Order Statuses
+### Flex RI Order Statuses
 
 Under the "Status" column, Flex RI orders can have four possible values:
 
@@ -68,9 +68,9 @@ To view usage statistics on a specific order, click on the arrow next to an acti
 
 You can see the difference between the on-demand price per hour vs. the Flex RI, and further inspect the utilization graph for additional details on your flexible reservation.
 
-![](../.gitbook/assets/viewflexriorder.jpg)
+![A screenshot showing an example utilization graph](../.gitbook/assets/view-flex-ri-order.jpg)
 
-### Flex RI Invoices
+## Flex RI Invoices
 
 For each order of Flexible Reservations, you'll see one or both of the following lines on your monthly invoice:
 
@@ -84,6 +84,3 @@ The optional "Flexible RI Underutilization" will state the amount deducted from 
 View the bite-sized video below for a closer look at purchasing and viewing your Flex RIs.
 
 {% embed url="https://youtu.be/Si6mZvn-z7I" %}
-
-
-

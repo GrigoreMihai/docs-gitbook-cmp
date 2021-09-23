@@ -161,4 +161,3 @@
 ## Tutorials
 
 * [How to get GCS cost per bucket](tutorials/how-to-get-gcs-cost-per-bucket.md)
-

@@ -14,11 +14,11 @@ Required Permissions: **Cloud Analytics**
 Please connect your [Google Cloud Organization](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account) or [Amazon Web Services](https://app.gitbook.com/@doitintl/s/cmp/amazon-web-services/add-your-amazon-web-services-iam-role) to the Cloud Management Platform to get all available features.
 {% endhint %}
 
-### Accessing Cloud Reports
+## Accessing Cloud Reports
 
 To access your Cloud Reports, click on the "Cloud Analytics" icon on the left-hand side of the page.
 
- By default, CMP provided several preset reports to start with, such as:
+By default, CMP provided several preset reports to start with, such as:
 
 * Google Cloud Monthly Credits History 12mo
 * Daily Google Cloud Cost 12mo
@@ -31,9 +31,9 @@ Click on the "Explore" button on the top-right part of the Cloud Analytics page 
 
 If you'd like your report to be automatically saved regardless of whether you give it a name, click on the dropdown arrow next to "Explore" and select "New Report" instead.
 
-![](../../.gitbook/assets/cloudreportsnewww.jpg)
+![A screenshot showing the location of the _Explore_ dropdown menu](../../.gitbook/assets/cloud-reports-explore.jpg)
 
-### Set up your Cloud Report
+## Set up your Cloud Report
 
 By default, your report will be in "View Mode". This is a read-only view of your report, where you'll only be able to adjust the Metric, Aggregation, and Chart Type options.
 
@@ -41,31 +41,29 @@ To edit your report, click on the pencil icon on the right-hand sidebar. This wi
 
 Conversely, if you are in Edit Mode, you can switch to View mode by clicking on the eye icon that will appear in place of the pencil icon.
 
-![](../../.gitbook/assets/cloudreports_editviewmode.jpg)
+![A screenshot showing the location of the _Edit Mode_ button](../../.gitbook/assets/cloudreports_editviewmode.jpg)
 
 There are four steps to setting up your cloud report:
 
-1. Give your Cloud Report a meaningful name.
-2. Drag fields to the "Dimensions" and "Breakout Dimensions" sections.
-3. Determine \
-   **a)** which metric you'd like to measure your selected dimensions by \
-   **b) **how you'd like to visualize and display aggregations in your report\
-   **c) **the time interval & range for your report.
-4. Generate the report by clicking on the "Run" button.
+1. Give your Cloud Report a meaningful name
+2. Drag fields to the "Dimensions" and "Breakout Dimensions" sections
+3. Determine
+   1. Which metric you'd like to measure your selected dimensions by
+   2. How you'd like to visualize and display aggregations in your report
+   3. The time interval & range for your report
+4. Generate the report by clicking on the "Run" button
 
 After a few seconds, your report will appear, ready for your analysis.
 
-![](../../.gitbook/assets/cloudreportsui.jpg)
-
-
+![A screenshot showing a _Cloud Analytics_ report](../../.gitbook/assets/cloudreportsui.jpg)
 
 ## FAQ
 
-### When are the metric amounts (Cost, Usage, etc) for a day counted as "final"? 
+### When are the metric amounts (Cost, Usage, etc) for a day counted as "final"?
 
 You can consider numbers “final” for 3 days after the date. With that in mind, there is really no SLA for this and numbers can change any time if there are corrections or delays that needs to be applied.
 
-### Are the reports back-filled/updated, and at what frequency? 
+### Are the reports back-filled/updated, and at what frequency?
 
 Cloud Analytics data and reports are updated hourly.
 
@@ -78,6 +76,3 @@ Data coming from Google Cloud is based on Pacific time and Data coming from AWS 
 View the bite-sized video below for a closer look at creating and exploring Cloud Reports:
 
 {% embed url="https://www.loom.com/share/3bb89b9c624a4a52a2ecfbb61a56b4b8" %}
-
-
-

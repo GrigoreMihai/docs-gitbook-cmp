@@ -14,7 +14,7 @@ Begin by navigating to the FlexSave page, and click on the vertical ellipsis \(*
 
 Then, select "Upload Orders" and upload the CSV file with your order information.
 
-![](../.gitbook/assets/cleanshot-2021-06-22-at-12.23.46.jpg)
+![A screenshot showing the location of the _Upload Orders_ option](../.gitbook/assets/cleanshot-2021-06-22-at-12.23.46.jpg)
 
 The following fields are optional and don't need to be filled for your CSV file to be processed:
 
@@ -23,5 +23,4 @@ The following fields are optional and don't need to be filled for your CSV file 
 
 To ensure your CSV file is structured properly, we recommend downloading the template below and using it to format your orders.
 
-{% file src="../.gitbook/assets/flexri-bulk-upload-template.csv" caption="FlexSave Bulk Upload Template" %}
-
+{% file src="../.gitbook/assets/flex-ri-bulk-upload-template.csv" caption="FlexSave Bulk Upload Template" %}

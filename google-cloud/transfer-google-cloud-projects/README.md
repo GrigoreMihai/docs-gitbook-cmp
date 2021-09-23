@@ -34,4 +34,3 @@ If you have several dozens of GCP projects or less, the simplest way is to switc
 For large amount of projects the manual transfer can be too tedious. To make this process _much faster_, DoiT International developed a Project Transfer Wizard in the Cloud Management Platform to help you bulk-transfer all of your existing Google Cloud projects to the billing account assigned to you by DoiT International.
 
 Please follow the guide [here](bulk-transfer-using-wizard.md).
-

@@ -16,13 +16,12 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
-![](../.gitbook/assets/update-billing-profile-2-%20%284%29%20%284%29%20%281%29%20%282%29.png)
+![A screenshot showing the location of the _Edit_ icon](../.gitbook/assets/update-billing-profile-2-%20%284%29%20%284%29%20%281%29%20%282%29.png)
 
 The next page brings you to the 'General' tab where you can change the name of your company.
 
-![](../.gitbook/assets/change-company-name2.png)
+![A screenshot showing you location of your editable company name](../.gitbook/assets/change-company-name2.png)
 
 Once you have made the necessary changes, click on 'Save' at the bottom right-hand side of the page. Notice the change of the company name at the top of the page.
 
-![](../.gitbook/assets/the-best-company.png)
-
+![A screenshot showing you the edit form and save button](../.gitbook/assets/the-best-company.png)

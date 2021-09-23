@@ -3,16 +3,16 @@
 User Permissions designate the type of access given to users that enables them to access specific resources within the Cloud Management Platform.
 
 {% hint style="info" %}
-Raising support or consulting requests doesn't require any permission or role. 
+Raising support or consulting requests doesn't require any permission or role.
 {% endhint %}
 
-Available Permissions:
+## Available Permissions
 
-**Anomalies Viewer**
+### Anomalies Viewer
 
 * Access Cost and Usage Anomalies
 
-**Assets Manager **(previously Licenses Manager)
+### Assets Manager (previously Licenses Manager)
 
 * View and Manage assets, including managing licenses
 * Purchase additional licenses and subscriptions for [G Suite](../g-suite-and-workspace/purchasing-g-suite-licenses.md)
@@ -21,46 +21,46 @@ Available Permissions:
 * Invite existing AWS accounts
 * Create new Google Cloud billing accounts
 
-**Attributions Manager**
+### Attributions Manager
 
 * Create, delete and manage attributions
 
-**Billing Profile Admin**
+### Billing Profile Admin
 
 * Create, view and manage billing profiles
 * Update Payment Methods, Address, Accounts Payable, Invoice Settings
 
-**Budgets Manager**
+### Budgets Manager
 
 * Create, delete and manage budgets
 
-**Cloud Analytics**
+### Cloud Analytics
 
 * Create and view [Cloud Reports](../cloud-analytics/create-cloud-report/) and [Attributions](../cloud-analytics/attributing-cloud-spend.md)
 
-**Contracts Viewer**
+### Contracts Viewer
 
 * Provides access to the commercial contracts
 
-**Flexible RI Admin**
+### Flexible RI Admin
 
 * Purchase [Flexible Reserved Instances](../flexsave-aws/overview.md) and manage orders
 
-**Invoice Viewer**
+### Invoice Viewer
 
 * View and pay invoices
 
-**Issues Viewer**
+### Issues Viewer
 
 * Access to cloud outage information
 
-**Users Manager**
+### Users Manager
 
 * Create Users
 * Update Users
 * Remove Users
 
-**Settings Manager**
+### Settings Manager
 
 * Manage your Cloud Management Platform account settings
 * Access the Settings page via the left-hand navigation bar
@@ -68,22 +68,18 @@ Available Permissions:
 * Add AWS ARN
 * Set up Slack channel integration for alerts on [cost anomalies](../anomaly-detection/cloud-anomalies.md) and [known issues](../tickets/cloud-infrastructure-known-issues.md)
 
-**Perks Viewer**
+### Perks Viewer
 
 * Access and request Perks
 
-**Sandbox Admin**
+### Sandbox Admin
 
 * Create and modify [Cloud Sandbox policies](../cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md).
 
-**Sandbox Viewer**
+### Sandbox Viewer
 
 * [Create Cloud Sandboxes](../cloud-sandbox-management/create-gcp-sandbox-accounts.md)
 
-**superQuery**
+### superQuery
 
 * Access to superQuery IDE
-
-****
-
-****

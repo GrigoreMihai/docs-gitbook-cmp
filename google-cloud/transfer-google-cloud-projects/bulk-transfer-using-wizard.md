@@ -10,7 +10,7 @@ Please mind the Google Marketplace [note](./).
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select '**Manage Licenses & Assets**' from the main dashboard:
 
-![A screenshot showing the location of the \_Manage Licenses & Assets\_ option](../../.gitbook/assets/transfer-projects.png)
+![A screenshot showing the location of the _Manage Licenses & Assets_ option](../../.gitbook/assets/transfer-projects.png)
 
 Once you're at the **Assets** page, please switch to the Google Cloud tab
 
@@ -18,17 +18,17 @@ Once you're at the **Assets** page, please switch to the Google Cloud tab
 
 To transfer your projects, locate your new Google Cloud billing account with DoiT International (doit.budgetao.com in this example), and click on the three-dots menu on the right-hand side of the widget. Choose 'Transfer Projects' to start the wizard.
 
-![A screenshot showing the location of the \_Transfer Projects\_ option](<../../.gitbook/assets/transfer-projects1 (1) (1) (1).png>)
+![A screenshot showing the location of the _Transfer Projects_ option](<../../.gitbook/assets/transfer-projects1 (1) (1) (1).png>)
 
 Acknowledge the Marketplace Apps consent and click "Start":
 
-![A screenshot showing the start of the \_Transfer Projects\_ flow](../../.gitbook/assets/transfer-gcp.png)
+![A screenshot showing the start of the _Transfer Projects_ flow](../../.gitbook/assets/transfer-gcp.png)
 
 After you begin the transfer process, a dedicated Google Cloud service account will be generated to facilitate the transfer process.
 
 Finally, **copy the service account name**. You will need it for the next step.
 
-![A screenshot showing the \_Edit your IAM\_ section of the \_Transfer Projects\_ flow](../../.gitbook/assets/transfer-projects3.png)
+![A screenshot showing the _Edit your IAM_ section of the _Transfer Projects_ flow](../../.gitbook/assets/transfer-projects3.png)
 
 ## Grant permissions to the service account
 
@@ -46,9 +46,9 @@ Or follow the detailed instructions below grant the access using GCP Console UI.
 * Select your organization
 * On the permissions info panel on the right, add the service account email as Billing Administrator Administrator
 
-![A screenshot showing you how to access the \_Add Member\_ button](<../../.gitbook/assets/image (55).png>)
+![A screenshot showing you how to access the _Add Member_ button](<../../.gitbook/assets/image (55).png>)
 
-![A screenshot showing you the \_Add members\_ form](<../../.gitbook/assets/image (57).png>)
+![A screenshot showing you the _Add members_ form](<../../.gitbook/assets/image (57).png>)
 
 ### Grant permissions for Billing Account
 
@@ -56,11 +56,11 @@ Per the instructions from the image above, we'll need to add the service account
 
 First, navigate to your Google Cloud Console and click on "**Billing**"
 
-![A screenshot showing you the location of the \_Billing\_ navigation menu item](../../.gitbook/assets/screen-shot-2021-02-12-at-11.28.16-am.png)
+![A screenshot showing you the location of the _Billing_ navigation menu item](../../.gitbook/assets/screen-shot-2021-02-12-at-11.28.16-am.png)
 
 Next, click on "**Manage Billing Accounts**"
 
-![A screenshot showing you the location of the \_Manage Billing Accounts\_ button](../../.gitbook/assets/screen-shot-2021-02-12-at-11.28.26-am.png)
+![A screenshot showing you the location of the _Manage Billing Accounts_ button](../../.gitbook/assets/screen-shot-2021-02-12-at-11.28.26-am.png)
 
 Make sure your organization is selected. Then select the billing account you want to edit.
 
@@ -68,15 +68,15 @@ Make sure your organization is selected. Then select the billing account you wan
 
 In the Billing Overview screen, select "Manage" on the right.
 
-![A screenshot showing you the location of the \_Manage\_ option](../../.gitbook/assets/screen-shot-2021-02-12-at-11.29.23-am.png)
+![A screenshot showing you the location of the _Manage_ option](../../.gitbook/assets/screen-shot-2021-02-12-at-11.29.23-am.png)
 
 Then, click the "**Show Info**" panel at the top-right to manage billing account members. From there, click "**Add Member**".
 
-![A screenshot showing you how to access to the \_Add Member\_ button](../../.gitbook/assets/addmemberprojectransfer.jpg)
+![A screenshot showing you how to access to the _Add Member_ button](../../.gitbook/assets/add-member-project-transfer.jpg)
 
 Finally, paste the service account you copied earlier from the CMP Project Transfer tool and add the "Billing Account Administrator" role as shown below. Then click "Save".
 
-![A screenshot showing you the \_Add members\_ form](<../../.gitbook/assets/image (56).png>)
+![A screenshot showing you the _Add members_ form](<../../.gitbook/assets/image (56).png>)
 
 If you do not add the service account to your Google Cloud Organization IAM, the following error will appear.
 
@@ -106,11 +106,11 @@ If some or all of your projects don't transfer successfully, you will see a disc
 
 If _some_ of your projects transferred, this is the message you will see.
 
-![A screenshot showing you final screen when only some projects were transfered](<../../.gitbook/assets/screen-shot-2020-09-10-at-16.14.00-1- (1) (1).png>)
+![A screenshot showing you final screen when only some projects were transferred](<../../.gitbook/assets/screen-shot-2020-09-10-at-16.14.00-1- (1) (1).png>)
 
 If none of your projects were successfully transferred, you will see this message.
 
-![A screenshot showing you the final screen when none of your projects were transfered](../../.gitbook/assets/screen-shot-2020-09-10-at-16.10.34-1-.png)
+![A screenshot showing you the final screen when none of your projects were transferred](../../.gitbook/assets/screen-shot-2020-09-10-at-16.10.34-1-.png)
 
 ## **Troubleshooting**
 
@@ -125,7 +125,7 @@ To identify which project(s) didn't transfer successfully, click on the hyperlin
 
 Here is an example output:
 
-```
+```plain
 project-id-1, success
 project-id-2, success
 project-id-3, error-code

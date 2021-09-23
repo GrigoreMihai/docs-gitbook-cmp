@@ -19,6 +19,3 @@ To make Cloud Analytics reports show "minor values", please enable the "Minor Va
 {% hint style="info" %}
 The "Filtering minor values" option is not available for "Usage" and "Savings" metrics.
 {% endhint %}
-
-
-

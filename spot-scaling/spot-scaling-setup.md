@@ -18,7 +18,7 @@ If your account was already linked prior to enabling Spot Scaling functionality,
 
 **Follow** [**these instructions**](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#adding-a-feature) **on adding a feature to an already-linked AWS account.** Be sure to check the box next to "Spot Scaling", as shown below.
 
-![](../.gitbook/assets/image%20%2869%29.png)
+![A screenshot showing the checkbox next to the _Spot Scaling_ option](../.gitbook/assets/image%20%2869%29.png)
 
 ## Implement Spot Scaling Recommendations
 
@@ -26,17 +26,17 @@ If your account was already linked prior to enabling Spot Scaling functionality,
 
 To navigate to your Spot Scaling recommendations, click on the Spot Scaling icon in your lefthand navigation panel.
 
-![](../.gitbook/assets/cleanshot-2021-06-22-at-13.44.17.jpg)
+![A screenshot showing the location of the _Spot Scaling_ menu item](../.gitbook/assets/cleanshot-2021-06-22-at-13.44.17.jpg)
 
-Once an AWS account is linked, any Auto Scaling Groups \(ASGs\) associated with it which aren't optimized will appear in your Spot Scaling page. 
+Once an AWS account is linked, any Auto Scaling Groups \(ASGs\) associated with it which aren't optimized will appear in your Spot Scaling page.
 
 These ASGs will have a value of "Not Optimized" under the "Optimization Status" column.
 
-![](../.gitbook/assets/spotscalingnotoptimized.jpg)
+![A screenshot showing the _Optimization Status_ column](../.gitbook/assets/spotscalingnotoptimized.jpg)
 
 Click on the ASG to view its SpotScaling recommendation.
 
-![](../.gitbook/assets/spotscalingclickasg.jpg)
+![A screenshot showing the _ASG_ link](../.gitbook/assets/spotscaling-click-asg.jpg)
 
 Your ASG's current configuration is displayed under the "Current Values" column. Spot Scaling's recommendations are displayed under the "Recommended Values" column.
 
@@ -44,16 +44,16 @@ Your ASG's current configuration is displayed under the "Current Values" column.
 
 With Spot Scaling you have two additional options you can select when optimizing your ASG's configuration:
 
-* **Keep my ASG up to date**: If turned on, Spot Scaling will automatically update the ASG's configuration to continuously maximize system runtime and spot-related EC2 savings. 
+* **Keep my ASG up to date**: If turned on, Spot Scaling will automatically update the ASG's configuration to continuously maximize system runtime and spot-related EC2 savings.
 * **Fallback to On-Demand**: When there aren't where enough unused EC2 instances to meet demand for Spot instances, Spot Scaling will automatically fallback to on-demand instances.
 
-![](../.gitbook/assets/spotscalinggeneralsettings.jpg)
+![A screenshot showing the location of the _General Settings_ section](../.gitbook/assets/spotscalinggeneralsettings.jpg)
 
 ### Apply Recommendations
 
 Examine the recommendations and, if the proposed changes seem satisfactory with you, click on **APPLY RECOMMENDATIONS** to reconfigure your ASG according to Spot Scaling's recommendations.
 
-![](../.gitbook/assets/spotscalingapplyrec.jpg)
+![A screenshot showing the location of the _Apply Recommendations_ button](../.gitbook/assets/spotscalingapplyrec.jpg)
 
 If you want to tweak the recommendation, you may also modify the values under the following rows before applying it:
 
@@ -61,13 +61,12 @@ If you want to tweak the recommendation, you may also modify the values under th
 * On-Demand Instances
 * Spot Instances
 
-Once you've applied the recommendation, the "Recommended Values" column will disappear. 
+Once you've applied the recommendation, the "Recommended Values" column will disappear.
 
 The values under the "Current Values" column will update, reflecting the changes you made when applying the recommendation.
 
-![](../.gitbook/assets/spotscalingrecapplied.jpg)
+![A screenshot showing the _Current Values_ column](../.gitbook/assets/spotscalingrecapplied.jpg)
 
 Additionally, after applying a recommendation, your ASG will have a value of "Optimized" under the "Optimization Status" column.
 
-![](../.gitbook/assets/spotscalingnowoptimized.jpg)
-
+![A screenshot showing an _Optimized_ status under the _Optimization Status_ column](../.gitbook/assets/spotscalingnowoptimized.jpg)

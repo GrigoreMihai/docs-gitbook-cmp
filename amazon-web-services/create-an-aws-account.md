@@ -18,23 +18,23 @@ You will see an **OrganizationAccountAccessRole** in the new AWS account. This r
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and Access the 'Create AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
 
-![](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (4).png>)
+![A screenshot showing the location of the _Create AWS Account_ menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (4).png>)
 
 On the right-hand side of the page, click the bottom facing arrow and choosing 'Create Account'.
 
-![](<../.gitbook/assets/aws-create-account-doit (1).png>)
+![A screenshot showing the location of the _Create Account_ option](<../.gitbook/assets/aws-create-account-doit (1).png>)
 
 Choose the Billing Profile to which you're creating the account for while choosing the name of the account to which the _root email_ is associated with.
 
-![](<../.gitbook/assets/image (140).png>)
+![A screenshot of the _Create New Account_ form](<../.gitbook/assets/image (140).png>)
 
-Click 'Create' and a popup will appear that the account was created successfully. 
+Click 'Create' and a popup will appear that the account was created successfully.
 
-![](../.gitbook/assets/aws-account-successful2.png)
+!["Account created successfully! Check your email for further instructions"](../.gitbook/assets/aws-account-successful2.png)
 
 As listed in the popup, an email is sent out for further instructions, here is an example.
 
-![](../.gitbook/assets/aws-doit-success.png)
+![A screenshot of an example email sent by DoiT](../.gitbook/assets/aws-doit-success.png)
 
 The following video shows you how to create an AWS Account.
 

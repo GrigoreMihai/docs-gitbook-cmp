@@ -20,15 +20,15 @@ Required permission to create and manage Organizations: **User Manager**
 
 ## Terminology <a href="how-to-setup-organizations" id="how-to-setup-organizations"></a>
 
-#### **Organization**
+### Organization
 
 An organization is an automatic set of [attributions](../cloud-analytics/attributing-cloud-spend.md) that filter data for its members.  When a user is a member of an organization all reports in Cloud Analytics are automatically filtered to show only relevant data
 
-**Root Organization (The default organization)**
+### Root Organization (The default organization)
 
 Every company has a default organization named after their primary domain.  This organization, by default, sees all data within a company.  It can be restricted by attribution by editing it.  When an organization with members is deleted, its users are placed in the default organization rather than being given full access to the company.  This allows you the ability to configure a restricted landing zone for users when deleting existing organizations.
 
-#### Member
+### Member
 
 When a user is assigned to an organization, they are said to be a member of that organization.  Once a member, they will see only data included in the configured attributions while in Cloud Analytics or Dashboards ([with the exception of Global Dashboards](https://app.gitbook.com/@doitintl/s/cmp/\~/drafts/-MhECcbsGcCOA9EdQFsO/user-management/manage-organizations#current-limitations))
 
@@ -40,7 +40,7 @@ When a user is assigned to an organization, they are said to be a member of that
 
 Navigate to Cloud Analytics → Attributions
 
-![Cloud Analytics - Attributions tab](https://lh5.googleusercontent.com/CuLRqLzE2QHApJfQQE3SWTalDbciarx_NxD5YG3aWtzOInscWSe_UqswSAq-hrmVMJgJyjA_thbD1x5Mj1zOs2gQCPEYWcHDny0kTxB-BICCVCY1PSuUVcyGFpOcpSdkrMS7s1fg)
+![A screenshot showing the _Attributions_ tab](https://lh5.googleusercontent.com/CuLRqLzE2QHApJfQQE3SWTalDbciarx_NxD5YG3aWtzOInscWSe_UqswSAq-hrmVMJgJyjA_thbD1x5Mj1zOs2gQCPEYWcHDny0kTxB-BICCVCY1PSuUVcyGFpOcpSdkrMS7s1fg)
 
 If you already have an attribution configured, select it and confirm that it matches the set of data you would like to use as an organization.‌
 
@@ -50,19 +50,21 @@ If you already have an attribution configured, select it and confirm that it mat
 
 Navigate to the Users and Roles menu and select the ‘Organizations’ Menu
 
-![Identity & Access Tabs](https://lh5.googleusercontent.com/A23RKCjEGjtOySAWXGUT9q67YMHFK50W2J3\_7qcQmWtzZCWENlbENc7dWH9J9J81DrWBIwJ-n7KRxU_XnrM4uVmUYMLexS1GXbYWkr9HoYaDHuF3\_H5d2SjEmTSRCgIiQ2skfpf0)
+![A screenshot showing the _Organizations_ menu](../.gitbook/assets/organizations-menu.png)
 
-Select ‘New Organization’![](https://lh5.googleusercontent.com/A9a\_5brRrvimNNpj6x\_0vvHV-E1W3AmYfdz3D2hIKr-pnle5Igd1D9wu5syJO-QUgBjs2erU8mH0aG2IWaYtmtI73V1SwWQiUuD6tkLgnhgWJFumYQnlcXiRbW54ob31O1KlrezG)‌
+Select ‘New Organization’!
+
+[A screenshot showing the _New Organization_ button](../.gitbook/assets/new-organization.png)‌
 
 ### Step 3. Configure your Organization <a href="step-3-configure-your-organization" id="step-3-configure-your-organization"></a>
 
-![Organization Configuration](https://lh5.googleusercontent.com/4JFPldWrHQmagJYqzrtfClY4qTwlz5M_C8Ij-N68gppm_sBjwvbqRRKF_UOU6Th25WzyToRLAxG9ncwdPqYLFQES788PqZFW3OxtACgdpW9B7m80on_gCNQj1sCCEUcJV6tTCoS-)
+![A screenshot showing the organization configuration screen](../.gitbook/assets/organization-configuration-screen.png)
 
-_‌_Select the attribution or set of attributions that define your organization.
+Select the attribution or set of attributions that define your organization.
 
 1. Select the Attributions you want to use to scope this organization
 2. Select the users that will be members of the organization
-   1. **Note: **A user can only be a member of a single organization.
+   1. **Note:** A user can only be a member of a single organization.
 3. Select your options for Dashboard Visibility
 4. \[Optional] Advanced Option
    1. Disable Custom Dashboards -
@@ -74,7 +76,7 @@ _‌_Select the attribution or set of attributions that define your organization
 The preset dashboards in CMP (Account, AWS FinOps, BigQuery FinOps, and Pulse) have a global scope. Regardless of organization, they always show data from across all configured accounts/projects. If you do not want organization members to see data outside their scope, you can prevent them from seeing these dashboards‌
 {% endhint %}
 
-#### Widgets function differently‌ <a href="widgets-function-differently" id="widgets-function-differently"></a>
+## Widgets function differently‌ <a href="widgets-function-differently" id="widgets-function-differently"></a>
 
 For each widget there are two concerns‌
 
@@ -84,7 +86,7 @@ For each widget there are two concerns‌
 2. Is the widget scoped to my organization?
    1. Currently most widgets have global scope. The only way to limit access to them is to “Disable Custom Dashboards” in the advanced configuration menu.
 
-### ‌Current Limitations
+## ‌Current Limitations
 
 1. Only the Cloud Analytics feature supports Organizations today
    1. If other roles are granted to users within the organization, they will see all company data

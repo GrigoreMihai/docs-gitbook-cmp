@@ -1,0 +1,4 @@
+{
+  "image": "ghcr.io/doitintl/docops/python-3.8:main",
+  "remoteUser": "vscode"
+}

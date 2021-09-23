@@ -4,7 +4,7 @@ description: Supported Regions & Roadmap for Flexible Reservations
 
 # Supported Regions
 
-### Availability
+## Availability
 
 As of the first quarter of 2021, Flexible Reservations are available in the following 7 AWS regions:
 
@@ -18,7 +18,7 @@ eu-west-1 Europe (Ireland)
 ap-northeast-1 Asia Pacific (Tokyo)
 ```
 
-### Roadmap
+## Roadmap
 
 Starting Oct 2021, the following AWS regions would be supported as well:
 
@@ -32,4 +32,3 @@ eu-west-2 Europe (London)
 eu-west-3 Europe (Paris)
 sa-east-1 South America (São Paulo)
 ```
-

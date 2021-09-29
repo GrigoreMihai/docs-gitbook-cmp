@@ -48,5 +48,5 @@ No, the process was designed to be disruption free.
 
 **Q: Can you please share the IAM policies for the roles you're creating on master payer account?**
 
-Absolutely! You can find the policies at [this gist](https://gist.github.com/spark2ignite/e2a5a23fc6d239837cc3765cc0db024d).
+Absolutely! You can find the policy for DoiT Cloud Management Platform at [this gist](https://gist.github.com/spark2ignite/e2a5a23fc6d239837cc3765cc0db024d). If your contract includes CloudHealth, its IAM policy is at [this gist](https://gist.github.com/spark2ignite/136441bb23eb90a256b1d550ea7df5c3).
 

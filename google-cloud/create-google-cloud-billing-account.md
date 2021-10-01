@@ -39,7 +39,7 @@ After a few seconds, you should now see the new billing account:
 ![](../.gitbook/assets/image%20%2881%29.png)
 
 {% hint style="info" %}
-Your domain is added as a _Billing Account User_ on the new Billing Accounts you create in thr CMP. This allows anyone on the domain to link projects to the billing account.
+Your domain is added as a _Billing Account User_ on the new Billing Accounts you create in the CMP. This allows anyone on the domain to link projects to the billing account.
 {% endhint %}
 
 ## 

@@ -26,8 +26,6 @@ Let's go over what can be configured in each tab.
 
 ![](<../.gitbook/assets/image (7).png>)
 
-
-
 ### Permissions
 
 This is where you can view your [CMP Role](../user-management/manage-roles.md) (and the associated permissions that come with it) and assign yourself to any [Billing Profiles](../invoices-and-payments/setting-up-a-new-billing-profile.md) (if you have the Admin role).
@@ -52,9 +50,22 @@ You can request to be notified on the following events:
 * [ ] The second reminder is sent four days after the invoice's due date.
 * [ ] The third reminder is sent 10 days after the invoice's due date.
 
-**Cloud **[**Known Issues**](../tickets/cloud-infrastructure-known-issues.md)** **- get alerted whenever there is an infrastructure issue with Google Cloud and/or AWS that may affect your own workloads.
+\*\*Cloud [**Known Issues**](../tickets/cloud-infrastructure-known-issues.md) \*\*- get alerted whenever there is an infrastructure issue with Google Cloud and/or AWS that may affect your own workloads.
 
 ![](<../.gitbook/assets/image (9).png>)
+
+### Daily Digest Emails
+
+Selecting one or more attributions from the dropdown will generate a daily cost digest sent to the your user's email address.  You will receive one email per attribution selected detailing:
+
+* Previous Day's Cost
+* Month to date Cost (Sum costs accrued in the current month)
+*   Cost Trend 
+
+    ( Current Month Cost to date / Previous month costs to same date in previous month)
+* Forecasted current month cost
+
+Email will be sent at 6:00 UTC
 
 ### API
 

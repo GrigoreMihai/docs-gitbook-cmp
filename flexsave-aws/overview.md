@@ -11,11 +11,11 @@ FlexSave helps you maximize EC2 discounts with minimal-to-no commitments.
 In order to use FlexSave, your AWS account/s must be consolidated with DoiT International billing organization. DoiT International is a global [AWS Advanced Channel Reseller](https://partners.amazonaws.com/partners/001E000001HPlIAIA1/).
 
 {% hint style="info" %}
-Required Permissions: **FlexSave Admin**   
-Default roles with this permission: **Power User, Admin**
+Required Permissions: **FlexSave Admin **\
+****Default roles with this permission:** Power User, Admin**
 {% endhint %}
 
-## FlexSave <a id="autopilot"></a>
+## FlexSave <a href="autopilot" id="autopilot"></a>
 
 FlexSave automates the management of AWS Reserved Instances and Saving Plans so that you realize the largest possible EC2 savings without having to make any commitments.
 
@@ -37,14 +37,14 @@ After enabling FlexSave, you'll see your FlexSave Dashboard which displays impor
 
 Let's go over the elements of your FlexSave Dashboard:
 
-![](../.gitbook/assets/cleanshot-2021-09-14-at-11.51.28.jpg)
+![](<../.gitbook/assets/cleanshot-2021-09-14-at-11.51.28 (1).jpg>)
 
 ### FlexSave Dashboard
 
 Your FlexSave Dashboard has three widgets, which displays $ savings resulting from using FlexSave:
 
-* **Current month's savings rate \(%\)**: Savings from FlexSave expressed as $ saved / pre-FlexSave on-demand spend
-* **Current month's savings \($\)**: FlexSave savings expressed in absolute dollars saved.
+* **Current month's savings rate (%)**: Savings from FlexSave expressed as $ saved / pre-FlexSave on-demand spend
+* **Current month's savings ($)**: FlexSave savings expressed in absolute dollars saved.
 * **Current month's net on-demand spend**: On-demand spend _after_ subtracting FlexSave savings.
 
 {% hint style="info" %}
@@ -99,4 +99,3 @@ In your monthly bill you'll see a line item with the following details in your i
 The dollar amount displayed under "PPU" will be subtracted from your overall EC2 spend.
 
 ![](../.gitbook/assets/cleanshot-2021-08-31-at-11.25.09.jpg)
-

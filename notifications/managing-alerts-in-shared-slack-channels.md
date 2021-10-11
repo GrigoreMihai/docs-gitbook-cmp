@@ -16,9 +16,6 @@ To set up notifications, navigate to the Settings page from your left-hand navig
 
 We will automatically detect whether your team has a shared Slack channel with us, so all you need to do is select which notifications you'd like to opt-in. When you're done, click on "Update"
 
-Note that for Cost Anomalies, there is an additional step of selecting the minimum threshold \(Information, Warning, or Critical\) of anomalies you'd like to be notified on.
+Note that for Cost Anomalies, there is an additional step of selecting the minimum threshold (Information, Warning, or Critical) of anomalies you'd like to be notified on.
 
-![](../.gitbook/assets/image%20%2868%29.png)
-
-
-
+![A screenshot showing you the \_Select Shared Channel Settings\_ menu](<../.gitbook/assets/image (68).png>)

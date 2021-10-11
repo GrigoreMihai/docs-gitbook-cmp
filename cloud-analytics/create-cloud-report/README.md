@@ -47,7 +47,10 @@ There are four steps to setting up your cloud report:
 
 1. Give your Cloud Report a meaningful name.
 2. Drag fields to the "Dimensions" and "Breakout Dimensions" sections.
-3. Determine  **a\)** which metric you'd like to measure your selected dimensions by  **b\)** how you'd like to visualize and display aggregations in your report **c\)** the time interval & range for your report.
+3. Determine \
+   **a)** which metric you'd like to measure your selected dimensions by \
+   **b) **how you'd like to visualize and display aggregations in your report\
+   **c) **the time interval & range for your report.
 4. Generate the report by clicking on the "Run" button.
 
 After a few seconds, your report will appear, ready for your analysis.
@@ -58,7 +61,7 @@ After a few seconds, your report will appear, ready for your analysis.
 
 ## FAQ
 
-### When are the metric amounts \(Cost, Usage, etc\) for a day counted as "final"? 
+### When are the metric amounts (Cost, Usage, etc) for a day counted as "final"? 
 
 You can consider numbers “final” for 3 days after the date. With that in mind, there is really no SLA for this and numbers can change any time if there are corrections or delays that needs to be applied.
 
@@ -68,15 +71,13 @@ Cloud Analytics data and reports are updated hourly.
 
 ### What timezone are Cloud Analytics Reports based on?
 
-Data coming from Google Cloud is based on Pacific time and Data coming from AWS is based on Coordinated Universal Time \(UTC\)
+Data coming from Google Cloud is based on Pacific time and Data coming from AWS is based on Coordinated Universal Time (UTC)
 
 ## Watch
 
 View the bite-sized video below for a closer look at creating and exploring Cloud Reports:
 
 {% embed url="https://www.loom.com/share/3bb89b9c624a4a52a2ecfbb61a56b4b8" %}
-
-
 
 
 

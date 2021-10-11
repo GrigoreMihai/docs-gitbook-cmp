@@ -12,7 +12,7 @@ Required Permissions: **Billing Profile Admin**
 
 Start with navigating to the 'Support' page by selecting the icon on the left-hand side menu.
 
-![](../.gitbook/assets/support-tab.png)
+![](<../.gitbook/assets/support-tab (1).png>)
 
 Locate the settings gear icon at the top-right of the page and click 'Enable Ticket Sharing'.
 
@@ -21,4 +21,3 @@ Locate the settings gear icon at the top-right of the page and click 'Enable Tic
 ![](../.gitbook/assets/cleanshot-2020-10-22-at-13.38.08.jpg)
 
 Once enabled, you will be able to see tickets opened by others in your organization.
-

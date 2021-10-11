@@ -22,313 +22,87 @@ There are a few pre-built roles in your account for your convenience. The easies
 
 #### **Basic Role**
 
-| Privileges | Only users with privilege can:  |
-| :--- | :--- |
-| Support | create new and access existing technical support requests  |
+| Privileges | Only users with privilege can:                             |
+| ---------- | ---------------------------------------------------------- |
+| Support    | create new and access existing technical support requests  |
 
 #### **IT Manager**
 
-| Privileges | Only users with privilege can:  |
-| :--- | :--- |
-| Support | create new and access existing technical support requests |
-| Assets Manager | view and manage assets, including managing licenses |
+| Privileges     | Only users with privilege can:                            |
+| -------------- | --------------------------------------------------------- |
+| Support        | create new and access existing technical support requests |
+| Assets Manager | view and manage assets, including managing licenses       |
 
 #### **Finance User**
 
-| Privileges | Only users with privilege can:  |
-| :--- | :--- |
-| Support | create new and access existing technical support requests |
-| Billing Profiles Admin  | create new and manage existing billing profiles, including payment method |
-| Invoice Viewer | access invoices |
-| Cloud Analytics | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
-| Contracts Viewer | provides access to the commercial contracts |
-| Perks Viewer | access and request Perks |
-| Anomalies Viewer | access Cost and Usage Anomalies |
+| Privileges              | Only users with privilege can:                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------------------------- |
+| Support                 | create new and access existing technical support requests                                         |
+| Billing Profiles Admin  | create new and manage existing billing profiles, including payment method                         |
+| Invoice Viewer          | access invoices                                                                                   |
+| Cloud Analytics         | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
+| Contracts Viewer        | provides access to the commercial contracts                                                       |
+| Perks Viewer            | access and request Perks                                                                          |
+| Anomalies Viewer        | access Cost and Usage Anomalies                                                                   |
 
 #### **Standard User**
 
-| Privileges | Only users with privilege can:  |
-| :--- | :--- |
-| Support | create new and access existing technical support requests |
-| Cloud Analytics  | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
-| Sandbox User | create disposable cloud environments \(sandboxes\) according to company policy |
-| superQuery | unlimited access to the superQuery IDE |
-| Contracts Viewer | provides access to the commercial contracts |
-| Perks Viewer | access and request Perks |
-| Anomalies Viewer | access Cost and Usage Anomalies |
-| Issues Viewer | access to cloud outage information |
-| Budgets Manager | create, delete and manage budgets |
-| Attributions Manager | create, delete and manage attributions |
+| Privileges           | Only users with privilege can:                                                                    |
+| -------------------- | ------------------------------------------------------------------------------------------------- |
+| Support              | create new and access existing technical support requests                                         |
+| Cloud Analytics      | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
+| Sandbox User         | create disposable cloud environments (sandboxes) according to company policy                      |
+| superQuery           | unlimited access to the superQuery IDE                                                            |
+| Contracts Viewer     | provides access to the commercial contracts                                                       |
+| Perks Viewer         | access and request Perks                                                                          |
+| Anomalies Viewer     | access Cost and Usage Anomalies                                                                   |
+| Issues Viewer        | access to cloud outage information                                                                |
+| Budgets Manager      | create, delete and manage budgets                                                                 |
+| Attributions Manager | create, delete and manage attributions                                                            |
 
 #### **Power User**
 
-| Privileges | Only users with privilege can:  |
-| :--- | :--- |
-| Support | create new and access existing technical support requests |
-| Cloud Analytics  | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
-| Sandbox User | [create disposable cloud environments](../cloud-sandbox-management/create-gcp-sandbox-accounts.md) \(sandboxes\) governed by a company Sandbox policy |
-| superQuery | access superQuery IDE |
-| Sandbox Admin | set company [Sandbox policy](../cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md) for other users  |
-| FlexRI Admin | purchase and manage [flexible reservations](../flexsave-aws/overview.md) |
-| Settings Manager | manage your Cloud Management Platform account settings |
-| Contracts Viewer | provides access to the commercial contracts |
-| Perks Viewer | access and request Perks |
-| Anomalies Viewer | access Cost and Usage Anomalies |
-| Issues Viewer | access to cloud outage information |
-| Budgets Manager | create, delete and manage budgets |
-| Attributions Manager | create, delete and manage attributions |
+| Privileges           | Only users with privilege can:                                                                                                                      |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Support              | create new and access existing technical support requests                                                                                           |
+| Cloud Analytics      | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/)                                                   |
+| Sandbox User         | [create disposable cloud environments](../cloud-sandbox-management/create-gcp-sandbox-accounts.md) (sandboxes) governed by a company Sandbox policy |
+| superQuery           | access superQuery IDE                                                                                                                               |
+| Sandbox Admin        | set company [Sandbox policy](../cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md) for other users                              |
+| FlexRI Admin         | purchase and manage [flexible reservations](../flexsave-aws/overview.md)                                                                            |
+| Settings Manager     | manage your Cloud Management Platform account settings                                                                                              |
+| Contracts Viewer     | provides access to the commercial contracts                                                                                                         |
+| Perks Viewer         | access and request Perks                                                                                                                            |
+| Anomalies Viewer     | access Cost and Usage Anomalies                                                                                                                     |
+| Issues Viewer        | access to cloud outage information                                                                                                                  |
+| Budgets Manager      | create, delete and manage budgets                                                                                                                   |
+| Attributions Manager | create, delete and manage attributions                                                                                                              |
 
 #### **Admin**
 
 Has access to all features in the Cloud Management Platform and the CMP API, and can manage every aspect of your organization's account. 
 
-**Summary: Pre-built Roles and Permissions** 
+**Summary: Pre-built Roles and Permissions **
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Permissions</th>
-      <th style="text-align:center"><b>Admin</b>
-      </th>
-      <th style="text-align:center">
-        <p><b>Finance</b>
-        </p>
-        <p><b>User</b>
-        </p>
-      </th>
-      <th style="text-align:center">
-        <p><b>IT</b>
-        </p>
-        <p><b>Manager</b>
-        </p>
-      </th>
-      <th style="text-align:center">
-        <p><b>Power</b>
-        </p>
-        <p><b>User</b>
-        </p>
-      </th>
-      <th style="text-align:center">
-        <p><b>Standard</b>
-        </p>
-        <p><b>User</b>
-        </p>
-      </th>
-      <th style="text-align:center">
-        <p><b>superQuery</b>
-        </p>
-        <p><b>User</b>
-        </p>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Anomalies Viewer</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Assets Manager</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Attributions Manager</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Billing Profile Admin</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Budgets Manager</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Cloud Analytics</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contracts Viewer</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Flexible RI Admin</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Invoice Viewer</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Issues Viewer</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Settings Manager</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Sandbox Admin</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Sandbox User</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Spot0</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Support Requester</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Users Manager</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">superQuery</td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-      <td style="text-align:center"><b>&#x2713;</b>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Permissions           | **Admin** | <p><strong>Finance</strong></p><p><strong>User</strong></p> | <p><strong>IT</strong></p><p><strong>Manager</strong></p> | <p><strong>Power</strong></p><p><strong>User</strong></p> | <p><strong>Standard</strong></p><p><strong>User</strong></p> | <p><strong>superQuery</strong></p><p><strong>User</strong></p> |
+| --------------------- | :-------: | :---------------------------------------------------------: | :-------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------------: |
+| Anomalies Viewer      |     ✔     |                            **✓**                            |                             ✔                             |                           **✓**                           |                                                              |                                                                |
+| Assets Manager        |   **✓**   |                                                             |                           **✓**                           |                                                           |                                                              |                                                                |
+| Attributions Manager  |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Billing Profile Admin |   **✓**   |                            **✓**                            |                                                           |                                                           |                                                              |                                                                |
+| Budgets Manager       |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Cloud Analytics       |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Contracts Viewer      |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Flexible RI Admin     |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
+| Invoice Viewer        |   **✓**   |                            **✓**                            |                                                           |                                                           |                                                              |                                                                |
+| Issues Viewer         |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                             **✓**                            |                              **✓**                             |
+| Settings Manager      |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
+| Sandbox Admin         |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
+| Sandbox User          |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Spot0                 |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
+| Support Requester     |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                             **✓**                            |                              **✓**                             |
+| Users Manager         |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
+| superQuery            |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                              **✓**                             |
 
 ### Custom Roles
 
@@ -340,7 +114,7 @@ From there, navigate to the "Roles" tab. You will see a list of Preset Roles, as
 
 ![](../.gitbook/assets/rolestab.jpg)
 
-Create a new role by clicking on the "**+ NEW** " button at the top right of the screen. This opens a new page with a [list of permissions](user-permissions-explained.md) available to group into the new role.
+Create a new role by clicking on the "**+ NEW **" button at the top right of the screen. This opens a new page with a [list of permissions](user-permissions-explained.md) available to group into the new role.
 
 To get started:
 
@@ -360,7 +134,7 @@ To modify the permissions contained in a custom role, check the box next to the 
 
 ![](../.gitbook/assets/editrole.jpg)
 
-From there, make your edits to the permissions the role contains. When finished, click on the **&lt;--** back arrow icon at the top-left to return to the main Roles page.
+From there, make your edits to the permissions the role contains. When finished, click on the **<--** back arrow icon at the top-left to return to the main Roles page.
 
 ### Deleting a Custom Role
 
@@ -380,5 +154,4 @@ To set a role as the default role for your team, click on a role from your list 
 
 Finally, click "Confirm".
 
-![](../.gitbook/assets/image%20%2867%29.png)
-
+![](<../.gitbook/assets/image (67).png>)

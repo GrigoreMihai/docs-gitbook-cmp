@@ -25,15 +25,13 @@ If you would like to join the Early Access Program, navigate to the Governance A
 
 Opting in Requires the preset 'Admin' Role in the CMP
 
-![Opt-in Page for Early Access](../.gitbook/assets/image%20%2833%29.png)
+![Opt-in Page for Early Access](<../.gitbook/assets/image (33) (1).png>)
 
 ### **Requirements for Access**
 
-* You must have **Core Permissions** enabled for your GCP Organization, or your AWS Accounts. 
-* Explicit permission \(granted via opting in\) for DoiT to run Read Only scans of your environment based on the rules mentioned above
+* You must have **Core Permissions **enabled for your GCP Organization, or your AWS Accounts. 
+* Explicit permission (granted via opting in) for DoiT to run Read Only scans of your environment based on the rules mentioned above
   * These checks are passive and make no changes to your environment
   * API requests will be seen within account logs
 * Willingness to provide feedback based on early access to reports, dashboards, and UI mocks to help focus and validate releases.
-
-
 

@@ -12,7 +12,7 @@ To use Google Cloud Quotas, you must verify that your service account was succes
 
 If successful, you will see:
 
-* Either a Healthy or Partial ****value underneath the Status column in your Configured Accounts widget
+* Either a Healthy or Partial** **value underneath the Status column in your Configured Accounts widget
 * Healthy status next to "Core" under the Features widget.
 
 Once that's been set up, you can add the 'Google Cloud Quotas' widget to any of your dashboards within the Cloud Management Platform. You will also start receiving the email notifications as you get close or reach the quotas. 
@@ -25,7 +25,7 @@ We are constantly working on monitoring as many quotas as possible. Right now, h
 
 **Project-based Quotas:**
 
-```text
+```
 SNAPSHOTS
 NETWORKS
 FIREWALLS
@@ -66,7 +66,7 @@ STATIC_BYOIP_ADDRESSES
 
 **Region-based Quotas:**
 
-```text
+```
 CPUS
 DISKS_TOTAL_GB
 STATIC_ADDRESSES
@@ -131,4 +131,3 @@ COMMITTED_NVIDIA_A100_GPUS
 A2_CPUS
 COMMITTED_A2_CPUS
 ```
-

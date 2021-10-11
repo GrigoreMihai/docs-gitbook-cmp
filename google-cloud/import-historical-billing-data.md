@@ -6,7 +6,7 @@ description: How to analyze cloud spend that pre-dates when you started using th
 
 ### Overview
 
-This feature enables you to upload all your historical Google Cloud billing data into DoiT Cloud Management Platform \(CMP\) to immediately analyze your cloud spend and promptly identify optimization opportunities through Cloud Analytics, BigQuery Lens, and other CMP features.
+This feature enables you to upload all your historical Google Cloud billing data into DoiT Cloud Management Platform (CMP) to immediately analyze your cloud spend and promptly identify optimization opportunities through Cloud Analytics, BigQuery Lens, and other CMP features.
 
 To get started, first, you need to ensure that you have a Service Account that connects your Google Cloud Organization to CMP. Then, you'll have to grant two additional required permissions.
 
@@ -16,7 +16,7 @@ To get started, first, you need to ensure that you have a Service Account that c
 2. Select "**Google Cloud**" tab
 3. Locate the "**Service Account**" listed in Configured Accounts
 
-![](../.gitbook/assets/image%20%28103%29.png)
+![](<../.gitbook/assets/image (103).png>)
 
 If you do not have this configured yet, you need to create a service account and connect CMP to your Google Cloud Organization. Follow the steps in this link: [Connect Google Cloud Service Account](https://help.doit-intl.com/google-cloud/connect-google-cloud-service-account)
 
@@ -38,9 +38,9 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 4. Click "**Add**" 
 5. Click "**Done**"
 
-![](../.gitbook/assets/image%20%2896%29.png)
+![](<../.gitbook/assets/image (96).png>)
 
-![](../.gitbook/assets/image%20%2894%29.png)
+![](<../.gitbook/assets/image (94).png>)
 
 
 
@@ -57,13 +57,13 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 7. Filter by **"Permission : bigquery.jobs.create**" and check the box for this permission
 8. Click "**Add**"
 
-![](../.gitbook/assets/image%20%28116%29.png)
+![](<../.gitbook/assets/image (116).png>)
 
-![](../.gitbook/assets/image%20%28117%29.png)
+![](<../.gitbook/assets/image (117).png>)
 
-![](../.gitbook/assets/image%20%28108%29.png)
+![](<../.gitbook/assets/image (108).png>)
 
-![](../.gitbook/assets/image%20%28112%29.png)
+![](<../.gitbook/assets/image (112).png>)
 
 
 
@@ -77,7 +77,7 @@ Required Permission: CMP Assets Manager
 2. Select "**Google Cloud**" tab
 3. Click the dropdown button next to "New Billing Account" and select "**Link Direct Account**"
 
-![](../.gitbook/assets/image%20%28107%29.png)
+![](<../.gitbook/assets/image (107).png>)
 
 You can now import your historical billing data into CMP. You need the following information to complete the process:
 
@@ -85,11 +85,10 @@ You can now import your historical billing data into CMP. You need the following
 * Source Project: Enter the "**Project ID"**
 * Source Dataset: Enter the "**Dataset ID"**
 
-![](../.gitbook/assets/image%20%28161%29.png)
+![](<../.gitbook/assets/image (161).png>)
 
 Once you click "**Import**" a new card will be added to your assets reflecting the details and progress or completion status.  
 
-![](../.gitbook/assets/image%20%28115%29.png)
+![](<../.gitbook/assets/image (115).png>)
 
-![](../.gitbook/assets/image%20%28118%29%20%281%29%20%281%29.png)
-
+![](<../.gitbook/assets/image (118) (1) (1) (1) (1).png>)

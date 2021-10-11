@@ -8,7 +8,7 @@ description: >-
 
 ## Overview
 
-BigQuery FinOps is your Swiss army knife for highlighting inefficiencies in your organization's BigQuery usage, and its insights are displayed in the **BigQuery FinOps Dashboard,** located in your [Cloud Management Platform](../). Without configuring anything, you'll have the most important BigQuery insights brought _to_ you. 
+BigQuery FinOps is your Swiss army knife for highlighting inefficiencies in your organization's BigQuery usage, and its insights are displayed in the **BigQuery FinOps Dashboard, **located in your [Cloud Management Platform](../). Without configuring anything, you'll have the most important BigQuery insights brought _to _you. 
 
 {% hint style="info" %}
 To access the BigQuery FinOps Dashboard, you must verify that your Google Cloud service account was successfully uploaded and granted the appropriate permissions. Read more on [linking your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md).
@@ -16,9 +16,9 @@ To access the BigQuery FinOps Dashboard, you must verify that your Google Cloud 
 
 If successfully uploaded, you will see:
 
-* Either a Healthy or Partial ****value underneath the Status column in your Configured Accounts widget, and
+* Either a Healthy or Partial** **value underneath the Status column in your Configured Accounts widget, and
 * Healthy status next to "BigQuery FinOps" in the Features widget.
-* **\[Optional\]** Healthy status next to "BigQuery FinOps Advanced" in the Features widget
+* **\[Optional]** Healthy status next to "BigQuery FinOps Advanced" in the Features widget
 
 ![](../.gitbook/assets/cleanshot-2020-12-28-at-18.22.58.jpg)
 
@@ -38,16 +38,16 @@ Cloud Management Platform will now start gathering the information on your usage
 While this information is being collected, your BigQuery FinOps will  have the three following states:
 {% endhint %}
 
-  
-**1\) We have started to analyze your historical usage. So far we have processed X%. In the meantime, you can explore our training Perks!**
+\
+**1) We have started to analyze your historical usage. So far we have processed X%. In the meantime, you can explore our training Perks!**
 
-![](../.gitbook/assets/image%20%28150%29.png)
+![](<../.gitbook/assets/image (150).png>)
 
-**2\) The scan is completed, and X% of your data was already processed. You are almost there!**
+**2) The scan is completed, and X% of your data was already processed. You are almost there!**
 
-![](../.gitbook/assets/image%20%28152%29.png)
+![](<../.gitbook/assets/image (152).png>)
 
-**3\) BigQuery FinOps highlights inefficiencies in your BigQuery usage. The analysis represents the last 30 days of use.**
+**3) BigQuery FinOps highlights inefficiencies in your BigQuery usage. The analysis represents the last 30 days of use.**
 
 Once available, you'll see the dashboard appear with the statistics of your organization's BigQuery usage.
 
@@ -55,7 +55,7 @@ Once available, you'll see the dashboard appear with the statistics of your orga
 
 The BigQuery FinOps dashboard is compiled of widgets that will provide you more insight into your organization's statistics.
 
-![](../.gitbook/assets/image%20%28157%29.png)
+![](<../.gitbook/assets/image (157).png>)
 
 ### Elements of the Dashboard
 
@@ -65,16 +65,16 @@ Below is a list of the elements that make up your BigQuery FinOps dashboard, wit
 
 **2. BigQuery Spend by SKU** - cloud cost and usage analytics
 
-**3. BigQuery Recommendations** - comprehensive recommendations with further details on how to act on each recommendation.
+**3. BigQuery Recommendations **- comprehensive recommendations with further details on how to act on each recommendation.
 
-**4. BigQuery Explorer** - get more granular information as far as your team's BigQuery usage, completely modifiable by the user in the following format:
+**4. BigQuery Explorer **- get more granular information as far as your team's BigQuery usage, completely modifiable by the user in the following format:
 
-Top 10 \(**Project, Billing Project, Dataset, Table, User**\) by \(**Scan Price, Scan TB, Storage Price, Storage TB**\).
+Top 10 (**Project, Billing Project, Dataset, Table, User**) by (**Scan Price, Scan TB, Storage Price, Storage TB**).
 
 Clicking on one of the results in the BigQuery Usage Explorer widget will open a pop-up where you can get even more granular with your usage insights.
 
-**5. BigQuery Scans by Table Type** - see how much data you are scanning from various types of tables, broken down between unpartitioned tables and various types of partitioned tables, along with external sources such as Google Sheets.   
-  
+**5. BigQuery Scans by Table Type** - see how much data you are scanning from various types of tables, broken down between unpartitioned tables and various types of partitioned tables, along with external sources such as Google Sheets. \
+\
 Click on a specific table type to see what are the most frequently-scanned tables within that type.
 
 Note on the BigQuery FinOps Advanced 
@@ -83,13 +83,13 @@ Note on the BigQuery FinOps Advanced
 
 Below is a list of the recommendation categories you'll see in the BigQuery Recommendations widget, and how to use the information contained within each recommendation.
 
-**Backup and Remove Unused Tables** - Backup and remove the unused tables listed under the "Table" column. If the table has multiple partitions, click on the number listed under "Partition\(s\) to Remove" to see precisely which partitions should be removed.
+**Backup and Remove Unused Tables** - Backup and remove the unused tables listed under the "Table" column. If the table has multiple partitions, click on the number listed under "Partition(s) to Remove" to see precisely which partitions should be removed.
 
-**Cluster your tables** - Cluster the tables listed under the "Table" column by the field\(s\) suggested under the "Cluster By" column.
+**Cluster your tables** - Cluster the tables listed under the "Table" column by the field(s) suggested under the "Cluster By" column.
 
-**Enforce Partition Fields** - Use the suggested partitioned fields\(s\) under the "Partition Field" column for the corresponding queries listed under the "Query ID" column.
+**Enforce Partition Fields** - Use the suggested partitioned fields(s) under the "Partition Field" column for the corresponding queries listed under the "Query ID" column.
 
-**Partition your tables** - Partition the tables listed under the "Table" column by the suggested field\(s\) listed under the "Partition Fields" column.
+**Partition your tables** - Partition the tables listed under the "Table" column by the suggested field(s) listed under the "Partition Fields" column.
 
 **Limit query jobs** - Reduce job execution frequency of the listed jobs under the "Query ID" column by the percentage you choose on the slider, and view the associated savings of each reduced job under the "Savings by Reducing Jobs" column.
 
@@ -97,7 +97,7 @@ Below is a list of the recommendation categories you'll see in the BigQuery Reco
 The BigQuery Finops Dashboard does not currently reflect reservations and your job costs are displayed as on-demand. If you use reservations, please disregard the BigQuery Finops Dashboard's recommendations until we include reservations in our future release.
 {% endhint %}
 
-## BigQuery FinOps Frequently Asked Questions \(FAQ\)
+## BigQuery FinOps Frequently Asked Questions (FAQ)
 
 Oftentimes we get asked what the non-read-only permissions are for, and so we'd like to share more about how it plays into the process of creating your BigQuery FinOps Dashboard. 
 
@@ -109,27 +109,27 @@ bigquery.datasets.create, logging.sinks.create, bigquery.jobs.create, and bigque
 
 We require bigquery.tables.getData in order to provide clustering recommendations, and this is separated from the permissions required under the BigQuery FinOps feature.
 
-This allows us to query your BigQuery tables and determine your top 20 non-clustered tables, which field\(s\) are the best candidates to cluster those tables by, and in what order.
+This allows us to query your BigQuery tables and determine your top 20 non-clustered tables, which field(s) are the best candidates to cluster those tables by, and in what order.
 
 More specifically, this helps us identify the cardinality of the columns in your top 20 non-clustered tables which get referenced in the WHERE clause and are possible to cluster on. Knowing how many distinct elements exist in each column enables us to compute the average chunk size and see what the best candidates in terms of savings would be.**\*\***
 
 However, you can still use and benefit from the BigQuery FinOps Dashboard without receiving clustering recommendations. That's why we separate the two.
 
 {% hint style="info" %}
-**\*\***Given that you execute **similar queries** as you did during the previous 30 days, and reference fields **in the order we recommend**.
+**\*\***Given that you execute **similar queries** as you did during the previous 30 days, and reference fields** in the order we recommend**.
 {% endhint %}
 
-### **What datasets are you creating, where and for what purpose?** 
+### **What datasets are you creating, where and for what purpose? **
 
 A dataset called **doitintl-cmp-bq** is created in the billing project attached to the service account you add to the CMP. 
 
-### **What log sinks are you creating, where and for what purpose?** 
+### **What log sinks are you creating, where and for what purpose? **
 
-A sink for query jobs is created in the same project as \(1\). This sink pushes all your bigquery jobs into a table under &lt;PROJECTID&gt;.doitintl-cmp-bq. **cl oudaudit\_googleapis\_com\_data\_ access** 
+A sink for query jobs is created in the same project as (1). This sink pushes all your bigquery jobs into a table under \<PROJECTID>.doitintl-cmp-bq. **cl oudaudit_googleapis_com_data\_ access** 
 
 ### **What queries will you be running, where, and for what purpose?**
 
-We have two main processes, once of which runs queries and the other not: 1\) Enrichment process: We take the data from doitintl-cmp-bq. **cloudaudit\_ googleapis\_com\_data\_access**  and create a new table doitintl-cmp-bq.**enrichedJobs**. This is done at no cost to you, but rather an algorithmic and API based enrichment from our side to have a clean dataset to work with in the processes that follow. 2\) BigQuery Finops process: We create a few UDF's under the doitintl-cmp-bq dataset, as well as two more derived tables called **pegUtilsT2** and **queries.**  These support the FinOps in running over aggregated data, rather than raw data.  The following queries are executed as part of the process \(2\) above:
+We have two main processes, once of which runs queries and the other not: 1) Enrichment process: We take the data from doitintl-cmp-bq. **cloudaudit\_ googleapis_com_data_access ** and create a new table doitintl-cmp-bq.**enrichedJobs**. This is done at no cost to you, but rather an algorithmic and API based enrichment from our side to have a clean dataset to work with in the processes that follow. 2) BigQuery Finops process: We create a few UDF's under the doitintl-cmp-bq dataset, as well as two more derived tables called **pegUtilsT2** and **queries. ** These support the FinOps in running over aggregated data, rather than raw data.  The following queries are executed as part of the process (2) above:
 
 * Aggregations into pegUtilsT2 and queries tables
 * Daily run of cost simulation queries to provide the cost savings information and potential savings.
@@ -141,7 +141,7 @@ View the bite-sized video below for a quick tutorial on the BigQuery FinOps Dash
 
 You will see "not yet allocated" when analyzing dimensions like Projects in the BigQuery Explorer when we aren't able to detect which table a query is scanning.
 
-This could be because of queries like "SELECT 1" or queries we aren't able to parse due to complexity \(parser times out\), or it uses a function/statement which we don't support yet.  
+This could be because of queries like "SELECT 1" or queries we aren't able to parse due to complexity (parser times out), or it uses a function/statement which we don't support yet.\
 
 
 ### How much does BigQuery finops cost monthly? I understand that BQ datasets are created in the background. 
@@ -150,11 +150,9 @@ Typically, it’s less than $10 per month.
 
 
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](<../.gitbook/assets/image (29).png>)
 
 
 
 {% embed url="https://youtu.be/7r1WfwnBAA4" %}
-
-
 

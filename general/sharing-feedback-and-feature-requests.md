@@ -8,11 +8,11 @@ description: >-
 
 When it comes to building a better Cloud Management Platform for you and all customers, your feedback plays a key role. **It is one of the important pieces of input we consider when planning our roadmap, and gives us clear indications of where the needs are in the market.**
 
-Now you can share product feedback and feature requests with us directly from the CMP. Read on to see how. Check out our [**Feedback Hub**](https://feedback.doit-intl.com/) to view the ideas that have already been shared and upvote them.
+Now you can share product feedback and feature requests with us directly from the CMP. Read on to see how. Check out our [**Feedback Hub**](https://feedback.doit-intl.com) to view the ideas that have already been shared and upvote them.
 
 ### How to share ideas within the CMP
 
-To share your feedback with us, click on the **FEEDBACK** button at the top-right of your screen. Then describe your feature request or general feedback, providing screenshots or images to give more context as needed.
+To share your feedback with us, click on the **FEEDBACK **button at the top-right of your screen. Then describe your feature request or general feedback, providing screenshots or images to give more context as needed.
 
 ![](../.gitbook/assets/feedback1.jpg)
 
@@ -28,7 +28,7 @@ Finally, give your idea a title and select the best category it fits under, as s
 
 ### Upvoting Existing Ideas in the Feedback Hub
 
-When you [share feedback and/or feature requests](sharing-feedback-and-feature-requests.md) with us, they get submitted to our [**Feedback Hub**](www.feedback.doit-intl.com). There, you see and upvote any ideas you like.
+When you [share feedback and/or feature requests](sharing-feedback-and-feature-requests.md) with us, they get submitted to our [**Feedback Hub**](https://www.feedback.doit-intl.com). There, you see and upvote any ideas you like.
 
 Let's go over how to navigate the Feedback Hub and upvote ideas.
 
@@ -47,6 +47,4 @@ Upvote an idea that interests you by clicking on the "Vote" button next to the i
 You will be notified if the status of the idea changes or ultimately gets released in the product it corresponds to.
 
 ![](../.gitbook/assets/feedbackhub4.jpg)
-
-
 

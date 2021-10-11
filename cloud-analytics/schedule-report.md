@@ -29,33 +29,33 @@ Begin by opening a report that you have "Owner" access to. Then, click on the ma
 
 * Set  other users, you'd like to be included on report's distribution
 * Optionally, update email's subject and the message to provide more context for recipients
-* Set up when you'd like to be delivered \(using [_cron expression_](https://crontab.guru/)\)
+* Set up when you'd like to be delivered (using [_cron expression_](https://crontab.guru))
 
 ![](../.gitbook/assets/schedulereport2.jpg)
 
 If you've included someone who doesn't have access to the report, you will be asked to add that user to the report. You can choose whether to grant the "Viewer" or "Editor" access.
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](<../.gitbook/assets/image (28).png>)
 
 ### About Cron Expressions
 
 The delivery time and recurrence of a Cloud Analytics Report can be configured by using a [cron expression](https://wikipedia.org/wiki/Cron#CRON_expression). Cron is a time-based job scheduler originally used in Unix-like computer operating systems. A cron expression is a string comprising of five or six fields separated by whitespace. The following table defines the fields of a cron expression and the possible values for each field.
 
-| Minute | Hour | Day | Month | Day of the week |
-| :--- | :--- | :--- | :--- | :--- |
-| 0-59 | 0-23 | 1-31 | 1-12 \(Jan-Dec\)  `1`=`Jan`, `2`=`Feb`, ... `12`=`Dec` | 0-6 \(Sun-Sat\)  where `0`=`Sun`, `1`=`Mon`, ... `6`=`Sat` |
+| Minute | Hour | Day  | Month                                                                                                                               | Day of the week                                                                                                                         |
+| ------ | ---- | ---- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 0-59   | 0-23 | 1-31 | <p>1-12 (Jan-Dec)<br><br><code>1</code>=<code>Jan</code>, <code>2</code>=<code>Feb</code>, ... <code>12</code>=<code>Dec</code></p> | <p>0-6 (Sun-Sat)<br><br>where <code>0</code>=<code>Sun</code>, <code>1</code>=<code>Mon</code>, ... <code>6</code>=<code>Sat</code></p> |
 
 In addition to using these values, every field in a cron expression can also use special characters:
 
-| Character | Meaning | Example |
-| :--- | :--- | :--- |
-| `*` | any | If the day of month field, day of the week field are each set to `*`, then the schedule starts every day. |
-| `-` | range | If the day of week field is set to `1-5` or `Mon-Fri`, then the schedule starts every week Monday to Friday. |
-| `,` | list | If the month field is set to `5,7,9` or `May,Jul,Sep`, then the schedule starts every May, July, and September. |
-| `/` | step | If the month field is set to `*/3`, then the schedule starts during the first month and every 3 months after that: January, April, July, and October. |
+| Character | Meaning | Example                                                                                                                                               |
+| --------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `*`       | any     | If the day of month field, day of the week field are each set to `*`, then the schedule starts every day.                                             |
+| `-`       | range   | If the day of week field is set to `1-5` or `Mon-Fri`, then the schedule starts every week Monday to Friday.                                          |
+| `,`       | list    | If the month field is set to `5,7,9` or `May,Jul,Sep`, then the schedule starts every May, July, and September.                                       |
+| `/`       | step    | If the month field is set to `*/3`, then the schedule starts during the first month and every 3 months after that: January, April, July, and October. |
 
 {% hint style="warning" %}
-Schedule intervals lower than daily are not permitted with Cloud Analytics, meaning the first 2 places must be numbers between \(0-59\) and \(0-23\)
+Schedule intervals lower than daily are not permitted with Cloud Analytics, meaning the first 2 places must be numbers between (0-59) and (0-23)
 {% endhint %}
 
 To create a schedule that repeats, use special characters to describe when that schedule is to repeat. For example, the cron expression 30 8 \* \* Mon-Fri configures a schedule to start at 8:30 AM on every Monday, Tuesday, Wednesday, Thursday, and Friday.
@@ -72,13 +72,13 @@ Your scheduled report will look something like in the example below. From the em
 
 ![](../.gitbook/assets/scheduledemail.jpg)
 
-#### 
+####
 
 #### Scheduling via the Cloud Analytics page
 
 You may also schedule emailed reports from the main Cloud Analytics page. 
 
-First, find a report that you are the Owner of. Then, under the **Email Schedule** column, click on the envelope icon.
+First, find a report that you are the Owner of. Then, under the **Email Schedule **column, click on the envelope icon.
 
 ![](../.gitbook/assets/createschedule.jpg)
 
@@ -96,7 +96,7 @@ Finally, make the changes then click on the Update button.
 
 You may also update a report's email delivery schedule from the Cloud Analytics page. 
 
-First, identify a report that you've already set up an email schedule for, and click on the unix-cron interval ****syntax under the **Email Schedule** column for that report.
+First, identify a report that you've already set up an email schedule for, and click on the unix-cron interval** **syntax under the **Email Schedule** column for that report.
 
 Then, as described above, make your changes and click on the Update button to implement your changes.
 
@@ -108,7 +108,7 @@ Add yourself as a recipient of someone else's scheduled report delivery to stay 
 
 Similar to creating a scheduled email delivery, you can subscribe to others' scheduled emails from both the main Cloud Analytics page and a specific report's page.
 
-From the main Cloud Analytics page, identify a colleague's report that has a scheduled email set up already by looking for a **blue** envelope icon under the **Email Schedule** column.
+From the main Cloud Analytics page, identify a colleague's report that has a scheduled email set up already by looking for a **blue **envelope icon under the **Email Schedule **column.
 
 ![](../.gitbook/assets/subscribecloudschedule.jpg)
 
@@ -134,5 +134,4 @@ A few limitations exist for scheduled reports:
 * Preset reports cannot be scheduled. You can [clone](cloning-and-or-customizing-cloud-reports.md#clone-reports) the report though and schedule it.
 * The person who scheduled the report is always included in the email
 * You can't schedule a report to be delivered more than once a day.
-* Only chart-based reports can be scheduled \(i.e. no tables or heatmaps at this time\)
-
+* Only chart-based reports can be scheduled (i.e. no tables or heatmaps at this time)

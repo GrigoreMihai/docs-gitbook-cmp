@@ -6,7 +6,7 @@ description: >-
 
 # GKE Cost Analytics
 
-GKE Cost Analytics in the CMP helps you demystify your Google Kubernetes Engine \(GKE\) spend. With real-time visibility into GKE spend, you'll be able to:
+GKE Cost Analytics in the CMP helps you demystify your Google Kubernetes Engine (GKE) spend. With real-time visibility into GKE spend, you'll be able to:
 
 * Accurately track TCO of Kubernetes-based workloads across teams, product lines, etc.
 * Plan better with realistic Kubernetes-based [budgets](manage-budgets.md) 
@@ -16,7 +16,7 @@ Enabling GKE Cost Analytics involves three main steps:
 
 1. Connect your Google Cloud Organization by uploading a service account
 2. Enable GKE Usage Metering for your GKE clusters in the Google Cloud console or CloudSDK
-3. Grant the "BigQuery" Data Viewer" role to the service account \(generated in step 1\)
+3. Grant the "BigQuery" Data Viewer" role to the service account (generated in step 1)
 
 {% hint style="info" %}
 You may have already executed some or all of these steps. However, unless ALL steps have been taken, the GKE Cost Analytics feature will not function correctly in the DoiT CMP.
@@ -30,13 +30,13 @@ GKE Cost Analytics is not applicable to **Autopilot clusters** because they curr
 
 In order to do this, you will need to [connect your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) to the CMP. Please navigate to the Settings page via the gear icon in your lefthand navigation panel. 
 
-Then check the box\(es\) of the additional features you'd like to enable, making sure to select "GKE Cost Analytics" here. 
+Then check the box(es) of the additional features you'd like to enable, making sure to select "GKE Cost Analytics" here. 
 
-Click on the "Create Service Account" button. This will display all of the Google SDK \([gcloud\)](https://cloud.google.com/sdk) commands you need to run sequentially to create the service account that contains the permissions for all of the features you checked.
+Click on the "Create Service Account" button. This will display all of the Google SDK ([gcloud)](https://cloud.google.com/sdk) commands you need to run sequentially to create the service account that contains the permissions for all of the features you checked.
 
 Finally, once you've executed all of the commands, click "Upload Key" to upload the service account to the CMP.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](<../.gitbook/assets/image (24).png>)
 
 {% hint style="success" %}
 Remember the service account email you created in this step. You will need it for step three.
@@ -63,11 +63,11 @@ First, navigate to the BigQuery console and locate the dataset you chose from [S
 
 From there, select "Share Dataset"
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](<../.gitbook/assets/image (23).png>)
 
 Then enter the service account email in the "Add members" field. Finally, grant this email the "BigQuery Data Viewer" role and click "Add", then "Done" to apply the changes.
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](<../.gitbook/assets/image (25).png>)
 
 {% hint style="info" %}
 Note: Datasets to which the Service Account email is not granted this permission will not be available in the GKE Cost Analytics feature of the DoiT CMP.
@@ -85,18 +85,20 @@ Once everything is set up, your team's GKE metering data can be analyzed using t
 
 To start, open a new Report. You should see new GKE dimensions appear alongside your other billing dimensions, as highlighted below.
 
-![GKE billing dimensions you can analyze in Cloud Analytics Reports](../.gitbook/assets/image%20%2831%29.png)
+![GKE billing dimensions you can analyze in Cloud Analytics Reports](<../.gitbook/assets/image (31).png>)
 
 You will also find any GKE labels in the Labels chip, under the "GKE Labels" header in the dropdown.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](<../.gitbook/assets/image (30).png>)
 
 Drag a GKE chip or a GKE label chip into the "Group By" or "Dimensions" section to start understanding the real costs of running Kubernetes-based workloads on Google Kubernetes Engine.
 
 ## Current Limitations
 
-* GKE Reports will only show data from the day that all of the steps were completed. We may be able to load historical data upon request \(i.e. “backfill”\). Please contact support to file a backfill request. 
-* If you did not have “GKE Usage Metering” enabled until now, we will not be able to show historical data for GKE reports. 
-* It will take a few hours from the moment you complete all steps until you will be able to use GKE Reports in Cloud Analytics. Usually, this process will take around 4 hours. 
-* GKE reports are not compatible with some of the dimensions. For example, you will not be able to create a report that is based on the “GKE Cluster” field and the “Zone” field. You also cannot combine both Google Cloud Labels and GKE Labels in the same report.
+* GKE Reports will only show data from the day that all of the steps were completed. We may be able to load historical data upon request (i.e. “backfill”). Please contact support to file a backfill request.\
 
+* If you did not have “GKE Usage Metering” enabled until now, we will not be able to show historical data for GKE reports.\
+
+* It will take a few hours from the moment you complete all steps until you will be able to use GKE Reports in Cloud Analytics. Usually, this process will take around 4 hours.\
+
+* GKE reports are not compatible with some of the dimensions. For example, you will not be able to create a report that is based on the “GKE Cluster” field and the “Zone” field. You also cannot combine both Google Cloud Labels and GKE Labels in the same report.

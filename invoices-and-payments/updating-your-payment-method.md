@@ -20,7 +20,7 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
-![](../.gitbook/assets/update-billing-profile-2-%20%284%29%20%284%29%20%281%29%20%284%29.png)
+![](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (3).png>)
 
 Once you're at the Billing Profile Settings page, switch to the 'Payment Methods' tab.
 
@@ -36,7 +36,7 @@ By setting up a credit/debit card, your payments are processed automatically, so
 
 You can also set up a backup credit or debit card as a safety net. That way, if your primary payment method fails, we'll charge your costs to your backup payment method. This ensures that your cloud services keep running.
 
-_Please note that if the enable button to the right of the card is switched on, it means this card becomes the default for payments._ 
+_Please note that if the enable button to the right of the card is switched on, it means this card becomes the default for payments. _
 
 ![](../.gitbook/assets/payment-method-4.png)
 
@@ -51,4 +51,3 @@ For further instructions on how to pay for an invoice, please proceed to the '[P
 The following video shows you how to update a billing profile's payment method:
 
 {% embed url="https://www.loom.com/share/d8fd0265271e403ab96b88e7e9b8a851" %}
-

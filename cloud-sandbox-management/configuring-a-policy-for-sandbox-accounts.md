@@ -10,10 +10,10 @@ Google Cloud Sandbox for Organizations is the easiest way for companies to set u
 
 Set up a Google Cloud Sandbox Policy to enforce rules which automate sandbox management. With a sandbox policy, you can set up sandbox budgets, get alerts when a budget is hit, or automatically disable the billing, limit the number of sandboxes per user, connect all sandboxes to your Google Cloud billing account, organization, and IAM folder, and give all sandboxes a stable naming convention.
 
-_To create Google Cloud Sandbox Accounts, you must verify that a Google Cloud service account was successfully configured. You can read more on how to configure your Google Cloud service account at_ [_Connect Your Google Cloud Organization_](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account)_._
+_To create Google Cloud Sandbox Accounts, you must verify that a Google Cloud service account was successfully configured. You can read more on how to configure your Google Cloud service account at _[_Connect Your Google Cloud Organization_](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account)_._
 
 {% hint style="info" %}
-Required Permission: __**Sandbox Admin**
+Required Permission:_ _**Sandbox Admin**
 {% endhint %}
 
 Before users can create a sandbox account, the Sandbox Admin needs to configure a policy. Without a configured policy, users cannot create a sandbox, as the policy defines how a sandbox is created.
@@ -47,7 +47,5 @@ To learn more about how to create sandbox environments in the CMP, go [here](htt
 
 View the bite-sized video below for a closer look at setting up your Cloud Sandbox policy and creating Cloud Sandboxes.
 
-{% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team\_library" %}
-
-
+{% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team_library" %}
 

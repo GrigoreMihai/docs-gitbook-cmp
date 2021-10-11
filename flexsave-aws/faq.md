@@ -14,7 +14,7 @@ In order to use FlexSave, your AWS account/s should be consolidated with the Doi
 
 You can realize between 80% and 100% of the discount granted by the applicable AWS Reserved Instance 1-year Full Upfront.
 
-For example, AWS grants a 19.5% discount on reserved instances for instances from the m5 instance family in the us-west-1 region. A FlexSave reservation for this machine/region combination will provide you with a 15.6% \(19.5% \* 0.8\) discount but without the risk of committing to the entire year. 
+For example, AWS grants a 19.5% discount on reserved instances for instances from the m5 instance family in the us-west-1 region. A FlexSave reservation for this machine/region combination will provide you with a 15.6% (19.5% \* 0.8) discount but without the risk of committing to the entire year. 
 
 ### Can I use FlexSave if I am using AWS RIs or Saving Plans?
 
@@ -30,11 +30,11 @@ Your actual savings is displayed in your FlexSave Dashboard. Your CFO should hav
 
 This is your [FlexSave Dashboard](overview.md#flexsave-dashboard):
 
-![](../.gitbook/assets/cleanshot-2021-09-14-at-11.51.28%20%281%29.jpg)
+![](<../.gitbook/assets/cleanshot-2021-09-14-at-11.51.28 (1) (1).jpg>)
 
 ### Do you support every Operating System?
 
-Right now, we support Linux and Windows-based \(including with Microsoft SQL Server\) operating systems. RedHat Enterprise Linux \(RHEL\) and SuSe Enterprise Linux \(SLES\) are not yet supported. 
+Right now, we support Linux and Windows-based (including with Microsoft SQL Server) operating systems. RedHat Enterprise Linux (RHEL) and SuSe Enterprise Linux (SLES) are not yet supported. 
 
 ### How does FlexSave differ from Reserved Instances or Saving Plans?
 
@@ -44,13 +44,13 @@ With FlexSave there is:
 * Zero loss burden on your part — even if you shut down instances in the middle of the month
 * Zero management on your part — once you enable FlexSave you don't need to do anything else
 
-| Feature | DoiT FlexSave | AWS RIs | AWS Compute Saving Plans |
-| :--- | :--- | :--- | :--- |
-| Minimum commitment period | None | 12-months | 12-months |
-| Automatic renewal | Yes | no | no |
-| Regional | Yes | Yes | No |
-| Instance Type-specific | Yes | Yes | No |
-| Covers non-EC2 workloads | No | No | Lambda, Fargate |
+| Feature                   | DoiT FlexSave | AWS RIs   | AWS Compute Saving Plans |
+| ------------------------- | ------------- | --------- | ------------------------ |
+| Minimum commitment period | None          | 12-months | 12-months                |
+| Automatic renewal         | Yes           | no        | no                       |
+| Regional                  | Yes           | Yes       | No                       |
+| Instance Type-specific    | Yes           | Yes       | No                       |
+| Covers non-EC2 workloads  | No            | No        | Lambda, Fargate          |
 
 ### Which regions are supported with FlexSave?
 
@@ -63,6 +63,4 @@ FlexSave goes into effect from the beginning of the next month, but you get acce
 ### It's the beginning of the month and I see no savings yet. What should I do?
 
 This happens due to a delay in receiving billing data from AWS. You can expect to see accurate savings data from the 4th day of the current month.
-
-
 

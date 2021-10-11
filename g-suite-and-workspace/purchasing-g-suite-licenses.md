@@ -16,11 +16,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start with accessing the G Suite based Assets from the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/assets-icon-1-%20%284%29%20%285%29%20%285%29%20%283%29.png)
+![](<../.gitbook/assets/assets-icon-1- (4) (5) (5).png>)
 
 Once you're at the Assets page, switch to the G Suite tab.
 
-![](../.gitbook/assets/g-suite%20%282%29%20%282%29%20%282%29%20%281%29%20%282%29.png)
+![](<../.gitbook/assets/g-suite (2) (2) (2) (1).png>)
 
 Locate the subscription you'd like to add licenses for and click the **+** icon to add as many licenses as needed. 
 
@@ -45,4 +45,3 @@ You can see the number of licenses in use under the _Quantity_ field, versus how
 It is possible to decrease the number of licenses that are not in use. By doing this, you will not have to pay for the licenses available if you aren't planning to use them. The charges will be deducted from your account as reflected in the next month's billing to your organization.
 
 Please note that only FLEXIBLE plans allow you to decrease the number of licenses. For more information, please review [this post](https://support.google.com/a/answer/6154359).
-

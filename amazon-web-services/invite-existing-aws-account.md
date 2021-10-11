@@ -16,7 +16,7 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select the 'Invite AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/assets-icon-1-%20%284%29%20%285%29%20%285%29%20%281%29.png)
+![](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (3).png>)
 
 Once you're at the Assets page, go to the right-hand side of the page and click on '**Invite Account**'.
 
@@ -50,7 +50,7 @@ Note: This will prompt you to input payment details for each linked account if y
 
 For each account you must:
 
-1. "Leave" the Organization \(no new invites will appear before you do this\)
+1. "Leave" the Organization (no new invites will appear before you do this)
 2. Accept the invite from DoiT International in each linked account
 
 ### Completing IAM Access for CloudHealth
@@ -65,31 +65,30 @@ After signing in to the AWS Console and accepting the invitation, a final email 
 
 Once successfully completed it takes 24-72 hours for the data to start flowing through from AWS, then our Cloud Management Platform will update. 
 
-> ### **I have not received any invitation email. What could have gone wrong?**
+> ### **I have not received any invitation email. What could have gone wrong? **
 
 1\) On your organization's page, check if you can see the invite: 
 
-![Invite on your AWS Organizations page ](../.gitbook/assets/image%20%2872%29.png)
+![Invite on your AWS Organizations page ](<../.gitbook/assets/image (72).png>)
 
 If you can't see that invite, check if you have left your organization as specified in the above "Multiple Accounts Under a Master Organization" steps. 
 
-2\) If you can see the invite on the organization's page, consider the following:  
+2\) If you can see the invite on the organization's page, consider the following:\
 Is the invite on your spam folder? Did you enter the correct AWS account id when inviting the account? 
 
 If you are still having issues, you can [open a support ticket](https://hello.doit-intl.com/support)
 
-> ### **My CloudHealth status shows as "critical" or "unknown", what does it mean?** 
+> ### **My CloudHealth status shows as "critical" or "unknown", what does it mean? **
 >
 > ### **My payer account is showing as N/A, what does that mean?**
 
-![CloudHealth Status: Unknown.](../.gitbook/assets/image%20%2873%29.png)
+![CloudHealth Status: Unknown.](<../.gitbook/assets/image (73).png>)
 
-  
+\
 It means that your Cloudhealth configuration was not done properly**.**
 
-**Actions to take:** please [open a support ticket](https://hello.doit-intl.com/support) if you see the  CloudHealth status as "critical" or "unknown", or if you see Payer Account: N/A.  
-**The consequences are the following:** 
+**Actions to take: **please [open a support ticket](https://hello.doit-intl.com/support) if you see the  CloudHealth status as "critical" or "unknown", or if you see Payer Account: N/A.\
+**The consequences are the following: **
 
 * Our Cloud Management Platform is not able to properly reflect your reservation data, and you cannot use the FlexRI and Spot0 services. 
-* It also means you will not be able to run reports on this asset, the reason being that the data is not flowing to our platform. 
-
+* It also means you will not be able to run reports on this asset, the reason being that the data is not flowing to our platform.\

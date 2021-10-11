@@ -29,15 +29,15 @@ Cloud Reports give you instant visibility into your Google Cloud and AWS costs w
 * [Forecast your cloud spend](cloud-analytics/forecasting.md) across all time ranges and any cloud services
 * Cross-check your SUD/CUD credits with by-the-hour reporting.
 
-{% embed url="https://www.loom.com/share/3bb89b9c624a4a52a2ecfbb61a56b4b8" caption="" %}
+{% embed url="https://www.loom.com/share/3bb89b9c624a4a52a2ecfbb61a56b4b8" %}
 
 ### Cost Attributions
 
 Attributions are a flexible way to group resources and their associated costs, helping you understand the cloud costs and relate them to the business in your Cloud Reports.
 
-You may have various components of your application\(s\) spread across different projects, using different services. Attributions allow you to combine everything into something coherent.
+You may have various components of your application(s) spread across different projects, using different services. Attributions allow you to combine everything into something coherent.
 
-{% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team\_library" caption="" %}
+{% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team_library" %}
 
 ## Cloud Cost Optimization
 
@@ -51,11 +51,11 @@ With Instance Rightsizing for Google Cloud, you will:
 * [Identify and delete and/or modify idle VMs](dashboards/rightsizing-for-google-cloud.md) in two clicks.
 * Never pay for underutilized Google Compute instances again.
 
-{% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team\_library" caption="" %}
+{% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team_library" %}
 
 ### Flexible Reserved Instances
 
-AWS Reserved Instances \(RIs\) offer you between 30-70% savings on compute costs in exchange for a one or three-year commitment. Typically, you’d use RIs for predictable workloads, and pay on-demand pricing for the less predictable.
+AWS Reserved Instances (RIs) offer you between 30-70% savings on compute costs in exchange for a one or three-year commitment. Typically, you’d use RIs for predictable workloads, and pay on-demand pricing for the less predictable.
 
 However getting RIs usage perfect is hard, because it relies on you being able to predict the future. Sometimes your predictions turn out wrong because usage needs suddenly change. As a result, you're stuck overpaying for instances you need no more, or forced to re-sell it at a huge discount.
 
@@ -89,7 +89,7 @@ Each recommendation category comes with further details on how to act on each re
 
 ### Cloud Sandboxes
 
-Cloud sandboxes \(or DCEs, - disposable cloud environments\) offer engineering teams a safe and controlled environment to run experiments, test, and build out new features without worrying about impacting production infrastructure. While easy, simply creating a new Google Cloud project cannot be considered a “complete” solution due to the lack of built-in budget management, self-service for developers, and governing policies.
+Cloud sandboxes (or DCEs, - disposable cloud environments) offer engineering teams a safe and controlled environment to run experiments, test, and build out new features without worrying about impacting production infrastructure. While easy, simply creating a new Google Cloud project cannot be considered a “complete” solution due to the lack of built-in budget management, self-service for developers, and governing policies.
 
 Cloud Sandbox for Google Cloud gives admins and developers the governance and autonomy they both need, respectively, all while connecting to their Google Cloud Organization.
 
@@ -103,7 +103,7 @@ First, [create a sandbox policy](cloud-sandbox-management/configuring-a-policy-f
 
 Once a policy is created, developers are free to [create cloud sandbox environments](cloud-sandbox-management/create-gcp-sandbox-accounts.md) themselves. No more submitting tickets just to get a new environment provisioned by an SRE. Finally, when sandboxes are up and running, you can monitor them all from a central hub.
 
-{% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team\_library" caption="" %}
+{% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team_library" %}
 
 ### Cloud Quota Monitoring
 
@@ -130,7 +130,7 @@ Available to DoiT customers right from the CMP, it also offers:
 * Fine-tune alerts by training them with your direct feedback.
 * Real-time analysis of workload activity 
 
-{% embed url="https://www.youtube.com/watch?v=h6V7XfhsdmY&list=PLEBxNMZ7Mu3\_hmB2I2LXcDSYt1SXcjwMz&index=1" %}
+{% embed url="https://www.youtube.com/watch?v=h6V7XfhsdmY&list=PLEBxNMZ7Mu3_hmB2I2LXcDSYt1SXcjwMz&index=1" %}
 
 
 
@@ -144,19 +144,19 @@ Within the CMP you can:
 * [Escalate](tickets/escalating-support-requests.md) support requests
 * [Share](tickets/ticket-sharing.md) support requests with others
 
-{% embed url="https://www.loom.com/share/ec2e0bca53fc46ef80061dd96be2f1a0?sharedAppSource=team\_library" caption="" %}
+{% embed url="https://www.loom.com/share/ec2e0bca53fc46ef80061dd96be2f1a0?sharedAppSource=team_library" %}
 
 ### Perks
 
 [Perks](perks/perks.md) are service-based benefits available to DoiT International customers at no extra cost, including workshops, training, cost optimization sessions, case studies, and co-produced webinars. They can easily be browsed and requested on-demand from within the CMP.
 
-{% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team\_library" caption="" %}
+{% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team_library" %}
 
 ## Cloud Productivity
 
 ### superQuery
 
-[superQuery](http://web.superquery.io/) is a web-based IDE that enables you to leverage BigQuery, AWS Athena, and DynamoDB at peak efficiency. With superQuery, you get top-notch capabilities for:
+[superQuery](http://web.superquery.io) is a web-based IDE that enables you to leverage BigQuery, AWS Athena, and DynamoDB at peak efficiency. With superQuery, you get top-notch capabilities for:
 
 * Query Management with [Tabs](https://support.superquery.io/en/articles/2988041-query-tabs) and [Boards](https://support.superquery.io/en/articles/3077544-boards)
 * Collaboration
@@ -179,7 +179,7 @@ From your Asset Management screen, you can:
 * [Invite an existing AWS account](amazon-web-services/invite-existing-aws-account.md)
 * [Purchase additional seats for G Suite](g-suite-and-workspace/purchasing-g-suite-licenses.md) and/or [Office 365](microsoft-office-365/purchasing-office-365-licenses.md) yourself.
 * Automate subscription management with [auto-provisioning](https://help.doit-intl.com/hc/en-us/articles/360038041751-Configure-Auto-Increase-for-G-Suite-Subscriptions) for G Suite, guaranteeing there is an open seat at all times.
-* [Tag Assets](assets-and-contracts/tag-assets.md) for classification and invoicing purposes \(e.g. team name, cost center, location, etc.\).
+* [Tag Assets](assets-and-contracts/tag-assets.md) for classification and invoicing purposes (e.g. team name, cost center, location, etc.).
 
 Additionally, you can view your order history of all licenses and subscriptions across all of your cloud products.
 
@@ -191,7 +191,7 @@ CMP gives you capabilities unavailable in Google Cloud or AWS to customize _prec
 
 In the CMP, customers can create as many Billing Profiles as required, per their company's needs.
 
-Additionally, whereas with Google Cloud or AWS you can only pay with a credit card, DoiT International customers have more options for customizing the payment method for their Billing Profile\(s\) including Credit Card, Wire, Bill.com, and ACH.
+Additionally, whereas with Google Cloud or AWS you can only pay with a credit card, DoiT International customers have more options for customizing the payment method for their Billing Profile(s) including Credit Card, Wire, Bill.com, and ACH.
 
 [**Invoices**](invoices-and-payments/managing-invoices.md) across all cloud platforms and their current statuses can be easily accessed using the CMP.
 
@@ -206,7 +206,7 @@ Any tags placed on assets will also appear in invoices so you can more easily id
 
 [**Invoice Bucketing**](invoices-and-payments/changing-invoice-settings.md) _\*\*_lets you create custom "buckets" and assign specific assets to those buckets.
 
-This is especially useful when you have different cost centers such as R&D or Operations using different assets and want to bill them separately.
+This is especially useful when you have different cost centers such as R\&D or Operations using different assets and want to bill them separately.
 
 With invoice buckets, you will receive separate invoices for each invoice bucket, billed to the billing profile it is associated with.
 
@@ -233,4 +233,3 @@ Within the CMP you can resolve your cloud issues quickly with hyper-responsive a
 * View open or historical tickets and their statuses.
 * [Share tickets](tickets/ticket-sharing.md) with other team members.
 * Stay up to date on any [known issues](tickets/cloud-infrastructure-known-issues.md) across all clouds you use.
-

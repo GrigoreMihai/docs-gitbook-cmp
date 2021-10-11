@@ -6,15 +6,15 @@ To use Rightsizing for Google Cloud, you must verify that your service account w
 
 If successful, you will see:
 
-* Either a Healthy or Partial ****value underneath the Status column in your Configured Accounts widget, and
+* Either a Healthy or Partial** **value underneath the Status column in your Configured Accounts widget, and
 * Healthy status next to "Rightsizing Insights" under the Features widget, and
 * Healthy status next to "Rightsizing Resize" under the Features widget\*
 
 _\* This is optional. However, without the permissions granted here, you will have to make the rightsizing changes yourself in the Google Cloud Console, as opposed to doing it in a couple of clicks from the CMP._
 
-_Please note that if the status reads 'Unhealthy', you may be lacking permissions. Refer back to the_ [Connect Your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) _article on how to configure your account._  
+_Please note that if the status reads 'Unhealthy', you may be lacking permissions. Refer back to the _[Connect Your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) _article on how to configure your account. _ 
 
-![](../.gitbook/assets/cmp_gcp_partialpermissions%20%281%29%20%281%29%20%281%29.jpg)
+![](<../.gitbook/assets/cmp_gcp_partialpermissions (1) (1) (1).jpg>)
 
 Once that's been set up, you can add the 'Recommendations' widget to any of your dashboards within the Cloud Management Platform. 
 
@@ -34,9 +34,7 @@ In this dialogue, you will be able to apply the recommendations in order to save
 
 View the bite-sized video below for a closer look at Rightsizing Google Cloud Instances.
 
-{% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team\_library" %}
-
-
+{% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team_library" %}
 
 
 

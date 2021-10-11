@@ -11,7 +11,7 @@ CMP Dashboards help you visually track and analyze key cloud data points & metri
 Adding [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) into [customizable dashboards](customizing-dashboards.md) gives you an at-a-glance view of your most important cloud infrastructure data points.
 
 {% hint style="info" %}
-Required Permissions: **Cloud Analytics** \(part of 'Standard User' preset role\)
+Required Permissions: **Cloud Analytics** (part of 'Standard User' preset role)
 {% endhint %}
 
 ### Adding Reports to a Dashboard
@@ -24,7 +24,7 @@ Add your report to a dashboard by clicking the 'Add to dashboard' icon in the up
 Only chart-based reports can be added to your dashboards. Table-based and heatmap-based reports are currently not supported in dashboards.
 {% endhint %}
 
-Next, select which dashboard\(s\) you'd like to add the report to. You may also toggle the report to be addable from the [Widget Library](widgets-overview.md).
+Next, select which dashboard(s) you'd like to add the report to. You may also toggle the report to be addable from the [Widget Library](widgets-overview.md).
 
 ![](../.gitbook/assets/addwidgetsnew2.jpg)
 
@@ -36,7 +36,7 @@ Check the box of the newly-created dashboard to add your report there as well.
 
 ![](../.gitbook/assets/new-dashboard-2.jpg)
 
-Next, navigate to your dashboard\(s\) to view the report\(s\) you added.
+Next, navigate to your dashboard(s) to view the report(s) you added.
 
 From there, you're free to [customize](customizing-dashboards.md) the size and arrangement of the widgets as you see fit. Note that report data displayed in the widget will refresh every four hours. 
 
@@ -44,7 +44,5 @@ From there, you're free to [customize](customizing-dashboards.md) the size and a
 
 Finally, if you'd like to quickly navigate to your report to investigate further or edit something, you may click on the report's name in the widget.
 
-{% embed url="https://www.loom.com/share/4f125260e1214c6f9b85002ca13e6ade?sharedAppSource=personal\_library" %}
-
-
+{% embed url="https://www.loom.com/share/4f125260e1214c6f9b85002ca13e6ade?sharedAppSource=personal_library" %}
 

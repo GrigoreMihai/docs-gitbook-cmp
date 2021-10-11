@@ -7,7 +7,7 @@ description: Setting up proactive monitoring for your AWS Quotas
 Amazon Web Services maintains service limits on each AWS account to help guarantee the availability of AWS resources, as well as to minimize billing risks for the customers.
 
 {% hint style="warning" %}
-_You must have AWS Business or Enterprise Support in order to use this feature._ 
+_You must have AWS Business or Enterprise Support in order to use this feature. _
 {% endhint %}
 
 However, when you launch a new workload or need additional resources within the existing workloads, you may receive an error message similar to this one. 
@@ -63,7 +63,7 @@ To request a quota increase, click on the 'Modify' button and read the instructi
 * Amazon RDS Multi-AZ
 * Auto Scaling Group Health Check
 * Amazon S3 Bucket Logging
-* Amazon EBS Provisioned IOPS \(SSD\) Volume Attachment Configuration
+* Amazon EBS Provisioned IOPS (SSD) Volume Attachment Configuration
 * Large Number of Rules in an EC2
 * Large Number of EC2 Security Group Rules Applied to an Instance
 * Amazon RDS Idle DB Instances
@@ -101,12 +101,12 @@ To request a quota increase, click on the 'Modify' button and read the instructi
 * Amazon RDS Public Snapshots
 * EC2 On-Demand Instances
 * SES Daily Sending Quota
-* EBS Provisioned IOPS \(SSD\) Volume Aggregate IOPS
-* EBS Provisioned IOPS SSD \(io1\) Volume Storage
+* EBS Provisioned IOPS (SSD) Volume Aggregate IOPS
+* EBS Provisioned IOPS SSD (io1) Volume Storage
 * EBS Active Volumes
 * EBS Active Snapshots
-* EBS General Purpose SSD \(gp2\) Volume Storage
-* EBS Magnetic \(standard\) Volume Storage
+* EBS General Purpose SSD (gp2) Volume Storage
+* EBS Magnetic (standard) Volume Storage
 * EC2 Elastic IP Addresses
 * EC2 Reserved Instance Leases
 * Kinesis Shards per Region
@@ -138,8 +138,8 @@ To request a quota increase, click on the 'Modify' button and read the instructi
 * RDS DB Security Groups
 * RDS DB Instances
 * RDS Max Auths per Security Group
-* EBS Throughput Optimized HDD \(st1\) Volume Storage
-* EBS Cold HDD \(sc1\) Volume Storage
+* EBS Throughput Optimized HDD (st1) Volume Storage
+* EBS Cold HDD (sc1) Volume Storage
 * DynamoDB Read Capacity
 * DynamoDB Write Capacity
 * Route 53 Max Health Checks
@@ -152,4 +152,3 @@ To request a quota increase, click on the 'Modify' button and read the instructi
 * Amazon EC2 Reserved Instances Optimization
 * ELB Application Load Balancers
 * ELB Network Load Balancers
-

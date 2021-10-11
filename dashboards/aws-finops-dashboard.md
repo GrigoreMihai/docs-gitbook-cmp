@@ -32,11 +32,11 @@ The AWS FinOps dashboard is now available with an analysis of the AWS services y
 
 Each of the six widgets serves its own purpose and will reflect the data filtered by month and year:
 
-**Cost History** - Review your AWS expenses over the last 12 months, and get a look into next month's AI-assisted cost prediction, listed at the top right-hand part of the widget. 
+**Cost History **- Review your AWS expenses over the last 12 months, and get a look into next month's AI-assisted cost prediction, listed at the top right-hand part of the widget. 
 
 ![](../.gitbook/assets/awswidget6.png)
 
-\*\*\*\*
+****
 
 **AWS Cost** - Helps you to review AWS services your app/s is using including several preconfigured breakdowns such as; AWS Service, Component, AWS Account, and Region. Select the breakdown configuration from the first dropdown.
 
@@ -50,19 +50,18 @@ Each of the six widgets serves its own purpose and will reflect the data filtere
 
 
 
-**S3 Lens** - Focus on how your application uses AWS Simple Storage System \(S3\), and monitor your costs with a breakdown by; Bucket, Storage Type, and AWS Account.
+**S3 Lens** - Focus on how your application uses AWS Simple Storage System (S3), and monitor your costs with a breakdown by; Bucket, Storage Type, and AWS Account.
 
 ![](../.gitbook/assets/awswidget4.png)
 
 
 
-**EBS Lens** - Review your Amazon Elastic Block Store \(EBS\) costs to gain insights on what is driving the cost with a breakdown by; Volume Types, Accounts, Volumes, and Availability Zones.
+**EBS Lens** - Review your Amazon Elastic Block Store (EBS) costs to gain insights on what is driving the cost with a breakdown by; Volume Types, Accounts, Volumes, and Availability Zones.
 
 ![](../.gitbook/assets/awswidget3.png)
 
-\*\*\*\*
+****
 
 **Network Lens** - Gain insights on how your application uses the AWS network with a breakdown by; Traffic Type, Origins, Service, and Destinations.
 
 ![](../.gitbook/assets/awswidget5.png)
-

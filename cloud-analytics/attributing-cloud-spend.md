@@ -8,7 +8,7 @@ description: >-
 
 Attributions are a flexible way to group resources and their associated costs, helping you understand the cloud costs and relate them to the business in your [Cloud Reports](https://help.doit-intl.com/hc/en-us/articles/360045644211-Creating-a-Cloud-Report).
 
-You may have various components of your application\(s\) spread across different projects, using different services. Attributions allow you to combine everything into something coherent.
+You may have various components of your application(s) spread across different projects, using different services. Attributions allow you to combine everything into something coherent.
 
 {% hint style="info" %}
 Required Permissions: **Cloud Analytics**
@@ -36,7 +36,7 @@ Now it's time to configure the conditions, or the criteria, which will determine
 
 ![](../.gitbook/assets/all-any.png)
 
-You will have every cloud billing dimension to choose from; as well as any custom, project, and system labels. Select the field\(s\) you'd like to include as part of your Attribution from the dropdown:
+You will have every cloud billing dimension to choose from; as well as any custom, project, and system labels. Select the field(s) you'd like to include as part of your Attribution from the dropdown:
 
 ![](../.gitbook/assets/attributions.png)
 
@@ -72,7 +72,5 @@ In the example above, we made sure to filter for the production, dev, and ops te
 
 View the bite-sized video below for a closer look at Attributions and using them in your Cloud Reports.
 
-{% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team\_library" %}
-
-
+{% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team_library" %}
 

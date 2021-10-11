@@ -12,7 +12,7 @@ Available Permissions:
 
 * Access Cost and Usage Anomalies
 
-**Assets Manager** \(previously Licenses Manager\)
+**Assets Manager **(previously Licenses Manager)
 
 * View and Manage assets, including managing licenses
 * Purchase additional licenses and subscriptions for [G Suite](../g-suite-and-workspace/purchasing-g-suite-licenses.md)
@@ -84,7 +84,6 @@ Available Permissions:
 
 * Access to superQuery IDE
 
-\*\*\*\*
+****
 
-\*\*\*\*
-
+****

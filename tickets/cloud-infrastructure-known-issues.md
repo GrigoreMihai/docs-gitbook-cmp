@@ -6,7 +6,7 @@ description: >-
 
 # Known Issues
 
-**Known Issues** are defined as any faults or defects in Google Cloud, Amazon Web Services, or Microsoft Azure services that may be impacting the performance or availability of your applications.
+**Known Issues **are defined as any faults or defects in Google Cloud, Amazon Web Services, or Microsoft Azure services that may be impacting the performance or availability of your applications.
 
 Any known issues from these platforms are displayed on the Known Issues page, accessible via the left-hand navigation bar in the CMP.
 
@@ -22,7 +22,6 @@ Should you want to filter through Known Issues, click on the filter button near 
 
 ![](../.gitbook/assets/knownissuesfilter.jpg)
 
-If you'd like to learn more about a particular Known Issue, then click on the **VIEW** button corresponding to the issue to see a detailed description.
+If you'd like to learn more about a particular Known Issue, then click on the **VIEW **button corresponding to the issue to see a detailed description.
 
 ![](../.gitbook/assets/viewknownissues.jpg)
-

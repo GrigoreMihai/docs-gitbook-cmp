@@ -17,7 +17,7 @@ Access your Perks library via the Perks icon on the left-hand navigation panel.
  In the Perks library, you will find a list of all of the available Perks your team can request. For each Perk, you will see the:
 
 * Name of the perk
-* Platform\(s\) the perk is applicable to \(AWS, Google Cloud, etc.\)
+* Platform(s) the perk is applicable to (AWS, Google Cloud, etc.)
 * Perk type
 * Perk description
 * "Learn More" link
@@ -27,9 +27,9 @@ Access your Perks library via the Perks icon on the left-hand navigation panel.
 To request a Perk, first, click on the "Learn More" link associated with the selected perk's card. Following that, you will see the following information associated with the selected perk:
 
 * Full Perk description
-* Prerequisites \(if any exist\)
+* Prerequisites (if any exist)
 * Agenda
-* Modules that make up the perk with accompanying description\(s\)
+* Modules that make up the perk with accompanying description(s)
 
 To request the perk for your team, click on the "Request Perk" button at the top-right corner of the Perks page.
 
@@ -41,13 +41,11 @@ After a few seconds, you will see the following message on the lower-left corner
 
 Additionally, you will receive an email confirming that your request has been received.
 
-Once requested, a ticket will be automatically created in Zendesk and assigned to the DoiT International engineer\(s\) that will administer the Perk.
+Once requested, a ticket will be automatically created in Zendesk and assigned to the DoiT International engineer(s) that will administer the Perk.
 
 In the ticket, you and the engineers will arrange a suitable time for the workshop, training, or pro-serv to take place. Finally, any questions you have prior to the start date can be asked here.
 
 View the bite-sized video below for a closer look at viewing and requesting Perks.
 
-{% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team\_library" %}
-
-
+{% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team_library" %}
 

@@ -16,7 +16,7 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start by accessing your Office 365-based Assets from the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/assets-icon-1-%20%284%29%20%285%29%20%285%29%20%283%29.png)
+![](<../.gitbook/assets/assets-icon-1- (4) (5) (5).png>)
 
 Once you're at the Assets page, switch to the Office 365 tab.
 
@@ -47,4 +47,3 @@ You can see the number of licenses in use under the _Quantity_ field. In the fol
 It is possible to decrease the number of licenses. The charges will be deducted from your account as reflected in the next month's billing to your organization.
 
 Please note that only FLEXIBLE plans allow you to decrease the number of licenses. For more information, please review [https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide).
-

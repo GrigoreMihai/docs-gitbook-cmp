@@ -14,11 +14,8 @@ Required Permissions: **Invoice Viewer**
 
 Start with accessing `Invoices` from the menu on the left-hand side of the page and click on Invoices.
 
-![](../.gitbook/assets/invoice-icon-1-.png)
+![A screenshot showing you the location of the \_Invoices\_ menu item](../.gitbook/assets/invoice-icon-1-.png)
 
 To download the invoice summary as a CSV file, click the download icon in the top-right corner of the page.
 
-![](../.gitbook/assets/download-csm-summary%20%281%29.png)
-
-
-
+![A screenshot showing you the location of the download icon](<../.gitbook/assets/download-csm-summary (1) (1).png>)

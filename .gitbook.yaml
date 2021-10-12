@@ -4,3 +4,4 @@ redirects:
   flexible-reservations/flexri-faq: ./flexible-reservations/flex-ri-faq.md
   flexible-reservations/flexri-regions: ./flexible-reservations/flex-ri-regions.md
   flexible-reservations/flexri: ./flexible-reservations/flex-ri.md
+  amazon-web-services/add-your-amazon-web-services-iam-role: ./amazon-web-services/link-account.md

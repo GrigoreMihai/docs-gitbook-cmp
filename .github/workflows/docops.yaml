@@ -10,7 +10,7 @@ on:
 
 jobs:
   checks:
-    name: Documentation checks
+    name: Docs checks
     runs-on: ubuntu-latest
     # All of the steps in this job run inside a custom DocOps container. We use
     # the lowest supported Python version provided by the DoiT DocOps container
@@ -106,7 +106,7 @@ jobs:
         if: github.event_name != 'pull_request'
         env:
           # TODO: Figure out how to use the name of the job without copying it
-          STATUS: 'Documentation checks: <{run_url}|{status_message}>'
+          STATUS: 'Docs checks: <{run_url}|{status_message}>'
           COMMIT: 'for commit `<{commit_url}|{commit_sha}>`'
           BRANCH: 'on branch `{branch}`'
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

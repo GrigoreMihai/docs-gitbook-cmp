@@ -100,7 +100,14 @@ jobs:
         if: always()
         with:
           config-file: .mlc.json
+          folder-path: docs
+          file-path: README.md
+          file-extension: .md
+          max-depth: -1
+          base-branch: main
+          use-verbose-mode: yes
           use-quiet-mode: yes
+          check-modified-files-only: no
 
       # This is a third-party action that updates Slack with the outcome status
       # of this job.

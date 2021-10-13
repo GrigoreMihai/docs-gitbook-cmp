@@ -5,7 +5,7 @@ Documentation_
 
 [![DocOps][actions-docops-img]][actions-docops]
 
-*Table of contents*
+**Table of contents**
 
 - [Contribute](#contribute)
   - [Report an issue](#report-an-issue)

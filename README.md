@@ -45,7 +45,7 @@ request][pr].
 
 - [The live CMP User Documentation][live-docs]
 - [The GitBook documentation][gitbook-docs]
-- [The Gitbook dashboard][gitbook-dash] (_internal use only_)
+- [The Gitbook dashboard][gitbook-dash] _(internal use only)_
 
 [live-docs]: http://help.doit-intl.com/
 [gitbook-docs]: https://docs.gitbook.com/

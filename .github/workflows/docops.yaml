@@ -32,7 +32,7 @@ jobs:
       # Run a basic glossary terms analysis. This feature is still in active
       # development, so the output from this command is only informational
       # purposes only. This step should never fail.
-      - run: docops-gloss-terms --quiet .
+      - run: docops-gloss-terms --quiet docs
 
       # Third-party tooling
       # -----------------------------------------------------------------------
@@ -71,7 +71,7 @@ jobs:
         if: always()
         with:
           config: .cspell.json
-          paths: '**/*'
+          paths: 'docs/**/*'
           unique: true
 
       # This is third-party action that uses tries to detect non-inclusive
@@ -79,7 +79,9 @@ jobs:
       - uses: get-woke/woke-action@v0
         if: always()
         with:
+          workdir: docs
           fail-on-error: true
+          github-token: ${{ github.token }}
 
       # This is a third party action that uses markdownlint
       # <https://github.com/markdownlint/markdownlint> to check for syntax and

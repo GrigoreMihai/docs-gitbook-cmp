@@ -1,4 +1,4 @@
-root: ./
+root: ./docs/
 
 redirects:
   flexible-reservations/flexri-faq: ./flexible-reservations/flex-ri-faq.md

@@ -8,7 +8,7 @@ Documentation_
 **Table of contents**
 
 - [Contribute](#contribute)
-  - [Report an issue](#report-an-issue)
+  - [Create an issue](#create-an-issue)
   - [Create a pull request](#create-a-pull-request)
 - [See also](#see-also)
 
@@ -20,7 +20,7 @@ Documentation_
 This project is primarily maintained by [DoiT International][doit-org] staff.
 However, we do welcome community contributions!
 
-### Report an issue
+### Create an issue
 
 Please feel free to [create an issue][issues] if you would like to:
 
@@ -45,7 +45,7 @@ request][pr].
 
 - [The live CMP User Documentation][live-docs]
 - [The GitBook documentation][gitbook-docs]
-- [The Gitbook dashboard][gitbook-dash] _(internal use only)_
+- [The GitBook dashboard][gitbook-dash] _(internal use only)_
 
 [live-docs]: http://help.doit-intl.com/
 [gitbook-docs]: https://docs.gitbook.com/

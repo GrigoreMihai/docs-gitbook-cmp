@@ -1,4 +1,4 @@
-# CMP User Documentation
+# DoiT CMP User Documentation
 
 _GitBook repository for the DoiT Cloud Management Platform (CMP) User
 Documentation_

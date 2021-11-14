@@ -24,9 +24,9 @@ Spot Scaling recommends the most suitable configuration for your Auto Scaling Gr
 
 ### Provision
 
-After you apply the recommendations, Spot Scaling updates your Auto Scaling Group to work in a [mixed instances policy](https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API_MixedInstancesPolicy.html). In addition, it replaces on-demand instances with spot instances according to the recommended settings, which you can change anytime.
+After you apply the recommendations, Spot Scaling updates your Auto Scaling Group to work in a [mixed instances policy](https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API\_MixedInstancesPolicy.html). In addition, it replaces on-demand instances with spot instances according to the recommended settings, which you can change anytime.
 
-After you apply the recommendations, Spot Scaling updates your Auto Scaling Group to work in a [mixed instances policy](https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API_MixedInstancesPolicy.html). In addition, it replaces on-demand instances with spot instances according to the recommended settings, which you can change anytime.
+After you apply the recommendations, Spot Scaling updates your Auto Scaling Group to work in a [mixed instances policy](https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API\_MixedInstancesPolicy.html). In addition, it replaces on-demand instances with spot instances according to the recommended settings, which you can change anytime.
 
 When Spot Scaling cannot spin up Spot instances due to lack of spot capacity, it automatically falls back to on-demand to ensure availability and reverts to spot instances as soon as possible. As a result, the system uptime for your app(s) are maximized, while EC2 costs are minimized.
 
@@ -40,7 +40,7 @@ Spot Scaling continuously assesses your Auto Scaling Groups and presents importa
 
 ## What are the advantages of Spot Scaling?
 
-**Reliable & Safe**  Spot Scaling works with AWS native Auto Scaling Groups, supporting fallback to on-demand and follows [Spot Instance Best Practices](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-leveraging-ec2-spot-instances/spot-best-practices.html)
+**Reliable & Safe** Spot Scaling works with AWS native Auto Scaling Groups, supporting fallback to on-demand and follows [Spot Instance Best Practices](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-leveraging-ec2-spot-instances/spot-best-practices.html)
 
 **No cost overhead** - You get the full spot discount provided by AWS.
 
@@ -52,10 +52,11 @@ Spot Scaling continuously assesses your Auto Scaling Groups and presents importa
 
 **Scenario:** 0 m5.xlarge instances; replacing 80% of on-demand instances with Spot instances
 
-|                   |        **Without Spot Scaling**         |                                                       **With Spot Scaling**                                                        |
+|                   |                                         |                                                                                                                                    |
 | ----------------- | :-------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
+|                   |         **Without Spot Scaling**        |                                                        **With Spot Scaling**                                                       |
 | Monthly Cost      | 50 instances \* $0.192 \* 730h = $7,008 | <p>10 instances × $0.192 × 730h = $1,401<br>40 instances × $0.0399 × 730h = $1,165</p><p>Total cost = $1,401 + $1,165 = $2,566</p> |
-| Monthly Savings $ |                   $0                    |                                                               $4,442                                                               |
-| Monthly Savings % |                   0%                    |                                                                63%                                                                 |
+| Monthly Savings $ |                    $0                   |                                                               $4,442                                                               |
+| Monthly Savings % |                    0%                   |                                                                 63%                                                                |
 
 Now let's explore how to set up and use Spot Scaling.

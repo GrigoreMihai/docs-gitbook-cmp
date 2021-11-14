@@ -20,13 +20,13 @@ If successfully uploaded, you will see:
 * Healthy status next to "BigQuery FinOps" in the Features widget.
 * **\[Optional]** Healthy status next to "BigQuery FinOps Advanced" in the Features widget
 
-![A screenshot of a _BigQuery FinOps_ dashboard](../.gitbook/assets/cleanshot-2020-12-28-at-18.22.58.jpg)
+![A screenshot of a BigQuery FinOps dashboard](../.gitbook/assets/cleanshot-2020-12-28-at-18.22.58.jpg)
 
 ## Setup
 
-Once the Google Cloud Service Account setup is complete, click the **'**Attach' button and choose the BigQuery FinOps dashboard from the list.
+Once the Google Cloud Service Account setup is complete, click the \*\*'\*\*Attach' button and choose the BigQuery FinOps dashboard from the list.
 
-![A screenshot showing the location of the _Attach_ icon](../.gitbook/assets/budgetao_finops_attach.jpg)
+![A screenshot showing the location of the Attach icon](../.gitbook/assets/budgetao\_finops\_attach.jpg)
 
 Cloud Management Platform will now start gathering the information on your usage patterns.
 
@@ -35,7 +35,7 @@ Cloud Management Platform will now start gathering the information on your usage
 {% endhint %}
 
 {% hint style="success" %}
-While this information is being collected, your BigQuery FinOps will  have the three following states:
+While this information is being collected, your BigQuery FinOps will have the three following states:
 {% endhint %}
 
 **1) We have started to analyze your historical usage. So far we have processed X%. In the meantime, you can explore our training Perks!**
@@ -54,7 +54,7 @@ Once available, you'll see the dashboard appear with the statistics of your orga
 
 The BigQuery FinOps dashboard is compiled of widgets that will provide you more insight into your organization's statistics.
 
-![A screenshot of the widgets on a _BigQuery FinOps_ dashboard](<../.gitbook/assets/image (157).png>)
+![A screenshot of the widgets on a BigQuery FinOps dashboard](<../.gitbook/assets/image (157).png>)
 
 ### Elements of the Dashboard
 
@@ -121,11 +121,11 @@ A dataset called **doitintl-cmp-bq** is created in the billing project attached 
 
 ### What log sinks are you creating, where and for what purpose?
 
-A sink for query jobs is created in the same project as (1). This sink pushes all your bigquery jobs into a table under \<PROJECTID>.doitintl-cmp-bq. **cl oudaudit_googleapis_com_data\_ access**
+A sink for query jobs is created in the same project as (1). This sink pushes all your bigquery jobs into a table under \<PROJECTID>.doitintl-cmp-bq. **cl oudaudit\_googleapis\_com\_data\_ access**
 
 ### What queries will you be running, where, and for what purpose?
 
-We have two main processes, once of which runs queries and the other not: 1) Enrichment process: We take the data from doitintl-cmp-bq. **cloudaudit\_ googleapis_com_data_access** and create a new table doitintl-cmp-bq.**enrichedJobs**. This is done at no cost to you, but rather an algorithmic and API based enrichment from our side to have a clean dataset to work with in the processes that follow. 2) BigQuery Finops process: We create a few UDF's under the doitintl-cmp-bq dataset, as well as two more derived tables called **pegUtilsT2** and **queries**. These support the FinOps in running over aggregated data, rather than raw data.  The following queries are executed as part of the process (2) above:
+We have two main processes, once of which runs queries and the other not: 1) Enrichment process: We take the data from doitintl-cmp-bq. **cloudaudit\_ googleapis\_com\_data\_access** and create a new table doitintl-cmp-bq.**enrichedJobs**. This is done at no cost to you, but rather an algorithmic and API based enrichment from our side to have a clean dataset to work with in the processes that follow. 2) BigQuery Finops process: We create a few UDF's under the doitintl-cmp-bq dataset, as well as two more derived tables called **pegUtilsT2** and **queries**. These support the FinOps in running over aggregated data, rather than raw data. The following queries are executed as part of the process (2) above:
 
 * Aggregations into pegUtilsT2 and queries tables
 * Daily run of cost simulation queries to provide the cost savings information and potential savings.
@@ -143,6 +143,6 @@ This could be because of queries like "SELECT 1" or queries we aren't able to pa
 
 Typically, it’s less than $10 per month.
 
-![A screenshot highlighting the _Not yet allocated_ figure](<../.gitbook/assets/image (29).png>)
+![A screenshot highlighting the Not yet allocated figure](<../.gitbook/assets/image (29) (1).png>)
 
 {% embed url="https://youtu.be/7r1WfwnBAA4" %}

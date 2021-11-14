@@ -1,6 +1,7 @@
 ---
 description: >-
-  How to use attributions to create custom metrics to track and report on KPIs for your cloud
+  How to use attributions to create custom metrics to track and report on KPIs
+  for your cloud
 ---
 
 # Custom Metrics
@@ -11,43 +12,40 @@ Custom metrics allows customers to calculate metrics based on existing [attribut
 
 For example:
 
-- **Percentage of GCP CUD utilized**
+*   **Percentage of GCP CUD utilized**
 
-  CUD (committed use discount) Usage / CUD (committed use discount) Commitment
+    CUD (committed use discount) Usage / CUD (committed use discount) Commitment
+*   **Amortized Instance Reservation Consumption**
 
-- **Amortized Instance Reservation Consumption**
+    Monthly Ec2 Instance type usage / (1 yr Reserved Instance type commitment / 12)
+*   **Percentage Shared Infrastructure Cost**
 
-  Monthly Ec2 Instance type usage / (1 yr Reserved Instance type commitment / 12)
+    Shared Infrastructure costs / Total Infrastructure Cost
 
-- **Percentage Shared Infrastructure Cost**
-
-  Shared Infrastructure costs / Total Infrastructure Cost
-
-Custom metrics can be particularly useful when tracking consumption of shared services.  Determine what percentage of shared infrastructure is being used by a single app.  Determine distribution of compute types across a set of accounts or projects.
+Custom metrics can be particularly useful when tracking consumption of shared services. Determine what percentage of shared infrastructure is being used by a single app. Determine distribution of compute types across a set of accounts or projects.
 
 ## Structure of a Metric
 
-Custom metrics are created by creating formula's with Attributions.  Each Attribution must have a base metric selected for it.  This can either be: Cost, Usage, or Savings. For more information, see our [Metric selection documentation](editing-your-cloud-report.md#metrics).
+Custom metrics are created by creating formula's with Attributions. Each Attribution must have a base metric selected for it. This can either be: Cost, Usage, or Savings. For more information, see our [Metric selection documentation](editing-your-cloud-report.md#metrics).
 
-![A screenshot showing the _Base Metric_ drop-down menu](../.gitbook/assets/custom-metrics-drop-down.png)]
+![A screenshot showing the Base Metric drop-down menu](../.gitbook/assets/custom-metrics-drop-down.png)]
 
 For instance, if you want to create a metric to track the percentage consumption of a compute commitment, you will require 2 Attributions.
 
-- Compute Usage
-- Compute Consumption.
+* Compute Usage
+* Compute Consumption.
 
 Please ensure these Attributions are created in advance of metric creation
 
 ## Create a Metric
 
-Navigate to [Cloud Analytics](create-cloud-report/README.md), and select the Metrics
-tab
+Navigate to [Cloud Analytics](create-cloud-report/), and select the Metrics tab
 
-![A screenshot showing the _Metrics_ tab](../.gitbook/assets/custom-metrics-tab.png)
+![A screenshot showing the Metrics tab](../.gitbook/assets/custom-metrics-tab.png)
 
 Select **'New Metric'**
 
-![A screenshot showing the _New Metric_ form](../.gitbook/assets/custom-metrics-new-metric.png)
+![A screenshot showing the New Metric form](../.gitbook/assets/custom-metrics-new-metric.png)
 
 Provide a name for the new Custom Metric.
 
@@ -64,11 +62,12 @@ Create a formula to generate the metric desired.
 Formulas support standard **Order of Operations**
 
 Custom metric formulas support the following operators:
+
 | Operator | Description              |
 | -------- | ------------------------ |
 | +        | Addition                 |
 | -        | Subtraction              |
-| *        | Multiplication           |
+| \*       | Multiplication           |
 | /        | Division                 |
 | ()       | Parentheses for grouping |
 
@@ -91,22 +90,22 @@ When a valid formula is complete a preview will generate below
 
 ### Example metric
 
-### GCP N1 Consumption %
+### GCP N1 Commitment Coverage %
 
-N1 Usage / N1 Commitment as  %
+N1 Commitments / N1 Usage as %
 
-![A screenshot of a custom metric formula and preview graph](../.gitbook/assets/custom-metrics-example.png)
+![](<../.gitbook/assets/CleanShot 2021-11-01 at 11.44.56.jpg>)
 
 ## Including Customer Metrics in Cloud Analytics Reports
 
-To include a metric in a report, [create a new report​](create-cloud-report/README.md)
+To include a metric in a report, [create a new report​](create-cloud-report/)
 
-In the Report configuration panel select *'Metric'*
+In the Report configuration panel select _'Metric'_
 
-![A screenshot showing the _Metric_ drop-down menu](../.gitbook/assets/custom-metrics-include-metric.png)
+![](<../.gitbook/assets/CleanShot 2021-11-01 at 11.59.42.jpg>)
 
 Once selected you will be prompted to confirm your choice
 
-![A screenshot showing the confirmation modal dialog](../.gitbook/assets/custom-metrics-confirm-dialog.png)
+![](<../.gitbook/assets/CleanShot 2021-11-01 at 12.01.53.jpg>)
 
 Once selected you can build your report as normal with the required attributions and run your report

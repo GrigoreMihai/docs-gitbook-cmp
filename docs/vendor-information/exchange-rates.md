@@ -13,7 +13,7 @@ We will not notify you for increases in non-USD prices that are due to currency 
 ## 2021 Historical Rates
 
 | Month          | EUR      | GBP      | CAD      | AUD      |
-| :------------- | :------- | :------- | :------- | :------- |
+| -------------- | -------- | -------- | -------- | -------- |
 | January 2021   | 0.82485  | 0.730098 | 1.28032  | 1.31242  |
 | February 2021  | 0.8272   | 0.715735 | 1.269705 | 1.289985 |
 | March 2021     | 0.852765 | 0.72545  | 1.25652  | 1.316881 |
@@ -23,3 +23,4 @@ We will not notify you for increases in non-USD prices that are due to currency 
 | July 2021      | 0.842673 | 0.719166 | 1.247735 | 1.36147  |
 | August 2021    | 0.846775 | 0.72711  | 1.261665 | 1.366299 |
 | September 2021 | 0.863995 | 0.742496 | 1.26865  | 1.383298 |
+| October 2021   | 0.865195 | 0.730845 | 1.238315 | 1.33041  |

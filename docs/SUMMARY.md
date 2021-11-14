@@ -8,6 +8,7 @@
 * [Company Registration](general/registration.md)
 * [Your Profile](general/profile.md)
 * [Sharing Feedback](general/sharing-feedback-and-feature-requests.md)
+* [General Settings](general/general-settings.md)
 * [Slack Integration](general/slack.md)
 
 ## Google Cloud
@@ -16,10 +17,11 @@
 * [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects/README.md)
   * [Transfer manually](google-cloud/transfer-google-cloud-projects/transfer-manually.md)
   * [Bulk Transfer using Wizard](google-cloud/transfer-google-cloud-projects/bulk-transfer-using-wizard.md)
-* [Link Google Cloud Organization](google-cloud/connect-google-cloud-service-account.md)
+  * [Terraform](google-cloud/transfer-google-cloud-projects/terraform.md)
 * [Google Cloud Quotas](google-cloud/google-cloud-quotas.md)
 * [Billing Export](google-cloud/gcp-billing-export.md)
 * [Import Historical Data](google-cloud/import-historical-billing-data.md)
+* [Link Google Cloud Organization](google-cloud/connect-google-cloud-service-account.md)
 
 ## Amazon Web Services
 
@@ -31,7 +33,7 @@
 * [AWS Quota Monitoring](amazon-web-services/aws-quotas.md)
 * [Import AWS Organizations](amazon-web-services/import-aws-orgs.md)
 
-## FlexSave for AWS <a id="flexsave-aws"></a>
+## FlexSave for AWS <a href="flexsave-aws" id="flexsave-aws"></a>
 
 * [FlexSave for AWS Overview](flexsave-aws/overview.md)
 * [FlexSave for AWS FAQ](flexsave-aws/faq.md)
@@ -53,7 +55,7 @@
 * [Share and Download Cloud Analytics Reports](cloud-analytics/sharing-cloud-reports.md)
 * [Clone Cloud Analytics Reports](cloud-analytics/cloning-and-or-customizing-cloud-reports.md)
 * [Understanding Aggregations](cloud-analytics/using-aggregations-in-cloud-reports.md)
-* [Understanding "Minor Values"](cloud-analytics/minor-values.md)
+* [Understanding Metric Filters](cloud-analytics/metric-filters.md)
 * [Trend Analysis](cloud-analytics/trend-analysis.md)
 * [Forecasting](cloud-analytics/forecasting.md)
 * [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)
@@ -61,7 +63,7 @@
 * [Manage Budgets](cloud-analytics/manage-budgets.md)
 * [GKE Cost Analytics](cloud-analytics/gke-cost-analytics.md)
 
-## Dashboards & Widgets <a id="dashboards"></a>
+## Dashboards & Widgets <a href="dashboards" id="dashboards"></a>
 
 * [Widgets Overview](dashboards/widgets-overview.md)
 * [Adding Reports to a Dashboard](dashboards/add-reports-to-dashboards.md)
@@ -70,13 +72,13 @@
 * [Access Public Dashboard](dashboards/accessing-a-public-dashboard.md)
 * [Rightsizing for Google Cloud](dashboards/rightsizing-for-google-cloud.md)
 * [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md)
-* [AWS FinOps Dashboard](dashboards/aws-finops-dashboard.md)
+* [AWS Lens](dashboards/aws-finops-dashboard.md)
 
 ## Governance
 
 * [Policy Engine Early Access](governance/policy-engine-early-access.md)
 
-## Working with Tickets <a id="tickets"></a>
+## Working with Tickets <a href="tickets" id="tickets"></a>
 
 * [Support or Advisory Requests](tickets/open-a-new-support-request.md)
 * [Escalating Support Requests](tickets/escalating-support-requests.md)

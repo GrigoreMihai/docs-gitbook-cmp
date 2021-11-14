@@ -10,15 +10,15 @@ Google Cloud Sandbox for Organizations is the easiest way for companies to set u
 Required Permission: **Sandbox User**
 {% endhint %}
 
-After a [policy has been configured](https://app.gitbook.com/@doitintl/s/cmp/cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts), a user can create sandbox accounts up to the amount which was defined by the Admin in the Sandbox Policy.
+After a [policy has been configured](configuring-a-policy-for-sandbox-accounts.md), a user can create sandbox accounts up to the amount which was defined by the Admin in the Sandbox Policy.
 
 From the home page, please select 'Sandbox Accounts' using the left navigation menu. Then, click on 'Create Sandbox', located on the right-hand side of the page.
 
-![A screenshot showing the location of the _Create Sandbox_ button](../.gitbook/assets/click-create-sandbox.png)
+![A screenshot showing the location of the Create Sandbox button](../.gitbook/assets/click-create-sandbox.png)
 
-A notification will pop up informing you of the policy set by your organization \(Sandbox Admin\) and the budget amount that applies. Click on 'Create' to proceed.
+A notification will pop up informing you of the policy set by your organization (Sandbox Admin) and the budget amount that applies. Click on 'Create' to proceed.
 
-![A screenshot showing the _Create Sandbox Project_ modal dialog](../.gitbook/assets/create-sandbox-acct.png)
+![A screenshot showing the Create Sandbox Project modal dialog](../.gitbook/assets/create-sandbox-acct.png)
 
 Once created, you will see your new sandbox project on the list.
 

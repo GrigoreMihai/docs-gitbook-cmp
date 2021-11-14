@@ -17,13 +17,13 @@ Essentially, billing records that don’t align with your anticipated spending b
 
 To manage your notifications, click on the "Identity & Access" icon in your lefthand navigation panel.
 
-![A screenshot showing the location of the _Identity & Access_ icon](../.gitbook/assets/cleanshot-2021-07-26-at-10.47.01.jpg)
+![A screenshot showing the location of the Identity & Access icon](../.gitbook/assets/cleanshot-2021-07-26-at-10.47.01.jpg)
 
 Next, select your user from the users list.
 
 Navigate to the "Notifications" tab. If you'd like to be notified of potential anomalies, check the "Cloud Cost Anomalies" box and then set the minimum severity threshold you'd like to be alerted on.
 
-![A screenshot showing the location of the _Notifications_ tab and the _Cloud
+![A screenshot showing the location of the Notifications tab and the \_Cloud
 Cost Anomalies input
 box](../.gitbook/assets/cleanshot-2021-07-26-at-10.50.02.jpg)
 
@@ -35,11 +35,11 @@ We are also storing all detected cost anomalies under the 'Cost Anomalies' page 
 
 In the Profile dialog, you will find the 'Cost Anomalies' notification setting. Once you enable notifications on Cost Anomalies, you will be prompted to choose the threshold of the alerts you're interested in receiving from us:
 
-![A screenshot showing the location of the _Cost Anomalies_ menu item](../.gitbook/assets/anomaly-detect-page.png)
+![A screenshot showing the location of the Cost Anomalies menu item](../.gitbook/assets/anomaly-detect-page.png)
 
 Below you can see an example of a detected anomaly and the spike as shown in the chart. We will also display the top three SKUs, in terms of cost, that relate to the spike. That way you can better understand what is driving the detected anomaly with minimal effort.
 
-![A screenshot showing a detected anomaly](../.gitbook/assets/image%20%2810%29.png)
+![A screenshot showing a detected anomaly](<../.gitbook/assets/image (10) (1).png>)
 
 ## Investigate anomalies further
 
@@ -51,7 +51,7 @@ If you'd like to dive deeper into an anomaly, click on "**Investigate**" to laun
 
 To further assist with the learning of our machine-learning model, and reduce the number of false alerts, you can provide feedback for any type of alert, and mark it thumbs-up or thumbs-down.
 
-![A screenshot showing you the location of the feedback options](../.gitbook/assets/image%20%2815%29.png)
+![A screenshot showing you the location of the feedback options](<../.gitbook/assets/image (15).png>)
 
 ## Anomalies Widget
 

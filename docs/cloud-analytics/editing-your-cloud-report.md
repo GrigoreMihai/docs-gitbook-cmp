@@ -1,6 +1,6 @@
 # Edit Cloud Analytics Report
 
-**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on _[_**Creating Cloud Reports**_](create-cloud-report/)_ before reading further.
+**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on [_**Creating Cloud Reports**_](create-cloud-report/) before reading further.
 
 There are several types of edits you can make to your Cloud Report:
 
@@ -49,7 +49,29 @@ Specify the frequency in which data is aggregated. For the time interval, you ha
 
 For the time range, the options are the following:
 
-![A screenshot showing you the options for _Time Range_](<../.gitbook/assets/image (77).png>)
+![A screenshot showing you the options for Time Range](<../.gitbook/assets/image (77).png>)
+
+### Exclude partial Intervals
+
+When looking at at a report the most current interval is always incomplete.  If the report is **Daily** then the current day will always be collecting billing data throughout the day.  By checking this checkbox, cloud analytics will remove any incomplete time interval from the data of the report.
+
+![](<../.gitbook/assets/image (25).png>)
+
+This means that we will hide data for the current day for daily intervals, current week for monthly intervals, etc.
+
+This can be very useful when performing comparative reports like Month over Month analysis, or Week over Week analysis.  This feature can also be used to remove outliers to help the accuracy of our heatmap views since partial intervals tend to skew trends by representing incomplete periods.
+
+### Timezone
+
+Timezone used to aggregate the time interval in your report.
+
+{% hint style="warning" %}
+Google invoices are shown in PST
+
+Amazon invoices are shown in UTC
+
+_If you modify your timezone to reflect your local or company time, the totals will not reflect the invoices._
+{% endhint %}
 
 ### Currency
 
@@ -57,7 +79,11 @@ Currency that the billing data is reported in (Metric must be "Cost").
 
 ### Compare Data
 
-The **Compare Data** toggle will automatically add %change between 2 time intervals in a report.
+The **Compare Data** dropdown will automatically add either **% change** or **actual difference** between 2 time intervals in a report.
+
+To enable Comparison mode select either **Show actuals **or **Show percentage **from the _Comparative data** **_dropdown in Edit mode of Cloud Analytics Reports
+
+![](<../.gitbook/assets/image (90).png>)
 
 Comparison mode is
 
@@ -67,29 +93,31 @@ Comparison mode is
 
 When selected _**we will automatically adjust your report**_, you will be warned of the changes and asked to confirm.
 
-![A screenshot of the _Show Comparative Report_ modal dialog](<../.gitbook/assets/image (154).png>)
+![A screenshot of the Show Comparative Report modal dialog](<../.gitbook/assets/image (154).png>)
 
-Once enabled, you will see new columns in your table based view showing the ∆
-between time intervals.  This difference (∆) appears **after** the intervals
-compared.
+Once enabled, you will see new columns in your table based view showing the ∆ between time intervals. This difference (∆) appears **after** the intervals compared.
 
 For example below: Months 07 (July) and 08 (August) show the % change after in the column ∆08 (Change to August)
 
 ![Report with highlighted comparison columns](<../.gitbook/assets/image (155).png>)
 
-### Filtering Dimension Values
+_Note: Column headings will contain a % symbol when showing % change_
+
+### Filtering Values
+
+You can filter the metric included in the report by using an[ Metric Filter](metric-filters.md)
 
 To view a subset of your dimension's values, click on the chip you'd like to filter. Then check the boxes next to the subsets you'd like to view in the report.
 
-You may also exclude a selection of values, or limit results to a specific number of values arranged in descending order according to the Metric (Cost**,** Usage, or Savings) selected.
+You may also exclude a selection of values, or limit results to a specific number of values arranged in descending order according to the Metric (Cost\*\*,\*\* Usage, or Savings) selected.
 
 Next, click "Save" in the lower-right corner of the popup modal.
 
-![A screenshot showing you the location of the _Save_ button](../.gitbook/assets/cloudreports_filters.jpg)
+![A screenshot showing you the location of the Save button](../.gitbook/assets/cloudreports\_filters.jpg)
 
-Your filters are displayed along with any other visible configurations on the right-hand collapsable sidebar. To expand it, click on the **>|** icon in the lower-right corner of your screen.
+Your filters are displayed along with any other visible configurations on the right-hand collapsible sidebar. To expand it, click on the **>|** icon in the lower-right corner of your screen.
 
-![A screenshot showing you the location of the filters sidebar](../.gitbook/assets/cloudreports_filtervisibleconfig.jpg)
+![A screenshot showing you the location of the filters sidebar](../.gitbook/assets/cloudreports\_filtervisibleconfig.jpg)
 
 Finally, click the "Run" button to generate an updated report that reflects the filters you've selected.
 
@@ -117,6 +145,7 @@ Updates made to reports which require you to refresh it include:
 * Adding additional dimensions
 * Modifying the time interval and/or range
 * Filtering dimensions
+* [Filtering metrics](metric-filters.md)
 
 Below, you'll see what it looks like to filter a dimension.
 

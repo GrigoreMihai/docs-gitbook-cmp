@@ -16,11 +16,11 @@ If you have Google Cloud Marketplace subscriptions for any of the below products
 The products in question are
 
 * Confluent Apache Kafka on Confluent Cloud
-* Neo4j GCP Integration Service \(Prod\)
+* Neo4j GCP Integration Service (Prod)
 * Redis Labs Redis Enterprise Cloud
 * Trifacta Cloud Dataprep by Trifacta
-* DataStax Astra for Apache Cassandra \(Beta\)
-* Elastic Cloud \(managed Elasticsearch Service\)
+* DataStax Astra for Apache Cassandra (Beta)
+* Elastic Cloud (managed Elasticsearch Service)
 * NetApp, Inc. NetApp Cloud Volumes Service
 * MongoDB Atlas
 {% endhint %}
@@ -34,3 +34,9 @@ If you have several dozens of GCP projects or less, the simplest way is to switc
 For large amount of projects the manual transfer can be too tedious. To make this process _much faster_, DoiT International developed a Project Transfer Wizard in the Cloud Management Platform to help you bulk-transfer all of your existing Google Cloud projects to the billing account assigned to you by DoiT International.
 
 Please follow the guide [here](bulk-transfer-using-wizard.md).
+
+## Terraform
+
+If your projects are managed via Terraform, you should set/replace the **`billing_account`** value in your script with your DoiT Billing Account ID. Note that the user or service account performing this operation with Terraform must have at minimum Billing Account User privileges.&#x20;
+
+Please follow the steps from the [illustrated-guide](terraform.md).&#x20;

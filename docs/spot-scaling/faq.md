@@ -15,9 +15,7 @@ Spot instances are most suitable for applications that have fault tolerance buil
 Additional use cases include:
 
 * **Batch processing** — you can use the AWS Batch service in combination with spot instances to run batch processing on spot instances that are currently available at a low cost. This can generate significant cost savings compared to running the same batch process using on-demand instances.
-
 * **Continuous integration** — development and testing are very common in a cloud environment. Dev/test tasks typically run on an irregular schedule, and because they are not production workloads, they can tolerate occasional interruptions.
-
 * **High performance computing (HPC)** — you can use spot instances to run massively parallel workloads like artificial intelligence analytics applications. These applications run on graphical processing units (GPUs), and since GPU instances are expensive, spot instances can be a big help.
 
 ## What are the best practices to use Spot instances?
@@ -36,8 +34,14 @@ Spot Scaling supports Fallback to on-demand for scenarios where there are no ava
 
 The potential saving calculation is based on the following inputs:
 
- 1. The number of the desired instances in the Auto Scaling Group
- 2. The diff between on-demand prices to spot prices per 1 hour
- 3. The number of hours in a given month (approx 730 hours)
+1. The number of the desired instances in the Auto Scaling Group
+2. The diff between on-demand prices to spot prices per 1 hour
+3. The number of hours in a given month (approx 730 hours)
+
+### **What if I want to control the proportion of the spot and on-demand instances?**
 
 By default Spot Scaling recommends 20% of desired capacity exists on-demand and 80% with spot instances. However, you can define the percentage split of On-Demand Instances and Spot Instances according to your use case.
+
+### **What if I want to control the Allowed Instances Type list?**
+
+With Spot Scaling you can easily exclude instace types that aren't fullfiling your workload requirements. Simply click on the Edit button and uncheck any instance you want to exclude.

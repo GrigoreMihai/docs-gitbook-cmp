@@ -12,7 +12,7 @@ Raising support or consulting requests doesn't require any permission or role.
 
 * Access Cost and Usage Anomalies
 
-### Assets Manager (previously Licenses Manager)
+### IT Manager (previously Assets Manager)
 
 * View and Manage assets, including managing licenses
 * Purchase additional licenses and subscriptions for [G Suite](../g-suite-and-workspace/purchasing-g-suite-licenses.md)

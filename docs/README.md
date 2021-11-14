@@ -53,17 +53,21 @@ With Instance Rightsizing for Google Cloud, you will:
 
 {% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team_library" %}
 
-### Flexible Reserved Instances
 
-AWS Reserved Instances (RIs) offer you between 30-70% savings on compute costs in exchange for a one or three-year commitment. Typically, you’d use RIs for predictable workloads, and pay on-demand pricing for the less predictable.
 
-However getting RIs usage perfect is hard, because it relies on you being able to predict the future. Sometimes your predictions turn out wrong because usage needs suddenly change. As a result, you're stuck overpaying for instances you need no more, or forced to re-sell it at a huge discount.
+## **FlexSave**
 
-[Flexible Reserved Instances](flexsave-aws/overview.md) in the CMP let you commit to EC2 Reserved Instances in one-month intervals while still sharing in the AWS-listed RI commitment discount. With Flex RIs, you'll eliminate RI lock-in risk for your less predictable workloads.
+Purchasing compute commitments — Reserved Instances (RIs) or Savings Plans (SPs) for AWS; Committed Use Discounts (CUDs) for Google Cloud — is a great way for you to reduce your compute costs for stable, predictable workloads.
 
-Placing an order for a Flex RI for the following month takes all but a few clicks, and you can easily monitor their performance from a central hub in the CMP.
+However, getting compute commitments _just right_ and then managing them is an extremely manual, never ending process. FlexSave automates this for you while maximizing your compute discounts.
 
-{% embed url="https://youtu.be/Si6mZvn-z7I" %}
+FlexSave works by analyzing your workloads, seeing which ones aren’t covered by compute commitments like CUDs, RIs, or Savings Plans. Then, with the click of a button, it assigns reserved compute resources from DoiT's own wholesale inventory to optimally cover them, continuously monitoring for any changes in needs.
+
+See how it works in the video below:
+
+{% embed url="https://www.loom.com/share/b3a232a312c24735aead19d02df4c50f" %}
+FlexSave demo for Google Cloud and AWS
+{% endembed %}
 
 ### BigQuery FinOps
 
@@ -146,21 +150,7 @@ Within the CMP you can:
 
 {% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team_library" %}
 
-## Cloud Productivity
 
-### superQuery
-
-[superQuery](http://web.superquery.io) is a web-based IDE that enables you to leverage BigQuery, AWS Athena, and DynamoDB at peak efficiency. With superQuery, you get top-notch capabilities for:
-
-* Query Management with [Tabs](https://help.superquery.io/superquery-editor/query-tabs) and [Boards](https://help.superquery.io/superquery-editor/organizing-queries)
-* Collaboration
-* [Ad-hoc Visualization](https://help.superquery.io/superquery-editor/charts)
-* [Enhanced Caching](https://help.superquery.io/superquery-editor/tab-settings#cache-preference)
-* Git functionality support
-  * [GitHub repository](https://app.gitbook.com/@doitintl/s/superquery-docs/git-integrations/connect-github) and [GitHub organization](https://app.gitbook.com/@doitintl/s/superquery-docs/git-integrations/connect-github-org) support
-  * [GitLab support](https://app.gitbook.com/@doitintl/s/superquery-docs/git-integrations/connect-gitlab)
-
-As a customer, you get unlimited superQuery seats and access to superQuery at no additional cost, and can quickly access it from the CMP.
 
 ## Cloud Governance
 

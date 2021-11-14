@@ -22,15 +22,15 @@ Required permission to create and manage Organizations: **User Manager**
 
 ### Organization
 
-An organization is an automatic set of [attributions](../cloud-analytics/attributing-cloud-spend.md) that filter data for its members.  When a user is a member of an organization all reports in Cloud Analytics are automatically filtered to show only relevant data
+An organization is an automatic set of [attributions](../cloud-analytics/attributing-cloud-spend.md) that filter data for its members. When a user is a member of an organization all reports in Cloud Analytics are automatically filtered to show only relevant data
 
 ### Root Organization (The default organization)
 
-Every company has a default organization named after their primary domain.  This organization, by default, sees all data within a company.  It can be restricted by attribution by editing it.  When an organization with members is deleted, its users are placed in the default organization rather than being given full access to the company.  This allows you the ability to configure a restricted landing zone for users when deleting existing organizations.
+Every company has a default organization named after their primary domain. This organization, by default, sees all data within a company. It can be restricted by attribution by editing it. When an organization with members is deleted, its users are placed in the default organization rather than being given full access to the company. This allows you the ability to configure a restricted landing zone for users when deleting existing organizations.
 
 ### Member
 
-When a user is assigned to an organization, they are said to be a member of that organization.  Once a member, they will see only data included in the configured attributions while in Cloud Analytics or Dashboards ([with the exception of Global Dashboards](https://app.gitbook.com/@doitintl/s/cmp/\~/drafts/-MhECcbsGcCOA9EdQFsO/user-management/manage-organizations#current-limitations))
+When a user is assigned to an organization, they are said to be a member of that organization. Once a member, they will see only data included in the configured attributions while in Cloud Analytics or Dashboards ([with the exception of Global Dashboards](manage-organizations.md))
 
 ## How to Setup Organizations <a href="how-to-setup-organizations" id="how-to-setup-organizations"></a>
 
@@ -40,7 +40,7 @@ When a user is assigned to an organization, they are said to be a member of that
 
 Navigate to Cloud Analytics → Attributions
 
-![A screenshot showing the _Attributions_ tab](https://lh5.googleusercontent.com/CuLRqLzE2QHApJfQQE3SWTalDbciarx_NxD5YG3aWtzOInscWSe_UqswSAq-hrmVMJgJyjA_thbD1x5Mj1zOs2gQCPEYWcHDny0kTxB-BICCVCY1PSuUVcyGFpOcpSdkrMS7s1fg)
+![A screenshot showing the Attributions tab](https://lh5.googleusercontent.com/CuLRqLzE2QHApJfQQE3SWTalDbciarx\_NxD5YG3aWtzOInscWSe\_UqswSAq-hrmVMJgJyjA\_thbD1x5Mj1zOs2gQCPEYWcHDny0kTxB-BICCVCY1PSuUVcyGFpOcpSdkrMS7s1fg)
 
 If you already have an attribution configured, select it and confirm that it matches the set of data you would like to use as an organization.‌
 
@@ -50,7 +50,7 @@ If you already have an attribution configured, select it and confirm that it mat
 
 Navigate to the Users and Roles menu and select the ‘Organizations’ Menu
 
-![A screenshot showing the _Organizations_ menu](../.gitbook/assets/organizations-menu.png)
+![A screenshot showing the Organizations menu](../.gitbook/assets/organizations-menu.png)
 
 Select ‘New Organization’!
 

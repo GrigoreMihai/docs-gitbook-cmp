@@ -12,7 +12,7 @@ Required Permissions: **Billing Profile Admin**
 
 Start with navigating to the 'Support' page by selecting the icon on the left-hand side menu.
 
-![A screenshot showing the location of the _Support_ menu item](<../.gitbook/assets/support-tab (1).png>)
+![A screenshot showing the location of the Support menu item](<../.gitbook/assets/support-tab (1).png>)
 
 Locate the settings gear icon at the top-right of the page
 
@@ -20,8 +20,8 @@ Locate the settings gear icon at the top-right of the page
 
 Select 'Manage Default Emails List'
 
-![A screenshot showing the location of the _Manage Default Emails List_ option](<../.gitbook/assets/image (5).png>)
+![A screenshot showing the location of the Manage Default Emails List option](<../.gitbook/assets/image (5) (1).png>)
 
 Add people you'd like to be always copied on new requests and click "Save"
 
-![A screenshot of the _Manage Default Emails CC Addresses_ modal dialog](<../.gitbook/assets/image (4).png>)
+![A screenshot of the Manage Default Emails CC Addresses modal dialog](<../.gitbook/assets/image (4) (1).png>)

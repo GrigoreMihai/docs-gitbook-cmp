@@ -11,7 +11,7 @@ Required Permissions: **Cloud Analytics**
 {% endhint %}
 
 {% hint style="warning" %}
-Please connect your [Google Cloud Organization](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account) or [Amazon Web Services](https://app.gitbook.com/@doitintl/s/cmp/amazon-web-services/add-your-amazon-web-services-iam-role) to the Cloud Management Platform to get all available features.
+Please connect your [Google Cloud Organization](../../google-cloud/connect-google-cloud-service-account.md) or [Amazon Web Services](https://app.gitbook.com/@doitintl/s/cmp/amazon-web-services/add-your-amazon-web-services-iam-role) to the Cloud Management Platform to get all available features.
 {% endhint %}
 
 ## Accessing Cloud Reports
@@ -31,7 +31,7 @@ Click on the "Explore" button on the top-right part of the Cloud Analytics page 
 
 If you'd like your report to be automatically saved regardless of whether you give it a name, click on the dropdown arrow next to "Explore" and select "New Report" instead.
 
-![A screenshot showing the location of the _Explore_ dropdown menu](../../.gitbook/assets/cloud-reports-explore.jpg)
+![A screenshot showing the location of the Explore dropdown menu](../../.gitbook/assets/cloud-reports-explore.jpg)
 
 ## Set up your Cloud Report
 
@@ -41,7 +41,7 @@ To edit your report, click on the pencil icon on the right-hand sidebar. This wi
 
 Conversely, if you are in Edit Mode, you can switch to View mode by clicking on the eye icon that will appear in place of the pencil icon.
 
-![A screenshot showing the location of the _Edit Mode_ button](../../.gitbook/assets/cloudreports_editviewmode.jpg)
+![A screenshot showing the location of the Edit Mode button](../../.gitbook/assets/cloudreports\_editviewmode.jpg)
 
 There are four steps to setting up your cloud report:
 
@@ -55,7 +55,7 @@ There are four steps to setting up your cloud report:
 
 After a few seconds, your report will appear, ready for your analysis.
 
-![A screenshot showing a _Cloud Analytics_ report](../../.gitbook/assets/cloudreportsui.jpg)
+![A screenshot showing a Cloud Analytics report](../../.gitbook/assets/cloudreportsui.jpg)
 
 ## FAQ
 
@@ -70,6 +70,8 @@ Cloud Analytics data and reports are updated hourly.
 ### What timezone are Cloud Analytics Reports based on?
 
 Data coming from Google Cloud is based on Pacific time and Data coming from AWS is based on Coordinated Universal Time (UTC)
+
+You can [configure a default timezone for new Cloud Analytics Reports in General > Settings](../../general/general-settings.md#timezone)
 
 ## Watch
 

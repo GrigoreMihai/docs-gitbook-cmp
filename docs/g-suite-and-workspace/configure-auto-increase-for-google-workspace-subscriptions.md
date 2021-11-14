@@ -22,19 +22,19 @@ _Please note that you must be assigned access to the specific Billing Profile un
 
 Start by navigating to your Assets page either via the left-hand navigation bar or the "Manage Licenses & Assets" shortcut.
 
-![A screenshot showing the _Assets_ icon and the _Manager Licenses & Assets_ shortcut](../.gitbook/assets/assets.jpg)
+![A screenshot showing the Assets icon and the Manager Licenses & Assets shortcut](../.gitbook/assets/assets.jpg)
 
 Once you're at the Assets page, switch to the Google Workspace tab.
 
-![A screenshot showing the _Google Workspace_ tab](../.gitbook/assets/workspacepage.jpg)
+![A screenshot showing the Google Workspace tab](../.gitbook/assets/workspacepage.jpg)
 
 Locate the subscription you'd like to configure auto-increase for, and click on the ellipsis icon on the right-hand side of the widget. Then choose 'Configure Auto Increase'.
 
-![A screenshot showing the _Configure Auto-Increase_ option](../.gitbook/assets/cleanshot-2021-01-19-at-11.34.47.jpg)
+![A screenshot showing the Configure Auto-Increase option](../.gitbook/assets/cleanshot-2021-01-19-at-11.34.47.jpg)
 
 Configure the number of licenses you want to have available at all times. Once licenses get assigned to users in your organization, a new license(s) will be added automatically.
 
-![A screenshot showing the _Configure Auto-Increase_ modal dialog](../.gitbook/assets/image.png)
+![A screenshot showing the Configure Auto-Increase modal dialog](<../.gitbook/assets/image (20).png>)
 
 After you click "Save" you will see a success message in the lower-left corner of your screen, confirming your adjustment. Our system will check for and add, if necessary, additional licenses every 30 minutes.
 

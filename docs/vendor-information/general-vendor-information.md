@@ -11,9 +11,9 @@ If you need to setup DoiT International as a new vendor in your systems, you're 
 
 ## United Kingdom
 
-* Our company name is DoiT International UK&I, Ltd
+* Our company name is DoiT International UK\&I, Ltd
 * Our VAT number is 349 5963 45
-* Our address is: 201 Haverstock Road \(2nd-floor\) London, NW3 4QG, England, United Kingdom
+* Our address is: 201 Haverstock Road (2nd-floor) London, NW3 4QG, England, United Kingdom
 
 ## Germany
 
@@ -56,3 +56,9 @@ If you need to setup DoiT International as a new vendor in your systems, you're 
 * Our company name is DoiT Holdings International CA Ltd.
 * Our ABN is 40 638 259 355
 * Our address is 20th Floor, 250 Howe Street, Vancouver, BC V6C 3R8 Canada
+
+## Sweden
+
+* Our company name is Goldcup 27160 AB (being modified to "DoiT International Sweden AB")
+* Our Registration Number is 559300-7197
+* Our address is Bolasgratt Sundsvall AB, Box 270 851 04 SUNDSVALL, Sweden

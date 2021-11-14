@@ -84,35 +84,36 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
 
 ## Summary: Pre-built Roles and Permissions
 
-| Permissions           | **Admin** | <p><strong>Finance</strong></p><p><strong>User</strong></p> | <p><strong>IT</strong></p><p><strong>Manager</strong></p> | <p><strong>Power</strong></p><p><strong>User</strong></p> | <p><strong>Standard</strong></p><p><strong>User</strong></p> | <p><strong>superQuery</strong></p><p><strong>User</strong></p> |
+|                       |           |                                                             |                                                           |                                                           |                                                              |                                                                |
 | --------------------- | :-------: | :---------------------------------------------------------: | :-------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------------: |
+| Permissions           | **Admin** | <p><strong>Finance</strong></p><p><strong>User</strong></p> | <p><strong>IT</strong></p><p><strong>Manager</strong></p> | <p><strong>Power</strong></p><p><strong>User</strong></p> | <p><strong>Standard</strong></p><p><strong>User</strong></p> | <p><strong>superQuery</strong></p><p><strong>User</strong></p> |
 | Anomalies Viewer      |     ✔     |                            **✓**                            |                             ✔                             |                           **✓**                           |                                                              |                                                                |
 | Assets Manager        |   **✓**   |                                                             |                           **✓**                           |                                                           |                                                              |                                                                |
-| Attributions Manager  |   **✓**   |                                                             |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
+| Attributions Manager  |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
 | Billing Profile Admin |   **✓**   |                            **✓**                            |                                                           |                                                           |                                                              |                                                                |
-| Budgets Manager       |   **✓**   |                                                             |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
-| Cloud Analytics       |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
-| Contracts Viewer      |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
+| Budgets Manager       |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Cloud Analytics       |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
+| Contracts Viewer      |   **✓**   |                            **✓**                            |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
 | Flexible RI Admin     |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
 | Invoice Viewer        |   **✓**   |                            **✓**                            |                                                           |                                                           |                                                              |                                                                |
-| Issues Viewer         |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                            **✓**                             |                             **✓**                              |
+| Issues Viewer         |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                             **✓**                            |                              **✓**                             |
 | Settings Manager      |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
 | Sandbox Admin         |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
-| Sandbox User          |   **✓**   |                                                             |                                                           |                           **✓**                           |                            **✓**                             |                                                                |
+| Sandbox User          |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
 | Spot0                 |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
-| Support Requester     |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                            **✓**                             |                             **✓**                              |
+| Support Requester     |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                             **✓**                            |                              **✓**                             |
 | Users Manager         |   **✓**   |                                                             |                                                           |                           **✓**                           |                                                              |                                                                |
-| superQuery            |   **✓**   |                                                             |                                                           |                           **✓**                           |                            **✓**                             |                             **✓**                              |
+| superQuery            |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                              **✓**                             |
 
 ## Custom Roles
 
 If one of the built-in roles doesn't work for you, you can create a custom role with your own set of permissions. To create a custom user role, select the "Users and Roles" icon in the lefthand navigation bar.
 
-![A screenshot showing the location of the _Users and Roles_ menu item](../.gitbook/assets/usersandroles.jpg)
+![A screenshot showing the location of the Users and Roles menu item](../.gitbook/assets/usersandroles.jpg)
 
 From there, navigate to the "Roles" tab. You will see a list of Preset Roles, as well as any other Custom Roles created by your team.
 
-![A screenshot showing the location of the _Roles_ tab](../.gitbook/assets/roles-tab.jpg)
+![A screenshot showing the location of the Roles tab](../.gitbook/assets/roles-tab.jpg)
 
 Create a new role by clicking on the "**+NEW**" button at the top right of the screen. This opens a new page with a [list of permissions](user-permissions-explained.md) available to group into the new role.
 
@@ -132,7 +133,7 @@ You can't edit built-in roles.
 
 To modify the permissions contained in a custom role, check the box next to the role you'd like to edit, then click on the "Edit Role" icon at the top-right of your screen.
 
-![A screenshot showing the location of the _Edit Role_ icon](../.gitbook/assets/editrole.jpg)
+![A screenshot showing the location of the Edit Role icon](../.gitbook/assets/editrole.jpg)
 
 From there, make your edits to the permissions the role contains. When finished, click on the **<--** back arrow icon at the top-left to return to the main Roles page.
 
@@ -154,4 +155,4 @@ To set a role as the default role for your team, click on a role from your list 
 
 Finally, click "Confirm".
 
-![A screenshot showing the _Set Default Role_ modal dialog](<../.gitbook/assets/image (67).png>)
+![A screenshot showing the Set Default Role modal dialog](<../.gitbook/assets/image (67).png>)

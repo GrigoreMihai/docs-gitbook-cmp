@@ -112,7 +112,7 @@ jobs:
       # This is a third-party action that updates Slack with the outcome status
       # of this job.
       - uses: ravsamhq/notify-slack-action@v1
-        if: github.event_name != 'pull_request'
+        if: always() && github.event_name != 'pull_request'
         env:
           # TODO: Figure out how to use the name of the job without copying it
           STATUS: 'Docs checks: <{run_url}|{status_message}>'

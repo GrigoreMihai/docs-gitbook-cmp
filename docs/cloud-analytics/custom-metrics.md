@@ -12,15 +12,17 @@ Custom metrics allows customers to calculate metrics based on existing [attribut
 
 For example:
 
-*   **Percentage of GCP CUD utilized**
+* **Percentage of GCP CUD utilized**
 
-    CUD (committed use discount) Usage / CUD (committed use discount) Commitment
-*   **Amortized Instance Reservation Consumption**
+  CUD (committed use discount) Usage / CUD (committed use discount) Commitment
 
-    Monthly Ec2 Instance type usage / (1 yr Reserved Instance type commitment / 12)
-*   **Percentage Shared Infrastructure Cost**
+* **Amortized Instance Reservation Consumption**
 
-    Shared Infrastructure costs / Total Infrastructure Cost
+  Monthly Ec2 Instance type usage / (1 yr Reserved Instance type commitment / 12)
+
+* **Percentage Shared Infrastructure Cost**
+
+  Shared Infrastructure costs / Total Infrastructure Cost
 
 Custom metrics can be particularly useful when tracking consumption of shared services. Determine what percentage of shared infrastructure is being used by a single app. Determine distribution of compute types across a set of accounts or projects.
 
@@ -94,7 +96,7 @@ When a valid formula is complete a preview will generate below
 
 N1 Commitments / N1 Usage as %
 
-![](<../.gitbook/assets/CleanShot 2021-11-01 at 11.44.56.jpg>)
+![A screenshot of an example N1 Commitments / N1 Usage as % report](<../.gitbook/assets/CleanShot 2021-11-01 at 11.44.56.jpg>)
 
 ## Including Customer Metrics in Cloud Analytics Reports
 
@@ -102,10 +104,10 @@ To include a metric in a report, [create a new report​](create-cloud-report/)
 
 In the Report configuration panel select _'Metric'_
 
-![](<../.gitbook/assets/CleanShot 2021-11-01 at 11.59.42.jpg>)
+![A screenshot of the *Metric* drop-down menu](<../.gitbook/assets/CleanShot 2021-11-01 at 11.59.42.jpg>)
 
 Once selected you will be prompted to confirm your choice
 
-![](<../.gitbook/assets/CleanShot 2021-11-01 at 12.01.53.jpg>)
+![A screenshot of the *Show N1 Commitment Coverage* modal dialog](<../.gitbook/assets/CleanShot 2021-11-01 at 12.01.53.jpg>)
 
 Once selected you can build your report as normal with the required attributions and run your report

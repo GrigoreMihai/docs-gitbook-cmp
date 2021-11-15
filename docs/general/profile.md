@@ -50,7 +50,9 @@ You can request to be notified on the following events:
 * [ ] The second reminder is sent four days after the invoice's due date.
 * [ ] The third reminder is sent 10 days after the invoice's due date.
 
-**Cloud **[**Known Issues**](../tickets/cloud-infrastructure-known-issues.md)- get alerted whenever there is an infrastructure issue with Google Cloud and/or AWS that may affect your own workloads.
+**Cloud [Known Issues](../tickets/cloud-infrastructure-known-issues.md)**
+
+* Get alerted whenever there is an infrastructure issue with Google Cloud and/or AWS that may affect your own workloads.
 
 ![A screenshot of the Notifications tab](<../.gitbook/assets/image (9) (1).png>)
 
@@ -65,7 +67,7 @@ Selecting one or more attributions from the dropdown will generate a daily cost 
 
 Email will be sent at 6:00 UTC.
 
-![](<../.gitbook/assets/image (85).png>)
+![A screenshot of the email that will be sent](<../.gitbook/assets/image (85).png>)
 
 ### API
 

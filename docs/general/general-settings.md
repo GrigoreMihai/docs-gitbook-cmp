@@ -4,15 +4,15 @@ description: Settings > General
 
 # General Settings
 
-The **General **tab of the Settings section contains options that provide company specific defaults for all users within the CMP. &#x20;
+The **General** tab of the Settings section contains options that provide company specific defaults for all users within the CMP. &#x20;
 
-![](<../.gitbook/assets/image (102).png>)
+![A screenshot of the *General* tab page](<../.gitbook/assets/image (102).png>)
 
 The General tab contains two settings:
 
-### Timezone
+## Timezone
 
-![](<../.gitbook/assets/image (62).png>)
+![A screenshot of the *Timezone* drop-down menu](<../.gitbook/assets/image (62).png>)
 
 When selected timezone will be used as a default in the following features:
 
@@ -22,11 +22,9 @@ When selected timezone will be used as a default in the following features:
 | Cloud Analytics | Reports | Timezone will be the default timezone for any report in [_Explore_ or _New Report_](../cloud-analytics/create-cloud-report/)__ |
 | Cloud Analytics | Budgets | Timezone will be used as the default for any newly [created Budget](../cloud-analytics/manage-budgets.md#creating-budgets)     |
 
+1. Currency
 
-
-1.  Currency
-
-    ![](<../.gitbook/assets/image (79).png>)
+   ![A screenshot of the *Currency* field](<../.gitbook/assets/image (79).png>)
 
 | Section         | Feature | Behavior                                                                                                                       |
 | --------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------ |

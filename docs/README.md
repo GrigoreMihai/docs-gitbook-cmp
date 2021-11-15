@@ -53,8 +53,6 @@ With Instance Rightsizing for Google Cloud, you will:
 
 {% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team_library" %}
 
-
-
 ## **FlexSave**
 
 Purchasing compute commitments — Reserved Instances (RIs) or Savings Plans (SPs) for AWS; Committed Use Discounts (CUDs) for Google Cloud — is a great way for you to reduce your compute costs for stable, predictable workloads.
@@ -150,8 +148,6 @@ Within the CMP you can:
 
 {% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team_library" %}
 
-
-
 ## Cloud Governance
 
 ### Asset Management
@@ -164,7 +160,7 @@ From your Asset Management screen, you can:
 * [Create a new Google Cloud Billing Account](google-cloud/create-google-cloud-billing-account.md) and/or an [AWS account](amazon-web-services/create-an-aws-account.md).
 * [Invite an existing AWS account](amazon-web-services/invite-existing-aws-account.md)
 * [Purchase additional seats for G Suite](g-suite-and-workspace/purchasing-g-suite-licenses.md) and/or [Office 365](microsoft-office-365/purchasing-office-365-licenses.md) yourself.
-* Automate subscription management with [auto-provisioning](https://help.doit-intl.com/hc/en-us/articles/360038041751-Configure-Auto-Increase-for-G-Suite-Subscriptions) for G Suite, guaranteeing there is an open seat at all times.
+* Automate subscription management with [auto-provisioning](g-suite-and-workspace/configure-auto-increase-for-google-workspace-subscriptions.md) for G Suite, guaranteeing there is an open seat at all times.
 * [Tag Assets](assets-and-contracts/tag-assets.md) for classification and invoicing purposes (e.g. team name, cost center, location, etc.).
 
 Additionally, you can view your order history of all licenses and subscriptions across all of your cloud products.

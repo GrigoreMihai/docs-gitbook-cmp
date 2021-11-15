@@ -41,7 +41,7 @@ To edit your report, click on the pencil icon on the right-hand sidebar. This wi
 
 Conversely, if you are in Edit Mode, you can switch to View mode by clicking on the eye icon that will appear in place of the pencil icon.
 
-![A screenshot showing the location of the Edit Mode button](../../.gitbook/assets/cloudreports\_editviewmode.jpg)
+![A screenshot showing the location of the Edit Mode button](../../.gitbook/assets/cloudreports-edit-view-mode.jpg)
 
 There are four steps to setting up your cloud report:
 

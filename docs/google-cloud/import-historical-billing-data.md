@@ -28,7 +28,7 @@ Once you have identified the service account, copy the service account email and
 You need to have the appropriate IAM role/permission in GCP to grant the required permissions to the service account
 {% endhint %}
 
-> #### Grant the **BigQuery Data Viewer role**
+> **BigQuery Data Viewer role**
 
 1. From GCP, navigate to the BigQuery Console and open the **dataset** where the billing data is stored, then click "**Share dataset**"
 2. In the Dataset Permissions tab, click "**Add Member**" and paste the **service account** **email** that was linked to CMP as identified in [**Step 1**](import-historical-billing-data.md#step-1-identify-the-service-account-linked-to-cmp).
@@ -40,7 +40,7 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 
 ![A screenshot showing the process of granting the BigQuery Data Viewer role](<../.gitbook/assets/image (94).png>)
 
-> #### Grant the **bigquery.jobs.create permission**
+> **Grant the bigquery.jobs.create permission**
 >
 > Depending on the features initially enabled from the process [Connect Google Cloud Service Account](https://help.doit-intl.com/google-cloud/connect-google-cloud-service-account), you may already have this permission granted to the role. Follow the steps below to verify / add the permission to the project.
 
@@ -75,6 +75,7 @@ Required Permission: Assets Manager
 
 You can now import your historical billing data into CMP. You need the following information to complete the process:
 
+<!-- cSpell:ignore 01CF51-9FDB87-7894FD -->
 * Billing Account ID: _example_ "**01CF51-9FDB87-7894FD**"
 * Source Project: Enter the "**Project ID"**
 * Source Dataset: Enter the "**Dataset ID"**

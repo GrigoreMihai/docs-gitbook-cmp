@@ -52,8 +52,6 @@ To create a Google Cloud Service account, execute the following steps:
 
 ![The steps to create a Google Cloud service account with Core permissions](<../.gitbook/assets/CleanShot 2021-10-18 at 14.50.03.jpg>)
 
-
-
 Next, a slide-out will appear on the right side of your screen, containing all of the Google SDK ([gcloud)](https://cloud.google.com/sdk) commands you need to run in order to create the service account and set it up with the correct role.
 
 Before executing the gcloud commands, ensure that you have selected an appropriate project to create your service account. The project should be one that you are planning to keep long-term and that will only be accessible by only trusted people.
@@ -66,11 +64,9 @@ The `gcloud` commands vary according to the boxes of the features you checked
 
 ![The list of gcloud commands to execute sequentially to generate a service account with Core permissions](<../.gitbook/assets/CleanShot 2021-10-18 at 14.57.39.jpg>)
 
-
-
 Once you finished to run the gcloud commands, you can download the key in the JSON file for your new service account.
 
-![A screenshot showing the location of the Download File menu item](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MIGYTaJbwlvzCb78QRB%2Fuploads%2Fgit-blob-7e262300b4cfc29dc63bc149c27b47cc0993146f%2Fimage%20\(70\).png?alt=media)
+![A screenshot showing the location of the Download File menu item](../.gitbook/assets/gcloud-commands.png)
 
 The gcloud commands achieve the following:&#x20;
 
@@ -79,7 +75,7 @@ The gcloud commands achieve the following:&#x20;
 
 Congrats! You have now created a new "doit\_cmp\_role" linked to the "DoiT CMP Service Account", under your organization. Now it's time to upload the service account to the CMP.
 
-![A screenshot of a list of organization roles](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MIGYTaJbwlvzCb78QRB%2Fuploads%2Fgit-blob-f48f0b4916c5117e75bd78689e982d3ac5bd0dbf%2Fimage%20\(71\).png?alt=media)
+![A screenshot of a list of organization roles](../.gitbook/assets/list-of-organization-roles.png)
 
 After you've generated a service account key, your next step is to upload the JSON file to the CMP by clicking on "Upload File".
 
@@ -102,4 +98,3 @@ Note: If you're manually linking your AWS account, you need to add three built-i
 * SecurityAudit
 * Billing
 * AWSSavingsPlansReadOnlyAccess
-

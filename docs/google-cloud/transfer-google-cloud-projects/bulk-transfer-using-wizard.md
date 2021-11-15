@@ -125,7 +125,7 @@ To identify which project(s) didn't transfer successfully, click on the hyperlin
 
 Here is an example output:
 
-```
+```text
 project-id-1, success
 project-id-2, success
 project-id-3, error-code

@@ -26,7 +26,7 @@ If successfully uploaded, you will see:
 
 Once the Google Cloud Service Account setup is complete, click the \*\*'\*\*Attach' button and choose the BigQuery FinOps dashboard from the list.
 
-![A screenshot showing the location of the Attach icon](../.gitbook/assets/budgetao\_finops\_attach.jpg)
+![A screenshot showing the location of the Attach icon](../.gitbook/assets/budget-ao-finops-attach.jpg)
 
 Cloud Management Platform will now start gathering the information on your usage patterns.
 

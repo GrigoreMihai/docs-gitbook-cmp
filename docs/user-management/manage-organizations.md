@@ -40,11 +40,11 @@ When a user is assigned to an organization, they are said to be a member of that
 
 Navigate to Cloud Analytics → Attributions
 
-![A screenshot showing the Attributions tab](https://lh5.googleusercontent.com/CuLRqLzE2QHApJfQQE3SWTalDbciarx\_NxD5YG3aWtzOInscWSe\_UqswSAq-hrmVMJgJyjA\_thbD1x5Mj1zOs2gQCPEYWcHDny0kTxB-BICCVCY1PSuUVcyGFpOcpSdkrMS7s1fg)
+![A screenshot showing the Attributions tab](../.gitbook/assets/cloud-analytics-attributions.png)
 
 If you already have an attribution configured, select it and confirm that it matches the set of data you would like to use as an organization.‌
 
-​[Please click here to learn more about attributions](https://help.doit-intl.com/cloud-analytics/attributing-cloud-spend#creating-an-attribution)‌
+​[Please click here to learn more about attributions](../cloud-analytics/attributing-cloud-spend.md#creating-an-attribution.png)‌
 
 ### Step 2. Create an Organization‌ <a href="step-2-create-an-organization" id="step-2-create-an-organization"></a>
 

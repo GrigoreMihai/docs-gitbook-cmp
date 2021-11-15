@@ -8,7 +8,7 @@ description: Supported by FlexSave for AWS Regions & Roadmap
 
 As of the November 1st 2021, FlexSave is available in the following fifteen AWS regions:
 
-```
+```text
 us-east-1 US East (N. Virginia)
 us-east-2 US East (Ohio)
 us-west-1 US West (N. California)

@@ -1,11 +1,13 @@
 ABN
 ACH
 AMTS
+ao
 ARN
 ASG
 ASG's
 ASGs
 BQ
+BRL
 CC'd
 CCs
 CEVAL
@@ -18,6 +20,7 @@ CRM
 CSM
 DACH
 DCEs
+DKK
 ECAM
 EIN
 ELB
@@ -27,6 +30,7 @@ GCP
 GCS
 GKE
 HPC
+IBAN
 IDPs
 IOPS
 KPIs
@@ -34,6 +38,8 @@ MBPS
 MPA
 MPAs
 MX
+MXN
+NOK
 PCI
 PPU
 pro-serv
@@ -44,10 +50,12 @@ RHEL
 RIs
 Sarl
 SAS
+SEK
 SKU
 SKUs
 SLA
 SLES
+SPs
 SRE
 SSD
 TCO

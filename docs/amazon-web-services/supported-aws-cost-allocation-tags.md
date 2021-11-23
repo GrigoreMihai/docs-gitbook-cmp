@@ -4,11 +4,11 @@ description: Cost allocation tags we natively support in Cloud Management Platfo
 
 # AWS Cost Allocation Tags
 
-We have enabled the following user-defined tags \(case sensitive\) across our AWS consolidated billing accounts.
+We have enabled the following user-defined tags (case sensitive) across our AWS consolidated billing accounts.
 
 ## User-defined cost allocation tags
 
-```text
+```
 Alias
 alias
 Billing
@@ -31,11 +31,19 @@ Unit
 glue_job
 service-name
 kubernetes.io/service-name
+kubernetes.io/created-for/pvc/name
+kubernetes.io/cluster-name
+app.kubernetes.io/instance
+kubernetes.io/cluster/
+kubernetes.io/created-for/pv/name
+app.kubernetes.io/managed-by
+kubernetes.io/created-for/pvc/namespace
+app.kubernetes.io/name
 ```
 
 ## AWS-generated cost allocation tags
 
-```text
+```
 aws:cloudformation:stack-name
 aws:createdBy
 aws:cloud9:owner

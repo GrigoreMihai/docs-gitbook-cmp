@@ -15,3 +15,11 @@ MD036: false
 # Inline HTML
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md033
 MD033: false
+
+# GitBook removes `text`, even when specified, so unless we disable this check,
+# every update to a document with a code block like this is going to trip up
+# the lint checks or require a follow-up commit.
+#
+# Fenced code blocks should have a language specified
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md040
+MD040: false

@@ -30,8 +30,9 @@ There are a few pre-built roles in your account for your convenience. The easies
 
 | Privileges     | Only users with privilege can:                            |
 | -------------- | --------------------------------------------------------- |
-| Support        | create new and access existing technical support requests |
-| Assets Manager | view and manage assets, including managing licenses       |
+| Support        | Create new and access existing technical support requests |
+| Issues Viewer  | Access to cloud outage information                        |
+| Assets Manager | View and manage assets (including managing licenses)      |
 
 ### Finance User
 
@@ -87,7 +88,7 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
 |                       |           |                                                             |                                                           |                                                           |                                                              |                                                                |
 | --------------------- | :-------: | :---------------------------------------------------------: | :-------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------------: |
 | Permissions           | **Admin** | <p><strong>Finance</strong></p><p><strong>User</strong></p> | <p><strong>IT</strong></p><p><strong>Manager</strong></p> | <p><strong>Power</strong></p><p><strong>User</strong></p> | <p><strong>Standard</strong></p><p><strong>User</strong></p> | <p><strong>superQuery</strong></p><p><strong>User</strong></p> |
-| Anomalies Viewer      |     ✔     |                            **✓**                            |                             ✔                             |                           **✓**                           |                                                              |                                                                |
+| Anomalies Viewer      |   **✓**   |                            **✓**                            |                           **✓**                           |                           **✓**                           |                                                              |                                                                |
 | Assets Manager        |   **✓**   |                                                             |                           **✓**                           |                                                           |                                                              |                                                                |
 | Attributions Manager  |   **✓**   |                                                             |                                                           |                           **✓**                           |                             **✓**                            |                                                                |
 | Billing Profile Admin |   **✓**   |                            **✓**                            |                                                           |                                                           |                                                              |                                                                |

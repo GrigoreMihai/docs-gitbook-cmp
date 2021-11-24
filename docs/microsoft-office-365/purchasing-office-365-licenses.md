@@ -16,23 +16,23 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start by accessing your Office 365-based Assets from the menu on the left-hand side of the page and clicking on Assets.
 
-![A screenshot showing you the location of the _Assets_ menu option](<../.gitbook/assets/assets-icon-1- (4) (5) (5).png>)
+![A screenshot showing you the location of the Assets menu option](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (6).png>)
 
 Once you're at the Assets page, switch to the Office 365 tab.
 
-![A screenshot showing you the location of the _Office 365_ tab](../.gitbook/assets/office-365-tab1.png)
+![A screenshot showing you the location of the Office 365 tab](../.gitbook/assets/office-365-tab1.png)
 
 Locate the subscription you'd like to add licenses for and click the **+** icon to add as many licenses as needed.
 
-![A screenshot showing you the location of the _+_ icon](../.gitbook/assets/office-365-tab.png)
+![A screenshot showing you the location of the + icon](../.gitbook/assets/office-365-tab.png)
 
 Add up to as many licenses as you wish, and click 'Apply'.
 
-![A screenshot showing you the location of the _Apply_ button](../.gitbook/assets/office-flexible.png)
+![A screenshot showing you the location of the Apply button](../.gitbook/assets/office-flexible.png)
 
 Finally, you may approve the purchase by clicking the 'Approve' button.
 
-![A screenshot showing you the location of the _Approve_ option](../.gitbook/assets/office-license.png)
+![A screenshot showing you the location of the Approve option](../.gitbook/assets/office-license.png)
 
 **Understanding License Utilization:**
 

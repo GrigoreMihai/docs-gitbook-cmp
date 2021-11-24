@@ -156,4 +156,4 @@ To set a role as the default role for your team, click on a role from your list 
 
 Finally, click "Confirm".
 
-![A screenshot showing the Set Default Role modal dialog](<../.gitbook/assets/image (67).png>)
+![A screenshot showing the Set Default Role modal dialog](<../.gitbook/assets/image (67) (1).png>)

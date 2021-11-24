@@ -22,7 +22,7 @@ To enable the integration, make sure you're logged in to both the CMP and Slack.
 
 Or just click this link to add the DoiT CMP Slack app to your workspace.
 
-![A screenshot showing the location of the _Settings_ icon, _Slack_ tab, and _Add to Slack_ button](../.gitbook/assets/cleanshot-2021-07-25-at-11.12.51.jpg)
+![A screenshot showing the location of the Settings icon, Slack tab, and Add to Slack button](../.gitbook/assets/cleanshot-2021-07-25-at-11.12.51.jpg)
 
 Finally, click "Allow" to give the DoiT CMP Slack app permission to access your Slack workspace.
 
@@ -38,7 +38,7 @@ Once you've set up the integration, CMP links pasted in Slack will unfurl. Most 
 
 For example:
 
-![A screenshot of an unfurled link in Slack](../.gitbook/assets/image%20%2876%29.png)
+![A screenshot of an unfurled link in Slack](<../.gitbook/assets/image (76) (1).png>)
 
 ## Permissions
 

@@ -40,11 +40,11 @@ While this information is being collected, your BigQuery FinOps will have the th
 
 **1) We have started to analyze your historical usage. So far we have processed X%. In the meantime, you can explore our training Perks!**
 
-![A screenshot of the notification text above](<../.gitbook/assets/image (150).png>)
+![A screenshot of the notification text above](<../.gitbook/assets/image (150) (1).png>)
 
 **2) The scan is completed, and X% of your data was already processed. You are almost there!**
 
-![A screenshot of the notification text above](<../.gitbook/assets/image (152).png>)
+![A screenshot of the notification text above](<../.gitbook/assets/image (152) (1).png>)
 
 **3) BigQuery FinOps highlights inefficiencies in your BigQuery usage. The analysis represents the last 30 days of use.**
 
@@ -54,7 +54,7 @@ Once available, you'll see the dashboard appear with the statistics of your orga
 
 The BigQuery FinOps dashboard is compiled of widgets that will provide you more insight into your organization's statistics.
 
-![A screenshot of the widgets on a BigQuery FinOps dashboard](<../.gitbook/assets/image (157).png>)
+![A screenshot of the widgets on a BigQuery FinOps dashboard](<../.gitbook/assets/image (157) (1).png>)
 
 ### Elements of the Dashboard
 

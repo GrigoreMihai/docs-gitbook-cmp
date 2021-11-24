@@ -12,9 +12,9 @@ Perks are service-based benefits available to DoiT International customers at no
 
 Access your Perks library via the Perks icon on the left-hand navigation panel.
 
-![A screenshot showing the location of the _Perks_ menu item](../.gitbook/assets/perks.jpg)
+![A screenshot showing the location of the Perks menu item](../.gitbook/assets/perks.jpg)
 
- In the Perks library, you will find a list of all of the available Perks your team can request. For each Perk, you will see the:
+In the Perks library, you will find a list of all of the available Perks your team can request. For each Perk, you will see the:
 
 * Name of the perk
 * Platform(s) the perk is applicable to (AWS, Google Cloud, etc.)
@@ -33,11 +33,11 @@ To request a Perk, first, click on the "Learn More" link associated with the sel
 
 To request the perk for your team, click on the "Request Perk" button at the top-right corner of the Perks page.
 
-![A screenshot showing the location of the _Request Perk_ button](../.gitbook/assets/perk-specifics.jpg)
+![A screenshot showing the location of the Request Perk button](<../.gitbook/assets/perk-specifics (1).jpg>)
 
 After a few seconds, you will see the following message on the lower-left corner of your screen if the request is successful:
 
-!["Your request is submitted. We'll reach out to you during the next 48 hours"](../.gitbook/assets/perk-request.jpg)
+!["Your request is submitted. We'll reach out to you during the next 48 hours"](<../.gitbook/assets/perk-request (1).jpg>)
 
 Additionally, you will receive an email confirming that your request has been received.
 

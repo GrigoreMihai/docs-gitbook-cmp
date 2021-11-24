@@ -14,7 +14,7 @@ Required Permissions: **Invoice Viewer**
 
 Start with accessing `Invoices` from the menu on the top left-hand side of the page and clicking on Invoices, or locating the icon as seen in the example below.
 
-![A screenshot showing you the location of the _Invoices_ menu item](../.gitbook/assets/invoice-icon.png)
+![A screenshot showing you the location of the Invoices menu item](../.gitbook/assets/invoice-icon.png)
 
 You can filter the invoices per billing profile to which it was issued, and by issue date of the invoice. To filter the invoices, use the dropdown controls at the top of the page.
 
@@ -22,7 +22,7 @@ You can filter the invoices per billing profile to which it was issued, and by i
 
 In addition, there is the option to download the invoice summary as a CSV file by clicking the download icon in the top-right corner of the page.
 
-![A screenshot showing you the location of the download icon](<../.gitbook/assets/download-csm-summary (1).png>)
+![A screenshot showing you the location of the download icon](<../.gitbook/assets/download-csm-summary (1) (2).png>)
 
 There are five possible statuses for invoices:
 
@@ -36,6 +36,6 @@ By clicking on an invoice number (e.g., **IN1940032243**) you can review additio
 
 If you would like to pay for an invoice now, go to the '**Pay Now**' button on the top right-hand part of your page.
 
-![A screenshot showing you the location of the _Pay Now_ button](../.gitbook/assets/pay-now.png)
+![A screenshot showing you the location of the Pay Now button](../.gitbook/assets/pay-now.png)
 
 For further instructions on how to pay for an invoice, please proceed to the '[Pay Invoice](paying-invoices-with-credit-card-or-ach.md)' article.

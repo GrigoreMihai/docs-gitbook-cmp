@@ -49,17 +49,17 @@ Specify the frequency in which data is aggregated. For the time interval, you ha
 
 For the time range, the options are the following:
 
-![A screenshot showing you the options for Time Range](<../.gitbook/assets/image (77).png>)
+![A screenshot showing you the options for Time Range](<../.gitbook/assets/image (77) (1).png>)
 
 ### Exclude partial Intervals
 
-When looking at at a report the most current interval is always incomplete.  If the report is **Daily** then the current day will always be collecting billing data throughout the day.  By checking this checkbox, cloud analytics will remove any incomplete time interval from the data of the report.
+When looking at at a report the most current interval is always incomplete. If the report is **Daily** then the current day will always be collecting billing data throughout the day. By checking this checkbox, cloud analytics will remove any incomplete time interval from the data of the report.
 
-![A screenshot of the *Time Range* drop-down menu](<../.gitbook/assets/image (25).png>)
+![A screenshot of the Time Range drop-down menu](<../.gitbook/assets/image (187).png>)
 
 This means that we will hide data for the current day for daily intervals, current week for monthly intervals, etc.
 
-This can be very useful when performing comparative reports like Month over Month analysis, or Week over Week analysis.  This feature can also be used to remove outliers to help the accuracy of our heatmap views since partial intervals tend to skew trends by representing incomplete periods.
+This can be very useful when performing comparative reports like Month over Month analysis, or Week over Week analysis. This feature can also be used to remove outliers to help the accuracy of our heatmap views since partial intervals tend to skew trends by representing incomplete periods.
 
 ### Timezone
 
@@ -81,11 +81,9 @@ Currency that the billing data is reported in (Metric must be "Cost").
 
 The **Compare Data** dropdown will automatically add either **% change** or **actual difference** between 2 time intervals in a report.
 
-To enable Comparison mode select either **Show actuals** or **Show percentage**
-from the _Comparative data_ drop-down in Edit mode of Cloud Analytics
-Reports
+To enable Comparison mode select either **Show actuals** or **Show percentage** from the _Comparative data_ drop-down in Edit mode of Cloud Analytics Reports
 
-![A screenshot of the *Comparative data* drop-down menu](<../.gitbook/assets/image (90).png>)
+![A screenshot of the Comparative data drop-down menu](<../.gitbook/assets/image (229).png>)
 
 Comparison mode is
 
@@ -95,13 +93,13 @@ Comparison mode is
 
 When selected _**we will automatically adjust your report**_, you will be warned of the changes and asked to confirm.
 
-![A screenshot of the Show Comparative Report modal dialog](<../.gitbook/assets/image (154).png>)
+![A screenshot of the Show Comparative Report modal dialog](<../.gitbook/assets/image (154) (1).png>)
 
 Once enabled, you will see new columns in your table based view showing the ∆ between time intervals. This difference (∆) appears **after** the intervals compared.
 
 For example below: Months 07 (July) and 08 (August) show the % change after in the column ∆08 (Change to August)
 
-![Report with highlighted comparison columns](<../.gitbook/assets/image (155).png>)
+![Report with highlighted comparison columns](<../.gitbook/assets/image (155) (1).png>)
 
 _Note: Column headings will contain a % symbol when showing % change_
 

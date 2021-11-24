@@ -32,7 +32,7 @@ Select the "**Create a role automatically**" radio button, then check the boxes 
 
 To explore what AWS policies each feature requires, click the "**v**" button to the left of the feature name to expand the list of policies.
 
-![A screenshot showing the location of the v button](<../.gitbook/assets/image (54).png>)
+![A screenshot showing the location of the v button](<../.gitbook/assets/image (54) (1).png>)
 
 There are two options for creating the role with this method:
 
@@ -43,7 +43,7 @@ There are two options for creating the role with this method:
 
 After selecting the features, click on "**Link Account**". This will open AWS CloudFormation in a new tab, so you can create a stack template that'll generate the role with the requisite permissions. Before opening CloudFormation, you will be asked to confirm the action again by clicking "**Link Account**".
 
-![A screenshot of the confirmation dialog box](<../.gitbook/assets/image (35).png>)
+![A screenshot of the confirmation dialog box](<../.gitbook/assets/image (35) (1).png>)
 
 A preconfigured stack template like the one below will appear in your CloudFormation tab.
 
@@ -186,7 +186,7 @@ After the JSON for the new policy you want to create is pasted, click "**Next: T
 
 Give your policy an identifiable name, like "doit\_intl\_quotas" in the case of the Quota Monitoring feature, and a description if necessary. Then click on "**Create Policy**".
 
-![A screenshot of the Review policy screen](<../.gitbook/assets/image (48).png>)
+![A screenshot of the Review policy screen](<../.gitbook/assets/image (48) (1).png>)
 
 If the policy was successfully created, you'll be taken to the IAM Policies page and see a success message at the top like the following:
 
@@ -204,19 +204,19 @@ If you aren't adding tags to this role, then you may proceed by clicking on "**N
 
 Give the Role an identifiable name (ex. 'doit-intl-cmp-role'), review the selected policies, and click on "**Create role**".
 
-![A screenshot of the Create role screen](<../.gitbook/assets/image (41).png>)
+![A screenshot of the Create role screen](<../.gitbook/assets/image (41) (1).png>)
 
 If the role was created successfully, you'll be taken back to the main Roles page and see your Role in the list.
 
 After you have created the role, click on the role name to bring you to its summary page. Copy the value next to "**Role ARN**"
 
-![A screenshot of the \_Create Role\_form](<../.gitbook/assets/image (44) (1).png>)
+![A screenshot of the \_Create Role\_form](<../.gitbook/assets/image (44) (1) (1).png>)
 
 Finally, copy and paste the Role ARN to the Cloud Management Platform and click 'Add'.
 
 If the status of your AWS account within the Cloud Management Platform appears as 'Healthy', it means the role was added successfully.
 
-![A screenshot showing the location of the Status column](<../.gitbook/assets/image (53).png>)
+![A screenshot showing the location of the Status column](<../.gitbook/assets/image (53) (1).png>)
 
 ## Editing Linked Accounts
 
@@ -232,11 +232,11 @@ If you want to unlink an account, click on the "Unlink" button in the row corres
 
 If, after linking your AWS account, you'd like to update your role with additional permissions for a new feature, click on the "Edit" button in the row corresponding to the account.
 
-![A screenshot showing the location of the Edit button](<../.gitbook/assets/image (34).png>)
+![A screenshot showing the location of the Edit button](<../.gitbook/assets/image (34) (1).png>)
 
 Then, check the box of any new feature(s) you'd like to add permissions for.
 
-![A screenshot showing the location of the options button](<../.gitbook/assets/image (52).png>)
+![A screenshot showing the location of the options button](<../.gitbook/assets/image (52) (1).png>)
 
 There are two options for updating your role:
 

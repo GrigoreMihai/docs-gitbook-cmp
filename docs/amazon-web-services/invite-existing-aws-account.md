@@ -16,7 +16,7 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select the 'Invite AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
 
-![A screenshot showing the location of the Invite AWS Account menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (3).png>)
+![A screenshot showing the location of the Invite AWS Account menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (3) (1).png>)
 
 Once you're at the Assets page, go to the right-hand side of the page and click on '**Invite Account**'.
 
@@ -34,7 +34,7 @@ If within five minutes you haven't received the above email, please re-enter you
 
 To complete the process, sign in to the [AWS Organizations Console](https://console.aws.amazon.com/organizations/). On the Invitations page in the console, you can see your open invitations to join organizations. Finally, click the "Accept" button to accept the invitation.
 
-![A screenshot of the AWS Invitations page](../.gitbook/assets/aws-invitation.png)
+![A screenshot of the AWS Invitations page](<../.gitbook/assets/aws-invitation (1).png>)
 
 Afterward, you will be redirected to the **Organization overview** page with details about the organization that your account is now a member of. You can view the organization's ID and the owner's email address.
 
@@ -69,7 +69,7 @@ Once successfully completed it takes 24-72 hours for the data to start flowing t
 
 On your organization's page, check if you can see the invite:
 
-![Invite on your AWS Organizations page](<../.gitbook/assets/image (72).png>)
+![Invite on your AWS Organizations page](<../.gitbook/assets/image (72) (1).png>)
 
 If you can't see that invite, check if you have left your organization as specified in the above "Multiple Accounts Under a Master Organization" steps.
 
@@ -83,7 +83,7 @@ If you are still having issues, you can [open a support ticket](https://hello.do
 
 ### My payer account is showing as N/A, what does that mean?
 
-!["CloudHealth Status: Unknown"](<../.gitbook/assets/image (73).png>)
+!["CloudHealth Status: Unknown"](<../.gitbook/assets/image (73) (1).png>)
 
 It means that your Cloudhealth configuration was not done properly.
 

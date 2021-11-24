@@ -5,7 +5,7 @@ description: Track your cloud spend against your planned spend.
 # Manage Budgets
 
 {% hint style="success" %}
-**Note:** If you're new to Budgets and/or aren't familiar with Attributions we recommend reading our post on _[_Creating Attributions_](attributing-cloud-spend.md)_ before reading further.
+**Note:** If you're new to Budgets and/or aren't familiar with Attributions we recommend reading our post on [_Creating Attributions_](attributing-cloud-spend.md) before reading further.
 {% endhint %}
 
 Setting budgets and forecasting IT spend is a well-established FinOps practice, ensuring that you won’t get surprised by your cloud bill.
@@ -22,9 +22,9 @@ Go to the main Budgets page by clicking on the \[1] Cloud Analytics icon in the 
 
 You will see a list of your team’s Budgets that you’ve created, been shared on, or have been made public if there are any.
 
-To create a new Budget, click the \[3] “**+ NEW BUDGET**”  button.
+To create a new Budget, click the \[3] “**+ NEW BUDGET**” button.
 
-![A screenshot showing the location of the _NEW BUDGET_ button](../.gitbook/assets/budgets1.jpg)
+![A screenshot showing the location of the NEW BUDGET button](../.gitbook/assets/budgets1.jpg)
 
 ## Configure your Budget
 
@@ -34,7 +34,7 @@ Next, select the Budget type, time interval, and start date. If you’re configu
 
 Click on the “**Refresh**” icon to view your last period’s cost, given the Budget scope, time interval, and date(s) you’ve selected.
 
-![An animated screenshot showing the results of selecting the _Refresh_ button](../.gitbook/assets/refreshbudget.gif)
+![An animated screenshot showing the results of selecting the Refresh button](../.gitbook/assets/refreshbudget.gif)
 
 After refreshing and setting a Budget amount, two visual bars will appear below:
 
@@ -45,8 +45,8 @@ Lastly, if you’re configuring a recurring Budget, you have the option to facto
 
 Enable this by checking the “Allow growth in recurring budget periods” box, and then enter in a % growth rate for each subsequent period.
 
-![A screenshot showing the location of the _Allow growth in recurring budgets
-period_ input box](../.gitbook/assets/growthbudget.jpg)
+![A screenshot showing the location of the Allow growth in recurring budgets
+period input box](<../.gitbook/assets/growthbudget (1).jpg>)
 
 ## Set Budget Thresholds
 
@@ -60,7 +60,7 @@ Setting thresholds is useful especially when setting up Budget alerts.
 Note: In order to see forecasted dates for Budget thresholds, you need to click the "Refresh" button after setting a Budget amount.
 {% endhint %}
 
-![A screenshot showing the location of the _Alert Thresholds_ section](../.gitbook/assets/budgets3.jpg)
+![A screenshot showing the location of the Alert Thresholds section](../.gitbook/assets/budgets3.jpg)
 
 ## Sharing Budgets
 

@@ -15,7 +15,7 @@ Please follow the below steps to switch your Google Cloud projects to use DoiT-p
 
 * Click on Manage
 
-![A screenshot showing the location of the Manager option](<../../.gitbook/assets/image (65).png>)
+![A screenshot showing the location of the Manager option](<../../.gitbook/assets/image (65) (1).png>)
 
 * The list of your Google Cloud projects currently linked to this billing account will be displayed. For each of the projects, click on the three-dots menu and select "Change billing"
 
@@ -23,7 +23,7 @@ Please follow the below steps to switch your Google Cloud projects to use DoiT-p
 
 * In the popup modal, please select the new billing account provided to you by DoiT International
 
-![A screenshot showing you the billing account dropdown menu](<../../.gitbook/assets/image (60).png>)
+![A screenshot showing you the billing account dropdown menu](<../../.gitbook/assets/image (60) (1).png>)
 
 * Repeat for each projects on the list
 

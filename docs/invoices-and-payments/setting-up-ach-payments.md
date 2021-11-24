@@ -4,7 +4,7 @@ description: How to set up Automated Clearing House payments with Cloud Manageme
 
 # Set up ACH Payments
 
-You can pay your invoices by using ACH \(Automated Clearing House\) via the Cloud Management Platform. Please follow the step-by-step instructions on how to set up an ACH Payment for your company.
+You can pay your invoices by using ACH (Automated Clearing House) via the Cloud Management Platform. Please follow the step-by-step instructions on how to set up an ACH Payment for your company.
 
 {% hint style="info" %}
 Required Permissions: **Billing Profile Admin**
@@ -16,17 +16,17 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
-![A screenshot showing you the location of the _edit_ icon](../.gitbook/assets/update-billing-profile-2-%20%284%29%20%284%29%20%281%29%20%281%29.png)
+![A screenshot showing you the location of the edit icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (1) (1).png>)
 
 Once you're at the Billing Profile Settings page, switch to the 'Payment Methods' tab, select 'ACH Payment', and click on 'Link New Account' to link your bank account.
 
-![A screenshot showing you the location of the _Payment Methods_ tab, _ACH Payment_ radio button, and _Link New Account_ button](../.gitbook/assets/ach1.png)
+![A screenshot showing you the location of the Payment Methods tab, ACH Payment radio button, and Link New Account button](../.gitbook/assets/ach1.png)
 
 ## Link Account
 
-We use Plaid \(plaid.com\) to perform secure ACH payments authorizations which don't require making small deposits to your account for verification.
+We use Plaid (plaid.com) to perform secure ACH payments authorizations which don't require making small deposits to your account for verification.
 
-![A screenshot showing you the initial _Plaid_ modal dialog with a _Continue_ button](../.gitbook/assets/ach2.png)
+![A screenshot showing you the initial Plaid modal dialog with a Continue button](../.gitbook/assets/ach2.png)
 
 Next, choose your bank.
 
@@ -38,7 +38,7 @@ Then enter the same credentials used for your online banking account.
 
 After that, choose either a 'Checking' or 'Saving' account.
 
-![A screenshot of the modal dialog showing you the ability to select between a _Checking_ or _Savings_ account](../.gitbook/assets/ach6.png)
+![A screenshot of the modal dialog showing you the ability to select between a Checking or Savings account](../.gitbook/assets/ach6.png)
 
 Finally, your bank account details should successfully be linked and saved for future ACH Payments.
 
@@ -61,7 +61,7 @@ To manually set up ACH payments, open a support ticket under the "Billing" categ
 * routing number
 * account number
 * account holder name
-* account holder type \(individual or company\)
+* account holder type (individual or company)
 
 Once we have this information, we will send two small deposits for verification purposes. Typically, these deposits take 1-2 business days to appear on your online statement.
 

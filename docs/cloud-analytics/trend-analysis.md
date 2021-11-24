@@ -8,7 +8,7 @@ Oftentimes when analyzing our cloud usage, we're overwhelmed with so many data p
 
 Use Trend Analysis in your Cloud Analytics Reports by selecting an option from the "**ML Features**" dropdown on the lefthand set of options.
 
-![A screenshot showing the location of the _ML Features_ dropdown](../.gitbook/assets/ml-features.jpg)
+![A screenshot showing the location of the ML Features dropdown](<../.gitbook/assets/ml-features (1).jpg>)
 
 ## Trending Up or Trending Down
 

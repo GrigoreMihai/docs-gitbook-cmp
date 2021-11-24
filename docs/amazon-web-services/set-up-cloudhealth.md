@@ -24,7 +24,7 @@ Sign in to the AWS account you'd like to integrate with CloudHealth with an IAM 
 
 1. Navigate to [IAM Roles](https://console.aws.amazon.com/iam/home?region=us-east-1#/roles)
 2. Click "Create Role"
-3. Select  'Another AWS Account'
+3. Select 'Another AWS Account'
 4. Provide `454464851268` as Account ID
 5. Mark "Require external ID" and paste `6cda262029ad7b34a64ff537196ab4`
 6. Click "Next: Permissions"
@@ -48,8 +48,8 @@ If you require any further assistance with the creation of the CloudHealth IAM R
 If you have SSO enabled in CloudHealth, you will not be able to add users that use usernames and passwords. In order to add users they must first be added to the proper role group within the IDPs directory.
 {% endhint %}
 
-![Inviting a user in Setup > Users is not possible when SSO is enabled results in an error](<../.gitbook/assets/image (130).png>)
+![Inviting a user in Setup > Users is not possible when SSO is enabled results in an error](<../.gitbook/assets/image (130) (1).png>)
 
-![SSO in Cloudhealth](<../.gitbook/assets/image (129).png>)
+![SSO in Cloudhealth](<../.gitbook/assets/image (129) (1).png>)
 
 See also: [AWS Single Sign-On Service Integration Guide For CloudHealth](https://www.cloudhealthtech.com/blog/aws-single-sign-on-service-integration-guide-for-cloudhealth)

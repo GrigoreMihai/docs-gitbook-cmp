@@ -24,15 +24,15 @@ Please note: Your user account must be linked to at least one billing profile in
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select _Manage Licenses & Assets_ from the main dashboard:
 
-![A screenshot showing you the location of the Manage Licenses & Assets section](../.gitbook/assets/transfer-projects.png)
+![A screenshot showing you the location of the Manage Licenses & Assets section](<../.gitbook/assets/transfer-projects (1).png>)
 
 Once you're at the Assets page, switch to the Google Cloud tab and select _New Billing Account_, located on the right-hand side of the page.
 
-![A screenshot showing the location of the New Billing Account button](<../.gitbook/assets/image (64).png>)
+![A screenshot showing the location of the New Billing Account button](<../.gitbook/assets/image (64) (1).png>)
 
 You will be prompted with a pop-up requesting you to enter your Google _Billing Account Name_, _Billing Profile_, and the email addresses of designated _Billing Account Administrators_.
 
-![A screenshot showing the Create Google Cloud Billing Account modal dialog](<../.gitbook/assets/image (118).png>)
+![A screenshot showing the Create Google Cloud Billing Account modal dialog](<../.gitbook/assets/image (118) (1).png>)
 
 After a few seconds, you should now see the new billing account:
 
@@ -54,36 +54,35 @@ Only current Billing Admin(s) of the DoiT Billing Account can add or remove bill
 
 From CMP navigation pane, select Assets > Google Cloud:
 
-![A screenshot showing the location of the *Assets* icon](<../.gitbook/assets/image (57).png>):
+![A screenshot showing the location of the Assets icon](<../.gitbook/assets/image (209).png>):
 
 Locate the Billing Account you want to update and click on the ![An image of
-the "⌄" icon](<../.gitbook/assets/image (84).png>) icon
+the "⌄" icon](<../.gitbook/assets/image (225).png>) icon
 
-![A screenshot showing the location of the *Assets* icon](<../.gitbook/assets/image (10).png>)
+![A screenshot showing the location of the Assets icon](<../.gitbook/assets/image (176).png>)
 
 ### Add a Billing Account Administrator
 
-1. Click the ![An image showing the person icon](<../.gitbook/assets/image (95).png>) icon for *Billing Admins*:
+1.  Click the ![An image showing the person icon](<../.gitbook/assets/image (233).png>) icon for _Billing Admins_:
 
-   ![An image showing the location of the person icon](<../.gitbook/assets/image (74).png>)
+    ![An image showing the location of the person icon](<../.gitbook/assets/image (217).png>)
+2.  Input the email(s) of users you want to add as Billing Admin(s) then select _Save_:
 
-2. Input the email(s) of users you want to add as Billing Admin(s) then select *Save*:
-
-   [A screenshot showing the location of the person icon](<../.gitbook/assets/image (98).png>)
+    [A screenshot showing the location of the person icon](https://github.com/doitintl/gitbook-cmp/blob/main/docs/.gitbook/assets/image%20\(98\).png)
 
 ### Remove a Billing Account Administrator
 
 Find the billing admin you want to remove and click the ![An image showing the
-trash can icon](<../.gitbook/assets/image (27).png>) next to their email
+trash can icon](<../.gitbook/assets/image (189).png>) next to their email
 
-![A screenshot showing the location of the trash can icon](<../.gitbook/assets/image (40).png>)
+![A screenshot showing the location of the trash can icon](<../.gitbook/assets/image (198).png>)
 
-Review and confirm the action by clicking ![An image showing the *APPROVE* button](<../.gitbook/assets/image (51).png>)
+Review and confirm the action by clicking ![An image showing the APPROVE button](<../.gitbook/assets/image (208).png>)
 
-![A screenshot showing the *Remove Billing Account Admin* modal dialog](../.gitbook/assets/image.png)
+![A screenshot showing the Remove Billing Account Admin modal dialog](<../.gitbook/assets/image (165).png>)
 
 If you prefer to manage Billing Account permissions using your GCP Console, please follow the steps on GCP documentation.
 
-![An image of the GCP icon](<../.gitbook/assets/image (49).png>) [Update Cloud Billing permissions](https://cloud.google.com/billing/docs/how-to/billing-access#update-cloud-billing-permissions)
+![An image of the GCP icon](<../.gitbook/assets/image (206).png>) [Update Cloud Billing permissions](https://cloud.google.com/billing/docs/how-to/billing-access#update-cloud-billing-permissions)
 
-![An image of the GCP icon](<../.gitbook/assets/image (49).png>) [Overview of Cloud Billing roles in IAM](https://cloud.google.com/billing/docs/how-to/billing-access#overview-of-cloud-billing-roles-in-cloud-iam)&#x20;
+![An image of the GCP icon](<../.gitbook/assets/image (206).png>) [Overview of Cloud Billing roles in IAM](https://cloud.google.com/billing/docs/how-to/billing-access#overview-of-cloud-billing-roles-in-cloud-iam)

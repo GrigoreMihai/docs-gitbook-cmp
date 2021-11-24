@@ -51,7 +51,7 @@ If you'd like to dive deeper into an anomaly, click on "**Investigate**" to laun
 
 To further assist with the learning of our machine-learning model, and reduce the number of false alerts, you can provide feedback for any type of alert, and mark it thumbs-up or thumbs-down.
 
-![A screenshot showing you the location of the feedback options](<../.gitbook/assets/image (15).png>)
+![A screenshot showing you the location of the feedback options](<../.gitbook/assets/image (15) (1).png>)
 
 ## Anomalies Widget
 

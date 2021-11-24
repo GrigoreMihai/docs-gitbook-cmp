@@ -14,7 +14,7 @@ From the main dashboard, locate the three-dots icon on the right-hand side of th
 
 Once there you will be prompted to 'New Billing Profile' and start filling out the information about your company.
 
-![A screenshot showing you the New Billing Profile form](<../.gitbook/assets/create-new-billing-profile-2- (1) (1).png>)
+![A screenshot showing you the New Billing Profile form](<../.gitbook/assets/create-new-billing-profile-2- (1) (1) (1).png>)
 
 After completing all the required fields in each section, you will be asked what Billing Currency you'd like to use.
 
@@ -36,6 +36,6 @@ You may choose between the following payment methods and currencies; The followi
 
 Available payment methods are: **Wire Transfer** (IBAN/SWIFT), **Credit Card (**1.5% processing fee may apply**)**, **Bill.com**, or **ACH** Payment.
 
-![A screenshot showing you the payment methods radio button options](<../.gitbook/assets/payment-method-and-currency (1) (1) (1) (1) (1).png>)
+![A screenshot showing you the payment methods radio button options](<../.gitbook/assets/payment-method-and-currency (1) (1) (1) (1) (1) (1).png>)
 
 Click Submit once you've completed the entire registration form.

@@ -16,11 +16,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start with accessing the G Suite based Assets from the menu on the left-hand side of the page and clicking on Assets.
 
-![A screenshot showing the location of the _Assets_ menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5).png>)
+![A screenshot showing the location of the Assets menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (6).png>)
 
 Once you're at the Assets page, switch to the G Suite tab.
 
-![A screenshot showing the location of the _G Suite_ tab(<../.gitbook/assets/g-suite (2) (2) (2) (1).png>)
+!\[A screenshot showing the location of the _G Suite_ tab(<../.gitbook/assets/g-suite (2) (2) (2) (1).png>)
 
 Locate the subscription you'd like to add licenses for and click the **+** icon to add as many licenses as needed.
 
@@ -28,17 +28,17 @@ Locate the subscription you'd like to add licenses for and click the **+** icon 
 
 Add up to as many licenses as you wish, and click 'Apply'.
 
-![A screenshot of a license card with an _Apply_ button](../.gitbook/assets/apply.png)
+![A screenshot of a license card with an Apply button](../.gitbook/assets/apply.png)
 
 Finally, you may approve the purchase by clicking the 'Approve' button.
 
-![A screenshot of the _Add Licenses_ modal dialog with an _Approve_ button](../.gitbook/assets/approve.png)
+![A screenshot of the Add Licenses modal dialog with an Approve button](../.gitbook/assets/approve.png)
 
 **Understanding License Utilization:**
 
 You can see the number of licenses in use under the _Quantity_ field, versus how many are available. In the following example, two licenses are in use from seven licenses available.
 
-![A screenshot showing the _Quantity_ field](../.gitbook/assets/quantity.png)
+![A screenshot showing the Quantity field](../.gitbook/assets/quantity.png)
 
 **Decreasing the Number of Licenses:**
 

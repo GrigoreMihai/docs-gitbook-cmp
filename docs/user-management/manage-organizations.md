@@ -54,11 +54,11 @@ Navigate to the Users and Roles menu and select the ‘Organizations’ Menu
 
 Select ‘New Organization’!
 
-[A screenshot showing the _New Organization_ button](../.gitbook/assets/new-organization.png)‌
+[A screenshot showing the _New Organization_ button](https://github.com/doitintl/gitbook-cmp/blob/main/docs/.gitbook/assets/new-organization.png)‌
 
 ### Step 3. Configure your Organization <a href="step-3-configure-your-organization" id="step-3-configure-your-organization"></a>
 
-![A screenshot showing the organization configuration screen](../.gitbook/assets/organization-configuration-screen.png)
+![A screenshot showing the organization configuration screen](<../.gitbook/assets/organization-configuration-screen (1).png>)
 
 Select the attribution or set of attributions that define your organization.
 

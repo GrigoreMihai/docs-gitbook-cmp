@@ -16,7 +16,7 @@ To get started, first, you need to ensure that you have a Service Account that c
 2. Select "**Google Cloud**" tab
 3. Locate the "**Service Account**" listed in Configured Accounts
 
-![A screenshot showing the location of the Settings menu item, Google Cloud tab, and \_Service Account\_listing](<../.gitbook/assets/image (103).png>)
+![A screenshot showing the location of the Settings menu item, Google Cloud tab, and \_Service Account\_listing](<../.gitbook/assets/image (103) (1).png>)
 
 If you do not have this configured yet, you need to create a service account and connect CMP to your Google Cloud Organization. Follow the steps in this link: [Connect Google Cloud Service Account](https://help.doit-intl.com/google-cloud/connect-google-cloud-service-account)
 
@@ -36,9 +36,9 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 4. Click "**Add**"
 5. Click "**Done**"
 
-![A screenshot showing the location of the Share Dataset option](<../.gitbook/assets/image (96).png>)
+![A screenshot showing the location of the Share Dataset option](<../.gitbook/assets/image (96) (1).png>)
 
-![A screenshot showing the process of granting the BigQuery Data Viewer role](<../.gitbook/assets/image (94).png>)
+![A screenshot showing the process of granting the BigQuery Data Viewer role](<../.gitbook/assets/image (94) (1).png>)
 
 > **Grant the bigquery.jobs.create permission**
 >
@@ -53,13 +53,13 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 7. Filter by **"Permission : bigquery.jobs.create**" and check the box for this permission
 8. Click "**Add**"
 
-![A screenshot showing how to select an organization, access the IAM & Admin menu item, and then select Roles](<../.gitbook/assets/image (116).png>)
+![A screenshot showing how to select an organization, access the IAM & Admin menu item, and then select Roles](<../.gitbook/assets/image (116) (1).png>)
 
-![A screenshot showing the location of the service account listing](<../.gitbook/assets/image (117).png>)
+![A screenshot showing the location of the service account listing](<../.gitbook/assets/image (117) (1).png>)
 
-![A screenshot showing the location of the Edit Role option and the bigquery.jobs.create permission listing](<../.gitbook/assets/image (108).png>)
+![A screenshot showing the location of the Edit Role option and the bigquery.jobs.create permission listing](<../.gitbook/assets/image (108) (1).png>)
 
-![A screenshot showing the Add Permissions option, a list of permissions, and the Add button](<../.gitbook/assets/image (112).png>)
+![A screenshot showing the Add Permissions option, a list of permissions, and the Add button](<../.gitbook/assets/image (112) (1).png>)
 
 ## Step 3. Link your Google Cloud Direct Billing Account
 
@@ -71,19 +71,18 @@ Required Permission: Assets Manager
 2. Select "**Google Cloud**" tab
 3. Click the dropdown button next to "New Billing Account" and select "**Link Direct Account**"
 
-![A screenshot showing the location of the Assets menu item, the Google Cloud tab, and the Link Direct Account option](<../.gitbook/assets/image (107).png>)
+![A screenshot showing the location of the Assets menu item, the Google Cloud tab, and the Link Direct Account option](<../.gitbook/assets/image (107) (1).png>)
 
 You can now import your historical billing data into CMP. You need the following information to complete the process:
 
-<!-- cSpell:ignore 01CF51-9FDB87-7894FD -->
 * Billing Account ID: _example_ "**01CF51-9FDB87-7894FD**"
 * Source Project: Enter the "**Project ID"**
 * Source Dataset: Enter the "**Dataset ID"**
 
-![A screenshot of the Link your Google Cloud Direct Billing Account modal dialog](<../.gitbook/assets/image (161).png>)
+![A screenshot of the Link your Google Cloud Direct Billing Account modal dialog](<../.gitbook/assets/image (161) (1).png>)
 
 Once you click "**Import**" a new card will be added to your assets reflecting the details and progress or completion status.
 
-![A screenshot showing the new Google Cloud card with a "Processing" status](<../.gitbook/assets/image (115).png>)
+![A screenshot showing the new Google Cloud card with a "Processing" status](<../.gitbook/assets/image (115) (1).png>)
 
 ![A screenshot showing the new Google Cloud card with a "Success" status](<../.gitbook/assets/image (118) (1) (1) (1) (1).png>)

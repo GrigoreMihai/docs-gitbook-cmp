@@ -8,45 +8,40 @@ To switch billing for projects that are managed via Terraform, you will have to 
 To add the Terraform service account as Billing User, you should be a Billing Account Administrator for the DoiT Billing Account.
 {% endhint %}
 
-Reference Links: ![An image of the GCP icon](<../../.gitbook/assets/image (49).png>) [Overview of Cloud Billing roles in IAM](https://cloud.google.com/billing/docs/how-to/billing-access#overview-of-cloud-billing-roles-in-cloud-iam) /  [Update Cloud Billing permissions](https://cloud.google.com/billing/docs/how-to/billing-access#update-cloud-billing-permissions)
+Reference Links: ![An image of the GCP icon](<../../.gitbook/assets/image (206).png>) [Overview of Cloud Billing roles in IAM](https://cloud.google.com/billing/docs/how-to/billing-access#overview-of-cloud-billing-roles-in-cloud-iam) / [Update Cloud Billing permissions](https://cloud.google.com/billing/docs/how-to/billing-access#update-cloud-billing-permissions)
 
 1. Sign in to the [Google Cloud Console](https://console.cloud.google.com/?\_ga=2.46935335.1241116962.1634885894-310662435.1627993656).
-
-2. Open the Cloud Console Navigation menu, and then select **Billing**.
+2.  Open the Cloud Console Navigation menu, and then select **Billing**.
 
     If you have more than one cloud billing account, do one of the following:
 
-    ➜ To manage Cloud Billing for the current project, select Go to linked billing account.&#x20;
+    ➜ To manage Cloud Billing for the current project, select Go to linked billing account.
 
-    ➜ To locate a different Cloud Billing account, select Manage billing accounts and then choose the account that you want to manage.&#x20;
+    ➜ To locate a different Cloud Billing account, select Manage billing accounts and then choose the account that you want to manage.
 
-    ![A screenshot of the *You have multiple billing accounts* message](<../../.gitbook/assets/image (91).png>)
+    ![A screenshot of the You have multiple billing accounts message](<../../.gitbook/assets/image (230).png>)
+3.  In the Billing navigation menu, click **Account management**.
 
-3. In the Billing navigation menu, click **Account management**.
-
-    ![A screenshot of the *Billing* menu](<../../.gitbook/assets/image (22).png>)
-
+    ![A screenshot of the Billing menu](<../../.gitbook/assets/image (186).png>)
 4. Use the **Permissions panel** to edit permissions for the selected Cloud Billing account. If the panel isn't already visible, click `SHOW INFO PANEL` to open it.
+5.  Click **Add Principal**
 
-5. Click **Add Principal**
+    ![A screnshot showing the location of the ADD PRINCIPAL button](<../../.gitbook/assets/image (180).png>)
+6.  Input the terraform service account as **New Principal** and select **`Billing Account User`** role, then Save.
 
-   ![A screnshot showing the location of the *ADD PRINCIPAL* button](<../../.gitbook/assets/image (14).png>)
-
-6. Input the terraform service account as **New Principal** and select **`Billing Account User`** role, then Save.
-
-   ![A screenshot of the *Add principals and roles* form](<../../.gitbook/assets/image (32).png>)
+    ![A screenshot of the Add principals and roles form](<../../.gitbook/assets/image (192).png>)
 
 {% hint style="info" %}
 **Default Billing Account**
 
-If an identity (in this case the terraform service account) only has access to a single billing account, GCP will use that as the default **`billing_account`**value in Terraform. You could use this behavior to ensure DoiT Billing Account is selected as the default by removing the Terraform service account's permission to any other billing accounts and/or explicitly set the DoiT Billing Account ID on your Terraform script. See steps below.&#x20;
+If an identity (in this case the terraform service account) only has access to a single billing account, GCP will use that as the default \*\*`billing_account`\*\*value in Terraform. You could use this behavior to ensure DoiT Billing Account is selected as the default by removing the Terraform service account's permission to any other billing accounts and/or explicitly set the DoiT Billing Account ID on your Terraform script. See steps below.
 {% endhint %}
 
-## Set/Replace value for billing\_account&#x20;
+## Set/Replace value for billing\_account
 
-Reference Link: ![An image of the Terraform logo](<../../.gitbook/assets/image (42).png>) [Terraform Documentation - Google Cloud Platform google\_project](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google\_project#billing\_account)
+Reference Link: ![An image of the Terraform logo](<../../.gitbook/assets/image (199).png>) [Terraform Documentation - Google Cloud Platform google\_project](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google\_project#billing\_account)
 
-As noted on Terraform documentation for Google Cloud Platform google\_project, one of the arguments supported is **`billing_account`**. To associate the projects, simply set or replace its value with your DoiT Billing Account ID.&#x20;
+As noted on Terraform documentation for Google Cloud Platform google\_project, one of the arguments supported is **`billing_account`**. To associate the projects, simply set or replace its value with your DoiT Billing Account ID.
 
 Example:
 

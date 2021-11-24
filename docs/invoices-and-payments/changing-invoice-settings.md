@@ -18,11 +18,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
-![A screenshot showing you the location of the _Edit_ icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1).png>)
+![A screenshot showing you the location of the Edit icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (5).png>)
 
 Once you're at the Billing Profile Settings page, switch to the 'Invoice Settings' tab.
 
-![A screenshot showing you the location of the _Invoice Settings_ tab](../.gitbook/assets/invoice-settings.png)
+![A screenshot showing you the location of the Invoice Settings tab](../.gitbook/assets/invoice-settings.png)
 
 ## Invoice Bucketing
 
@@ -32,17 +32,17 @@ As a customer, you have two options for each one of your billing profiles:
 
 **Invoice using custom bucketing** - buckets allow you to combine assets into a group. If you have 16 assets and group them into two buckets, then two invoices will be generated, with eight assets per invoice.
 
-![A screenshot showing you the option to _Add Bucket_](../.gitbook/assets/buckets.png)
+![A screenshot showing you the option to Add Bucket](<../.gitbook/assets/buckets (1).png>)
 
 You can create as many buckets as you want, and separate your assets into various buckets.
 
-![A screenshot showing you multiple added buckets](../.gitbook/assets/buckets1.png)
+![A screenshot showing you multiple added buckets](<../.gitbook/assets/buckets1 (1).png>)
 
-![A screenshot showing you the details of a specific bucket](../.gitbook/assets/buckets2.png)
+![A screenshot showing you the details of a specific bucket](<../.gitbook/assets/buckets2 (1).png>)
 
 Choose a bucket to make it the default. Any asset that isn't assigned to a specific bucket will be automatically placed in the default bucket.
 
-![A screenshot showing you the "All assets assigned!" message](../.gitbook/assets/buckets3.png)
+![A screenshot showing you the "All assets assigned!" message](<../.gitbook/assets/buckets3 (1).png>)
 
 You can always revert back to separating your invoices by asset type if the custom bucketing isn't suitable for you anymore.
 

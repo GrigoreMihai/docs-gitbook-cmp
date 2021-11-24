@@ -14,7 +14,7 @@ Otherwise, if you don't have a Google or Microsoft account and this is your firs
 
 When using sign in with Microsoft for the first time, the organization admin must sign themselves in to CMP and grant admin consent for CMP to read user info (e-mail addresses, etc.) for their org. Eg shown below:
 
-![A screenshot of the Microsoft permission request dialog](<../.gitbook/assets/image (88).png>)
+![A screenshot of the Microsoft permission request dialog](<../.gitbook/assets/image (88) (1).png>)
 
 ## Login using Google Accounts
 

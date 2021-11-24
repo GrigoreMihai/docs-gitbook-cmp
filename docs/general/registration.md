@@ -12,7 +12,7 @@ At some point in your communications with DoiT International's Account Managemen
 
 Click the link in the email to start the sign-in & registration process. You will be brought to the 'New Billing Profile' section of the customer onboarding process where you will fill out your company's information.
 
-![A screenshot of the _New Billing Profile_ form](<../.gitbook/assets/create-new-billing-profile-2- (1) (2).png>)
+![A screenshot of the New Billing Profile form](<../.gitbook/assets/create-new-billing-profile-2- (1) (2) (1).png>)
 
 In conclusion, enter your payment method and currency and click 'Submit'.
 

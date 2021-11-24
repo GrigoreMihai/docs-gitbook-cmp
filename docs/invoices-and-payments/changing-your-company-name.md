@@ -16,7 +16,7 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
-![A screenshot showing the location of the _Edit_ icon](../.gitbook/assets/update-billing-profile-2-%20%284%29%20%284%29%20%281%29%20%282%29.png)
+![A screenshot showing the location of the Edit icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (2) (1).png>)
 
 The next page brings you to the 'General' tab where you can change the name of your company.
 

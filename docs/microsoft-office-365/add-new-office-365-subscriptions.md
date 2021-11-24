@@ -18,11 +18,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start with accessing Office 365 based Assets from the menu on the left-hand side of the page and clicking the 'Assets' icon.
 
-![A screenshot showing you the location of the _Assets_ menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5).png>)
+![A screenshot showing you the location of the Assets menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (6).png>)
 
 Once you're at the Assets page, switch to the Office 365 tab.
 
-![A screenshot showing you the location of the _Office 365_ tb](../.gitbook/assets/office-365-tab1.png)
+![A screenshot showing you the location of the Office 365 tb](../.gitbook/assets/office-365-tab1.png)
 
 Go to the right-hand side of the page and click on 'New Subscription'.
 
@@ -34,4 +34,4 @@ Select the Subscription/License and quantity you'd like to order.
 
 Lastly, review your order summary, and if you approve click 'Submit'.
 
-![A screenshot showing you the confirmation screen and the location of the _Submit_ button](../.gitbook/assets/office-submit.png)
+![A screenshot showing you the confirmation screen and the location of the Submit button](../.gitbook/assets/office-submit.png)

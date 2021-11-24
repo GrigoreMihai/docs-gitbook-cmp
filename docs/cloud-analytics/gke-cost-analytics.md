@@ -36,7 +36,7 @@ Click on the "Create Service Account" button. This will display all of the Googl
 
 Finally, once you've executed all of the commands, click "Upload Key" to upload the service account to the CMP.
 
-![A screenshot showing you the location of the location of the Upload Key button](<../.gitbook/assets/image (24).png>)
+![A screenshot showing you the location of the location of the Upload Key button](<../.gitbook/assets/image (24) (1).png>)
 
 {% hint style="success" %}
 Remember the service account email you created in this step. You will need it for step three.
@@ -51,10 +51,8 @@ After that, you can enable GKE usage metering on a new or existing cluster, usin
 You can find a more detailed description of these steps in the Google Kubernetes Engine [documentation](https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-usage-metering#enabling).
 
 {% hint style="info" %}
-
 1. You can set multiple clusters in your project to write to the same BigQuery dataset.
 2. Clusters can export usage data only to BigQuery datasets in the same project.
-
 {% endhint %}
 
 ## Step 3 - Grant the "BigQuery Data Viewer" role
@@ -65,7 +63,7 @@ First, navigate to the BigQuery console and locate the dataset you chose from [S
 
 From there, select "Share Dataset"
 
-![A screenshot showing you the location of the Share Dataset button](<../.gitbook/assets/image (23).png>)
+![A screenshot showing you the location of the Share Dataset button](<../.gitbook/assets/image (23) (1).png>)
 
 Then enter the service account email in the "Add members" field. Finally, grant this email the "BigQuery Data Viewer" role and click "Add", then "Done" to apply the changes.
 
@@ -87,7 +85,7 @@ Once everything is set up, your team's GKE metering data can be analyzed using t
 
 To start, open a new Report. You should see new GKE dimensions appear alongside your other billing dimensions, as highlighted below.
 
-![A screenshot showing the GKE dimensions](<../.gitbook/assets/image (31).png>)
+![A screenshot showing the GKE dimensions](<../.gitbook/assets/image (31) (1).png>)
 
 You will also find any GKE labels in the Labels chip, under the "GKE Labels" header in the dropdown.
 

@@ -16,7 +16,7 @@ Access Assets from the menu on the left-hand side of the page and clicking on As
 
 Once you're at the Assets page, switch to the relevant asset, locate the ellipsis icon, and click on 'Billing Profile Assignment'.
 
-![A screenshot showing the location of the Billing Profile Assignment option](<../.gitbook/assets/image (12).png>)
+![A screenshot showing the location of the Billing Profile Assignment option](<../.gitbook/assets/image (12) (1).png>)
 
 Finally, select the Billing Profile you'd like to assign the asset to from the dropdown, and click "Save" to confirm your changes.
 

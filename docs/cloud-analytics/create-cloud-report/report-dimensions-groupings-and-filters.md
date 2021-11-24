@@ -6,13 +6,13 @@
 
 In the screenshot below you can see that "service" is under "Group By" therefore; it is showing the service data on the Y- axis. The year, month and day have been added as "Dimensions" so the data/columns are placed on the X- axis as shown
 
-![A screenshot showing a Cloud Analytics report](<../../.gitbook/assets/image (138).png>)
+![A screenshot showing a Cloud Analytics report](<../../.gitbook/assets/image (138) (1).png>)
 
 **Filters** allow you to view more specific information. For example, if you only want to look at GCP, you can Filter on Cloud = GCP without having to show AWS on the chart.
 
 This screenshot shows the "cloud" being filtered as Google Cloud only. As previously mentioned, filters determine the data that will be shown inside the chart.
 
-![A screenshot showing the Filter cloud providers modal dialog](<../../.gitbook/assets/image (134) (1).png>)
+![A screenshot showing the Filter cloud providers modal dialog](<../../.gitbook/assets/image (134) (1) (1).png>)
 
 ## Standard Dimensions
 
@@ -78,7 +78,7 @@ This screenshot shows the "cloud" being filtered as Google Cloud only. As previo
 
 > The Date/Time dimension is also linked to the display option "**Time Interval**", thus the selection here will add/remove a Date/Time dimension accordingly. For example, when Time Interval "Hour" is selected, "Hour" will also be automatically added to the dimensions.
 
-![A screenshot showing Hour in the list of report dimension](<../../.gitbook/assets/image (125) (1).png>)
+![A screenshot showing Hour in the list of report dimension](<../../.gitbook/assets/image (125) (1) (1).png>)
 
 ## Labels
 
@@ -126,4 +126,4 @@ The four GKE dimensions \[Namespace, Cluster, Region, and Resource] add levels o
 
 Below is a sample report snippet with a full breakdown of the four GKE dimensions:
 
-![A screenshot of a report snippet](<../../.gitbook/assets/image (126) (1).png>)
+![A screenshot of a report snippet](<../../.gitbook/assets/image (126) (1) (1).png>)

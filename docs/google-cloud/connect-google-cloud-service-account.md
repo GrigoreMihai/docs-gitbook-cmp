@@ -80,7 +80,7 @@ In the very rare event that you have multiple Google Cloud Organizations, you ca
 
 To add a new service account, click on the "**+**" icon in the top-right corner of the Configured Accounts widget.
 
-![A screenshot showing the location of the + icon](../.gitbook/assets/cmp-add-multiple-service-account.jpg)
+![A screenshot showing the location of the + icon](<../.gitbook/assets/cmp-add-multiple-service-account (1).jpg>)
 
 Once clicked, notice that all of the Features will revert back to "Not Configured" since you are setting up a new service account.
 

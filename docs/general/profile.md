@@ -50,7 +50,7 @@ You can request to be notified on the following events:
 * [ ] The second reminder is sent four days after the invoice's due date.
 * [ ] The third reminder is sent 10 days after the invoice's due date.
 
-**Cloud [Known Issues](../tickets/cloud-infrastructure-known-issues.md)**
+**Cloud **[**Known Issues**](../tickets/cloud-infrastructure-known-issues.md)
 
 * Get alerted whenever there is an infrastructure issue with Google Cloud and/or AWS that may affect your own workloads.
 
@@ -67,7 +67,7 @@ Selecting one or more attributions from the dropdown will generate a daily cost 
 
 Email will be sent at 6:00 UTC.
 
-![A screenshot of the email that will be sent](<../.gitbook/assets/image (85).png>)
+![A screenshot of the email that will be sent](<../.gitbook/assets/image (226).png>)
 
 ### API
 
@@ -75,4 +75,4 @@ This is where you go to generate your API key in order to [programmatically acce
 
 After you generate your key, copy and store it somewhere handy, as we won't show it again after you leave the API page.
 
-![A screenshot of the API tab](<../.gitbook/assets/image (16).png>)
+![A screenshot of the API tab](<../.gitbook/assets/image (16) (1).png>)

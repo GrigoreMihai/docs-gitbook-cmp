@@ -18,4 +18,4 @@ We will automatically detect whether your team has a shared Slack channel with u
 
 Note that for Cost Anomalies, there is an additional step of selecting the minimum threshold (Information, Warning, or Critical) of anomalies you'd like to be notified on.
 
-![A screenshot showing you the _Select Shared Channel Settings_ menu](<../.gitbook/assets/image (68).png>)
+![A screenshot showing you the Select Shared Channel Settings menu](<../.gitbook/assets/image (68) (1).png>)

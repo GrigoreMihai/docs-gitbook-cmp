@@ -20,11 +20,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
-![A screenshot showing you the location of the edit icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (3).png>)
+![A screenshot showing you the location of the edit icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (3) (1).png>)
 
 Once you're at the Billing Profile Settings page, switch to the 'Payment Methods' tab.
 
-![A screenshot showing you the location of the _Payment Methods_ tab](../.gitbook/assets/payment-method-1.png)
+![A screenshot showing you the location of the Payment Methods tab](../.gitbook/assets/payment-method-1.png)
 
 Assuming that the 'Wire Transfer' setting is enabled and you'd like to switch to paying by credit card, enter the relevant details for your card of choice.
 

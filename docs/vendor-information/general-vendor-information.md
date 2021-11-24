@@ -59,6 +59,6 @@ If you need to setup DoiT International as a new vendor in your systems, you're 
 
 ## Sweden
 
-* Our company name is Goldcup 27160 AB (being modified to "DoiT International Sweden AB")
+* Our company name is DoiT Multi-Cloud Sverige International AB
 * Our Registration Number is 559300-7197
 * Our address is Bolagsrätt Sundsvall AB, Box 270 851 04 SUNDSVALL, Sweden

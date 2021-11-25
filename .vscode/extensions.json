@@ -1,10 +1,12 @@
 {
   "recommendations": [
+    "codezombiech.gitignore",
     "cschleiden.vscode-github-actions",
     "davidanson.vscode-markdownlint",
     "eamodio.gitlens",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
+    "github.copilot",
     "github.vscode-pull-request-github",
     "me-dutour-mathieu.vscode-github-actions",
     "omartawfik.github-actions-vscode",

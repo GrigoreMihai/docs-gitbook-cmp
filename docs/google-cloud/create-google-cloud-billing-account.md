@@ -63,12 +63,12 @@ the "⌄" icon](<../.gitbook/assets/image (225).png>) icon
 
 ### Add a Billing Account Administrator
 
-1.  Click the ![An image showing the person icon](<../.gitbook/assets/image (233).png>) icon for _Billing Admins_:
+1. Click the ![An image showing the person icon](<../.gitbook/assets/image (233).png>) icon for _Billing Admins_:
 
-    ![An image showing the location of the person icon](<../.gitbook/assets/image (217).png>)
-2.  Input the email(s) of users you want to add as Billing Admin(s) then select _Save_:
+   ![An image showing the location of the person icon](<../.gitbook/assets/image (217).png>)
+2. Input the email(s) of users you want to add as Billing Admin(s) then select _Save_:
 
-    [A screenshot showing the location of the person icon](https://github.com/doitintl/gitbook-cmp/blob/main/docs/.gitbook/assets/image%20\(98\).png)
+   [A screenshot showing the location of the person icon](https://github.com/doitintl/gitbook-cmp/blob/main/docs/.gitbook/assets/image%20\(98\).png)
 
 ### Remove a Billing Account Administrator
 

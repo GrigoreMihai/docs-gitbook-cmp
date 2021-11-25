@@ -11,25 +11,30 @@ To add the Terraform service account as Billing User, you should be a Billing Ac
 Reference Links: ![An image of the GCP icon](<../../.gitbook/assets/image (206).png>) [Overview of Cloud Billing roles in IAM](https://cloud.google.com/billing/docs/how-to/billing-access#overview-of-cloud-billing-roles-in-cloud-iam) / [Update Cloud Billing permissions](https://cloud.google.com/billing/docs/how-to/billing-access#update-cloud-billing-permissions)
 
 1. Sign in to the [Google Cloud Console](https://console.cloud.google.com/?\_ga=2.46935335.1241116962.1634885894-310662435.1627993656).
-2.  Open the Cloud Console Navigation menu, and then select **Billing**.
 
-    If you have more than one cloud billing account, do one of the following:
+2. Open the Cloud Console Navigation menu, and then select **Billing**.
 
-    ➜ To manage Cloud Billing for the current project, select Go to linked billing account.
+   If you have more than one cloud billing account, do one of the following:
 
-    ➜ To locate a different Cloud Billing account, select Manage billing accounts and then choose the account that you want to manage.
+   ➜ To manage Cloud Billing for the current project, select Go to linked billing account.
 
-    ![A screenshot of the You have multiple billing accounts message](<../../.gitbook/assets/image (230).png>)
-3.  In the Billing navigation menu, click **Account management**.
+   ➜ To locate a different Cloud Billing account, select Manage billing accounts and then choose the account that you want to manage.
 
-    ![A screenshot of the Billing menu](<../../.gitbook/assets/image (186).png>)
+   ![A screenshot of the You have multiple billing accounts message](<../../.gitbook/assets/image (230).png>)
+
+3. In the Billing navigation menu, click **Account management**.
+
+   ![A screenshot of the Billing menu](<../../.gitbook/assets/image (186).png>)
+
 4. Use the **Permissions panel** to edit permissions for the selected Cloud Billing account. If the panel isn't already visible, click `SHOW INFO PANEL` to open it.
-5.  Click **Add Principal**
 
-    ![A screnshot showing the location of the ADD PRINCIPAL button](<../../.gitbook/assets/image (180).png>)
-6.  Input the terraform service account as **New Principal** and select **`Billing Account User`** role, then Save.
+5. Click **Add Principal**
 
-    ![A screenshot of the Add principals and roles form](<../../.gitbook/assets/image (192).png>)
+   ![A screnshot showing the location of the ADD PRINCIPAL button](<../../.gitbook/assets/image (180).png>)
+
+6. Input the terraform service account as **New Principal** and select **`Billing Account User`** role, then Save.
+
+   ![A screenshot of the Add principals and roles form](<../../.gitbook/assets/image (192).png>)
 
 {% hint style="info" %}
 **Default Billing Account**

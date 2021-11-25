@@ -14,7 +14,7 @@ In this article, we'll go over the types of aggregation options you have availab
 
 In the "Total" aggregation, your results will be displayed in absolute terms. A row and column, each titled "Totals", will be added at the end containing the sum of all of the results per row and column, respectively.
 
-![A screenshot showing a Total aggregation report](../.gitbook/assets/cloudreports\_totals.jpg)
+![A screenshot showing a Total aggregation report](../.gitbook/assets/cloudreports_totals.jpg)
 
 ## % of Total
 

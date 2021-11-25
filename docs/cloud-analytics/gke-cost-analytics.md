@@ -51,8 +51,10 @@ After that, you can enable GKE usage metering on a new or existing cluster, usin
 You can find a more detailed description of these steps in the Google Kubernetes Engine [documentation](https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-usage-metering#enabling).
 
 {% hint style="info" %}
+
 1. You can set multiple clusters in your project to write to the same BigQuery dataset.
 2. Clusters can export usage data only to BigQuery datasets in the same project.
+
 {% endhint %}
 
 ## Step 3 - Grant the "BigQuery Data Viewer" role

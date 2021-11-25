@@ -21,7 +21,7 @@ Before discussing how to share a Cloud Report, let's briefly review roles and pe
 
 To share a Cloud Report with your team, click the "Share" button on your report's page.
 
-![A screenshot showing the location of the Share icon](../.gitbook/assets/cloudreports\_share.jpg)
+![A screenshot showing the location of the Share icon](../.gitbook/assets/cloudreports_share.jpg)
 
 This will open a pop-up that will give you two options when sharing:
 

@@ -105,6 +105,7 @@
 
 * [Configuring Sandbox Policy](cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md)
 * [Creating Google Cloud Sandbox](cloud-sandbox-management/create-gcp-sandbox-accounts.md)
+* [Sandboxes FAQ](cloud-sandbox-management/sandboxes-faq.md)
 
 ## Invoices & Payments
 

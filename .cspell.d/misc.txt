@@ -1,4 +1,5 @@
 actuals
+Advokatfirman
 Algolia
 Auths
 Aviv
@@ -32,6 +33,7 @@ uncheck
 unpartitioned
 upvote
 upvoting
+Vallgatan
 VMware
 xlarge
 ZenDesk

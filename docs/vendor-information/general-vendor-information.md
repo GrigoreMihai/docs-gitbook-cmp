@@ -61,4 +61,4 @@ If you need to setup DoiT International as a new vendor in your systems, you're 
 
 * Our company name is DoiT Multi-Cloud Sverige International AB
 * Our Registration Number is 559300-7197
-* Our address is Bolagsrätt Sundsvall AB, Box 270 851 04 SUNDSVALL, Sweden
+* Our address is c/o Advokatfirman Morris AB, Vallgatan 30, 411 16, Gothenburg Sweden

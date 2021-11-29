@@ -17,7 +17,7 @@ Looking for instructions on [how to set up CloudHealth IAM role](https://www.clo
 {% endhint %}
 
 {% hint style="info" %}
-Required Permission\*\*: Manage Settings\*\*
+Required Permission: **Manage Settings**
 {% endhint %}
 
 Both the automatic and manual set up process start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and navigating to the Settings page via the gear icon in your lefthand navigation panel.

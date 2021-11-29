@@ -50,7 +50,7 @@ You can request to be notified on the following events:
 * [ ] The second reminder is sent four days after the invoice's due date.
 * [ ] The third reminder is sent 10 days after the invoice's due date.
 
-**Cloud [Known Issues](../tickets/cloud-infrastructure-known-issues.md)**
+**Cloud **[**Known Issues**](../tickets/cloud-infrastructure-known-issues.md)
 
 * Get alerted whenever there is an infrastructure issue with Google Cloud and/or AWS that may affect your own workloads.
 

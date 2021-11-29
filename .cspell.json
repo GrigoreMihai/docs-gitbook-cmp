@@ -4,16 +4,6 @@
   "caseSensitive": false,
   "allowCompoundWords": true,
   "minWordLength": 2,
-  "dictionaries": [
-    "custom-abbr",
-    "custom-gender",
-    "custom-misc",
-    "custom-syntax"
-  ],
-  "dictionaryDefinitions": [
-    { "name": "custom-abbr", "path": ".cspell.d/abbr.txt" },
-    { "name": "custom-gender", "path": ".cspell.d/gender.txt" },
-    { "name": "custom-misc", "path": ".cspell.d/misc.txt" },
-    { "name": "custom-syntax", "path": ".cspell.d/syntax.txt" }
-  ]
+  "dictionaries": ["custom"],
+  "dictionaryDefinitions": [{ "name": "custom", "path": ".cspell.txt" }]
 }

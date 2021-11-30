@@ -22,7 +22,9 @@ FlexSave reservations are applied to on-demand usage. Usage covered by AWS Reser
 
 ## Which AWS services are supported with FlexSave?
 
-At this time, FlexSave supports AWS EC2. Other AWS services such as AWS RDS, VMware or Elasticache aren't supported at this time. Since FlexSave relies on AWS Convertible Reservations, you can check supported instances on [AWS website](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/). If there are no Convertible Reservations available for your instance type, it's not supported with FlexSave as well.
+At this time, FlexSave supports AWS EC2. Other AWS services such as AWS RDS, VMware or Elasticache aren't supported at this time.
+
+Since FlexSave relies on AWS Convertible Reservations, you can check for supported instances on the [AWS website](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/). FlexSave supports all instance types with available Convertible Reservations. If there are no Convertible Reservations available, FlexSave does not support that instance type.
 
 ## Can I send a report to the CFO with the actual realized savings?
 

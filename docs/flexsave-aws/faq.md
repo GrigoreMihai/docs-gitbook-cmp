@@ -22,9 +22,9 @@ FlexSave reservations are applied to on-demand usage. Usage covered by AWS Reser
 
 ## Which AWS services are supported with FlexSave?
 
-At this time, FlexSave supports AWS EC2. Other AWS services such as AWS RDS, VMware or Elasticache aren't supported at this time.
+At this time, FlexSave supports AWS EC2. Other AWS services such as AWS RDS, VMware Cloud or ElastiCache aren't supported at this time.
 
-Since FlexSave relies on AWS Convertible Reservations, you can check for supported instances on the [AWS website](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/). FlexSave supports all instance types with available Convertible Reservations. If there are no Convertible Reservations available, FlexSave does not support that instance type.
+Since FlexSave relies on AWS Convertible Reservations, you can check for supported instances on the [AWS website](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/). FlexSave supports all instance types with available Convertible Reservations. If there are no Convertible Reservations available for your region, FlexSave does not support that instance type.
 
 ## Can I send a report to the CFO with the actual realized savings?
 
@@ -57,6 +57,14 @@ With FlexSave there is:
 ## Which regions are supported with FlexSave?
 
 Please see our [supported regions matrix](flexsave-regions.md) for more details.
+
+## I don't see the option to enable FlexSave. Why is that?
+
+FlexSave is only made available after we have seven days of billing data and you have qualifying on-demand spend.
+
+Additionally, we only support FlexSave for customers with AWS accounts that are [consolidated](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html) with the DoiT International billing organization. However, support for customers with dedicated billing accounts is coming soon.
+
+Select the _Notify Me_ button on the FlexSave page to receive an email notification when FlexSave is available for customers with dedicated billing accounts.
 
 ## I enabled FlexSave, but there aren't savings yet. What do I do?
 

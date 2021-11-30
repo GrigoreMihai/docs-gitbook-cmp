@@ -8,7 +8,7 @@ description: How to maximize your EC2 discounts without any commitments
 
 FlexSave helps you maximize EC2 discounts with minimal-to-no commitments.
 
-In order to use FlexSave, your AWS account/s must be consolidated with DoiT International billing organization. DoiT International is a global [AWS Advanced Channel Reseller](https://partners.amazonaws.com/partners/001E000001HPlIAIA1/).
+In order to use FlexSave, your AWS account must be [consolidated](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html) with the DoiT International billing organization. DoiT International is a global [AWS Advanced Channel Reseller](https://partners.amazonaws.com/partners/001E000001HPlIAIA1/).
 
 {% hint style="info" %}
 Required Permissions: **FlexSave Admin** Default roles with this permission: **Power User, Admin**

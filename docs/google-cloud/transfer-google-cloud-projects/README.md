@@ -13,9 +13,10 @@ To change the Cloud Billing account for a project, you need to be able to move a
 {% hint style="warning" %}
 If you have Google Cloud Marketplace subscriptions for any of the below products - **please reach out to your DoiT Account Manager** - switching billing account for projects that use these products may result in data loss.
 
-The products in question are
+The products in question are:
 
 * Confluent Apache Kafka on Confluent Cloud
+* Neo4j AuraDB Professional
 * Neo4j GCP Integration Service (Prod)
 * Redis Labs Redis Enterprise Cloud
 * Trifacta Cloud Dataprep by Trifacta
@@ -24,6 +25,10 @@ The products in question are
 * NetApp, Inc. NetApp Cloud Volumes Service
 * MongoDB Atlas
 {% endhint %}
+
+Here is a short video explaining how you can check whether or not your billing account has any of the above marketplace subscriptions:&#x20;
+
+{% embed url="https://www.loom.com/share/95ddb117ff974cc88553f1fd6efead85" %}
 
 ## Transferring manually
 

@@ -24,3 +24,4 @@ We will not notify you for increases in non-USD prices that are due to currency 
 | August 2021    | 0.846775 | 0.72711  | 1.261665 | 1.366299 |
 | September 2021 | 0.863995 | 0.742496 | 1.26865  | 1.383298 |
 | October 2021   | 0.865195 | 0.730845 | 1.238315 | 1.33041  |
+| November 2021  | 0.882505 | 0.752058 | 1.277695 | 1.403312 |

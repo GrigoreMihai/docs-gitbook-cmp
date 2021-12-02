@@ -1,7 +1,5 @@
 name: DocOps
 
-# This workflow will run for every push to the `main` branch. It will also run
-# for every push on a PR.
 on:
   pull_request:
   push:
@@ -9,8 +7,8 @@ on:
       - main
 
 jobs:
-  checks:
-    name: Docs checks
+  qa:
+    name: GitBook QA
     runs-on: ubuntu-latest
     # All of the steps in this job run inside a custom DocOps container. We use
     # the lowest supported Python version provided by the DoiT DocOps container
@@ -115,7 +113,7 @@ jobs:
         if: always() && github.event_name != 'pull_request'
         env:
           # TODO: Figure out how to use the name of the job without copying it
-          STATUS: 'Docs checks: <{run_url}|{status_message}>'
+          STATUS: 'GitBook QA: <{run_url}|{status_message}>'
           COMMIT: 'for commit `<{commit_url}|{commit_sha}>`'
           BRANCH: 'on branch `{branch}`'
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

@@ -125,7 +125,7 @@ Please note:
 
 * CloudFormation will create a management role that allows us to create, update, and delete individual support roles
 
-  For each support role, we use the management role to generates a unique cryptographic key pair. Because key creation has to be done by your [IdP](https://docs.aws.amazon.com/singlesignon/latest/userguide/idp.html), the management role itself requires some limited write permissions. However:
+  For each support role, we use the management role to generate a unique cryptographic key pair. Because key creation has to be done by your [IdP](https://docs.aws.amazon.com/singlesignon/latest/userguide/idp.html), the management role itself requires some limited write permissions. However:
 
   * The CMP has privileged access to the management role, and this is how our systems interacts with your account. DoiT staff members _do not_ have access to the management role.
   * The management role's write permissions are tightly scoped and only grant what is necessary to perform key generation and the management of support roles.

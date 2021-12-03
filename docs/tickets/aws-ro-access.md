@@ -128,6 +128,8 @@ Please note:
   For each support role, we use the management role to generate a unique cryptographic key pair. Because key creation has to be done by your [IdP](https://docs.aws.amazon.com/singlesignon/latest/userguide/idp.html), the management role itself requires some limited write permissions. However:
 
   * The CMP has privileged access to the management role, and this is how our systems interacts with your account. DoiT staff members _do not_ have access to the management role.
-  * The management role's write permissions are tightly scoped and only grant what is necessary to perform key generation and the management of support roles.
+  * The management role's write permissions are tightly scoped and only grant what is necessary to perform key generation and the management of DoiT support roles.
+
+    Crucially, _the management role can only modify the IAM policies and roles that it creates itself_. The management role does not have write-access to any of your other IAM policies or roles.
 
 * We create an IAM Policy and IAM Role for each staff member with the [SecurityAudit](https://console.aws.amazon.com/iam/home#policies/arn:aws:iam::aws:policy/SecurityAudit) policy attached to each role.

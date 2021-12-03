@@ -16,7 +16,7 @@ max_line_length = off
 [*.csv]
 max_line_length = off
 
-[.mlc.json]
+[.markdown-link-check.json]
 max_line_length = off
 
 [.gitbook.yaml]

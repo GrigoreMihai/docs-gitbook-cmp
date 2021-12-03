@@ -123,7 +123,7 @@ Outputs:
 
 Please note:
 
-* CloudFormation will create a management role allows us to create, update, and delete individual support roles
+* CloudFormation will create a management role that allows us to create, update, and delete individual support roles
 
   For each support role, we use the management role to generates a unique cryptographic key pair. Because key creation has to be done by your [IdP](https://docs.aws.amazon.com/singlesignon/latest/userguide/idp.html), the management role itself requires some limited write permissions. However:
 

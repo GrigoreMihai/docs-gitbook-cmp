@@ -1,10 +1,12 @@
 ---
-description: how to securely grant DoiT International access to your Google Cloud project
+description: How to grant DoiT International with secure, read-only support access to your GCP account
 ---
 
-# Read-Only Access to GCP
+# Grant Read-Only Support Access to Your GCP Account
 
-DoiT International is committed to access transparency and access approval. When you open a technical support request with DoiT International, we may need to access your Google Cloud project so we could help you in the most effective way.
+When it comes to accessing your GCP account, DoiT International provides complete transparency and access control.
+
+When you open a technical support request with DoiT International, we may occasionally need read-only access to your AWS account to help you most effectively. This document describes how to enable access and how access control works.
 
 ## Important to Know
 

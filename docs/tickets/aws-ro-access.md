@@ -1,17 +1,28 @@
 ---
-description: How to grant Doit International read-only support access to your AWS account
+description: How to grant DoiT International with secure, read-only support access to your AWS account
 ---
 
-# Read-Only Access to AWS
+# Grant Read-Only Support Access to Your AWS Account
 
-DoiT International is committed to client account access transparency and access approval. When you open a technical support request with DoiT International, we may occasionally need read-only access to your AWS account to help you most effectively.
+DoiT International provides complete transparency and access control when accessing your AWS account.
+
+When you open a technical support request with DoiT International, we may occasionally need read-only access to your AWS account to help you most effectively. This document describes how to enable access and how access control works.
 
 ## Key points
 
 * We only access your AWS account to provide technical support per our contractual obligations to you. We never access your AWS account for any other reason.
-* Individual employees must request support access on an incident-by-incident basis.
+* DoiT employees must request support access on an incident-by-incident basis.
 * You can approve or dismiss all access requests.
-* Support access only grants read-only access to your AWS account.
+* Support staff roles have read-only access to your AWS account.
+* [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html) can provide a complete log of every action that we perform on your account.
+
+{% hint style="info" %}
+
+When you grant an access request, the individual staff member will not have write-access to your account.
+
+However, the CMP requires an automated management role with tightly-scoped write access to create individual read-only support roles in the securest way possible. DoiT staff members have no access to the management role, and the management role does not have write-access to any other part of your AWS account. See below for more details.
+
+{% endhint %}
 
 ## Granting access
 
@@ -127,7 +138,7 @@ Please note:
 
   For each support role, we use the management role to generate a unique cryptographic key pair. Because key creation has to be done by your [IdP](https://docs.aws.amazon.com/singlesignon/latest/userguide/idp.html), the management role itself requires some limited write permissions. However:
 
-  * The CMP has privileged access to the management role, and this is how our systems interacts with your account. DoiT staff members _do not_ have access to the management role.
+  * The CMP has automated access to the management role, and this is how our systems interacts with your account. DoiT staff members _do not_ have access to the management role.
   * The management role's write permissions are tightly scoped and only grant what is necessary to perform key generation and the management of DoiT support roles.
 
     Crucially, _the management role can only modify the IAM policies and roles that it creates itself_. The management role does not have write-access to any of your other IAM policies or roles.

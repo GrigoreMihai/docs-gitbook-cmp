@@ -81,8 +81,8 @@
 * [Enable Ticket Sharing](tickets/ticket-sharing.md)
 * [Manage Default Email CC](tickets/manage-default-email-cc.md)
 * [Known Issues](tickets/cloud-infrastructure-known-issues.md)
-* [Read-Only Access to GCP](tickets/gcp-ro-access.md)
-* [Read-Only Access to AWS](tickets/aws-ro-access.md)
+* [Support Access to GCP](tickets/gcp-access.md)
+* [Support Access to AWS](tickets/aws-access.md)
 
 ## G Suite & Workspace
 

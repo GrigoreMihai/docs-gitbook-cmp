@@ -10,7 +10,7 @@ The **General** tab of the Settings section contains options that provide compan
 
 The General tab contains two settings:
 
-## Timezone
+### Timezone
 
 ![A screenshot of the Timezone drop-down menu](<../.gitbook/assets/image (213).png>)
 
@@ -22,9 +22,9 @@ When selected timezone will be used as a default in the following features:
 | Cloud Analytics | Reports | Timezone will be the default timezone for any report in [_Explore_ or _New Report_](../cloud-analytics/create-cloud-report/)\_\_ |
 | Cloud Analytics | Budgets | Timezone will be used as the default for any newly [created Budget](../cloud-analytics/manage-budgets.md#creating-budgets)       |
 
-1. Currency
+### Currency
 
-    ![A screenshot of the Currency field](<../.gitbook/assets/image (220).png>)
+![](<../.gitbook/assets/image (220).png>)
 
 | Section         | Feature | Behavior                                                                                                                         |
 | --------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |

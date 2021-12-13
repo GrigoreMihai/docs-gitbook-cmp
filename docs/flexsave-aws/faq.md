@@ -12,9 +12,9 @@ In order to use FlexSave, your AWS account/s should be consolidated with the Doi
 
 ## How much can I save every month?
 
-You can realize between 80% and 100% of the discount granted by the applicable AWS Reserved Instance 1-year Full Upfront.
+You can realize between 80% and 100% of the discount granted by the applicable [AWS Convertible Reserved Instance 1-year Full Upfront](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/).
 
-For example, AWS grants a 19.5% discount on reserved instances for instances from the m5 instance family in the us-west-1 region. A FlexSave reservation for this machine/region combination will provide you with a 15.6% (19.5% \* 0.8) discount but without the risk of committing to the entire year.
+For example, AWS grants a 19.5% discount on reserved instances for instances from the m5 instance family in the us-west-1 region. A FlexSave reservation for this machine/region combination will provide you with a 24.8% (31% \* 0.8) discount but without the risk of committing to the entire year.
 
 ## Can I use FlexSave if I am using AWS RIs or Saving Plans?
 
@@ -22,7 +22,7 @@ FlexSave reservations are applied to on-demand usage. Usage covered by AWS Reser
 
 ## Which AWS services are supported with FlexSave?
 
-At this time, FlexSave supports AWS EC2. Other AWS services such as AWS RDS, VMware Cloud or ElastiCache aren't supported at this time.
+At this time, FlexSave supports AWS EC2 Instances. Other AWS services such as AWS RDS, VMware Cloud or ElastiCache aren't supported at this time.
 
 Since FlexSave relies on AWS Convertible Reservations, you can check for supported instances on the [AWS website](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/). FlexSave supports all instance types with available Convertible Reservations. If there are no Convertible Reservations available for your region, FlexSave does not support that instance type.
 

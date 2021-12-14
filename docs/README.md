@@ -2,6 +2,16 @@
 description: An overview of DoiT International's Cloud Management Platform
 ---
 
+{% hint style="danger" %}
+THIS  DOCUMENTATION IS A PRIVATE (UNPUBLISHED) COPY OF THE LIVE DOCUMENTATION.
+
+ALL CHANGES FOR THE UPCOMING NAV 2.0 RELEASE ARE BEING COLLECTED HERE SO THAT WE CAN WORK IN PARALLEL.
+
+PLEASE FEEL FREE TO MAKE AS MANY EDITS AS YOU LIKE AND MERGE THEM WHENEVER YOU PLEASE. THERE IS NO NEED TO REQUEST REVIEWS FOR INDIVIDUAL EDITS.
+
+OUR GOAL IS TO COLLECT DOCUMENTATION CHANGES RELATED TO THE NAV 2.0 FEATURE HERE. WHEN WE ARE READY TO RELEASE THE CHANGES TO THE CMP, WE CAN MERGE THE CHANGES MADE HERE INTO THE MAIN DOCS.
+{% endhint %}
+
 # CMP Overview
 
 Doit International's _Cloud Management Platform_ (CMP) helps the developers and system administrators at digital-native companies improve cloud operations, maintain security, control cost, and ensure governance of its cloud estate.

@@ -8,7 +8,7 @@ DoiT International provides unlimited advisory and technical support for Amazon 
 
 New support or advisory request can be filed by clicking on the 'Access Support' from the home page, or from the menu on the left-hand side of the page.
 
-Start with logging into the [Cloud Management Platform](../general/login.md) and then click "Access Support":
+Start with logging into the [Cloud Management Platform](../general/log-in.md) and then click "Access Support":
 
 ![A screenshot showing the location of the _Support_ menu item and the _Access Support_ section](../.gitbook/assets/support0.jpg)
 

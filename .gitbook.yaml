@@ -7,3 +7,5 @@ redirects:
   amazon-web-services/add-your-amazon-web-services-iam-role: ./amazon-web-services/link-account.md
   tickets/aws-ro-access: ./tickets/aws-access.md
   tickets/gcp-ro-access: ./tickets/gcp-access.md
+  general/login: ./general/log-in.md
+  dashboards/aws-finops-dashboard: ./dashboards/aws-lens.md

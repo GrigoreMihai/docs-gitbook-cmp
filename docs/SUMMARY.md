@@ -1,10 +1,10 @@
 # Table of contents
 
-* [What is CMP?](README.md)
+* [CMP Overview](README.md)
 
 ## General
 
-* [Login to CMP](general/login.md)
+* [Log in to the CMP](general/log-in.md)
 * [Company Registration](general/registration.md)
 * [Your Profile](general/profile.md)
 * [Sharing Feedback](general/sharing-feedback-and-feature-requests.md)
@@ -72,7 +72,7 @@
 * [Access Public Dashboard](dashboards/accessing-a-public-dashboard.md)
 * [Rightsizing for Google Cloud](dashboards/rightsizing-for-google-cloud.md)
 * [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md)
-* [AWS Lens](dashboards/aws-finops-dashboard.md)
+* [AWS Lens](dashboards/aws-lens.md)
 
 ## Working with Tickets <a href="tickets" id="tickets"></a>
 

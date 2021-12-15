@@ -4,7 +4,7 @@ description: How to update your user profile on Cloud Management Platform
 
 # Your Profile
 
-You can access and edit your user profile to adjust your personal details and/or notifications settings. To access your profile settings, click your profile icon in the upper-right corner of the page header, then select **Profile.**
+You can access and edit your user profile to adjust your personal details and/or notifications settings. To access your profile settings, click your profile icon in the upper-right corner of the page header and select **Profile.**
 
 ![A screenshot showing the location of the Profile option](<../.gitbook/assets/image (11) (1).png>)
 
@@ -22,15 +22,11 @@ Let's go over what can be configured in each tab.
 * **First / Last Name**
 * **Job Function**
 * **Phone Number**
-* **Default Dashboard** - the default dashboard that appears in your "Home" page whenever you log in.
-
-![A screenshot of the Profile tab](<../.gitbook/assets/image (7) (1).png>)
+* **Default Dashboard** - the default dashboard that appears on your "Homepage" whenever you log in.
 
 ## Permissions
 
 This is where you can view your [CMP Role](../user-management/manage-roles.md) (and the associated permissions that come with it) and assign yourself to any [Billing Profiles](../invoices-and-payments/setting-up-a-new-billing-profile.md) (if you have the Admin role).
-
-![A screenshot of the Permissions](<../.gitbook/assets/image (8) (1).png>)
 
 ## Notifications
 
@@ -50,22 +46,20 @@ You can request to be notified on the following events:
 * [ ] The second reminder is sent four days after the invoice's due date.
 * [ ] The third reminder is sent 10 days after the invoice's due date.
 
-**Cloud [Known Issues](../tickets/cloud-infrastructure-known-issues.md)**
+**Cloud** [**Known Issues**](../tickets/cloud-infrastructure-known-issues.md)
 
 * Get alerted whenever there is an infrastructure issue with Google Cloud and/or AWS that may affect your own workloads.
 
-![A screenshot of the Notifications tab](<../.gitbook/assets/image (9) (1).png>)
-
 ### Daily Digest Emails
 
-Selecting one or more attributions from the dropdown will generate a daily cost digest sent to the your user's email address. You will receive one email per attribution selected detailing:
+Selecting one or more attributions from the dropdown will generate a daily cost digest sent to your email address. You will receive one email per attribution selected detailing:
 
-* Previous Day's Cost
-* Month to date Cost (Sum costs accrued in the current month)
-* Cost Trend ( Current Month Cost to date / Previous month costs to same date in previous month)
+* Previous day's cost
+* Month to date cost (sum costs accrued in the current month)
+* Cost trend (current month cost to date / previous month costs to same date in the previous month)
 * Forecasted current month cost
 
-Email will be sent at 6:00 UTC.
+The email will be sent at 6:00 UTC.
 
 ![A screenshot of the email that will be sent](<../.gitbook/assets/image (226).png>)
 
@@ -74,5 +68,3 @@ Email will be sent at 6:00 UTC.
 This is where you go to generate your API key in order to [programmatically access several CMP features](../apis/developer-hub.md).
 
 After you generate your key, copy and store it somewhere handy, as we won't show it again after you leave the API page.
-
-![A screenshot of the API tab](<../.gitbook/assets/image (16) (1).png>)

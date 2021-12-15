@@ -6,8 +6,6 @@ description: How to update your user profile on Cloud Management Platform
 
 You can access and edit your user profile to adjust your personal details and/or notifications settings. To access your profile settings, click your profile icon in the upper-right corner of the page header and select **Profile.**
 
-![A screenshot showing the location of the Profile option](<../.gitbook/assets/image (11) (1).png>)
-
 You will be taken to a Profile page, where you'll find the following tabs:
 
 * Profile

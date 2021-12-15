@@ -4,9 +4,7 @@ description: Settings > General
 
 # General Settings
 
-The **General** tab of the Settings section contains options that provide company specific defaults for all users within the CMP.
-
-![A screenshot of the General tab page](<../.gitbook/assets/image (239).png>)
+The **General** tab of the Settings section contains options that provide company-specific defaults for all users within the CMP.
 
 The General tab contains two settings:
 
@@ -24,7 +22,7 @@ When selected timezone will be used as a default in the following features:
 
 ## Currency
 
-![A screenshot of the _Currency_ drop-down menu](<../.gitbook/assets/image (220).png>)
+![A screenshot of the Currency drop-down menu](<../.gitbook/assets/image (220).png>)
 
 | Section         | Feature | Behavior                                                                                                                         |
 | --------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |

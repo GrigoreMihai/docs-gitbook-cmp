@@ -32,8 +32,9 @@
 * [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
 * [AWS Quota Monitoring](amazon-web-services/aws-quotas.md)
 * [Import AWS Organizations](amazon-web-services/import-aws-orgs.md)
+* [AWS root credentials](amazon-web-services/mpa-root-credentials.md)
 
-## FlexSave for AWS <a href="flexsave-aws" id="flexsave-aws"></a>
+## FlexSave for AWS <a href="#flexsave-aws" id="flexsave-aws"></a>
 
 * [FlexSave for AWS Overview](flexsave-aws/overview.md)
 * [FlexSave for AWS FAQ](flexsave-aws/faq.md)
@@ -63,7 +64,7 @@
 * [Manage Budgets](cloud-analytics/manage-budgets.md)
 * [GKE Cost Analytics](cloud-analytics/gke-cost-analytics.md)
 
-## Dashboards & Widgets <a href="dashboards" id="dashboards"></a>
+## Dashboards & Widgets <a href="#dashboards" id="dashboards"></a>
 
 * [Widgets Overview](dashboards/widgets-overview.md)
 * [Adding Reports to a Dashboard](dashboards/add-reports-to-dashboards.md)
@@ -74,7 +75,7 @@
 * [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md)
 * [AWS Lens](dashboards/aws-lens.md)
 
-## Working with Tickets <a href="tickets" id="tickets"></a>
+## Working with Tickets <a href="#tickets" id="tickets"></a>
 
 * [Support or Advisory Requests](tickets/open-a-new-support-request.md)
 * [Escalating Support Requests](tickets/escalating-support-requests.md)

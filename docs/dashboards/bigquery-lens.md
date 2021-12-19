@@ -6,12 +6,12 @@ description: >-
 
 # BigQuery Lens
 
-## Overview
+Overview
 
 BigQuery Lens is your Swiss army knife for highlighting inefficiencies in your organization's BigQuery usage, and its insights are displayed in the **BigQuery Lens**, located in your [Cloud Management Platform](../). Without configuring anything, you'll have the most important BigQuery insights brought _to_ you.
 
 {% hint style="info" %}
-To access the BigQuery Lens, you must verify that your Google Cloud service account was successfully uploaded and granted the appropriate permissions. Read more on [linking your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md).=
+To access the BigQuery Lens, you must verify that your Google Cloud service account was successfully uploaded and granted the appropriate permissions. Read more on [linking your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md).
 {% endhint %}
 
 If successfully uploaded, you will see:

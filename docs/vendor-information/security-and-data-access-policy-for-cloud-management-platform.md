@@ -64,7 +64,7 @@ serviceusage.services.list
 serviceusage.services.use
 ```
 
-The following permissions are required for the [BigQuery FinOps Dashboard](../dashboards/bigquery-finops-dashboard.md) to get actionable cost optimization recommendations for your Google BigQuery environment.
+The following permissions are required for the [BigQuery FinOps Dashboard](../dashboards/bigquery-lens.md) to get actionable cost optimization recommendations for your Google BigQuery environment.
 
 ```
 logging.sinks.create

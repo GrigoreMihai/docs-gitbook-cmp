@@ -72,7 +72,7 @@
 * [Create New Dashboard](dashboards/creating-a-new-dashboard.md)
 * [Access Public Dashboard](dashboards/accessing-a-public-dashboard.md)
 * [Rightsizing for Google Cloud](dashboards/rightsizing-for-google-cloud.md)
-* [BigQuery Lens](dashboards/bigquery-finops-dashboard.md)
+* [BigQuery Lens](dashboards/bigquery-lens.md)
 * [AWS Lens](dashboards/aws-lens.md)
 
 ## Working with Tickets <a href="#tickets" id="tickets"></a>

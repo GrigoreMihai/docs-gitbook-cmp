@@ -8,11 +8,11 @@ Doit International's _Cloud Management Platform_ (CMP) helps the developers and 
 
 The CMP has five strategic pillars:
 
-* [Cloud analytics](#cloud-analytics)
-* [Cloud cost optimization](#cloud-cost-optimization)
-* [Cloud enablement](#cloud-enablement)
-* [Cloud productivity](#cloud-productivity)
-* [Cloud governance](#cloud-governance)
+* [Cloud analytics](./#cloud-analytics)
+* [Cloud cost optimization](./#cloud-cost-optimization)
+* [Cloud enablement](./#cloud-enablement)
+* [Cloud productivity](./#cloud-productivity)
+* [Cloud governance](./#cloud-governance)
 
 In this document, we'll explain. briefly go over each of the main capabilities you have access to in the CMP, along with links to other articles for each feature if you're interested in doing a deeper dive.
 
@@ -20,31 +20,20 @@ In this document, we'll explain. briefly go over each of the main capabilities y
 
 The following table offers a brief summary of our support for [Google Cloud Platform](https://cloud.google.com/gcp) (GCP), [Amazon Web Services](https://aws.amazon.com) (AWS), and [Microsoft Azure](https://azure.microsoft.com):
 
-|                                      | **GCP**                        | **AWS**              | **Azure** |
-| ------------------------------------ | ------------------------------ | -------------------- | --------- |
-| **CloudOps**                         |                                |                      |           |
-| [Consulting and support][support]    | Yes                            | Yes                  | Yes       |
-| [Cloud known issues][known-issues]   | Yes                            | Yes                  | No        |
-| [Sandboxes][sandboxes]               | Yes                            | No                   | No        |
-| [Governance][governance]             | Yes                            | Yes                  | No        |
-| **Costs analysis and optimization**  |                                |                      |           |
-| Lenses                               | GCP BigQuery Lens and GKE Lens | [AWS Lens][aws-lens] | No        |
-| [Cost history widgets][cost-history] | Yes                            | Yes                  | Yes       |
-| [Cloud analytics][analytics]         | Yes                            | Yes                  | Yes       |
-| [Costs anomalies][anomalies]         | Yes                            | Yes                  | No        |
-| FlexSave                             | Yes                            | [Yes][flexsave-aws]  | No        |
-| [EC2 Spot Scaling][spot-scaling]     | N/A                            | Yes                  | N/A       |
-
-[support]: https://help.doit-intl.com/#cloud-support-and-advisory
-[known-issues]: https://help.doit-intl.com/tickets/cloud-infrastructure-known-issues
-[sandboxes]: https://help.doit-intl.com/#cloud-sandboxes
-[governance]: https://help.doit-intl.com/#cloud-governance
-[cost-history]: https://help.doit-intl.com/dashboards/widgets-overview#monthly-cloud-cost-history
-[spot-scaling]: https://help.doit-intl.com/spot-scaling/overview
-[anomalies]: https://help.doit-intl.com/#cost-anomalies
-[analytics]: https://help.doit-intl.com/#cloud-analytics
-[aws-lens]: https://help.doit-intl.com/dashboards/aws-lens
-[flexsave-aws]: https://help.doit-intl.com/flexsave-aws/overview
+|                                                                                                           | **GCP**                        | **AWS**                                                    | **Azure** |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------ | ---------------------------------------------------------- | --------- |
+| **CloudOps**                                                                                              |                                |                                                            |           |
+| [Consulting and support](https://help.doit-intl.com/#cloud-support-and-advisory)                          | Yes                            | Yes                                                        | Yes       |
+| [Cloud known issues](https://help.doit-intl.com/tickets/cloud-infrastructure-known-issues)                | Yes                            | Yes                                                        | No        |
+| [Sandboxes](https://help.doit-intl.com/#cloud-sandboxes)                                                  | Yes                            | No                                                         | No        |
+| [Governance](https://help.doit-intl.com/#cloud-governance)                                                | Yes                            | Yes                                                        | No        |
+| **Costs analysis and optimization**                                                                       |                                |                                                            |           |
+| Lenses                                                                                                    | GCP BigQuery Lens and GKE Lens | [AWS Lens](https://help.doit-intl.com/dashboards/aws-lens) | No        |
+| [Cost history widgets](https://help.doit-intl.com/dashboards/widgets-overview#monthly-cloud-cost-history) | Yes                            | Yes                                                        | Yes       |
+| [Cloud analytics](https://help.doit-intl.com/#cloud-analytics)                                            | Yes                            | Yes                                                        | Yes       |
+| [Costs anomalies](https://help.doit-intl.com/#cost-anomalies)                                             | Yes                            | Yes                                                        | No        |
+| FlexSave                                                                                                  | Yes                            | [Yes](https://help.doit-intl.com/flexsave-aws/overview)    | No        |
+| [EC2 Spot Scaling](https://help.doit-intl.com/spot-scaling/overview)                                      | N/A                            | Yes                                                        | N/A       |
 
 ## Cloud analytics
 
@@ -101,7 +90,7 @@ FlexSave demo for Google Cloud and AWS
 
 As powerful as BQ is, it comes at a high cost depending on your analysts' behavior and how your BigQuery architecture is set up. Adding on to this, trying to identify BigQuery resource inefficiencies without knowing _what_ you're looking for can be a huge time-suck.
 
-As a result, we created the [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md), your Swiss Army knife for highlighting inefficiencies in your team's BigQuery usage.
+As a result, we created the [BigQuery FinOps Dashboard](dashboards/bigquery-lens.md), your Swiss Army knife for highlighting inefficiencies in your team's BigQuery usage.
 
 It analyzes your team's BigQuery behavior, aggregate information, and display the most important statistics for you. Unlike alternative solutions and methods, BigQuery FinOps Dashboard brings important information TO you, without you having to configure anything.
 

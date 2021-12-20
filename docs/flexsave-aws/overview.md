@@ -14,7 +14,7 @@ In order to use FlexSave, your AWS account must be [consolidated](https://docs.a
 Required Permissions: **FlexSave Admin** Default roles with this permission: **Power User, Admin**
 {% endhint %}
 
-## FlexSave <a href="autopilot" id="autopilot"></a>
+## FlexSave <a href="#autopilot" id="autopilot"></a>
 
 FlexSave automates the management of AWS Reserved Instances and Saving Plans so that you realize the largest possible EC2 savings without having to make any commitments.
 
@@ -22,29 +22,25 @@ FlexSave automates the management of AWS Reserved Instances and Saving Plans so 
 FlexSave works by performing a sophisticated, AI-based analysis of your AWS workloads and identifies the ideal blend of Reserved Instances, automatically applying it to your account/s.
 {% endhint %}
 
-Navigate to FlexSave by clicking its icon on the left-hand navigation panel.
+FlexSave can be found under 'Savings' in the top navigation.
 
-![A screenshot showing the location of the FlexSave menu item](../.gitbook/assets/cleanshot-2021-06-22-at-11.30.57.jpg)
-
-From the FlexSave page, you'll see a preview of your team's potential savings for the following month if you enable FlexSave.
+Once on the FlexSave page, you'll see a preview of your team's potential savings for the following month if you enable FlexSave.
 
 Click "**START SAVING**" to turn it on.
-
-![A screenshot showing the location of the START SAVING button](../.gitbook/assets/cleanshot-2021-09-13-at-17.25.04.jpg)
 
 After enabling FlexSave, you'll see your FlexSave Dashboard which displays important insights into your FlexSave savings.
 
 Let's go over the elements of your FlexSave Dashboard:
 
-![A screenshot of an example FlexSave dashboard](<../.gitbook/assets/cleanshot-2021-09-14-at-11.51.28 (1) (1).jpg>)
+![A screenshot of an example FlexSave dashboard](../.gitbook/assets/FlexSave-dashboard.png)
 
 ### FlexSave Dashboard
 
 Your FlexSave Dashboard has three widgets, which displays $ savings resulting from using FlexSave:
 
-* **Current month's savings rate (%)**: Savings from FlexSave expressed as $ saved / pre-FlexSave on-demand spend
-* **Current month's savings ($)**: FlexSave savings expressed in absolute dollars saved.
-* **Current month's net on-demand spend**: On-demand spend _after_ subtracting FlexSave savings.
+* **Month's savings rate (%)**: Savings from FlexSave expressed as $ saved / pre-FlexSave on-demand spend
+* **Month's savings ($)**: FlexSave savings are expressed in absolute dollars saved.
+* **Month's net on-demand spend**: On-demand spend _after_ subtracting FlexSave savings.
 
 {% hint style="info" %}
 If you've never previously used FlexSave or purchased Flexible Reserved Instances through the DoiT CMP, the "Last month's savings" widget will not appear during the first month you use FlexSave.
@@ -54,9 +50,9 @@ If you've never previously used FlexSave or purchased Flexible Reserved Instance
 
 By default, the three widgets in your FlexSave Dashboard display data for the current month.
 
-You may adjust the time range by clicking in the dropdown under "Time range" as shown below, and selecting a different time interval.
+You may adjust the time range by clicking in the dropdown under "Time range" as shown below and selecting a different time interval.
 
-![A screenshot showing the location of the Time range drop-down](../.gitbook/assets/cleanshot-2021-09-13-at-18.08.38.jpg)
+![A screenshot showing the location of the Time range drop-down](../.gitbook/assets/FlexSave-dashboard-time-range.png)
 
 Finally, your FlexSave Dashboard contains a stacked-column chart displaying FlexSave savings and net on-demand EC2 spend from previous months, your current month, and a forecast of both for the next month.
 
@@ -77,8 +73,6 @@ The column displaying data for the next month contains two parts as well:
 ### **Disabling FlexSave**
 
 If you prefer to turn off FlexSave, click on the vertical ellipsis in the top-right corner of the FlexSave page. Then select "Disable FlexSave".
-
-![A screenshot showing the location of the Disable FlexSave option](../.gitbook/assets/cleanshot-2021-09-13-at-18.06.38.jpg)
 
 A confirmation pop-up will appear, explaining that FlexSave will continue to generate savings until the end of the month.
 

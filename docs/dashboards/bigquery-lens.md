@@ -5,7 +5,7 @@ description: >-
 
 # BigQuery Lens
 
-Gain insights and highlight inefficiencies in your organization's _Google Cloud Platform_ (GCP) BigQuery usage with the [Cloud Management Platform](../) (CMP) _BigQuery Lens_. Have the essential BigQuery insights brought to you with zero configuration.
+Gain insights and highlight inefficiencies in your organization's Google Cloud _BigQuery_ usage with the [Cloud Management Platform](../) (CMP) _BigQuery Lens_. Have the essential BigQuery insights brought to you with zero configuration.
 
 {% hint style="info" %}
 
@@ -25,7 +25,7 @@ After your service account has been uploaded, you will see:
 
 Once the Google Cloud Service Account setup is complete, select the _Attach_ button and choose _BigQuery Lens_ from the list.
 
-![](../.gitbook/assets/bigquery-lens-attach-highlight.png)
+![A screenshot showing the location of the _Attach_ icon](../.gitbook/assets/bigquery-lens-attach-highlight.png)
 
 After attaching the BigQuery Lens dashboard, the CMP will start gathering information about your account usage patterns.
 
@@ -55,7 +55,7 @@ The BigQuery historical jobs are backfilled for the last 30 days.
 
 The BigQuery Lens dashboard is made up of  widgets that, each designed to highlight a different aspect of your BigQuery usage.
 
-![Example BigQuery Lens dashboard](<../.gitbook/assets/CleanShot 2021-12-19 at 10.55.29.jpg>)
+![A screenshot showing an example BigQuery Lens dashboard](<../.gitbook/assets/CleanShot 2021-12-19 at 10.55.29.jpg>)
 
 ### Elements of the Dashboard
 
@@ -178,7 +178,7 @@ We may not be able to detect which table is being scanned because of:
 * Queries we are unable to parse due to complexity (i.e., a parser time out), or
 * Queries that use a function or statement that we do not support yet
 
-![A screenshot highlighting the Not yet allocated figure](<../.gitbook/assets/image (29) (1).png>)
+![A screenshot highlighting the _Not yet allocated_ figure](<../.gitbook/assets/image (29) (1).png>)
 
 ### How much does BigQuery Lens cost monthly?
 

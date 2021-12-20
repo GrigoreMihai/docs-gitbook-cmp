@@ -21,7 +21,7 @@ You can manage all access as either:
 * Users within the DoiT [Cloud Management Platform](https://app.doit-intl.com)
 * IAM Roles for AWS resources, such as EC2 instances (see [AWS Identity and Access Management](https://manage.rackspace.com/aws/docs/product-guide/access\_and\_permissions/aws\_iam.html#aws-iam))
 
-For the specific tasks that require AWS account root user permission, a small set of Do'ers can carry out the tasks.
+For the specific tasks that require AWS account root user permission, a small set of DoiT staff can carry out the tasks.
 
 **How does DoiT International secure and store root credentials?**
 

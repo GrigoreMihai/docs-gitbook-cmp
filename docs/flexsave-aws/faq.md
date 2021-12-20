@@ -22,17 +22,17 @@ FlexSave reservations are applied to on-demand usage. Usage covered by AWS Reser
 
 ## Which AWS services are supported with FlexSave?
 
-At this time, FlexSave supports AWS EC2 Instances. Other AWS services such as AWS RDS, VMware Cloud or ElastiCache aren't supported at this time.
+At this time, FlexSave supports AWS EC2 Instances. Other AWS services such as AWS RDS, VMware Cloud, or ElastiCache aren't supported at this time.
 
 Since FlexSave relies on AWS Convertible Reservations, you can check for supported instances on the [AWS website](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/). FlexSave supports all instance types with available Convertible Reservations. If there are no Convertible Reservations available for your region, FlexSave does not support that instance type.
 
 ## Can I send a report to the CFO with the actual realized savings?
 
-Your actual savings is displayed in your FlexSave Dashboard. Your CFO should have access to this dashboard if they have the FlexSave Admin permission, and would be able to monitor the utilization as well as the actual savings yielded by the FlexSave.
+Your actual savings is displayed in your FlexSave Dashboard. Your CFO should have access to this dashboard if they have the FlexSave Admin permission and would be able to monitor the utilization as well as the actual savings yielded by the FlexSave.
 
-This is your [FlexSave Dashboard](overview.md#flexsave-dashboard):
+This is your [FlexSave Dashboard](overview.md#flexsave-dashboard)
 
-![A screenshot of an example FlexSave dashboard](<../.gitbook/assets/cleanshot-2021-09-14-at-11.51.28 (1) (1) (1).jpg>)
+![A screenshot of an example FlexSave dashboard](../.gitbook/assets/FlexSave-dashboard.png)
 
 ## Do you support every Operating System?
 

@@ -32,7 +32,7 @@ Your actual savings is displayed in your FlexSave Dashboard. Your CFO should hav
 
 This is your [FlexSave Dashboard](overview.md#flexsave-dashboard)
 
-![A screenshot of an example FlexSave dashboard](../.gitbook/assets/FlexSave-dashboard.png)
+![A screenshot of an example FlexSave dashboard](broken-reference)
 
 ## Do you support every Operating System?
 

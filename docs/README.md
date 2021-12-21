@@ -86,17 +86,17 @@ See how it works in the video below:
 FlexSave demo for Google Cloud and AWS
 {% endembed %}
 
-### BigQuery FinOps
+### BigQuery Lens
 
 As powerful as BQ is, it comes at a high cost depending on your analysts' behavior and how your BigQuery architecture is set up. Adding on to this, trying to identify BigQuery resource inefficiencies without knowing _what_ you're looking for can be a huge time-suck.
 
-As a result, we created the [BigQuery FinOps Dashboard](dashboards/bigquery-lens.md), your Swiss Army knife for highlighting inefficiencies in your team's BigQuery usage.
+As a result, we created the [BigQuery Lens Dashboard](dashboards/bigquery-lens.md), your Swiss Army knife for highlighting inefficiencies in your team's BigQuery usage.
 
-It analyzes your team's BigQuery behavior, aggregate information, and display the most important statistics for you. Unlike alternative solutions and methods, BigQuery FinOps Dashboard brings important information TO you, without you having to configure anything.
+It analyzes your team's BigQuery behavior, aggregate information, and display the most important statistics for you. Unlike alternative solutions and methods, BigQuery Lens Dashboard brings important information TO you, without you having to configure anything.
 
 Below you will see the widgets of the dashboard that provide you with insights into your organization's BigQuery usage statistics.
 
-One important aspect of the BigQuery FinOps Dashboard is the Recommendations widget, which offers smart recommendations around the nature of how your datasets, tables, and queries are structured.
+One important aspect of the BigQuery Lens Dashboard is the Recommendations widget, which offers smart recommendations around the nature of how your datasets, tables, and queries are structured.
 
 Each recommendation category comes with further details on how to act on each recommendation.
 

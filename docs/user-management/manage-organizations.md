@@ -73,7 +73,7 @@ Select the attribution or set of attributions that define your organization.
 {% hint style="info" %}
 **A note about Dashboards and Widgets**
 
-The preset dashboards in CMP (Account, AWS FinOps, BigQuery FinOps, and Pulse) have a global scope. Regardless of organization, they always show data from across all configured accounts/projects. If you do not want organization members to see data outside their scope, you can prevent them from seeing these dashboards‌
+The preset dashboards in CMP (Account, AWS FinOps, BigQuery Lens, and Pulse) have a global scope. Regardless of organization, they always show data from across all configured accounts/projects. If you do not want organization members to see data outside their scope, you can prevent them from seeing these dashboards‌
 {% endhint %}
 
 ## Widgets function differently‌ <a href="widgets-function-differently" id="widgets-function-differently"></a>

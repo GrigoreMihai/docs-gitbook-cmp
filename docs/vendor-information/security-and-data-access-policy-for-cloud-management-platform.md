@@ -9,7 +9,7 @@ This document outlines what customer data Cloud Management Platform accesses, wh
 * Sandboxes for Google Cloud
 * Google Cloud Rightsizing
 * Google Kubernetes Engine Metering
-* BigQuery FinOps
+* BigQuery Lens
 * Google Cloud and/or AWS Proactive Quota Monitoring
 * AWS ASG Optimizer
 
@@ -64,7 +64,7 @@ serviceusage.services.list
 serviceusage.services.use
 ```
 
-The following permissions are required for the [BigQuery FinOps Dashboard](../dashboards/bigquery-lens.md) to get actionable cost optimization recommendations for your Google BigQuery environment.
+The following permissions are required for the [BigQuery Lens Dashboard](../dashboards/bigquery-lens.md) to get actionable cost optimization recommendations for your Google BigQuery environment.
 
 ```
 logging.sinks.create

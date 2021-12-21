@@ -22,7 +22,7 @@ If your account was already linked prior to enabling Spot Scaling functionality,
 
 **Follow** [these instructions](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#adding-a-feature) **on adding a feature to an already-linked AWS account**. Be sure to check the box next to "Spot Scaling", as shown below.
 
-![A screenshot showing the checkbox next to Spot Scaling](<../.gitbook/assets/Spot-scaling-permissions (1).png>)
+![A screenshot showing the checkbox next to Spot Scaling](../.gitbook/assets/Spot-scaling-permissions.png)
 
 ## Implement Spot Scaling Recommendations
 
@@ -34,7 +34,7 @@ Once an AWS account is linked, any Auto Scaling Groups (ASGs) associated with it
 
 These ASGs will have a value of "Not Optimized" under the "Optimization Status" column.
 
-![A screenshot showing the location of the 'Not Optimized' status](../.gitbook/assets/Spot-scaling-permissions.png)
+![A screenshot showing the location of the 'Not Optimized' status](../.gitbook/assets/Spot-scaling-not-optimized.png)
 
 Click on the ASG to view its Spot Scaling recommendation.
 
@@ -49,7 +49,7 @@ After selecting an un-optimized Auto Scaling Group, its current configuration wi
 You will also see the current on-demand costs and hours running for that Auto Scaling Group at the top-left corner.
 
 ![A screenshot showing the location of the Current Values and Recommended
-Values sections](<../.gitbook/assets/CleanShot 2021-11-14 at 15.56.38.jpg>)
+Values sections](../.gitbook/assets/Spot-scaling-values.png)
 
 Examine the recommendations. If needed, you can adjust several aspects of the recommendation to your liking. You may modify the following values of a recommendation:
 

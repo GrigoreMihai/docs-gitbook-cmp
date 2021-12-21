@@ -5,6 +5,7 @@ redirects:
   flexible-reservations/flexri-regions: ./flexible-reservations/flex-ri-regions.md
   flexible-reservations/flexri: ./flexible-reservations/flex-ri.md
   amazon-web-services/add-your-amazon-web-services-iam-role: ./amazon-web-services/link-account.md
+  amazon-web-services/aws-ro-access: ./tickets/aws-access.md
   tickets/aws-ro-access: ./tickets/aws-access.md
   tickets/gcp-ro-access: ./tickets/gcp-access.md
   general/login: ./general/log-in.md

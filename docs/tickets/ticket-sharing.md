@@ -10,14 +10,10 @@ Ticket sharing allows users to see all tickets, even if the ticket was opened by
 Required Permissions: **Billing Profile Admin**
 {% endhint %}
 
-Start with navigating to the 'Support' page by selecting the icon on the left-hand side menu.
-
-![A screenshot showing the location of the _Support_ menu item](<../.gitbook/assets/support-tab (1).png>)
+Start with logging into the [Cloud Management Platform](../general/log-in.md) and in the navigation bar, click on "Services", "Consulting and Support
 
 Locate the settings gear icon at the top-right of the page and click 'Enable Ticket Sharing'.
 
-![A screenshot showing the location of the settings gear icon](../.gitbook/assets/supportsharing1.jpg)
-
-![A screenshot showing the location of the _Enable Ticket Sharing_ option](../.gitbook/assets/cleanshot-2020-10-22-at-13.38.08.jpg)
+![](../.gitbook/assets/sharing-1.png)
 
 Once enabled, you will be able to see tickets opened by others in your organization.

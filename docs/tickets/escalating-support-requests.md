@@ -6,15 +6,13 @@ description: Notify Cloud Engineering team about the impact on your business
 
 If you would like to access and review previously submitted support requests, you can easily do so through the Cloud Management Platform.
 
-Start with locating the ticket you'd like to escalate on the [Support page](https://support.doit-intl.com):
-
-![A screenshot showing a list of tickets on the support page](../.gitbook/assets/support6.jpg)
+Start with locating the ticket you'd like to escalate on the [Support page](https://support.doit-intl.com).
 
 By clicking on the ticket's subject or ID, you are brought to a new page which includes the ticket's full description and in-depth details displayed in a collapsible Info Panel.
 
 Click on the 'Escalate' button to escalate the ticket and specify the reason for escalation.
 
-![A screenshot showing the location of the _Escalate_ button](../.gitbook/assets/support4-2.jpg)
+![](../.gitbook/assets/escalate-1.png)
 
 Available Escalation Reasoning:
 

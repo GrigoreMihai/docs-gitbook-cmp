@@ -16,13 +16,14 @@ Please note you must be assigned access to the specific Billing Profile under wh
 You will see an **OrganizationAccountAccessRole** in the new AWS account. This role is created by AWS and links back to the parent account. When creating the account we will use this role to [create the CloudHealth IAM Role](https://help.doit-intl.com/amazon-web-services/set-up-cloudhealth). The CMP or DoiT International will not use this role afterwards and you will have to **manually remove this role from your account**
 {% endhint %}
 
-Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and Access the 'Create AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
-
-![A screenshot showing the location of the Create AWS Account menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (4) (1).png>)
+* Log into the [Cloud Management Platform](https://app.doit-intl.com)
+* Click on the "setting" ⚙ icon located at the top right side of the navigation bar
+* Click on "assets" under "cloud settings"&#x20;
+* Once you're at the Assets page, go to the right-hand side of the page and click on '**Invite Account**'.
 
 On the right-hand side of the page, click the bottom facing arrow and choosing 'Create Account'.
 
-![A screenshot showing the location of the Create Account option](<../.gitbook/assets/aws-create-account-doit (1) (2).png>)
+![](<../.gitbook/assets/aws-create-1 (4).png>)
 
 Choose the Billing Profile to which you're creating the account for while choosing the name of the account to which the _root email_ is associated with.
 
@@ -34,7 +35,7 @@ Click 'Create' and a popup will appear that the account was created successfully
 
 As listed in the popup, an email is sent out for further instructions, here is an example.
 
-![A screenshot of an example email sent by DoiT](../.gitbook/assets/aws-doit-success.png)
+![](../.gitbook/assets/aws-create-2.png)
 
 The following video shows you how to create an AWS Account.
 

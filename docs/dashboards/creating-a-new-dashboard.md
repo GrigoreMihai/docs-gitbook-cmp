@@ -4,7 +4,7 @@ You can maintain multiple dashboards in your Cloud Management Platform to visual
 
 In order to create a new dashboard, go to the right-hand side of the page and click 'Add Dashboard'.
 
-![A screenshot showing the _Add Dashboard_ modal dialog](../.gitbook/assets/new-add-dashboard.png)
+![](../.gitbook/assets/create-new-dashboard-1.png)
 
 Create the 'New Dashboard' and choose a name, for example, 'AWS', 'Google Cloud', 'Finance', 'Ops', or anything else that suits your use case.
 
@@ -15,19 +15,19 @@ Every dashboard can be 'Private', or 'Public'.
 
 When creating a new public dashboard, choose whether or not to grant other users permission to edit the dashboard by switching on the 'Enable others to edit' toggle.
 
-![A screenshot showing the details of the _Add Dashboard_ modal dialog](../.gitbook/assets/add-dashboard.png)
+![A screenshot showing the details of the Add Dashboard modal dialog](../.gitbook/assets/add-dashboard.png)
 
 Once a dashboard has been created, adding widgets is the next step in the dashboard customization process. Go to the bottom right-hand corner and click 'Add Widgets'.
 
-![A screenshot showing the location of the _Add Widgets_ icon](../.gitbook/assets/add-widgets.png)
+![A screenshot showing the location of the Add Widgets icon](../.gitbook/assets/add-widgets.png)
 
 Select widgets from the Widgets Library you'd like to add to your dashboard.
 
-![A screenshot of the _Widgets Library_ menu](../.gitbook/assets/widgets-library.png)
+![A screenshot of the Widgets Library menu](../.gitbook/assets/widgets-library.png)
 
 In the following example, I created a customized dashboard named "Cloud FinOps".
 
-![A screenshot showing a customized FinOps dashboard](../.gitbook/assets/charts-widgets.png)
+![](../.gitbook/assets/create-new-dashboard-2.png)
 
 Considering that a user can have multiple dashboards which can be either 'Private' and 'Public', notice the globe icon next to a dashboard title; the globe icon represents a 'Public' dashboard. There are a few dependencies for recognizing a dashboard as Private or Public :
 

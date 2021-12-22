@@ -81,7 +81,7 @@
 * [Escalating Support Requests](tickets/escalating-support-requests.md)
 * [Enable Ticket Sharing](tickets/ticket-sharing.md)
 * [Manage Default Email CC](tickets/manage-default-email-cc.md)
-* [Known Issues](tickets/cloud-infrastructure-known-issues.md)
+* [Cloud Incidents](tickets/cloud-infrastructure-known-issues.md)
 * [Support Access to GCP](tickets/gcp-access.md)
 * [Support Access to AWS](tickets/aws-access.md)
 

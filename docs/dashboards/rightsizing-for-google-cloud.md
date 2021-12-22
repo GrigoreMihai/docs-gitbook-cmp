@@ -12,9 +12,9 @@ If successful, you will see:
 
 _This is optional. However, without the permissions granted here, you will have to make the rightsizing changes yourself in the Google Cloud Console, as opposed to doing it in a couple of clicks from the CMP._
 
-_Please note that if the status reads 'Unhealthy', you may be lacking permissions. Refer back to the [_Connect Your Google Cloud Organization_](../google-cloud/connect-google-cloud-service-account.md) article on how to configure your account._
+_Please note that if the status reads 'Unhealthy', you may be lacking permissions. Refer back to the_ [_Connect Your Google Cloud Organization_](../google-cloud/connect-google-cloud-service-account.md) _article on how to configure your account._
 
-![A screenshot of your Configured Accounts screen along with status icons](<../.gitbook/assets/cmp\_gcp\_partialpermissions (1) (1) (1) (2).jpg>)
+__![](../.gitbook/assets/rightsizing-1.png)__
 
 Once that's been set up, you can add the 'Recommendations' widget to any of your dashboards within the Cloud Management Platform.
 

@@ -15,8 +15,8 @@ Required Role\*\*: Admin\*\*
 {% endhint %}
 
 1. Navigate to 'Assets' via the settings cog in the top-right hand section of the main navigation
-2. Select the 'Asset Type' page you want to tag (AWS, Google Cloud, etc.)
-3. Once on the chosen page, click the 3-dot menu of the asset you wish to tag
+2. Within the 'Assets' section, select the 'Asset Type' you want to tag (AWS, Google Cloud, etc.)
+3. Once on the chosen tab, click the 3-dot menu of the asset you wish to tag
    * The assets are shown as cards
 4. Select 'Tag Asset'
 5. Input a new tag or select from the list of previously created tags

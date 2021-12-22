@@ -22,6 +22,10 @@ Required Role\*\*: Admin\*\*
 5. Input a new tag or select from the list of previously created tags
 6. Click 'Save'
 
+![A screenshot showing the 3-dot menu options, including 'Tag Asset'](../.gitbook/assets/Assets-page.png)
+
+![A screenshot showing the 'Tag Asset' modal and input](../.gitbook/assets/Assets-tagging.png)
+
 All new tags you save will be added to the tag selection list and will be available to use for other assets.
 
-After clicking save, the tag will be visible under the asset name.
+After clicking save, the tag will be visible under the asset name in the form of a grey chip.

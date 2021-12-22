@@ -14,11 +14,7 @@ Now you can share product feedback and feature requests with us directly from th
 
 To share your feedback with us, click on the question mark icon in the top right-hand section of the main navigation and click 'Provide feedback'.&#x20;
 
-![A screenshot showing you how to provide feedback](../.gitbook/assets/providing-feedback.png)
-
 Select the functional area that your idea relates to and complete the remaining fields, providing screenshots or images to give more context as needed.
-
-![A screenshot showing the feedback form](<../.gitbook/assets/providing-feedback-form (1).png>)
 
 Once finished, click 'Add idea' and your idea will be submitted to our Product Team.
 

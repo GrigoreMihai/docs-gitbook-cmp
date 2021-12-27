@@ -22,7 +22,6 @@ From the billing profile screen, select _Payment Methods_ from the left-hand men
 
 ![A screenshot of the _Payment Methods_ screen](../.gitbook/assets/payment-methods.png)
 
-
 From the _Payment Methods_ screen, select _ACH Payment_, then select _Link New Account_ to link your bank account.
 
 ## Link Account

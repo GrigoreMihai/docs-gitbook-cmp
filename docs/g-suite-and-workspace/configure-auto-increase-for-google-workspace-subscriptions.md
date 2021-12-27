@@ -20,13 +20,13 @@ At a minimum, to manage Google Workspace licenses, your [User Role](../user-mana
 _Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to configure auto-increase._
 {% endhint %}
 
-Start by navigating to your Assets page either via the left-hand navigation bar or the "Manage Licenses & Assets" shortcut.
+Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
 
-![A screenshot showing the Assets icon and the Manager Licenses & Assets shortcut](../.gitbook/assets/assets.jpg)
+![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
 
-Once you're at the Assets page, switch to the Google Workspace tab.
+from the _Assets_ page, select _Google Workspace_ from the left-hand menu:
 
-![A screenshot showing the Google Workspace tab](../.gitbook/assets/workspacepage.jpg)
+![A screenshot showing the Google Workspace screen](../.gitbook/assets/google-workspace-screen.png)
 
 Locate the subscription you'd like to configure auto-increase for, and click on the ellipsis icon on the right-hand side of the widget. Then choose 'Configure Auto Increase'.
 

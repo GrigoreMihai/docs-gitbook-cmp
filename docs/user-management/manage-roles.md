@@ -108,15 +108,22 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
 
 ## Custom Roles
 
-If one of the built-in roles doesn't work for you, you can create a custom role with your own set of permissions. To create a custom user role, select the "Users and Roles" icon in the lefthand navigation bar.
+If one of the built-in roles doesn't work for you, you can create a custom role with your own set of permissions. To create a custom user role, select the _Settings_ icon (a gear) from the top menu bar, then select _Identity and access_.
 
-![A screenshot showing the location of the Users and Roles menu item](../.gitbook/assets/usersandroles.jpg)
+![A screenshot of the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
 
-From there, navigate to the "Roles" tab. You will see a list of Preset Roles, as well as any other Custom Roles created by your team.
+From there, select _Roles_ from the left-hand menu:
 
-![A screenshot showing the location of the Roles tab](../.gitbook/assets/roles-tab.jpg)
+![A screenshot showing the _Roles_ screen_](../.gitbook/assets/roles.png)
 
-Create a new role by clicking on the "**+NEW**" button at the top right of the screen. This opens a new page with a [list of permissions](user-permissions-explained.md) available to group into the new role.
+You will see a list of preset roles as well as any other custom roles created by your team.
+
+Create a new role by selecting the _NEW_ button in the top right-hand of the
+screen. Doing this will take you to the _New role_ screen, with a [list of
+permissions](user-permissions-explained.md) available for you to group into the new role:
+
+![A screenshot showing the _New role_ screen_](../.gitbook/assets/permissions.png)
+
 
 To get started:
 
@@ -124,21 +131,7 @@ To get started:
 2. _**Optional:**_ Give the role a description to give additional context around who the role is for.
 3. Select the permissions you'd like the role to contain.
 
-![A screenshot illustrating the process described above](../.gitbook/assets/createrole.jpg)
-
-### Editing a Custom Role
-
-{% hint style="info" %}
-You can't edit built-in roles.
-{% endhint %}
-
-To modify the permissions contained in a custom role, check the box next to the role you'd like to edit, then click on the "Edit Role" icon at the top-right of your screen.
-
-![A screenshot showing the location of the Edit Role icon](../.gitbook/assets/editrole.jpg)
-
-From there, make your edits to the permissions the role contains. When finished, click on the **<--** back arrow icon at the top-left to return to the main Roles page.
-
-### Deleting a Custom Role
+### Deleting a custom role
 
 To delete the custom role, you will need to make sure there are no users configured with this role. You cannot delete a role until this condition is satisfied.
 
@@ -148,12 +141,8 @@ Select the role you'd like to delete and click the "Remove" button. You will nee
 You can't remove built-in roles.
 {% endhint %}
 
-## Setting a Default Role
+## Setting a default role
 
 A default role is the role a new user on your team is auto-provisioned, until a role is explicitly set by an admin. Both pre-built and custom roles can be designated as a default role.
 
-To set a role as the default role for your team, click on a role from your list and then click the "Make Default" button at the top-right corner of the page.
-
-Finally, click "Confirm".
-
-![A screenshot showing the Set Default Role modal dialog](<../.gitbook/assets/image (67) (1).png>)
+To set a role as the default role for your team, select the role, then select the _MAKE DEFAULT_ button in the top right-hand corner of the screen.

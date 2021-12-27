@@ -6,14 +6,14 @@ description: How to bulk invite users to Cloud Management Platform from CSV
 
 Whether you're just creating your team in the CMP or simply want to add a lot of new teammates at once, bulk inviting users will save you lots of time here. From within the CMP, you can invite as many users as you want by uploading a CSV file.
 
-Begin by navigating to the **Users and Roles** page.
+Begin by selecting the _Settings_ icon (a gear) from the top menu bar, then _Identity and access_:
 
-![A screenshot showing the location of the _Users and Roles_ menu item](../.gitbook/assets/bulkuser2.jpg)
+![A screenshot of the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
 
-Then, at the top-right corner of the page, click on the vertical ellipsis \(**⋮**\). Next, click on "Upload Users" and upload a CSV file with your user information.
+Next, select the vertical ellipsis icon in the top right-hand corner of the screen to open the upload and download menu.
 
-![A screenshot showing the location of the _Upload Users_ menu item](../.gitbook/assets/bulkuser1.jpg)
+To bulk invite users, select the _Upload Users_ option, and then upload a CSV file with the user information.
 
-To ensure your CSV file is structured properly, we recommend downloading the template below and using it to format your bulk invitations.
+To ensure your CSV file is structured properly, download the template below and use it to format your bulk invitations.
 
 {% file src="../.gitbook/assets/new-user-bulk-upload-template.csv" caption="User Bulk Invite Template" %}

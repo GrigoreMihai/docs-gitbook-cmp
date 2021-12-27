@@ -16,7 +16,9 @@ Please connect your [Google Cloud Organization](../../google-cloud/connect-googl
 
 ## Accessing Cloud Reports
 
-To access your Cloud Reports, click on the "Cloud Analytics" icon on the left-hand side of the page.
+To access your Cloud Reports, select _Reports_ from the _Analytics_ menu item on the top navigation bar:
+
+![A screenshot of the _Analytics_ menu item](../../.gitbook/assets/analytics-reports-menu.png)
 
 By default, CMP provided several preset reports to start with, such as:
 
@@ -29,19 +31,9 @@ By default, CMP provided several preset reports to start with, such as:
 
 Click on the "Explore" button on the top-right part of the Cloud Analytics page to begin working on a new ad-hoc Cloud Report. Reports created this way will not be automatically saved _unless_ you give it a name.
 
-If you'd like your report to be automatically saved regardless of whether you give it a name, click on the dropdown arrow next to "Explore" and select "New Report" instead.
-
-![A screenshot showing the location of the Explore dropdown menu](../../.gitbook/assets/cloud-reports-explore.jpg)
+If you'd like your report to be automatically saved regardless of whether you give it a name, select the _Explore_ button, then select select _New Report_.
 
 ## Set up your Cloud Report
-
-By default, your report will be in "View Mode". This is a read-only view of your report, where you'll only be able to adjust the Metric, Aggregation, and Chart Type options.
-
-To edit your report, click on the pencil icon on the right-hand sidebar. This will switch you to "Edit Mode" so you can start setting up your report.
-
-Conversely, if you are in Edit Mode, you can switch to View mode by clicking on the eye icon that will appear in place of the pencil icon.
-
-![A screenshot showing the location of the Edit Mode button](../../.gitbook/assets/cloudreports-edit-view-mode.jpg)
 
 There are four steps to setting up your cloud report:
 
@@ -55,7 +47,6 @@ There are four steps to setting up your cloud report:
 
 After a few seconds, your report will appear, ready for your analysis.
 
-![A screenshot showing a Cloud Analytics report](../../.gitbook/assets/cloudreportsui.jpg)
 
 ## FAQ
 

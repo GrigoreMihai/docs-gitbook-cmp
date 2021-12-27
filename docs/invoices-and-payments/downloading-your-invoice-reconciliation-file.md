@@ -12,10 +12,12 @@ As a customer, you can access your company invoices as well as download the invo
 Required Permissions: **Invoice Viewer**
 {% endhint %}
 
-Start with accessing `Invoices` from the menu on the left-hand side of the page and click on Invoices.
+From the main CMP dashboard, select _Billing_ from the top menu bar, then select _Invoices_.
 
-![A screenshot showing you the location of the Invoices menu item](../.gitbook/assets/invoice-icon-1-.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
 
-To download the invoice summary as a CSV file, click the download icon in the top-right corner of the page.
+This action will take you to the _Invoices_ screen:
 
-![A screenshot showing you the location of the download icon](<../.gitbook/assets/download-csm-summary (1) (1) (1).png>)
+![A screenshot of the _Incoices_ screen](../.gitbook/assets/invoices-screen.png)
+
+On the _Invoices_ screen, you can download invoice data in CSV format by clicking the download icon (a cloud with a down arrow) in the top-right corner of the page.

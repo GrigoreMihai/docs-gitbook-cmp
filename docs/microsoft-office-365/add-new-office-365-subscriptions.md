@@ -16,22 +16,18 @@ Required Permission: **Assets Manager**
 Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a new subscription.
 {% endhint %}
 
-Start with accessing Office 365 based Assets from the menu on the left-hand side of the page and clicking the 'Assets' icon.
+Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
 
-![A screenshot showing you the location of the Assets menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (6).png>)
+![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
 
-Once you're at the Assets page, switch to the Office 365 tab.
+From the _Assets_ page, select _Office 365_ from the left-hand menu:
 
-![A screenshot showing you the location of the Office 365 tb](../.gitbook/assets/office-365-tab1.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/ms-office-365.png)
 
-Go to the right-hand side of the page and click on 'New Subscription'.
+To add a new license, select the _NEW SUBSCRIPTION_ button in the top right-hand corner of the page.
 
-![A screenshot showing you a form asking you to select a domain for the new subscription](../.gitbook/assets/office-new-subscription.png)
+Adding a new subscription will take you through a few steps, allowing you to customize your order:
 
-Select the Subscription/License and quantity you'd like to order.
+![A screenshot of the CMP dashboard](../.gitbook/assets/ms-office-365-new.png)
 
-![A screenshot showing you a form allowing you to select a license and quantity](../.gitbook/assets/office-365-license-type.png)
-
-Lastly, review your order summary, and if you approve click 'Submit'.
-
-![A screenshot showing you the confirmation screen and the location of the Submit button](../.gitbook/assets/office-submit.png)
+After reviewing your order, select the _SUBMIT_ button to complete the purchase.

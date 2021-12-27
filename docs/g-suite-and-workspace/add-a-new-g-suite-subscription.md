@@ -14,26 +14,18 @@ Required Permission: **Assets Manager**
 
 _Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a new subscription._
 
-From the main dashboard please select '**Manage Licenses & Assets**'.
+Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
 
-!["Manage Licenses & Assets"](<../.gitbook/assets/new-manage-licenses-2- (1) (7) (1).png>)
+![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
 
-Another way to access the G Suite based Assets is via the menu on the left-hand side of the page and clicking on Assets.
+from the _Assets_ page, select _Google Workspace_ from the left-hand menu:
 
-![A screenshot showing the location of the G Suite menu icon](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (5) (1).png>)
+![A screenshot showing the Google Workspace screen](../.gitbook/assets/google-workspace-screen.png)
 
-Once you're at the Assets page, switch to the G Suite tab and click on '**New Subscription**'.
+To add a new G Suite subscription, select the _NEW SUBSCRIPTION_ button in the top right-hand corner of the page.
 
-![A screenshot showing the location of the G Suite tab](<../.gitbook/assets/g-suite (2) (2) (2) (1) (2) (1).png>)
+Adding a new subscription will take you through a few steps, allowing you to customize your order:
 
-Select the domain for which you're adding a subscription and click 'Next'.
+![A screenshot showing the Google Workspace screen](../.gitbook/assets/google-workspace-new.png)
 
-![A screenshot showing the domain selection drop-down menu](<../.gitbook/assets/g-suite1 (1).jpg>)
-
-Select the Subscription/License and quantity you'd like to order.
-
-![A screenshot showing the license and quantity selection drop-down menu](../.gitbook/assets/g-suite2.jpg)
-
-Lastly, review your order summary and, if you approve, click 'Submit'
-
-![A screenshot showing the review screen and Submit button](<../.gitbook/assets/g-suite3 (1).jpg>)
+After reviewing your order, select the _SUBMIT_ button to complete the purchase.

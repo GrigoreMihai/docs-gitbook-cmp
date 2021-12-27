@@ -13,21 +13,28 @@ To access the BigQuery Lens, you must verify that your Google Cloud service acco
 
 {% endhint %}
 
-After your service account has been uploaded, you will see:
+To check the status of your service account, select the _Settings_ icon (a gear) from the top menu bar, then select _Google Cloud_:
+
+![A screenshot of the _Google Cloud_ settings screen"](../.gitbook/assets/enable-bg-lens.png)
+
+You will need to enable the BigQuery Lens feature on this screen to use the
+BigQuery Lens. The same is true for BigQuery Lens Advanced.
+
+After your service account has been uploaded and you have enabled the features you want, you will see:
 
 * Either a _HEALTHY_ or _PARTIAL_ value underneath the _Status_ column in your _Configured Accounts_ widget
 * _HEALTHY_ status next to _BigQuery Lens_ in the _Features_ widget
 * _HEALTHY_ status next to _BigQuery Lens Advanced_ in the _Features_ widget (optional)
 
-![A service account with a "Healthy" status next to "BigQuery Lens" and "BigQuery Lens Advanced"](<../.gitbook/assets/CleanShot 2021-12-19 at 10.35.11.jpg>)
-
 ## Setup
 
-Once the Google Cloud Service Account setup is complete, select the _Attach_ button and choose _BigQuery Lens_ from the list.
+Once the Google Cloud Service Account setup is complete, select the _Attach_ button on from the CMP dashboard:
 
-![A screenshot showing the location of the _Attach_ icon](../.gitbook/assets/bigquery-lens-attach-highlight.png)
+![A screenshot showing the location of the _Attach_ icon](../.gitbook/assets/dashboard-attach.png)
 
-After attaching the BigQuery Lens dashboard, the CMP will start gathering information about your account usage patterns.
+Select _BigQuery Lens_ from the list of options.
+
+After attaching the BigQuery Lens dashboard, a BigQuery Lens icon will appear on your dashboard and the CMP will start gathering information about your account usage patterns.
 
 While this information is being collected, your BigQuery Lens will have the three following states:
 
@@ -55,7 +62,7 @@ The BigQuery historical jobs are backfilled for the last 30 days.
 
 The BigQuery Lens dashboard is made up of  widgets that, each designed to highlight a different aspect of your BigQuery usage.
 
-![A screenshot showing an example BigQuery Lens dashboard](<../.gitbook/assets/CleanShot 2021-12-19 at 10.55.29.jpg>)
+![A partial screenshot of the BigQuery Lens dashboard](../.gitbook/assets/bg-lens-dashboard.png)
 
 ### Elements of the Dashboard
 

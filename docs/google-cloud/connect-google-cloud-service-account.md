@@ -16,19 +16,23 @@ Required Permissions: **Manage Settings**
 
 ## Create Google Service Account
 
+From the top menu, select the gear icon (_Settings_) in the upper right-hand corner, then select _Google Cloud_ under _Cloud settings_:
+
+![A screenshot showing the _Google Cloud_ settings menu item](<../.gitbook/assets/google-cloud-settings-menu.png>)
+
+This will take you to the Google Cloud settings screen:
+
+![A screenshot showing the _Google Cloud_ settings screen](<../.gitbook/assets/google-cloud-settings.png>)
+
 To create a Google Cloud Service account, please execute the following steps:
 
-1. Open [Cloud Management Platform](https://app.doit-intl.com)
-2. Navigate to the Settings icon in your lefthand navigation panel
-3. Check the features you'd like to enable within the CMP
-4. Review the permissions each service request (by expanding the card)
-5. Click on "Create Service Account"
+1. Check the features you'd like to enable within the CMP
+2. Review the permissions each service request (by expanding the card)
+3. Select on "Create Service Account"
 
-![A screenshot showing the key locations mentioned above](../.gitbook/assets/cmp-featuresconfig-serviceaccount.jpg)
+A slide-out will appear on the right-hand side of the screen containing the Google SDK ([gcloud)](https://cloud.google.com/sdk) commands you will need to run in order to create the service account and set it up with the correct role.
 
-Next, a slide-out will appear on the right side of your screen, containing all of the Google SDK ([gcloud)](https://cloud.google.com/sdk) commands you need to run in order to create the service account and set it up with the correct role.
-
-Before executing the gcloud commands, ensure that you have selected an appropriate project to create your service account. The project should be one that you are planning to keep long-term and that will only be accessible by only trusted people.
+Before executing the `gcloud` commands, ensure that you have selected an appropriate project to create your service account. The project should be one that you are planning to keep long-term and that will only be accessible by only trusted people.
 
 Next, copy the commands generated above and run them sequentially in your terminal or Google Cloud Shell.
 
@@ -36,17 +40,17 @@ Next, copy the commands generated above and run them sequentially in your termin
 The `gcloud` commands vary according to the boxes of the features you checked
 {% endhint %}
 
-![A screenshot showing the list of generated commands](../.gitbook/assets/cmp-gcp-createserviceaccount2.jpg)
-
-Once you finished to run the gcloud commands, you can download the key in the JSON file for your new service account.
+Once you finished to run the `gcloud` commands, you can download the key in the JSON file for your new service account.
 
 ![A screenshot showing the location of the Download File menu item](../.gitbook/assets/gcloud-download-file.png)
 
 {% hint style="info" %}
-The gcloud command achieve the following: the service account is created in one of the projects in your organization, and then the permissions for this service account are given on the organization level.
+
+The `gcloud` command achieves the following: the service account is created in one of the projects in your organization, and then the permissions for this service account are given on the organization level.
+
 {% endhint %}
 
-Congrats! You have now created a new "doit\_cmp\_role" linked to the "DoiT CMP Service Account", under your organization.
+Congratulations! You have now created a new `doit_cmp_role` linked to the "DoiT CMP Service Account", under your organization.
 
 ![A screenshot of a list of organization roles](../.gitbook/assets/created-doit-cmp-role.png)
 
@@ -60,27 +64,21 @@ If configured successfully, you should see a "**Healthy**" or "**Partial**" valu
 
 If there is something wrong with the JSON file you uploaded, you will see an "**Unhealthy**" value under the "Status" column.
 
-![A screenshot showing the location of the both Status columns](../.gitbook/assets/cmp-gcp-service-account.jpg)
+![A screenshot showing the _Google Cloud_ settings screen](../.gitbook/assets/google-cloud-settings.png)
 
 ## Updating your Service Account
 
 If, after initially connecting your Google Cloud Organization, you decide that you want to grant permissions for an additional feature — or remove permissions — you can do that easily from the same page.
 
-First, check or uncheck the feature(s) you'd like to add or remove. Then click on "Update Role".
-
-![A screenshot showing the location of the Update Role button](../.gitbook/assets/cmp-update-role.jpg)
+First, check or uncheck the feature(s) you'd like to add or remove. Then select the _Update Role_ button.
 
 A slide-out will appear containing the `gcloud` commands you need to run to update your service account's role so that permissions corresponding to the feature you checked or unchecked are added or removed, respectively.
-
-![A screenshot showing the generated commands](../.gitbook/assets/cmp-update-role-2.jpg)
 
 ## Adding Multiple Service Accounts
 
 In the very rare event that you have multiple Google Cloud Organizations, you can upload multiple service account keys to regulate which Organizations get access to which features.
 
-To add a new service account, click on the "**+**" icon in the top-right corner of the Configured Accounts widget.
-
-![A screenshot showing the location of the + icon](<../.gitbook/assets/cmp-add-multiple-service-account (1).jpg>)
+To add a new service account, click on the "**+**" icon in the top-right corner of the _Configured Accounts_ widget on the left-hand side of the screen.
 
 Once clicked, notice that all of the Features will revert back to "Not Configured" since you are setting up a new service account.
 

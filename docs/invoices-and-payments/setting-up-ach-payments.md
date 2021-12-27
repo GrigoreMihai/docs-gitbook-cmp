@@ -14,13 +14,16 @@ Required Permissions: **Billing Profile Admin**
 Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a license.
 {% endhint %}
 
-From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
+From the main CMP dashboard, select the edit icon next to the billing profile you would like to update.
 
-![A screenshot showing you the location of the edit icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (1) (1).png>)
+![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
 
-Once you're at the Billing Profile Settings page, switch to the 'Payment Methods' tab, select 'ACH Payment', and click on 'Link New Account' to link your bank account.
+From the billing profile screen, select _Payment Methods_ from the left-hand menu:
 
-![A screenshot showing you the location of the Payment Methods tab, ACH Payment radio button, and Link New Account button](../.gitbook/assets/ach1.png)
+![A screenshot of the _Payment Methods_ screen](../.gitbook/assets/payment-methods.png)
+
+
+From the _Payment Methods_ screen, select _ACH Payment_, then select _Link New Account_ to link your bank account.
 
 ## Link Account
 

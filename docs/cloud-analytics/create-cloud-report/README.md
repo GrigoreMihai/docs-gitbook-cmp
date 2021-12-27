@@ -18,7 +18,7 @@ Please connect your [Google Cloud Organization](../../google-cloud/connect-googl
 
 To access your Cloud Reports, select _Reports_ from the _Analytics_ menu item on the top navigation bar:
 
-![A screenshot of the _Analytics_ menu item](../../.gitbook/assets/analytics-reports-menu.png)
+![A screenshot of the _Analytics_ menu item](../../.gitbook/assets/analytics-reports.png)
 
 By default, CMP provided several preset reports to start with, such as:
 

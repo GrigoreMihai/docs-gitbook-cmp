@@ -14,34 +14,29 @@ Required Permission: **Licenses Manager**
 Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a license.
 {% endhint %}
 
-Start by accessing your Office 365-based Assets from the menu on the left-hand side of the page and clicking on Assets.
+Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
 
-![A screenshot showing you the location of the Assets menu option](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (6).png>)
+![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
 
-Once you're at the Assets page, switch to the Office 365 tab.
+From the _Assets_ page, select _Office 365_ from the left-hand menu:
 
-![A screenshot showing you the location of the Office 365 tab](../.gitbook/assets/office-365-tab1.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/ms-office-365.png)
 
-Locate the subscription you'd like to add licenses for and click the **+** icon to add as many licenses as needed.
+You can see the number of licenses in use next to the _Quantity_ lable.
 
-![A screenshot showing you the location of the + icon](../.gitbook/assets/office-365-tab.png)
+Locate the subscription you'd like to add or remove as many licenses as you like, using the **-1** and **+1** buttons, respectively.
 
-Add up to as many licenses as you wish, and click 'Apply'.
+To apply your changes, select the _APPLY_ button in the bottom right-hand corner of the card.
 
-![A screenshot showing you the location of the Apply button](../.gitbook/assets/office-flexible.png)
-
-Finally, you may approve the purchase by clicking the 'Approve' button.
+If you are purchasing additional licenses, you will be prompted to approve the purchase before continuing:
 
 ![A screenshot showing you the location of the Approve option](../.gitbook/assets/office-license.png)
 
-**Understanding License Utilization:**
 
-You can see the number of licenses in use under the _Quantity_ field. In the following example, four licenses were purchased.
+If you remove licenses, charges will be deducted from your account as reflected in the next month's billing to your organization.
 
-![A screenshot showing you the quantity of purchased licenses](../.gitbook/assets/office-quantity.png)
+{% hint style="info" %}
 
-**Decreasing the Number of Licenses:**
+Please note that only FLEXIBLE plans allow you to decrease the number of licenses. For more information, please review the [Microsoft documentation](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide).
 
-It is possible to decrease the number of licenses. The charges will be deducted from your account as reflected in the next month's billing to your organization.
-
-Please note that only FLEXIBLE plans allow you to decrease the number of licenses. For more information, please review [https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide).
+{% endhint %}

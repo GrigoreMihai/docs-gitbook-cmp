@@ -28,36 +28,41 @@ Custom metrics can be particularly useful when tracking consumption of shared se
 
 ## Structure of a Metric
 
-Custom metrics are created by creating formula's with Attributions. Each Attribution must have a base metric selected for it. This can either be: Cost, Usage, or Savings. For more information, see our [Metric selection documentation](editing-your-cloud-report.md#metrics).
+Custom metrics are created by creating formula's with Attributions. Each Attribution must have a base metric selected for it. This can either be: Cost, Usage, or Savings.
 
-![A screenshot showing the Base Metric drop-down menu](../.gitbook/assets/custom-metrics-drop-down.png)]
+{% hint style="info" %}
 
-For instance, if you want to create a metric to track the percentage consumption of a compute commitment, you will require 2 Attributions.
+For more information, see our [Metric selection documentation](editing-your-cloud-report.md#metrics).
+
+{% endhint %}
+
+For instance, if you want to create a metric to track the percentage consumption of a compute commitment, you will require two attributions:
 
 * Compute Usage
-* Compute Consumption.
+* Compute Consumption
 
-Please ensure these Attributions are created in advance of metric creation
+You must create these attributions before you creating a custom matric.
 
 ## Create a Metric
 
-Navigate to [Cloud Analytics](create-cloud-report/), and select the Metrics tab
+Select _Analytics_ from the top menu bar, then select _Metrics_ to access your custom metrics:
 
-![A screenshot showing the Metrics tab](../.gitbook/assets/custom-metrics-tab.png)
+![A screenshot showing the Metrics screen](../.gitbook/assets/metrics-screen.png)
 
-Select **'New Metric'**
+To create a new metric, select the _New Metric_ button to access the _New Metric_ screen:
 
-![A screenshot showing the New Metric form](../.gitbook/assets/custom-metrics-new-metric.png)
+![A screenshot showing the _New Metric_ screen](../.gitbook/assets/new-metric.png)
 
-Provide a name for the new Custom Metric.
+From here:
 
-Select **Attribution** to set as _A_
+1. Name the new custom metric by selecting the _Untitled metric_ text
+2. Configure the _Base Metric_ and _Attributions_ by selecting the input and choosing values from the drop-down menus
 
-Select **'Base Metric'** for Attribution _A_
+As you configure each metric, a new row (named _A_, _B_, _C_, and so on) will
+be added to the form so that you can continue continue to add more
+attributions.
 
-Repeat as necessary for required attributions
-
-Create a formula to generate the metric desired.
+Create a formula to generate the metric desired (see below).
 
 ### Formulas
 
@@ -88,26 +93,16 @@ A formula is considered invalid if it is:
    2. Divide by zero
    3. Incorrect formatting
 
-When a valid formula is complete a preview will generate below
-
-### Example metric
-
-### GCP N1 Commitment Coverage %
-
-N1 Commitments / N1 Usage as %
-
-![A screenshot of an example N1 Commitments / N1 Usage as % report](<../.gitbook/assets/CleanShot 2021-11-01 at 11.44.56.jpg>)
+When a valid formula is complete, a preview of the metric will be generated.
 
 ## Including Customer Metrics in Cloud Analytics Reports
 
-To include a metric in a report, [create a new report​](create-cloud-report/)
+To include a metric in a report, [create a new report](create-cloud-report/).
 
-In the Report configuration panel select _'Metric'_
-
-![A screenshot of the *Metric* drop-down menu](<../.gitbook/assets/CleanShot 2021-11-01 at 11.59.42.jpg>)
+In the report configuration panel on the left-hand side of the screem, select
+your metric from the _Custom Metrics_ section at the bottom of the drop-down menu.
 
 Once selected you will be prompted to confirm your choice
 
-![A screenshot of the *Show N1 Commitment Coverage* modal dialog](<../.gitbook/assets/CleanShot 2021-11-01 at 12.01.53.jpg>)
-
-Once selected you can build your report as normal with the required attributions and run your report
+After confiming your choice, you can build your report as usual with the
+addition of your custom attributions.

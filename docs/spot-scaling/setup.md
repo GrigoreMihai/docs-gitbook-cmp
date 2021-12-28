@@ -81,3 +81,9 @@ With Spot Scaling you have two optional features you can turn on when optimizing
 
 * **Keep my ASG up to date**: If turned on, Spot Scaling will automatically update the ASG's configuration to continuously maximize system runtime and spot-related EC2 savings.
 * **Fallback to On-Demand**: When there aren't where enough unused EC2 instances to meet demand for Spot instances, Spot Scaling will automatically fall back to on-demand instances.
+
+## Watch Spot Scaling Demo
+
+{% embed url="https://www.loom.com/share/35dc27506b94413f941f5b364ed93096" %}
+Spot Scaling demonstration video
+{% endembed %}

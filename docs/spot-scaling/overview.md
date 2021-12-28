@@ -59,4 +59,10 @@ Spot Scaling continuously assesses your Auto Scaling Groups and presents importa
 | Monthly Savings $ |                    $0                   |                                                               $4,442                                                               |
 | Monthly Savings % |                    0%                   |                                                                 63%                                                                |
 
-Now let's explore how to set up and use Spot Scaling.
+Now let's explore how to [set up and use Spot Scaling](setup.md).
+
+## Spot Scaling Demo
+
+{% embed url="https://www.loom.com/share/35dc27506b94413f941f5b364ed93096" %}
+A two-minute demo showcasing Spot Scaling and how it works.
+{% endembed %}

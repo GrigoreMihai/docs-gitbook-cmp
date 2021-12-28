@@ -18,13 +18,10 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 1. Log into the [Cloud Management Platform](https://app.doit-intl.com)
 2. Click on the "setting" ⚙ icon located at the top right side of the navigation bar
-3. Click on "assets" under "cloud settings"&#x20;
+3. Click on "assets" under "cloud settings"
 4. Once you're at the Assets page, go to the right-hand side of the page and click on '**Invite Account**'.
 
-![](../.gitbook/assets/image.png)
-
-Choose the Billing Profile to which you'd like to have the existing AWS account now be a part of. Enter the 12-digit AWS Account ID and any optional notes before clicking 'Invite'.\
-
+Choose the Billing Profile to which you'd like to have the existing AWS account now be a part of. Enter the 12-digit AWS Account ID and any optional notes before clicking 'Invite'.
 
 ![](../.gitbook/assets/invite-aws-4.png)
 

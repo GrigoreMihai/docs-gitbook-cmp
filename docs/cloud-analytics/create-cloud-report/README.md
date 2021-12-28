@@ -49,7 +49,6 @@ After a few seconds, your report will appear, ready for your analysis.
 
 ![A screenshot showing and example report](<../../.gitbook/assets/example-report.png>)
 
-
 ## FAQ
 
 ### When are the metric amounts (Cost, Usage, etc) for a day counted as "final"?

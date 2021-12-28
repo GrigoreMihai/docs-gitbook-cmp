@@ -10,39 +10,23 @@ You have four options when exporting your Cloud Reports:
 
 * Export as PNG
 * Export as PDF
-* Export to CSV
 * Export to Google Sheets
+* Export to CSV
 
 {% hint style="info" %}
 Required Permissions: **Cloud Analytics**
 {% endhint %}
 
-## Exporting to PNG or PDF
+## Ways to export Cloud Analytics reports
 
-To access your export options, click on the hamburger menu at the top-right corner of your Cloud Report.
+Here's an example report:
 
-Finally, once you click on an option, a download will begin and you will receive your exported report after a few seconds.
+![A screenshot showing and example report](<../.gitbook/assets/example-report.png>)
 
-![A screenshot showing you the location of the hamburger menu](../.gitbook/assets/cloudreportsexport1.jpg)
+* For PNG or PDF exports, click on the hamburger menu in the top-right corner of the report visualization (directly below the _Timezone_ dropdown at the top of the visualization) and select the format you want.
 
-## Exporting to CSV or Google Sheets
+* To export to Google Sheets or CSV, select the _View As_ dropdown (along the top of the visualization) and select the "Sheets Export" or "CSV Export" options, respectively. (Both options appear at the very bottom of the menu.)
 
-To export to Google Sheets or CSV, click on the "View As" dropdown and select either the "Sheets Export" or "CSV Export" options, respectively.
+  * If this is your first time exporting a Cloud Report to Google Sheets, you will be asked to give CMP permission to create Google Drive files. Once you've selected your email account, select _Export_ to view your Cloud Report in Google Sheets.
 
-![A screenshot showing you the location of the export options](../.gitbook/assets/cloudreportsexport2.jpg)
-
-### Export to Google Sheets
-
-If this is your first time exporting a Cloud Report to Google Sheets, you will be asked to give CMP permission to create Google Drive files.
-
-![A screenshot showing you the _ALLOW_ button](../.gitbook/assets/cloudreportsexportsheets1.jpg)
-
-Once you've selected your email account, click on "Export" to view your Cloud Report in Google Sheets.
-
-![A screenshot showing you the _EXPORT_ button](../.gitbook/assets/cloudreportsexportsheets2.jpg)
-
-### CSV Export
-
-After selecting the "CSV Export" option, a textbox will appear with your report's information ready to be copied by you.
-
-![A screenshot showing you the results of a _CSV Export_](../.gitbook/assets/cloudreportscsv.jpg)
+  * If you select the CSV option, a karge textbox will be opened with the full contents of the CSV file, ready to be copied.

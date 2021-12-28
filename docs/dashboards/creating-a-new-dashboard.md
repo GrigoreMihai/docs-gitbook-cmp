@@ -4,7 +4,7 @@ You can maintain multiple dashboards in your Cloud Management Platform to visual
 
 In order to create a new dashboard, go to the right-hand side of the page and click 'Add Dashboard'.
 
-![](../.gitbook/assets/create-new-dashboard-1.png)
+![A screenshot showing the _Add dashboard_ modal dialog](../.gitbook/assets/create-new-dashboard-1.png)
 
 Create the 'New Dashboard' and choose a name, for example, 'AWS', 'Google Cloud', 'Finance', 'Ops', or anything else that suits your use case.
 
@@ -27,7 +27,7 @@ Select widgets from the Widgets Library you'd like to add to your dashboard.
 
 In the following example, I created a customized dashboard named "Cloud FinOps".
 
-![](../.gitbook/assets/create-new-dashboard-2.png)
+![A screenshot showing the location of the _Add Widgets_ button](../.gitbook/assets/create-new-dashboard-2.png)
 
 Considering that a user can have multiple dashboards which can be either 'Private' and 'Public', notice the globe icon next to a dashboard title; the globe icon represents a 'Public' dashboard. There are a few dependencies for recognizing a dashboard as Private or Public :
 

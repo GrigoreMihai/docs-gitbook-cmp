@@ -27,6 +27,7 @@ ASG's
 ASGs
 Auths
 Aviv
+bg
 Bolagsrätt
 BQ
 BRL

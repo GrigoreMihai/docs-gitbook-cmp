@@ -10,7 +10,7 @@ description: >-
 
 {% hint style="info" %}
 
-If you're new to Cloud Reports or haven't created a Cloud Report yet, we recommend reading our post on_ [_**Creating Cloud Reports**_](create-cloud-report/) _before reading further._
+If you're new to Cloud Reports or haven't created a Cloud Report yet, we recommend reading our post on [**Creating Cloud Reports**](create-cloud-report/) before reading further.
 
 {% endhint %}
 

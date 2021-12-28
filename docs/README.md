@@ -4,18 +4,6 @@ description: An overview of DoiT International's Cloud Management Platform
 
 # CMP Overview
 
-{% hint style="danger" %}
-THIS DOCUMENTATION IS A PRIVATE (UNPUBLISHED) COPY OF THE LIVE DOCUMENTATION.
-
-ALL CHANGES FOR THE UPCOMING NAV 2.0 RELEASE ARE BEING COLLECTED HERE SO THAT WE CAN WORK IN PARALLEL.
-
-PLEASE FEEL FREE TO MAKE AS MANY EDITS AS YOU LIKE AND MERGE THEM WHENEVER YOU PLEASE. THERE IS NO NEED TO REQUEST REVIEWS FOR INDIVIDUAL EDITS.
-
-OUR GOAL IS TO COLLECT DOCUMENTATION CHANGES RELATED TO THE NAV 2.0 FEATURE HERE. WHEN WE ARE READY TO RELEASE THE CHANGES TO THE CMP, WE CAN MERGE THE CHANGES MADE HERE INTO THE MAIN DOCS.
-{% endhint %}
-
-## CMP Overview
-
 Doit International's _Cloud Management Platform_ (CMP) helps the developers and system administrators at digital-native companies improve cloud operations, maintain security, control cost, and ensure governance of its cloud estate.
 
 The CMP has five strategic pillars:
@@ -28,7 +16,7 @@ The CMP has five strategic pillars:
 
 In this document, we'll explain. briefly go over each of the main capabilities you have access to in the CMP, along with links to other articles for each feature if you're interested in doing a deeper dive.
 
-### Summary
+## Summary
 
 The following table offers a brief summary of our support for [Google Cloud Platform](https://cloud.google.com/gcp) (GCP), [Amazon Web Services](https://aws.amazon.com) (AWS), and [Microsoft Azure](https://azure.microsoft.com):
 
@@ -47,9 +35,9 @@ The following table offers a brief summary of our support for [Google Cloud Plat
 | FlexSave                                                                                                  | Yes                            | [Yes](https://help.doit-intl.com/flexsave-aws/overview)    | No        |
 | [EC2 Spot Scaling](https://help.doit-intl.com/spot-scaling/overview)                                      | N/A                            | Yes                                                        | N/A       |
 
-### Cloud analytics
+## Cloud analytics
 
-#### Reports
+### Reports
 
 Cloud Reports give you instant visibility into your Google Cloud and AWS costs without having to spend agonizing hours manually scanning through cloud bills.
 
@@ -62,7 +50,7 @@ Cloud Reports give you instant visibility into your Google Cloud and AWS costs w
 
 {% embed url="https://www.loom.com/share/3bb89b9c624a4a52a2ecfbb61a56b4b8" %}
 
-#### Cost attributions
+### Cost attributions
 
 Attributions are a flexible way to group resources and their associated costs, helping you understand the cloud costs and relate them to the business in your Cloud Reports.
 
@@ -72,7 +60,7 @@ You may have various components of your application(s) spread across different p
 
 ### Cloud cost optimization
 
-#### Rightsizing for Google Cloud
+## Rightsizing for Google Cloud
 
 When you create an instance in Google Cloud and it is under-utilized, you are paying more than you should as a result of idle resources.
 
@@ -84,7 +72,7 @@ With Instance Rightsizing for Google Cloud, you will:
 
 {% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team_library" %}
 
-#### FlexSave
+### FlexSave
 
 Purchasing compute commitments — Reserved Instances (RIs) or Savings Plans (SPs) for AWS; Committed Use Discounts (CUDs) for Google Cloud — is a great way for you to reduce your compute costs for stable, predictable workloads.
 
@@ -98,7 +86,7 @@ See how it works in the video below:
 FlexSave demo for Google Cloud and AWS
 {% endembed %}
 
-### BigQuery Lens
+## BigQuery Lens
 
 As powerful as BQ is, it comes at a high cost depending on your analysts' behavior and how your BigQuery architecture is set up. Adding on to this, trying to identify BigQuery resource inefficiencies without knowing _what_ you're looking for can be a huge time-suck.
 
@@ -114,9 +102,9 @@ Each recommendation category comes with further details on how to act on each re
 
 {% embed url="https://youtu.be/7r1WfwnBAA4" %}
 
-### Cloud enablement
+## Cloud enablement
 
-#### Cloud sandboxes
+### Cloud sandboxes
 
 Cloud sandboxes (or DCEs, - disposable cloud environments) offer engineering teams a safe and controlled environment to run experiments, test, and build out new features without worrying about impacting production infrastructure. While easy, simply creating a new Google Cloud project cannot be considered a "complete" solution due to the lack of built-in budget management, self-service for developers, and governing policies.
 
@@ -134,7 +122,7 @@ Once a policy is created, developers are free to [create cloud sandbox environme
 
 {% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team_library" %}
 
-#### Cloud quota monitoring
+### Cloud quota monitoring
 
 Every cloud provider has resource quotas for things like VPCs, CPU cores, and more. If you'd like to change that quota, you can request more, and typically cloud vendors will approve it. However, this takes hours to days.
 
@@ -144,7 +132,7 @@ With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md), a
 
 This way, you'll keep services always running by adjusting limits ahead of time.
 
-#### Cost anomalies
+### Cost anomalies
 
 With so many moving parts in the cloud, it's critical to keep a finger on the pulse of your costs. However, unless IT regularly monitors cloud spend, sudden spikes in resource costs can remain undetected for weeks — until the monthly bill arrives.
 
@@ -161,7 +149,7 @@ Available to DoiT customers right from the CMP, it also offers:
 
 {% embed url="https://www.youtube.com/watch?v=h6V7XfhsdmY&list=PLEBxNMZ7Mu3_hmB2I2LXcDSYt1SXcjwMz&index=1" %}
 
-#### Cloud support and advisory
+### Cloud support and advisory
 
 As a DoiT International customer, you have access to 80+ battle-tested senior cloud engineers around the globe with over 200 certifications between them.
 
@@ -173,15 +161,15 @@ Within the CMP you can:
 
 {% embed url="https://www.loom.com/share/ec2e0bca53fc46ef80061dd96be2f1a0?sharedAppSource=team_library" %}
 
-#### Perks
+### Perks
 
 [Perks](perks/perks.md) are service-based benefits available to DoiT International customers at no extra cost, including workshops, training, cost optimization sessions, case studies, and co-produced webinars. They can easily be browsed and requested on-demand from within the CMP.
 
 {% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team_library" %}
 
-### Cloud governance
+## Cloud governance
 
-#### Asset management
+### Asset management
 
 CMP gives you complete self-service management of assets across Google Cloud, AWS, G Suite, Azure, and Office 365.
 
@@ -196,7 +184,7 @@ From your Asset Management screen, you can:
 
 Additionally, you can view your order history of all licenses and subscriptions across all of your cloud products.
 
-#### Advanced billing
+### Advanced billing
 
 CMP gives you capabilities unavailable in Google Cloud or AWS to customize _precisely_ how you'd like to be billed via Billing Profiles, Invoices, and Invoice Buckets.
 
@@ -225,11 +213,11 @@ With invoice buckets, you will receive separate invoices for each invoice bucket
 
 [Go here](invoices-and-payments/managing-invoices.md) for the full list of your billing and payment-related capabilities.
 
-#### Contract management
+### Contract management
 
 Via the Contracts page, you get self-service access to all cloud contracts you are being billed for through DoiT International.
 
-#### User and role management
+### User and role management
 
 Use User Management to:
 
@@ -238,7 +226,7 @@ Use User Management to:
 * Configure notifications for alerts like payment reminders, new invoices, and more.
 * [Set up and grant roles](user-management/manage-roles.md) that give access to various CMP features.
 
-#### Managed cloud support
+### Managed cloud support
 
 Within the CMP you can resolve your cloud issues quickly with hyper-responsive and unlimited support from DoiT International— **at no extra cost**.
 
@@ -247,7 +235,7 @@ Within the CMP you can resolve your cloud issues quickly with hyper-responsive a
 * [Share tickets](tickets/ticket-sharing.md) with other team members.
 * Stay up to date on any [known issues](tickets/cloud-infrastructure-known-issues.md) across all clouds you use.
 
-### Contribute
+## Contribute
 
 {% hint style="info" %}
 You can request changes to articles or report issues via our [public GitHub repository](https://github.com/doitintl/cmp-docs) by submitting a pull request or creating an issue.

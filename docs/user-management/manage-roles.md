@@ -124,7 +124,6 @@ permissions](user-permissions-explained.md) available for you to group into the 
 
 ![A screenshot showing the _New role_ screen_](../.gitbook/assets/permissions.png)
 
-
 To get started:
 
 1. Give your new User Role a good name.

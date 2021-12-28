@@ -12,7 +12,7 @@ By clicking on the ticket's subject or ID, you are brought to a new page which i
 
 Click on the 'Escalate' button to escalate the ticket and specify the reason for escalation.
 
-![](../.gitbook/assets/escalate-1.png)
+![A screenshot showing the location of the _Escalate_ button](../.gitbook/assets/escalate-1.png)
 
 Available Escalation Reasoning:
 

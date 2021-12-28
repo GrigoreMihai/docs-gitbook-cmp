@@ -20,14 +20,12 @@ Looking for instructions on [how to set up CloudHealth IAM role](https://www.clo
 Required Permission: **Manage Settings**
 {% endhint %}
 
-
-
 * Log into the [Cloud Management Platform](https://app.doit-intl.com)
 * Click on the "setting" ⚙ icon located at the top right side of the navigation bar
 * Click on "Amazon Web Services " under "cloud settings"&#x20;
 * Once you're at the Amazon Web Services page, go to the right-hand side of the page and click on '**Link Account**'.
 
-![](../.gitbook/assets/linking-aws-1.png)
+![A screenshot showing the location of the _Link Account_ button](../.gitbook/assets/linking-aws-1.png)
 
 ## Automatically Link AWS Account
 
@@ -35,7 +33,7 @@ Select the "**Create a role automatically**" radio button, then check the boxes 
 
 To explore what AWS policies each feature requires, click the "**v**" button to the left of the feature name to expand the list of policies.
 
-![](<../.gitbook/assets/create role automatically 1.png>)
+![A screenshot of the automatic role creation form](<../.gitbook/assets/create role automatically 1.png>)
 
 There are two options for creating the role with this method:
 
@@ -46,13 +44,13 @@ There are two options for creating the role with this method:
 
 After selecting the features, click on "**Link Account**". This will open AWS CloudFormation in a new tab, so you can create a stack template that'll generate the role with the requisite permissions. Before opening CloudFormation, you will be asked to confirm the action again by clicking "**Link Account**".
 
-![](<../.gitbook/assets/stack 1 (4).png>)
+![A screenshot of the CloudFormation modal dialog](<../.gitbook/assets/stack 1 (4).png>)
 
 A preconfigured stack template like the one below will appear in your CloudFormation tab.
 
-Review the details, then under "Capabilities" mark the _‘I acknowledge that AWS CloudFormation might create IAM resources with custom names’_ checkbox. Finally, click on the **‘Create stack**’ button.
+Review the details, then under "Capabilities" mark the _'I acknowledge that AWS CloudFormation might create IAM resources with custom names'_ checkbox. Finally, click on the **'Create stack**' button.
 
-![](../.gitbook/assets/linking-aws-3.png)
+![A screenshot of AWS CloudFormation](../.gitbook/assets/linking-aws-3.png)
 
 Within approximately 30 seconds of creating the stack, the Settings page in CMP will update, showing your linked AWS account with a "**Healthy**" status next to it if the link attempt was successful.
 
@@ -60,7 +58,7 @@ Within approximately 30 seconds of creating the stack, the Settings page in CMP 
 
 If you prefer to run the commands yourself in AWS CloudShell, click on the "**Prefer CLI?**" button instead. A pop-up will appear with the commands you should run to generate the role with the requisite policies for the features you selected. After running the command, it may take up to 30 seconds for the account to link to the CMP.
 
-![](../.gitbook/assets/linking-aws-2.png)
+![A screenshot of the modal dialog with CLI instructions](../.gitbook/assets/linking-aws-2.png)
 
 Within approximately 30 seconds of running the command, the Settings page in CMP will update, showing your linked AWS account with a "**Healthy**" status next to it if the link attempt was successful.
 
@@ -68,9 +66,7 @@ Within approximately 30 seconds of running the command, the Settings page in CMP
 
 Select the "**Create a role manually**" radio button, then note the listed "AWS Account" and "External ID", as you'll need them for a later step.
 
-
-
-![](../.gitbook/assets/linking-aws-4.png)
+![A screenshot of the manual role creation form](../.gitbook/assets/linking-aws-4.png)
 
 ### Creating an AWS IAM Role
 
@@ -82,7 +78,7 @@ Then choose 'Create Role'.
 
 Enter the AWS Account ID and External ID you've noted in the previous step. You might need to check the 'Options' checkbox for the External ID field to show up.
 
-![](../.gitbook/assets/linking-aws-5.png)
+![A screenshot of AWS IAM](../.gitbook/assets/linking-aws-5.png)
 
 This will take you to a page where you can select built-in policies and/or create a new one.
 
@@ -142,15 +138,13 @@ A new tab will open for you to create the policy. Switch to the "JSON" tab and c
 }
 ```
 
-
-
-![](../.gitbook/assets/linking-aws-6.png)
+![A screenshot of the AWS _Create policy_ page](../.gitbook/assets/linking-aws-6.png)
 
 After the JSON for the new policy you want to create is pasted, click "**Next: Tags**". If you aren't adding tags to this role, then you may proceed by clicking on "**Next: Review**".
 
 Finally, give your policy an identifiable name, like "spotscaling\_policy", and a description if necessary. Then click on "**Create Policy**".
 
-![](<../.gitbook/assets/linking-aws-8 (1).png>)
+![A screenshot of the policy name](<../.gitbook/assets/linking-aws-8 (1).png>)
 
 #### [Quota Monitoring](aws-quotas.md)
 
@@ -189,11 +183,11 @@ A new tab will open for you to create the policy. Switch to the "JSON" tab and c
 
 After the JSON for the new policy you want to create is pasted, click "**Next: Tags**". If you aren't adding tags to this role, then you may proceed by clicking on "**Next: Review**"
 
-![](../.gitbook/assets/linking-aws-8.png)
+![A screenshot of the first step in the _Create policy_ flow](../.gitbook/assets/linking-aws-8.png)
 
 Give your policy an identifiable name, like "doit\_intl\_quotas" in the case of the Quota Monitoring feature, and a description if necessary. Then click on "**Create Policy**".
 
-![](../.gitbook/assets/linking-aws-9.png)
+![A screenshot of the third step in the AWS _Create policy_ flow](../.gitbook/assets/linking-aws-9.png)
 
 If the policy was successfully created, you'll be taken to the IAM Policies page and see a success message at the top like the following:
 
@@ -207,25 +201,25 @@ Select all created policies for the features you want to enable in addition to t
 
 If you aren't adding tags to this role, then you may proceed by clicking on "**Next: Review**" from the "Add Tags" page.
 
-![](../.gitbook/assets/linking-aws-10.png)
+![A screenshot of the second step in the AWS _Create role_ flow](../.gitbook/assets/linking-aws-10.png)
 
 Give the Role an identifiable name (ex. 'doit-intl-cmp-role'), review the selected policies, and click on "**Create role**".
 
-![](../.gitbook/assets/linking-aws-11.png)
+![A screenshot of the fourth step in the AWS _Create role_ flow](../.gitbook/assets/linking-aws-11.png)
 
 If the role was created successfully, you'll be taken back to the main Roles page and see your Role in the list.
 
 After you have created the role, click on the role name to bring you to its summary page. Copy the value next to "**Role ARN**"
 
-![](../.gitbook/assets/linking-aws-16.png)
+![A screenshot of the AWS role summary page](../.gitbook/assets/linking-aws-16.png)
 
 Finally, copy and paste the Role ARN to the Cloud Management Platform and click 'Add'.
 
-![](../.gitbook/assets/linking-aws-12.png)
+![A screenshot highlighting the location to paste the _Role ARN_ value](../.gitbook/assets/linking-aws-12.png)
 
 If the status of your AWS account within the Cloud Management Platform appears as 'Healthy', it means the role was added successfully.
 
-![](<../.gitbook/assets/linking-aws-13 (2).png>)
+![A screenshot highlighting the status of the AWS account](<../.gitbook/assets/linking-aws-13 (2).png>)
 
 ## Editing Linked Accounts
 
@@ -233,7 +227,7 @@ If the status of your AWS account within the Cloud Management Platform appears a
 
 If you want to unlink an account, click on the "Unlink" button in the row corresponding to the account.
 
-![](../.gitbook/assets/linking-aws-17.png)
+![A screenshot highlighting the location of the _Unlink_ button](../.gitbook/assets/linking-aws-17.png)
 
 ### Modifying feature access
 
@@ -241,11 +235,11 @@ If you want to unlink an account, click on the "Unlink" button in the row corres
 
 If, after linking your AWS account, you'd like to update your role with additional permissions for a new feature, click on the "Edit" button in the row corresponding to the account.
 
-![](../.gitbook/assets/linking-aws-14.png)
+![A screenshot highlighting the location of the _Edit_ button](../.gitbook/assets/linking-aws-14.png)
 
 Then, check the box of any new feature(s) you'd like to add permissions for.
 
-![](../.gitbook/assets/linking-aws-15.png)
+![A screenshot showing a list of features](../.gitbook/assets/linking-aws-15.png)
 
 There are two options for updating your role:
 

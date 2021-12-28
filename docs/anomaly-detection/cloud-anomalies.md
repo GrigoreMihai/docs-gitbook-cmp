@@ -29,7 +29,6 @@ If you'd like to be notified of potential anomalies, check the _Cloud Cost Anoma
 
 By default, the threshold for email alerts is set to _Warning_. You can modify this value to increase or decrease the number of alerts you receive.
 
-
 ## View anomalies
 
 We store all detected cost anomalies, so you can always access them by selecting _Governance_ from the top menu bar, then selecting _Cost anomalies_ (see below).

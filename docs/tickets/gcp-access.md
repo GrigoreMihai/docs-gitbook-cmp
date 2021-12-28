@@ -37,7 +37,7 @@ For example, the above command:
 
 We will automatically generate the command for you to copy and run:
 
-![](../.gitbook/assets/gcp-support-access.png)
+![A screenshot of the Google Cloud _Grant read-only access_ prompt](../.gitbook/assets/gcp-support-access.png)
 
 ## Revoke Access
 

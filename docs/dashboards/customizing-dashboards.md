@@ -4,7 +4,7 @@ To personalize the appearance of your Home Dashboard, you can reorder the widget
 
 On the Home Dashboard go to the right-hand side of the page and click on 'Customize'.
 
-![](../.gitbook/assets/customize-dashboards-1.png)
+![A screenshot highlighting the _Customize_ icon](../.gitbook/assets/customize-dashboards-1.png)
 
 After clicking the 'Customize' button, you can move the widgets around and in addition, remove them from the dashboard.
 

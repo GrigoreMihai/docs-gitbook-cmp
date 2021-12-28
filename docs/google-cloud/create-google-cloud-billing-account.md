@@ -52,7 +52,7 @@ To add a billing account administrator:
 
 1. Expand the list of billing account administrators.
 
-3. Select the icon of a person with a plus sign.
+2. Select the icon of a person with a plus sign.
 
 3. When prompted, provide one or more emails to invite new administrators.
 

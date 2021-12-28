@@ -23,7 +23,7 @@ You will see an **OrganizationAccountAccessRole** in the new AWS account. This r
 
 On the right-hand side of the page, click the bottom facing arrow and choosing 'Create Account'.
 
-![](<../.gitbook/assets/aws-create-1 (4).png>)
+![A screenshot of AWS assets cards](<../.gitbook/assets/aws-create-1 (4).png>)
 
 Choose the Billing Profile to which you're creating the account for while choosing the name of the account to which the _root email_ is associated with.
 
@@ -35,7 +35,7 @@ Click 'Create' and a popup will appear that the account was created successfully
 
 As listed in the popup, an email is sent out for further instructions, here is an example.
 
-![](../.gitbook/assets/aws-create-2.png)
+![A screenshot of a _Create New Account_ modal dialog](../.gitbook/assets/aws-create-2.png)
 
 The following video shows you how to create an AWS Account.
 

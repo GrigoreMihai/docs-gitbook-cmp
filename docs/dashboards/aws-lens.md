@@ -10,7 +10,7 @@ Having full visibility into your services' operations and being accountable for 
 
 From the list of dashboards, select '**AWS Lens**' to access the dashboard. Each of the preset widgets serves its own purpose (see below):
 
-![](../.gitbook/assets/aws-lens-1.png)
+![A screenshot showing the _AWS Lens_ dashboard](../.gitbook/assets/aws-lens-1.png)
 
 **Cost By Service** - Review your AWS expenses over the last 6 months. The costs are broke down by top ten AWS services you use across all your AWS accounts.
 

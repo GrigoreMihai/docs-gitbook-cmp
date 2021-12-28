@@ -14,7 +14,7 @@ In the event that one or more of your cloud services aren't functioning as they 
 
 If one of the incidents displayed looks to be related to the service issues you're experiencing, then opening a ticket with us is not advised. It will likely have to be resolved by the engineers on whichever cloud platform the issue is arising from.
 
-![](../.gitbook/assets/known-issues-1.png)
+![A screenshot showing a list of known issues](../.gitbook/assets/known-issues-1.png)
 
 Should you want to filter through Cloud Incidents, click on the filter button near the search box.
 

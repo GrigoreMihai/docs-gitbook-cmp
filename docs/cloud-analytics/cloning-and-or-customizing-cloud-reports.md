@@ -25,7 +25,6 @@ When you clone a report, a new report will appear with the name "A copy of
 _ORIGINAL REPORT NAME_". From there, you can edit the report's name and
 make adjustments.
 
-
 ## Customize Reports
 
 The "Customize" function is available for Preset Reports only. These are built-in reports you have access to right away before creating any reports yourself. This function allows you to create a copy of a Preset Report and make modifications on top of it.

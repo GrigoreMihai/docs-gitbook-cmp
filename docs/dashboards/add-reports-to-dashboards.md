@@ -16,11 +16,11 @@ Required Permissions: **Cloud Analytics** (part of 'Standard User' preset role)
 
 Add your report to a dashboard by clicking the 'Add to dashboard' icon in the upper right-hand corner of the report.
 
-![](../.gitbook/assets/dashboards-widgets-1.png)
+![A screenshot highlighting the location of the _Add to dashboard_ icon](../.gitbook/assets/dashboards-widgets-1.png)
 
 Next, select which dashboard(s) you'd like to add the report to. You may also toggle the report to be addable from the [Widget Library](widgets-overview.md).
 
-![](../.gitbook/assets/dashboards-widgets-2.png)
+![A screenshot showing the list of available dashboards](../.gitbook/assets/dashboards-widgets-2.png)
 
 Additionally, you may also add a report to a new, yet-to-be-created dashboard. To add the report to a new dashboard, click on the "**NEW DASHBOARD**" button, give your dashboard a name, and click "**Save**".
 
@@ -34,7 +34,7 @@ Next, navigate to your dashboard(s) to view the report(s) you added.
 
 From there, you're free to [customize](customizing-dashboards.md) the size and arrangement of the widgets as you see fit. Note that report data displayed in the widget will refresh every four hours.
 
-![](../.gitbook/assets/dashboards--widgets-3.gif)
+![An animated screenshot demoing a dashboard widget](../.gitbook/assets/dashboards--widgets-3.gif)
 
 Finally, if you'd like to quickly navigate to your report to investigate further or edit something, you may click on the report's name in the widget.
 

@@ -10,7 +10,6 @@ An example cloud analytics report:
 
 ![A screenshot showing and example report](<../.gitbook/assets/example-report.png>)
 
-
 There are several types of edits you can make to a report like this:
 
 * Adding additional dimensions

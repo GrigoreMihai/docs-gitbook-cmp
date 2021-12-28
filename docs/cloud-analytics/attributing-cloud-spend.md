@@ -18,7 +18,6 @@ Required Permissions: **Cloud Analytics**
 
 Select _Analytics_ from the top menu and then select _Attributions_ to access your attributions:
 
-
 ![A screenshot of the _Attributions_ screen](../.gitbook/assets/attributions-screen.png)
 
 To create a new attribution, select the _NEW ATTRIBUTION_ button.

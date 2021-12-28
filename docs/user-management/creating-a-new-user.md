@@ -10,7 +10,7 @@ Required Permissions: **User Manager**
 
 Select the _Settings_ icon (a gear icon), then select the _Identity and access_.
 
-![A screenshot showing the _Identity and accesss_ screen](../.gitbook/assets/iam-screen.png)
+![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
 
 Next, select the _INVITE USER_ button on the right-hand side of the page.
 

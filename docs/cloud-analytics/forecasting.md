@@ -12,15 +12,15 @@ With _forecasting_ in Cloud Analytics Reports, you'll answer questions like _"Ho
 
 Use forecasting in your Cloud Analytics reports by selecting the _Forecast_ option from the _ML Features_ drop-down menu on the left-hand side of the report:
 
-![A screenshot showing you the _ML Features_ drop-down](../.gitbook/assets/report-forcast-2.png)
+![A screenshot showing you the _ML Features_ drop-down](../.gitbook/assets/report-ml-menu.png)
 
 When you select this option, the CMP will generate a forecast line which estimates what your costs may look like for the period you selected moving forward.
 
 For example, if you selected "Last 30 days" under the _Time Range_ dropdown, your forecast will display cloud cost estimates for 30 days looking forward"
 
-![A screenshot of a forecast report](../.gitbook/assets/report-forcast-3.png)
+![A screenshot of a forecast report](../.gitbook/assets/report-ml-forecast.png)
 
-## Forcasting incomplete data
+## Forecasting incomplete data
 
 Because billing data can lag behind (sometimes by 12-36 hours), you can also use the forecasting feature to get an idea of what to expect your missing cloud costs will be.
 

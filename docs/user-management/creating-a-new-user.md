@@ -14,8 +14,7 @@ Select the _Settings_ icon (a gear icon), then select the _Identity and access_.
 
 Next, select the _INVITE USER_ button on the right-hand side of the page.
 
-A modal dialog will appear, allowing you to add multiple email addresses you
-want to invite. You are also given the option to check a box indicating that you would like to continue on to editing their user profiles.
+A modal dialog will appear, allowing you to add multiple email addresses you want to invite. You are also given the option to check a box indicating that you would like to continue on to editing their user profiles.
 
 ![A screenshot showing the location of the _Continue to editing user profile_ checkbox and the _Invite_ button](../.gitbook/assets/inviteuser2.jpg)
 
@@ -37,12 +36,9 @@ When editing a profile, you have four sections:
 
 ### Bulk Editing
 
-To perform bulk updates on users in your organization, check the boxes next to
-the users you'd like to update then select the _Edit_ button.
+To perform bulk updates on users in your organization, check the boxes next to the users you'd like to update then select the _Edit_ button.
 
-A _Bulk Update Users_ modal dialog will appear, allowing you to make your
-changes. This actopm canupdate multiple users' job function, role, and
-notifications.
+A _Bulk Update Users_ modal dialog will appear, allowing you to make your changes. This action can update multiple users' job function, role, and notifications.
 
 Once you've made your desired changes, select the _UPDATE_ button to confirm them.
 

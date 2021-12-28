@@ -41,7 +41,7 @@ For instance, if you want to create a metric to track the percentage consumption
 * Compute Usage
 * Compute Consumption
 
-You must create these attributions before you creating a custom matric.
+You must create these attributions before you creating a custom metric.
 
 ## Create a Metric
 
@@ -99,10 +99,8 @@ When a valid formula is complete, a preview of the metric will be generated.
 
 To include a metric in a report, [create a new report](create-cloud-report/).
 
-In the report configuration panel on the left-hand side of the screem, select
-your metric from the _Custom Metrics_ section at the bottom of the drop-down menu.
+In the report configuration panel on the left-hand side, select your metric from the _Custom Metrics_ section at the bottom of the drop-down menu.
 
 Once selected you will be prompted to confirm your choice
 
-After confiming your choice, you can build your report as usual with the
-addition of your custom attributions.
+After confirming your choice, you can build your report as usual with the addition of your custom attributions.

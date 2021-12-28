@@ -18,7 +18,7 @@ From the main CMP dashboard, select _Billing_ from the top menu bar, then select
 
 This action will take you to the _Invoices_ screen:
 
-![A screenshot of the _Incoices_ screen](../.gitbook/assets/invoices-screen.png)
+![A screenshot of the _Invoices_ screen](../.gitbook/assets/invoices-screen.png)
 
 You can filter the invoices per billing profile to which it was issued, and by issue date of the invoice. To filter the invoices, use the drop-down controls at the top of the page.
 

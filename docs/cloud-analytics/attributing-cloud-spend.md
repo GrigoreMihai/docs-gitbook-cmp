@@ -21,7 +21,7 @@ Select _Analytics_ from the top menu and then select _Attributions_ to access yo
 
 ![A screenshot of the _Attributions_ screen](../.gitbook/assets/attributions-screen.png)
 
-To create a new attribution, select the _NEW ATTIBUTION_ button.
+To create a new attribution, select the _NEW ATTRIBUTION_ button.
 
 Next, you will be taken to an attribution creation page, where you will configure its conditions and settings.
 

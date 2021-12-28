@@ -18,6 +18,6 @@ From the main CMP dashboard, select _Billing_ from the top menu bar, then select
 
 This action will take you to the _Invoices_ screen:
 
-![A screenshot of the _Incoices_ screen](../.gitbook/assets/invoices-screen.png)
+![A screenshot of the _Invoices_ screen](../.gitbook/assets/invoices-screen.png)
 
 On the _Invoices_ screen, you can download invoice data in CSV format by clicking the download icon (a cloud with a down arrow) in the top-right corner of the page.

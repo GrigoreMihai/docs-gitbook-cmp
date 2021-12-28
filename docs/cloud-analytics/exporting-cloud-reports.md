@@ -29,4 +29,4 @@ Here's an example report:
 
   * If this is your first time exporting a Cloud Report to Google Sheets, you will be asked to give CMP permission to create Google Drive files. Once you've selected your email account, select _Export_ to view your Cloud Report in Google Sheets.
 
-  * If you select the CSV option, a karge textbox will be opened with the full contents of the CSV file, ready to be copied.
+  * If you select the CSV option, a large textbox will be opened with the full contents of the CSV file, ready to be copied.

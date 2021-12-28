@@ -47,8 +47,7 @@ The two bars represent:
 * **Current Spend** — Your current spend relative to alert thresholds (next section) you've set.
 * **Forecasted Spend** — How much you are forecasted to spend by the end of the budget period.
 
-You will also notice a budget preview that encorporates a machine-learning
-prediction of future spend.
+You will also notice a budget preview that incorporates a machine-learning prediction of future spend.
 
 Lastly, if you're configuring a recurring budget, you have the option to factor in growth in spending for subsequent periods. This will adjust your budget amount in future periods, increasing it by a growth percentage rate set by you.
 

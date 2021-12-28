@@ -52,7 +52,7 @@ A preconfigured stack template like the one below will appear in your CloudForma
 
 Review the details, then under "Capabilities" mark the _‘I acknowledge that AWS CloudFormation might create IAM resources with custom names’_ checkbox. Finally, click on the **‘Create stack**’ button.
 
-![](../.gitbook/assets/lnking-aws-3.png)
+![](../.gitbook/assets/linking-aws-3.png)
 
 Within approximately 30 seconds of creating the stack, the Settings page in CMP will update, showing your linked AWS account with a "**Healthy**" status next to it if the link attempt was successful.
 

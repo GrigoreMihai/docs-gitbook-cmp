@@ -22,7 +22,7 @@ From the main CMP dashboard, select _Billing_ from the top menu bar, then select
 
 This action will take you to the _Invoices_ screen:
 
-![A screenshot of the _Incoices_ screen](../.gitbook/assets/invoices-screen.png)
+![A screenshot of the _Invoices_ screen](../.gitbook/assets/invoices-screen.png)
 
 To pay for an invoice, select the invoice from the _Invoices_ screen. On the invoice page, select the _PAY NOW_ button, located in the top right-hand corner of the page.
 

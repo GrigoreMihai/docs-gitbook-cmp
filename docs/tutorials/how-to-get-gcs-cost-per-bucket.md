@@ -21,7 +21,7 @@ Start with adding labels to your Google Cloud Storage buckets.
 1. Open the [Cloud Storage browser](https://console.cloud.google.com/storage/browser) in the Google Cloud Console
 2. In the bucket list, find the bucket you want to apply a label to, and click its **overflow** menu:
 
-    ![A screenshot showing the overflow menu icon](../.gitbook/assets/overflow-menu-icon.png)
+   ![A screenshot showing the overflow menu icon](../.gitbook/assets/overflow-menu-icon.png)
 3. Click Edit labels
 4. In the side panel that appears, click the + Add label button
 5. Specify `bucket-name` as a 'key' and the name of the bucket as a 'value' for your label
@@ -36,6 +36,4 @@ In the Edit labels side panel, you can also edit the Value of existing labels.
 Start with creating a new CMP Analytics Report
 
 * Open [CMP Analytics](https://app.doit-intl.com/analytics)
-* Click "Explore" to start a new report
-
-![A screenshot showing the location of the Explore button](<../.gitbook/assets/image (3) (1).png>)
+* Click the "Explore" button in the top-right hand section of the page to start a new report

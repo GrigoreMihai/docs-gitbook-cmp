@@ -4,15 +4,17 @@ description: How to detect trending dimensions in Cloud Analytics Reports
 
 # Trend Analysis
 
-Oftentimes when analyzing our cloud usage, we're overwhelmed with so many data points that it becomes impossible to identify important trends. **Trend Analysis** helps you cut through the "noise" and isolate what is trending upward or downward in a single click.
+Oftentimes when analyzing our cloud usage, we're overwhelmed with so many data points that it becomes impossible to identify important trends. _Trend Analysis_ helps you cut through the "noise" and isolate what is trending upward or downward in a single click.
 
-Use Trend Analysis in your Cloud Analytics Reports by selecting an option from the "**ML Features**" dropdown on the lefthand set of options.
+Use forecasting in your Cloud Analytics reports by selecting the _Trending Up_ or _Trending Down_ options from the _ML Features_ drop-down menu on the left-hand side of the report:
 
-![A screenshot showing the location of the ML Features dropdown](<../.gitbook/assets/ml-features (1).jpg>)
+![A screenshot showing you the _ML Features_ drop-down](../.gitbook/assets/report-ml-menu.png)
 
-## Trending Up or Trending Down
+Using the [Mann-Kendall](https://www.statisticshowto.com/mann-kendall-trend-test/) algorithm, the trending feature removes "noise" from your Cloud Analytics Reports and only shows trending [Metrics](editing-your-cloud-report.md#metrics) (i.e. Cost or Usage) in your series.
 
-Using the [Mann-Kendall](https://www.statisticshowto.com/mann-kendall-trend-test/) algorithm, the "Trending Up / Down" feature removes "noise" from your Cloud Analytics Reports and only shows trending [Metrics](editing-your-cloud-report.md#metrics) (i.e. Cost or Usage) in your series.
+Here's what the same report looks like with the _Trending Up_ option selected:
+
+![A screenshot of a trending up report](../.gitbook/assets/report-ml-trend.png)
 
 See how it works in the video below.
 

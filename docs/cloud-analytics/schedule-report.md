@@ -12,18 +12,18 @@ You can send a copy of your Cloud Analytics report to yourself and your stakehol
 Required Permissions: **Cloud Analytics**
 {% endhint %}
 
-## Create a Scheduled Email Delivery
+## Create a scheduled email delivery
 
 There are two ways to schedule emailed reports:
 
 * Via a specific Report's page
 * Via the main Cloud Analytics page
 
-### Scheduling via a Report's Page
+### Scheduling via a report s page
 
-Begin by opening a report that you have "Owner" access to. Then, click on the mail icon at the far-right side of your screen.
+Begin by opening a report that you have "Owner" access to. Then, click on the clock icon on the right-hand menu bar:
 
-![A screenshot showing the location of the Schedule Email Delivery icon](../.gitbook/assets/schedulereport1.jpg)
+![A screenshot showing an example report](../.gitbook/assets/example-report.png)
 
 Then, configure the scheduled delivery:
 
@@ -37,7 +37,7 @@ If you've included someone who doesn't have access to the report, you will be as
 
 ![A screenshot showing the Some recipients need access to this report modal dialog](<../.gitbook/assets/image (28) (1).png>)
 
-## About Cron Expressions
+## About Cron expressions
 
 The delivery time and recurrence of a Cloud Analytics Report can be configured by using a [cron expression](https://wikipedia.org/wiki/Cron#CRON\_expression). Cron is a time-based job scheduler originally used in Unix-like computer operating systems. A cron expression is a string comprising of five or six fields separated by whitespace. The following table defines the fields of a cron expression and the possible values for each field.
 
@@ -76,51 +76,23 @@ Your scheduled report will look something like in the example below. From the em
 
 You may also schedule emailed reports from the main Cloud Analytics page.
 
-First, find a report that you are the Owner of. Then, under the **Email Schedule** column, click on the envelope icon.
+First, find a report that you are the owner of. Then, select the horizontal ellipsis icon in the right-most table column, and select _Email Schedule_ from the drop-down menu.
 
-![A screenshot showing the location of the Create button under the Email
-Schedule column](../.gitbook/assets/createschedule.jpg)
+![A screenshot of the _Reports_ screen](../.gitbook/assets/analytics-reports.png)
 
 From there, configure your report as described above, modifying the message and interval as well as the recipients.
 
-## Updating Scheduled Delivery
+## Updating scheduled delivery
 
-To update the scheduled email delivery configuration, open a report that already has a configured schedule.
+To update the scheduled email delivery configuration, open a report that has a configured schedule and select the blue clock, like before.
 
-Then, click on the **blue** envelope icon on the far-right side of your report's page.
+You may can also update a report's email delivery schedule directly from the Cloud Analytics screen by selecting the horizontal ellipsis, like before.
 
-Finally, make the changes then click on the Update button.
+## Subscribing to other people's scheduled deliveries
 
-![A screenshot showing the location of the Schedule Email Delivery icon](../.gitbook/assets/updateschedulereport.jpg)
+Using the same methods as above, you can also subscribe to other people's scheduled deliveries.
 
-You may also update a report's email delivery schedule from the Cloud Analytics page.
-
-First, identify a report that you've already set up an email schedule for, and click on the unix-cron interval syntax under the **Email Schedule** column for that report.
-
-Then, as described above, make your changes and click on the Update button to implement your changes.
-
-![A screenshot showing the location of the Email Schedule column item](../.gitbook/assets/cleanshot-2020-12-14-at-11.36.08.jpg)
-
-## Subscribing to a Scheduled Delivery
-
-Add yourself as a recipient of someone else's scheduled report delivery to stay updated on reports other people on your team create.
-
-Similar to creating a scheduled email delivery, you can subscribe to others' scheduled emails from both the main Cloud Analytics page and a specific report's page.
-
-From the main Cloud Analytics page, identify a colleague's report that has a scheduled email set up already by looking for a **blue** envelope icon under the **Email Schedule** column.
-
-![A screenshot showing the location of the Schedule icon under the Email
-Schedule column](../.gitbook/assets/subscribecloudschedule.jpg)
-
-Conversely, you can subscribe to a colleague's scheduled email from a specific report's page itself.
-
-![A screenshot showing the location of the Schedule icon on a report page](../.gitbook/assets/subscribereportpage.jpg)
-
-Confirm that you'd like to be added to the report's email distribution by clicking on **Subscribe**.
-
-![A screenshot showing the confirmation dialog](../.gitbook/assets/subscribeschedulereport.jpg)
-
-### Deleting Scheduled Delivery
+### Deleting scheduled delivery
 
 If you need to delete the scheduled report, please use the Delete button on the "Schedule Report Email Delivery" dialog.
 

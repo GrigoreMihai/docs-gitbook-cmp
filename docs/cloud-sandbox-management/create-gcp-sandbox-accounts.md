@@ -12,9 +12,11 @@ Required Permission: **Sandbox User**
 
 After a [policy has been configured](configuring-a-policy-for-sandbox-accounts.md), a user can create sandbox accounts up to the amount which was defined by the Admin in the Sandbox Policy.
 
-From the home page, please select 'Sandbox Accounts' using the left navigation menu. Then, click on 'Create Sandbox', located on the right-hand side of the page.
+From the dashboard, select _Governance_ from the top menu bar, then select _Sandbox accounts_:
 
-![A screenshot showing the location of the Create Sandbox button](../.gitbook/assets/click-create-sandbox.png)
+![A screenshot of an empty _Sandbox accounts_ screen](../.gitbook/assets/sandbox-accounts-empty.png)
+
+To create a new sandbox, select the _CREATE SANDBOX_ button in the top right-hand corner of the screen.
 
 A notification will pop up informing you of the policy set by your organization (Sandbox Admin) and the budget amount that applies. Click on 'Create' to proceed.
 
@@ -22,7 +24,7 @@ A notification will pop up informing you of the policy set by your organization 
 
 Once created, you will see your new sandbox project on the list.
 
-![A screenshot showing your list of sandbox projects](../.gitbook/assets/sandbox-created2.png)
+![A screenshot of the _Sandbox accounts_ screen with one sandbox](../.gitbook/assets/sandbox-accounts.png)
 
 To use the sandbox, click on the sandbox name. It will open the Google Cloud Console home page and preselect the created Google Cloud project for you.
 

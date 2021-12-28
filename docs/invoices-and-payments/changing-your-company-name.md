@@ -14,14 +14,12 @@ Required Permissions: **Billing Profile Admin**
 Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a license.
 {% endhint %}
 
-From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
+From the main CMP dashboard, select the edit icon next to the billing profile you would like to update.
 
-![A screenshot showing the location of the Edit icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (2) (1).png>)
+![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
 
-The next page brings you to the 'General' tab where you can change the name of your company.
+This will take you to the billing profile page:
 
-![A screenshot showing you location of your editable company name](../.gitbook/assets/change-company-name2.png)
+![A screenshot of the _Billing Address_ screen](../.gitbook/assets/billing-address-screen.png)
 
-Once you have made the necessary changes, click on 'Save' at the bottom right-hand side of the page. Notice the change of the company name at the top of the page.
-
-![A screenshot showing you the edit form and save button](../.gitbook/assets/the-best-company.png)
+After making changes on this screen, select the _SAVE_ button in the bottom right-hand corner of the screen. You should see the any change to your company name reflected immediately in the CMP user interface.

@@ -8,15 +8,13 @@ Required Permissions: **User Manager**
 
 ## Inviting new users
 
-Please select the '**Users and Roles**' icon on the left-hand navigation panel.
+Select the _Settings_ icon (a gear icon), then select the _Identity and access_.
 
-![A screenshot showing the location of the _Users and Roles_ menu item](../.gitbook/assets/usersandroles-2.jpg)
+![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
 
-Next, click the "Invite User" button on the right side of the page.
+Next, select the _INVITE USER_ button on the right-hand side of the page.
 
-![A screenshot showing the location of the _Invite User_ button](../.gitbook/assets/roles1.jpg)
-
-Enter the email(s) of the colleague(s) you'd like to invite to your team. If you want to continue on to edit their profile settings, check the "Continue to editing user profile" box.
+A modal dialog will appear, allowing you to add multiple email addresses you want to invite. You are also given the option to check a box indicating that you would like to continue on to editing their user profiles.
 
 ![A screenshot showing the location of the _Continue to editing user profile_ checkbox and the _Invite_ button](../.gitbook/assets/inviteuser2.jpg)
 
@@ -36,27 +34,23 @@ When editing a profile, you have four sections:
 3. **Notifications** - Determine which events you'd like the user to be notified on.
 4. **API** - [Generate an API key](https://developer.doit-intl.com/docs/start) that lets you programmatically access CMP features.
 
-![An animated screenshot showing how to generate an API key](../.gitbook/assets/edituserprofiles.gif)
-
 ### Bulk Editing
 
-To perform bulk updates on users in your organization, check the boxes next to the users you'd like to update. Next, click on the "Edit" button.
+To perform bulk updates on users in your organization, check the boxes next to the users you'd like to update then select the _Edit_ button.
 
-![A screenshot showing the location of the organizations checkboxes and the _Edit_ button](../.gitbook/assets/bulkupdate1.jpg)
+A _Bulk Update Users_ modal dialog will appear, allowing you to make your changes. This action can update multiple users' job function, role, and notifications.
 
-In the "Bulk Update Users" pop-up, make your bulk changes. This can include updating multiple users' job function, role, and/or notifications.
+Once you've made your desired changes, select the _UPDATE_ button to confirm them.
 
-Once you've made your desired changes, click on the "Update" button to confirm them.
-
-You may also bulk delete users from your organization. Simply click on the "Delete" button and confirm your decision after.
+You can also bulk delete users from your organization. Instead of selecting _UPDATE_, select _DELETE_.
 
 ![A screenshot showing the _Bulk Update Users_ modal dialog](../.gitbook/assets/bulkupdate2.jpg)
 
 ### Notification Types
 
-* _New Invoices_ - Get sent an email when a new invoice is uploaded to the Cloud Management Platform.\
-* _Cost Anomalies_ - Get notified when our system detects abnormal usage of your cloud platform (i.e., AWS or Google Cloud)\
-* _Payment Due/Overdue_ - Get automated updates when your invoices are becoming due and when they're overdue.\
-* _Credit Alerts_ - request to be notified when your credits are nearly exhausted (75% utilization), and once again when they've been exhausted.\
-* _Cloud Quota Utilization_ - _Get alerted when your Google Cloud and/or AWS service quota utilization exceeds 80%.\
-* _Cloud Known Issues_ - _Get notified when there are any [known infrastructure issues](../tickets/cloud-infrastructure-known-issues.md) with Google Cloud and/or AWS.
+* _New Invoices_ — Get sent an email when a new invoice is uploaded to the Cloud Management Platform.
+* _Cost Anomalies_ — Get notified when our system detects abnormal usage of your cloud platform (i.e., AWS or Google Cloud)
+* _Payment Due/Overdue_ — Get automated updates when your invoices are becoming due and when they're overdue.
+* _Credit Alerts_ — request to be notified when your credits are nearly exhausted (75% utilization), and once again when they've been exhausted.
+* _Cloud Quota Utilization_ — Get alerted when your Google Cloud and/or AWS service quota utilization exceeds 80%.
+* _Cloud Known Issues_ — Get notified when there are any [known infrastructure issues](../tickets/cloud-infrastructure-known-issues.md) with Google Cloud and/or AWS.

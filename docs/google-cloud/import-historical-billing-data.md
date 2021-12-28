@@ -10,19 +10,21 @@ This feature enables you to upload all your historical Google Cloud billing data
 
 To get started, first, you need to ensure that you have a Service Account that connects your Google Cloud Organization to CMP. Then, you'll have to grant two additional required permissions.
 
-## Step 1. Identify the service account linked to CMP
+## Identify the service account
 
-1. From CMP's left side navigation menu, click "**Settings**"
-2. Select "**Google Cloud**" tab
-3. Locate the "**Service Account**" listed in Configured Accounts
+From the top menu, select the gear icon (_Settings_) in the upper right-hand corner, then select _Google Cloud_ under _Cloud settings_:
 
-![A screenshot showing the location of the Settings menu item, Google Cloud tab, and \_Service Account\_listing](<../.gitbook/assets/image (103) (1).png>)
+![A screenshot showing the _Google Cloud_ settings menu item](../.gitbook/assets/google-cloud-settings-menu.png)
 
-If you do not have this configured yet, you need to create a service account and connect CMP to your Google Cloud Organization. Follow the steps in this link: [Connect Google Cloud Service Account](https://help.doit-intl.com/google-cloud/connect-google-cloud-service-account)
+This will take you to the Google Cloud settings screen:
 
-Once you have identified the service account, copy the service account email and proceed to granting it with the the additional required permissions.
+![A screenshot showing the _Google Cloud_ settings screen](../.gitbook/assets/google-cloud-settings.png)
 
-## Step 2. Grant the required Permissions
+If you do not have a service account configured yet, you will need to [create a service account](connect-google-cloud-service-account.md) before you can continue.
+
+Select your desired service account, copy the service account email, and proceed to grant the required permissions (see next section).
+
+## Grant the required Permissions
 
 {% hint style="info" %}
 You need to have the appropriate IAM role/permission in GCP to grant the required permissions to the service account
@@ -61,7 +63,7 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 
 ![A screenshot showing the Add Permissions option, a list of permissions, and the Add button](<../.gitbook/assets/image (112) (1).png>)
 
-## Step 3. Link your Google Cloud Direct Billing Account
+## Link your Google Cloud Direct Billing Account
 
 {% hint style="info" %}
 Required Permission: Assets Manager
@@ -81,7 +83,7 @@ You can now import your historical billing data into CMP. You need the following
 
 ![A screenshot of the Link your Google Cloud Direct Billing Account modal dialog](<../.gitbook/assets/image (161) (1).png>)
 
-Once you click "**Import**" a new card will be added to your assets reflecting the details and progress or completion status.
+Once you select _Import_, a new card will be added to your Google Cloud assets screen with status information:
 
 ![A screenshot showing the new Google Cloud card with a "Processing" status](<../.gitbook/assets/image (115) (1).png>)
 

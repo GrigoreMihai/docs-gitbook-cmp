@@ -1,8 +1,16 @@
 # Edit Cloud Analytics Report
 
-**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on [_**Creating Cloud Reports**_](create-cloud-report/) before reading further.
+{% hint style="info" %}
 
-There are several types of edits you can make to your Cloud Report:
+If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on [_**Creating Cloud Reports**_](create-cloud-report/) before reading further.
+
+{% endhint %}
+
+An example cloud analytics report:
+
+![A screenshot showing and example report](../.gitbook/assets/example-report.png)
+
+There are several types of edits you can make to a report like this:
 
 * Adding additional dimensions
 * Changing the metric by which your dimensions are being measured
@@ -12,10 +20,6 @@ There are several types of edits you can make to your Cloud Report:
 * Filtering dimensions
 
 Most of these are self-explanatory, as you would simply make your changes the same way you made your original selection.
-
-Let's briefly go over your options for editing reports, highlighted below.
-
-![A screenshot showing you the options for editing a report](../.gitbook/assets/cleanshot-2021-06-14-at-14.20.30.jpg)
 
 ## Report Settings
 
@@ -28,7 +32,9 @@ Let's briefly go over your options for editing reports, highlighted below.
 **Savings:** Analyze your reports and selected dimensions on a savings basis. These savings come as a result of your commercial agreement with Google Cloud and the agreed-upon discount between your company and DoiT International.
 
 {% hint style="warning" %}
+
 The discount is not available for the following services: Google Maps APIs, Google Support, Looker, Preemptible VMs (compute engine), 3rd party GCP Marketplace services, Premium OS Images.
+
 {% endhint %}
 
 ### Aggregation
@@ -66,11 +72,13 @@ This can be very useful when performing comparative reports like Month over Mont
 Timezone used to aggregate the time interval in your report.
 
 {% hint style="warning" %}
+
 Google invoices are shown in PST
 
 Amazon invoices are shown in UTC
 
 _If you modify your timezone to reflect your local or company time, the totals will not reflect the invoices._
+
 {% endhint %}
 
 ### Currency
@@ -109,15 +117,17 @@ You can filter the metric included in the report by using an [Metric Filter](met
 
 To view a subset of your dimension's values, click on the chip you'd like to filter. Then check the boxes next to the subsets you'd like to view in the report.
 
-You may also exclude a selection of values, or limit results to a specific number of values arranged in descending order according to the Metric (Cost\*\*,\*\* Usage, or Savings) selected.
+You may also exclude a selection of values, or limit results to a specific number of values arranged in descending order according to the Metric (Cost, Usage, or Savings) selected.
 
 Next, click "Save" in the lower-right corner of the popup modal.
 
 ![A screenshot showing you the location of the Save button](../.gitbook/assets/cloudreports-filters.jpg)
 
+{% hint style="info" %}
+
 Your filters are displayed along with any other visible configurations on the right-hand collapsible sidebar. To expand it, click on the **>|** icon in the lower-right corner of your screen.
 
-![A screenshot showing you the location of the filters sidebar](../.gitbook/assets/cloudreports-filter-visible-config.jpg)
+{% endhint %}
 
 Finally, click the "Run" button to generate an updated report that reflects the filters you've selected.
 
@@ -134,11 +144,7 @@ Any edits which don't alter the results themselves will update the report in rea
 * Sorting of results
 * ML Features such as [Trend Analysis](trend-analysis.md) or [Forecasting](forecasting.md)
 
-Below, we can see the first three types of real-time edits being performed.
-
-![An animated screenshot showing you the results of real-time edits](../.gitbook/assets/cleanshot-2020-06-30-at-12.49.48.gif)
-
-## Edits requiring a refresh
+### Edits requiring a refresh
 
 Updates made to reports which require you to refresh it include:
 
@@ -146,7 +152,3 @@ Updates made to reports which require you to refresh it include:
 * Modifying the time interval and/or range
 * Filtering dimensions
 * [Filtering metrics](metric-filters.md)
-
-Below, you'll see what it looks like to filter a dimension.
-
-![An animated screenshot showing you a report being filtered by a dimension](../.gitbook/assets/cleanshot-2020-06-30-at-13.19.17.gif)

@@ -44,4 +44,4 @@ By default Spot Scaling recommends 20% of desired capacity exists on-demand and 
 
 ### **What if I want to control the Allowed Instances Type list?**
 
-With Spot Scaling you can easily exclude instace types that aren't fullfiling your workload requirements. Simply click on the Edit button and uncheck any instance you want to exclude.
+With Spot Scaling you can easily exclude instace types that aren't fulfilling your workload requirements. Simply click on the Edit button and uncheck any instance you want to exclude.

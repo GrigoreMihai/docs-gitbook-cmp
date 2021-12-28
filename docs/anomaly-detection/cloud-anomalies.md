@@ -15,46 +15,34 @@ Essentially, billing records that don’t align with your anticipated spending b
 
 ## Manage anomaly notifications
 
-To manage your notifications, click on the "Identity & Access" icon in your lefthand navigation panel.
+To manage your notifications, select the _Settings_ icon (a gear) from the top menu, then select _Identity and access_.
 
-![A screenshot showing the location of the Identity & Access icon](../.gitbook/assets/cleanshot-2021-07-26-at-10.47.01.jpg)
+![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
 
-Next, select your user from the users list.
+On this screen, select your own user account.
 
-Navigate to the "Notifications" tab. If you'd like to be notified of potential anomalies, check the "Cloud Cost Anomalies" box and then set the minimum severity threshold you'd like to be alerted on.
+Then, on your user profile page, select _Notifications_ from the left-hand menu:
 
-![A screenshot showing the location of the Notifications tab and the \_Cloud
-Cost Anomalies input
-box](../.gitbook/assets/cleanshot-2021-07-26-at-10.50.02.jpg)
+![A screenshot showing the _Notifications_ screen](../.gitbook/assets/notifications.png)
 
-By default, the threshold for email alerts is set to 'Warning', however, you can overwrite it to reduce the number of emails you receive over time.
+If you'd like to be notified of potential anomalies, check the _Cloud Cost Anomalies_ box and then set the minimum severity threshold you'd like to be alerted on.
 
-We are also storing all detected cost anomalies under the 'Cost Anomalies' page to filter/search events and zoom in on a specifically detected anomaly. Once located, you can click on 'View' to inspect the details of a detected anomaly.
+By default, the threshold for email alerts is set to _Warning_. You can modify this value to increase or decrease the number of alerts you receive.
 
 ## View anomalies
 
-In the Profile dialog, you will find the 'Cost Anomalies' notification setting. Once you enable notifications on Cost Anomalies, you will be prompted to choose the threshold of the alerts you're interested in receiving from us:
-
-![A screenshot showing the location of the Cost Anomalies menu item](../.gitbook/assets/anomaly-detect-page.png)
-
-Below you can see an example of a detected anomaly and the spike as shown in the chart. We will also display the top three SKUs, in terms of cost, that relate to the spike. That way you can better understand what is driving the detected anomaly with minimal effort.
-
-![A screenshot showing a detected anomaly](<../.gitbook/assets/image (10) (1).png>)
+We store all detected cost anomalies, so you can always access them by selecting _Governance_ from the top menu bar, then selecting _Cost anomalies_ (see below).
 
 ## Investigate anomalies further
 
-If you'd like to dive deeper into an anomaly, click on "**Investigate**" to launch a pre-configured Cloud Analytics Report. This lets you to zoom in on a specific anomaly and determine whether any action is needed.
-
-![A screenshot animation showing you how to zoom in on a specific anomaly](../.gitbook/assets/cleanshot-2021-03-05-at-09.54.49.gif)
+If you'd like to dive deeper into an anomaly, select the _INVESTIGATE_ button in the top right-hand corner of the screen to launch a pre-configured Cloud Analytics Report. This feature allows you to zoom in on a specific anomaly and determine what any action (if any) is needed.
 
 ## Fine-tune alerts with direct feedback
 
-To further assist with the learning of our machine-learning model, and reduce the number of false alerts, you can provide feedback for any type of alert, and mark it thumbs-up or thumbs-down.
-
-![A screenshot showing you the location of the feedback options](<../.gitbook/assets/image (15) (1).png>)
+To reduce the number of false alerts, you can provide a thumbs-up or a thumbs-down for each alert. We use this information to fine-tune our anomaly detection algorithm and improve results.
 
 ## Anomalies Widget
 
-View the bite-sized video below for a closer look at Anomaly Detection.
+View the bite-sized video below for a closer look at anomaly detection:
 
 {% embed url="https://www.loom.com/share/c5005c6d4af9468f9df0b00ca5f43655" %}

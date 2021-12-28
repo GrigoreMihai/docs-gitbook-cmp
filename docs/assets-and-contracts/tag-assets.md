@@ -14,19 +14,18 @@ Note that only one tag is allowed per asset. To add tags to assets, see the foll
 Required Role\*\*: Admin\*\*
 {% endhint %}
 
-1. Navigate to 'Assets' from the menu on the left-hand side of CMP
-2. Select the 'Asset Type' you want to tag (AWS, Google Cloud, etc.)
-3. Click the 3-dot menu
+1. Navigate to 'Assets' via the settings cog in the top-right hand section of the main navigation
+2. Within the 'Assets' section, select the 'Asset Type' you want to tag (AWS, Google Cloud, etc.)
+3. Once on the chosen tab, click the 3-dot menu of the asset you wish to tag
+   * The assets are shown as cards
 4. Select 'Tag Asset'
-5. Input a new tag or select from the list of previously created tags.
-6. Click Save
+5. Input a new tag or select from the list of previously created tags
+6. Click 'Save'
 
-All new tags you save will be added on the tag selection list and will be available to use for other assets.
+![A screenshot showing the 3-dot menu options, including 'Tag Asset'](../.gitbook/assets/Assets-page.png)
 
-![A screenshot showing the location of each item described above](<../.gitbook/assets/image (142) (1).png>)
+![A screenshot showing the 'Tag Asset' modal and input](../.gitbook/assets/Assets-tagging.png)
 
-![A screenshot showing the location of the Asset Tag text input](<../.gitbook/assets/image (145) (1).png>)
+All new tags you save will be added to the tag selection list and will be available to use for other assets.
 
-After clicking save, the tag will be visible under the asset name as shown below.
-
-![A screenshot showing how a tag is displayed](<../.gitbook/assets/image (144) (1).png>)
+After clicking save, the tag will be visible under the asset name in the form of a grey chip.

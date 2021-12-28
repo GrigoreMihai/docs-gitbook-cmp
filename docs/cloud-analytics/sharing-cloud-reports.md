@@ -6,11 +6,13 @@ description: >-
 
 # Share and Download Cloud Analytics Reports
 
-## 1) Sharing Cloud Analytics Reports
+## Sharing Cloud Analytics Reports
 
-_**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on_ [_**Creating Cloud Reports**_](create-cloud-report/) _before reading further._
+{% hint style="info" %}
 
-Before discussing how to share a Cloud Report, let's briefly review roles and permissions.
+If you're new to Cloud Reports or haven't created a Cloud Report yet, we recommend reading our post on [**Creating Cloud Reports**](create-cloud-report/) before reading further.
+
+{% endhint %}
 
 ### Available Sharing Permissions
 
@@ -19,9 +21,9 @@ Before discussing how to share a Cloud Report, let's briefly review roles and pe
 
 ### How to share a report
 
-To share a Cloud Report with your team, click the "Share" button on your report's page.
+To share a Cloud Report with your team, select the _Share_ icon (three connected dots) from the right-hand menu on your report page:
 
-![A screenshot showing the location of the Share icon](../.gitbook/assets/cloudreports_share.jpg)
+![A screenshot of an example report](../.gitbook/assets/example-report.png)
 
 This will open a pop-up that will give you two options when sharing:
 
@@ -42,14 +44,8 @@ To change a user's role, make them the owner of the report, or remove them from 
 
 ![A screenshot showing the Share Report modal dialog](<../.gitbook/assets/userrolesreports (1).png>)
 
-## 2) Downloading Cloud Analytics Reports\*\*
+## Exporting Cloud Analytics Reports
 
-In Cost Analytics > Reports, once you have saved your report you can download it, following these steps:
+After saving your report, you can download it by selecting the Download you have saved your report you can export it by selecting the _Export Icon_ (an arrow pointing down) from the right-hand menu on the report page.
 
-1\) Click on this icon on the side:
-
-![A screenshot showing the Download icon](<../.gitbook/assets/image (87) (1).png>)
-
-2\) Choose between "Export to CSV" and "Export to Google Sheets"
-
-![An animated screenshot showing the export options menu](<../.gitbook/assets/cloud-analytics-report-export (1).gif>)
+You can export reports to CSV or directly to Google Sheets.

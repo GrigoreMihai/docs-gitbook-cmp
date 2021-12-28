@@ -16,36 +16,30 @@ Required Permissions: **Billing Profile Admin**
 Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a license.
 {% endhint %}
 
-From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
+From the main CMP dashboard, select the edit icon next to the billing profile you would like to update.
 
-![A screenshot showing you the location of the Edit icon](<../.gitbook/assets/update-billing-profile-2- (4) (4) (1) (5).png>)
+![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
 
-Once you're at the Billing Profile Settings page, switch to the 'Invoice Settings' tab.
+From the billing profile screen, select _Invoice Settings_ from the left-hand menu:
 
-![A screenshot showing you the location of the Invoice Settings tab](../.gitbook/assets/invoice-settings.png)
+![A screenshot of the _Invoice Settings_ screen](../.gitbook/assets/invoice-settings-screen.png)
 
 ## Invoice Bucketing
 
 As a customer, you have two options for each one of your billing profiles:
 
-**Separate the invoice by asset type** - individual invoices for each of your products. If you have four asset types, (e.g., G Suite, Google Cloud, AWS, and Office 365), you will have four invoices.
+**Separate the invoice by asset type** — individual invoices for each of your products. If you have four asset types, (e.g., G Suite, Google Cloud, AWS, and Office 365), you will have four invoices.
 
-**Invoice using custom bucketing** - buckets allow you to combine assets into a group. If you have 16 assets and group them into two buckets, then two invoices will be generated, with eight assets per invoice.
+**Invoice using custom bucketing** — buckets allow you to combine assets into a group. If you have 16 assets and group them into two buckets, then two invoices will be generated, with eight assets per invoice.
 
-![A screenshot showing you the option to Add Bucket](<../.gitbook/assets/buckets (1).png>)
+![A screenshot showing you the custom bucketing option](../.gitbook/assets/invoice-custom-bucketing.png)
 
-You can create as many buckets as you want, and separate your assets into various buckets.
+You can create as many buckets as you want and separate your assets into those buckets.
 
-![A screenshot showing you multiple added buckets](<../.gitbook/assets/buckets1 (1).png>)
+You must set one bucket as the default. Any asset that isn't assigned to a specific bucket will be automatically placed in the default bucket.
 
-![A screenshot showing you the details of a specific bucket](<../.gitbook/assets/buckets2 (1).png>)
+You can revert back to separating your invoices by asset type if the custom bucketing method isn't suitable for you anymore.
 
-Choose a bucket to make it the default. Any asset that isn't assigned to a specific bucket will be automatically placed in the default bucket.
-
-![A screenshot showing you the "All assets assigned!" message](<../.gitbook/assets/buckets3 (1).png>)
-
-You can always revert back to separating your invoices by asset type if the custom bucketing isn't suitable for you anymore.
-
-Watch the bite-sized video below for a closer look at Billing Profiles, Invoices, and Invoice Buckets.
+Watch the bite-sized video below for a closer look at billing profiles, invoices, and invoice buckets:
 
 {% embed url="https://www.loom.com/share/58349311a16d4daf8d9f9c5b1ebffdce?sharedAppSource=team_library" %}

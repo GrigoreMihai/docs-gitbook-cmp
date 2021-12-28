@@ -8,13 +8,13 @@ Please mind the Google Marketplace [note](./).
 
 ## Get Service Account from CMP
 
-Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select '**Manage Licenses & Assets**' from the main dashboard:
+From the [CMP dashboard](https://app.doit-intl.com) select _Manage Licenses & Assets_ located in the middle of the screen:
 
-![A screenshot showing the location of the Manage Licenses & Assets option](<../../.gitbook/assets/transfer-projects (1).png>)
+![A screenshot showing the CMP dashboard](../../.gitbook/assets/dashboard.png)
 
-Once you're at the **Assets** page, please switch to the Google Cloud tab
+From the _Assets_ screen, select the _Google Cloud_ menu option from the left-hand menu:
 
-![A screenshot showing the location of the \_Google Cloud Tab\_](../../.gitbook/assets/google-cloud-tab.png)
+![A screenshot showing the _Google Cloud_ assets screen](../../.gitbook/assets/assets-google-cloud.png)
 
 To transfer your projects, locate your new Google Cloud billing account with DoiT International (doit.budgetao.com in this example), and click on the three-dots menu on the right-hand side of the widget. Choose 'Transfer Projects' to start the wizard.
 

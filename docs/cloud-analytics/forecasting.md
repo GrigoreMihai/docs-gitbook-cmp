@@ -6,28 +6,24 @@ description: How to estimate your future cloud costs.
 
 Being able to forecast your future cloud costs is important when trying to stay within your planned budgets.
 
-With **Forecasting** in Cloud Analytics Reports, you'll answer questions like _"How much I am going to pay Google Cloud/AWS this month?"_ or _"How much I will spend on BigQuery and Pub/Sub during the next 90 days?"_ in just one click.
+With _forecasting_ in Cloud Analytics Reports, you'll answer questions like _"How much I am going to pay Google Cloud/AWS this month?"_ or _"How much I will spend on BigQuery and Pub/Sub during the next 90 days?"_ in just one click.
 
 ## Generate a forecast
 
-Use Forecasting in your Cloud Analytics Reports by selecting the "**Forecast**" option from the "**ML Features**" dropdown on the lefthand set of options.
+Use forecasting in your Cloud Analytics reports by selecting the _Forecast_ option from the _ML Features_ drop-down menu on the left-hand side of the report:
 
-![A screenshot showing you the location of the _ML Features_ dropdown](../.gitbook/assets/forecast-side-menu.jpg)
+![A screenshot showing you the _ML Features_ drop-down](../.gitbook/assets/report-ml-menu.png)
 
-Once selected, you will see a forecast line which estimates what your costs may look like for the period you selected moving forward.
+When you select this option, the CMP will generate a forecast line which estimates what your costs may look like for the period you selected moving forward.
 
-For example, if you selected "Last 30 days" under the "Time Range" dropdown, your forecast will display cloud cost estimates for 30 days looking forward.
+For example, if you selected "Last 30 days" under the _Time Range_ dropdown, your forecast will display cloud cost estimates for 30 days looking forward"
 
-![A screenshot of a forecast report](../.gitbook/assets/forecast-report.jpg)
+![A screenshot of a forecast report](../.gitbook/assets/report-ml-forecast.png)
 
-## Identify incomplete billing data
+## Forecasting incomplete data
 
-Because billing data can lag behind — sometimes by 12-36 hours — sometimes you can get an incomplete picture of your daily cloud costs, .
+Because billing data can lag behind (sometimes by 12-36 hours), you can also use the forecasting feature to get an idea of what to expect your missing cloud costs will be.
 
-As shown in the example below, in these situations you can use forecasts to give you an idea of what to expect your cloud costs to be.
-
-![A screenshot of a forecast report](../.gitbook/assets/screen-shot-2020-11-17-at-22.45.09.png)
-
-Watch this short video explainer for more information
+Watch this short video explainer for more information:
 
 {% embed url="https://www.loom.com/share/51439d799674427eba2b2f3a7b26cd87" %}

@@ -6,13 +6,13 @@ description: >-
 
 # Manage Organizations
 
-## Overview‌ <a href="overview" id="overview"></a>
+## Overview<a href="overview" id="overview"></a>
 
-Organizations are a feature within the DoiT CMP which allows users to create isolated segments of their data. Over time this feature will empower customers to centrally manage their public cloud while decentralizing the management of each section. These segments are defined using attributions allowing for very flexible and dynamic control.‌
+Organizations are a feature within the DoiT CMP which allows users to create isolated segments of their data. Over time this feature will empower customers to centrally manage their public cloud while decentralizing the management of each section. These segments are defined using attributions allowing for very flexible and dynamic control.
 
-Today CMP supports Role based access control (RBAC) functionality that enables application admins to limit the permissions of some users within a team. Organizations are a step beyond this allowing customers to represent their organizational structure, business units, and other groupings within the CMP.‌
+Today CMP supports Role based access control (RBAC) functionality that enables application admins to limit the permissions of some users within a team. Organizations are a step beyond this allowing customers to represent their organizational structure, business units, and other groupings within the CMP.
 
-Organizations are used to provide a tightly scoped Cloud Analytics experience for a sub-set of your users. By creating an organization, you can help focus its members by automatically scoping all reports to only the attributions used to create it. For instance, if you have a department or group that operates independently within your company (an acquisition, or R\&D initiative), you can use organizations to provide a focused experience within the CMP. By removing the noise of total company spend, insights and trends can be brought into focus faster and with less effort.‌
+Organizations are used to provide a tightly scoped Cloud Analytics experience for a sub-set of your users. By creating an organization, you can help focus its members by automatically scoping all reports to only the attributions used to create it. For instance, if you have a department or group that operates independently within your company (an acquisition, or R\&D initiative), you can use organizations to provide a focused experience within the CMP. By removing the noise of total company spend, insights and trends can be brought into focus faster and with less effort.
 
 {% hint style="info" %}
 Required permission to create and manage Organizations: **User Manager**
@@ -24,7 +24,7 @@ Required permission to create and manage Organizations: **User Manager**
 
 An organization is an automatic set of [attributions](../cloud-analytics/attributing-cloud-spend.md) that filter data for its members. When a user is a member of an organization all reports in Cloud Analytics are automatically filtered to show only relevant data
 
-### Root Organization (The default organization)
+### Root organization (the default organization)
 
 Every company has a default organization named after their primary domain. This organization, by default, sees all data within a company. It can be restricted by attribution by editing it. When an organization with members is deleted, its users are placed in the default organization rather than being given full access to the company. This allows you the ability to configure a restricted landing zone for users when deleting existing organizations.
 
@@ -32,33 +32,39 @@ Every company has a default organization named after their primary domain. This 
 
 When a user is assigned to an organization, they are said to be a member of that organization. Once a member, they will see only data included in the configured attributions while in Cloud Analytics or Dashboards ([with the exception of Global Dashboards](manage-organizations.md))
 
-## How to Setup Organizations <a href="how-to-setup-organizations" id="how-to-setup-organizations"></a>
+## How to setup organizations<a href="how-to-setup-organizations" id="how-to-setup-organizations"></a>
 
-‌Organizations use attributions to control what data is included.‌
+Organizations use attributions to control what data is included.
 
-### Step 1. Configure Attributions.‌ <a href="step-1-configure-attributions" id="step-1-configure-attributions"></a>
+### Step 1. Configure attributions<a href="step-1-configure-attributions" id="step-1-configure-attributions"></a>
 
-Navigate to Cloud Analytics → Attributions
+Select _Analytics_ from the top menu bar, then _Attributions_:
 
-![A screenshot showing the Attributions tab](../.gitbook/assets/cloud-analytics-attributions.png)
+![A screenshot showing the Attributions tab](../.gitbook/assets/attributions-screen.png)
 
-If you already have an attribution configured, select it and confirm that it matches the set of data you would like to use as an organization.‌
+If you already have an attribution configured, select it and confirm that it matches the set of data you would like to use as an organization.
 
-​[Please click here to learn more about attributions](../cloud-analytics/attributing-cloud-spend.md#creating-an-attribution.png)‌
+{% hint style="info" %}
 
-### Step 2. Create an Organization‌ <a href="step-2-create-an-organization" id="step-2-create-an-organization"></a>
+[Learn more about attributions](../cloud-analytics/attributing-cloud-spend.md#creating-an-attribution.png)
 
-Navigate to the Users and Roles menu and select the ‘Organizations’ Menu
+{% endhint %}
 
-![A screenshot showing the Organizations menu](../.gitbook/assets/organizations-menu.png)
+### Step 2. Create an organization <a href="step-2-create-an-organization" id="step-2-create-an-organization"></a>
 
-Select ‘New Organization’!
+Select the _Settings_ icon (a gear) from the top menu bar, then _Identity and access_:
 
-[A screenshot showing the _New Organization_ button](https://github.com/doitintl/gitbook-cmp/blob/main/docs/.gitbook/assets/new-organization.png)‌
+![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
 
-### Step 3. Configure your Organization <a href="step-3-configure-your-organization" id="step-3-configure-your-organization"></a>
+From this screen, select _Organizations_ from the left-hand menu:
 
-![A screenshot showing the organization configuration screen](<../.gitbook/assets/organization-configuration-screen (1).png>)
+![A screenshot showing the Organizations menu](../.gitbook/assets/iam-org-screen.png)
+
+On this screen, select the _NEW ORGANIZATION_ button.
+
+### Step 3. Configure your organization <a href="step-3-configure-your-organization" id="step-3-configure-your-organization"></a>
+
+![A screenshot showing the organization configuration screen](../.gitbook/assets/new-organization-screen.png)
 
 Select the attribution or set of attributions that define your organization.
 
@@ -71,22 +77,24 @@ Select the attribution or set of attributions that define your organization.
       1. Use this option if you do not want any data exposure via dashboard widgets. When checked it will remove the ability for users within an organization to customize dashboards and add widgets.
 
 {% hint style="info" %}
+
 **A note about Dashboards and Widgets**
 
-The preset dashboards in CMP (Account, AWS FinOps, BigQuery Lens, and Pulse) have a global scope. Regardless of organization, they always show data from across all configured accounts/projects. If you do not want organization members to see data outside their scope, you can prevent them from seeing these dashboards‌
+The preset dashboards in CMP (Account, AWS FinOps, BigQuery Lens, and Pulse) have a global scope. Regardless of organization, they always show data from across all configured accounts/projects. If you do not want organization members to see data outside their scope, you can prevent them from seeing these dashboards.
+
 {% endhint %}
 
-## Widgets function differently‌ <a href="widgets-function-differently" id="widgets-function-differently"></a>
+## Widgets function differently<a href="widgets-function-differently" id="widgets-function-differently"></a>
 
-For each widget there are two concerns‌
+For each widget there are two concerns
 
 1. Do you have access to the widget?
    1. Roles in the CMP control what widgets you are able to access.
    2. For instance: the Support Viewer Role provides access to the support tickets graph widget in the Account Dashboard
 2. Is the widget scoped to my organization?
-   1. Currently most widgets have global scope. The only way to limit access to them is to “Disable Custom Dashboards” in the advanced configuration menu.
+   1. Currently most widgets have global scope. The only way to limit access to them is to "Disable Custom Dashboards" in the advanced configuration menu.
 
-## ‌Current Limitations
+## Current Limitations
 
 1. Only the Cloud Analytics feature supports Organizations today
    1. If other roles are granted to users within the organization, they will see all company data

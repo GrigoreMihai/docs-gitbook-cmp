@@ -16,21 +16,17 @@ Required Permissions: **Cloud Analytics**
 
 ## Creating an Attribution
 
-To create an attribution:
+Select _Analytics_ from the top menu and then select _Attributions_ to access your attributions:
 
-1. Click on the Cloud Analytics icon on the left hand navigation panel
-2. Switch to the Attributions tab
-3. Click the "**+ NEW ATTRIBUTION**" button
+![A screenshot of the _Attributions_ screen](../.gitbook/assets/attributions-screen.png)
 
-![A screenshot showing the location of the items listed above](../.gitbook/assets/attribution.png)
+To create a new attribution, select the _NEW ATTRIBUTION_ button.
 
 Next, you will be taken to an attribution creation page, where you will configure its conditions and settings.
 
 To start, give your Attribution a name that gives some context. In our example, we'll be creating attributions to group costs for different teams: production, dev, and ops.
 
 If you want to give even more context to your Attribution, you may give it a description by clicking on the icon at the far-right end of the text box.
-
-![A screenshot showing the location of the _Description_ icon](../.gitbook/assets/attributions_name.jpg)
 
 Now it's time to configure the conditions, or the criteria, which will determine what falls under your Attribution. You have the option to either set as meet "**ALL**" or "**ANY**" of the conditions. This will switch between "AND" to "OR" relations.
 
@@ -48,8 +44,6 @@ Finally, click "Save" to apply the filter on your condition.
 
 Once you've set a condition, a quick preview will appear showing your attribution's costs over the last 30 days. This will continue to update as you add more conditions. This way, you can easily validate the conditions of your attribution.
 
-![A screenshot showing a graph for the last 30 days](../.gitbook/assets/attributions-team-prod.jpg)
-
 Using our example from above, we will also create similar attributions for dev and ops teams.
 
 {% hint style="info" %}
@@ -58,15 +52,11 @@ You should **not** set multiple separate conditions with the same field — unle
 
 ## Using Attributions in Cloud Analytics Reports
 
-Finally, once an attribution is created, you'll be able to use it your Cloud Analytics Reports by  adding the Attributions chip to the break-out/group-by section, or by filtering them.
-
-Note the "Attribution" chip in the group-by section for Report below:
-
-![A screenshot showing the a _Cloud Analytics_ report](../.gitbook/assets/attributions_cloudreports-2.jpg)
+Finally, once an attribution is created, you'll be able to use it your Cloud Analytics Reports by adding the Attributions chip to the break-out/group-by section, or by filtering them.
 
 In the event that you have many attributions, make sure to click on the Attribution chip to filter the ones you want to include in your report.
 
-In the example above, we made sure to filter for the production, dev, and ops team attributions we created earlier.
+In the example below, only the production, dev, and ops team attributions will be included in the report:
 
 ![A screenshot showing the _Filter attributions_ form](../.gitbook/assets/filterattributions-2.jpg)
 

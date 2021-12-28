@@ -20,7 +20,7 @@ Before users can create a sandbox account, the Sandbox Admin needs to configure 
 
 To begin, click the 'Sandbox Accounts' icon on the left-hand side of the page. Once you're at the Sandbox Accounts page, click on 'Configure Policy', located on the right-hand side of the page.
 
-![A screenshot showing the location of the Configure Policy icon](../.gitbook/assets/configure-policy.png)
+![A screenshot of an empty _Sandbox accounts_ screen](../.gitbook/assets/sandbox-accounts-empty.png)
 
 A notification will pop up informing you that the sandbox policy doesn't guarantee you won't exceed the budget. Click on 'Accept' to proceed.
 
@@ -41,7 +41,7 @@ Complete the Sandbox Management Policy form:
 
 The Sandbox Admin can disable the policy to prevent the creation of additional sandboxes. This action will not disable any preexisting sandboxes. Click on 'Update Policy', and locate the disable/enable button. To finish, click 'Save'.
 
-To learn more about how to create sandbox environments in the CMP, go [here](create-gcp-sandbox-accounts.md).
+To learn more about how to create sandbox environments in the CMP, see [Creating Google Cloud Sandbox](create-gcp-sandbox-accounts.md).
 
 View the bite-sized video below for a closer look at setting up your Cloud Sandbox policy and creating Cloud Sandboxes.
 

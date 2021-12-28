@@ -1,8 +1,10 @@
 ---
-description:  How to grant DoiT International support engineers with secure, read-only access to your GCP account
+description: >-
+  How to grant DoiT International support engineers with secure, read-only
+  access to your GCP account
 ---
 
-# Grant Support Access to Your GCP Account
+# Support Access to GCP
 
 DoiT International provides complete transparency and access control when accessing your _Google Cloud Platform_ (GCP) account.
 
@@ -19,9 +21,9 @@ When you open a technical support request with DoiT International, we may occasi
 
 When you request technical support and create a new service request with DoiT International, you will be prompted to grant DoiT International access to the relevant GCP project.
 
-A typical access grant is implemented with a `gcloud` command \(part of [Google Cloud SDK](https://cloud.google.com/sdk)\). The access is always read-only, limited, and only provides access to the support engineers handling your request.
+A typical access grant is implemented with a `gcloud` command (part of [Google Cloud SDK](https://cloud.google.com/sdk)). The access is always read-only, limited, and only provides access to the support engineers handling your request.
 
-```text
+```
 gcloud projects add-iam-policy-binding cassandra-db-prod-289507 \
 --member="group:ticket-38432@cre.doit-intl.com" \
 --role=roles/viewer --condition=None
@@ -35,7 +37,7 @@ For example, the above command:
 
 We will automatically generate the command for you to copy and run:
 
-![A screenshot showing a modal dialog displaying an auto-generated command](../.gitbook/assets/image-41-.png)
+![A screenshot of the Google Cloud _Grant read-only access_ prompt](../.gitbook/assets/gcp-support-access.png)
 
 ## Revoke Access
 

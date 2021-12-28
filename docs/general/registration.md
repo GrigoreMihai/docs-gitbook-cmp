@@ -10,17 +10,11 @@ At some point in your communications with DoiT International's Account Managemen
 
 ![A screenshot of an example email](../.gitbook/assets/company-registration-email.png)
 
-Click the link in the email to start the sign-in & registration process. You will be brought to the 'New Billing Profile' section of the customer onboarding process where you will fill out your company's information.
-
-![A screenshot of the New Billing Profile form](<../.gitbook/assets/create-new-billing-profile-2- (1) (2) (1).png>)
-
-In conclusion, enter your payment method and currency and click 'Submit'.
+Click the link in the email to start the sign-in & registration process. You will be sent to the 'New Billing Profile' section of the customer onboarding process where you will need to fill out your company information, enter your payment method, and select your currency.
 
 {% hint style="info" %}
 Please note that there will be a section that requests your billing information. This does not activate billing, it just ensures that once the paperwork is signed, you don’t experience any drop in service.
 {% endhint %}
-
-![A screenshot of the payment method form](../.gitbook/assets/submit-new-billing-profile.png)
 
 The following video shows you how to Register your Company.
 

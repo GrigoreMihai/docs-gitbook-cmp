@@ -32,11 +32,11 @@ In order to do this, you will need to [connect your Google Cloud Organization](.
 
 Then check the box(es) of the additional features you'd like to enable, making sure to select "GKE Cost Analytics" here.
 
+![A screenshot showing you the location of the location of the Upload Key button](../.gitbook/assets/gke-cost-analytics-enable.png)
+
 Click on the "Create Service Account" button. This will display all of the Google SDK ([gcloud)](https://cloud.google.com/sdk) commands you need to run sequentially to create the service account that contains the permissions for all of the features you checked.
 
-Finally, once you've executed all of the commands, click "Upload Key" to upload the service account to the CMP.
-
-![A screenshot showing you the location of the location of the Upload Key button](<../.gitbook/assets/image (24) (1).png>)
+Finally, once you've executed all of the commands, select the _UPLOAD KEY_ button to upload the service account to the CMP.
 
 {% hint style="success" %}
 Remember the service account email you created in this step. You will need it for step three.

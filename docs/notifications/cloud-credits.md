@@ -4,8 +4,6 @@ Customers can be notified when credits on their cloud accounts are due to be exh
 
 In order to enable or disable the notification itself, click your profile icon in the upper-right corner of the page header, then select **Profile.**
 
-![A screenshot showing the location of the Profile option](<../.gitbook/assets/profile-1- (2) (3) (3) (1) (3) (1).png>)
-
 In the Profile dialog, you will find the '**Credit Alerts**' notification setting.
 
 ![A screenshot showing the location of the Credit Alerts checkbox](../.gitbook/assets/credit-alerts-notification.png)

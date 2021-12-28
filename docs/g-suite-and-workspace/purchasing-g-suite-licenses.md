@@ -4,44 +4,42 @@ description: Add more licenses to your existing G Suite or Google Workspace subs
 
 # Purchasing G Suite Licenses
 
-If you’re on the Annual or Flexible plans and use up all your licenses, you can easily purchase more. We increase your monthly payment to cover the new licenses.
+If you're on the Annual or Flexible plans and use up all your licenses, you can easily purchase more. We increase your monthly payment to cover the new licenses.
 
 {% hint style="info" %}
+
 Required Permission: **Assets Manager**
+
 {% endhint %}
 
 {% hint style="warning" %}
-Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a license.
+
+Please note that you must be assigned access to the specific billing profile under which the domain is managed in order to purchase a license.
+
 {% endhint %}
 
-Start with accessing the G Suite based Assets from the menu on the left-hand side of the page and clicking on Assets.
+Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
 
-![A screenshot showing the location of the Assets menu item](<../.gitbook/assets/assets-icon-1- (4) (5) (5) (6).png>)
+![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
 
-Once you're at the Assets page, switch to the G Suite tab.
+from the _Assets_ page, select _Google Workspace_ from the left-hand menu:
 
-!\[A screenshot showing the location of the _G Suite_ tab(<../.gitbook/assets/g-suite (2) (2) (2) (1).png>)
+![A screenshot showing the Google Workspace screen](../.gitbook/assets/google-workspace-screen.png)
 
-Locate the subscription you'd like to add licenses for and click the **+** icon to add as many licenses as needed.
+You can see the number of licenses in use next to each _Quantity_ label.
 
-![A screenshot of available licenses](../.gitbook/assets/g-suite2.png)
+When you have located the subscription you would like to modify, you can add or remove as many licenses as you like, using the **-1** and **+1** buttons, respectively.
 
-Add up to as many licenses as you wish, and click 'Apply'.
+To apply your changes, select the _APPLY_ button in the bottom right-hand corner of the card.
 
-![A screenshot of a license card with an Apply button](../.gitbook/assets/apply.png)
-
-Finally, you may approve the purchase by clicking the 'Approve' button.
+If you are purchasing additional licenses, you will be prompted to approve the purchase before continuing:
 
 ![A screenshot of the Add Licenses modal dialog with an Approve button](../.gitbook/assets/approve.png)
 
-**Understanding License Utilization:**
+If you remove licenses, you will not have to pay for the licenses available if you aren't planning to use them. The charges will be deducted from your account as reflected in the next month's billing to your organization.
 
-You can see the number of licenses in use under the _Quantity_ field, versus how many are available. In the following example, two licenses are in use from seven licenses available.
+{% hint style="info" %}
 
-![A screenshot showing the Quantity field](../.gitbook/assets/quantity.png)
+Please note that only FLEXIBLE plans allow you to decrease the number of licenses. For more information, please review the [Google documentation](https://support.google.com/a/answer/6154359).
 
-**Decreasing the Number of Licenses:**
-
-It is possible to decrease the number of licenses that are not in use. By doing this, you will not have to pay for the licenses available if you aren't planning to use them. The charges will be deducted from your account as reflected in the next month's billing to your organization.
-
-Please note that only FLEXIBLE plans allow you to decrease the number of licenses. For more information, please review [this post](https://support.google.com/a/answer/6154359).
+{% endhint %}

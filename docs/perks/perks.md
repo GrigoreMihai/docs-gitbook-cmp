@@ -10,9 +10,7 @@ Perks are service-based benefits available to DoiT International customers at no
 
 ## Accessing Perks
 
-Access your Perks library via the Perks icon on the left-hand navigation panel.
-
-![A screenshot showing the location of the Perks menu item](../.gitbook/assets/perks.jpg)
+Access your Perks library under 'Services' in the top navigation.
 
 In the Perks library, you will find a list of all of the available Perks your team can request. For each Perk, you will see the:
 
@@ -31,9 +29,7 @@ To request a Perk, first, click on the "Learn More" link associated with the sel
 * Agenda
 * Modules that make up the perk with accompanying description(s)
 
-To request the perk for your team, click on the "Request Perk" button at the top-right corner of the Perks page.
-
-![A screenshot showing the location of the Request Perk button](<../.gitbook/assets/perk-specifics (1).jpg>)
+To request the perk for your team, click on the "Request Perk" button in the top-right corner of the Perks page.
 
 After a few seconds, you will see the following message on the lower-left corner of your screen if the request is successful:
 

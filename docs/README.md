@@ -58,9 +58,9 @@ You may have various components of your application(s) spread across different p
 
 {% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team_library" %}
 
-## Cloud cost optimization
+### Cloud cost optimization
 
-### Rightsizing for Google Cloud
+## Rightsizing for Google Cloud
 
 When you create an instance in Google Cloud and it is under-utilized, you are paying more than you should as a result of idle resources.
 
@@ -76,7 +76,7 @@ With Instance Rightsizing for Google Cloud, you will:
 
 Purchasing compute commitments — Reserved Instances (RIs) or Savings Plans (SPs) for AWS; Committed Use Discounts (CUDs) for Google Cloud — is a great way for you to reduce your compute costs for stable, predictable workloads.
 
-However, getting compute commitments _just right_ and then managing them is an extremely manual, never ending process. FlexSave automates this for you while maximizing your compute discounts.
+However, getting compute commitments _just right_ and then managing them is an extremely manual, never-ending process. FlexSave automates this for you while maximizing your compute discounts.
 
 FlexSave works by analyzing your workloads, seeing which ones aren't covered by compute commitments like CUDs, RIs, or Savings Plans. Then, with the click of a button, it assigns reserved compute resources from DoiT's own wholesale inventory to optimally cover them, continuously monitoring for any changes in needs.
 
@@ -86,7 +86,7 @@ See how it works in the video below:
 FlexSave demo for Google Cloud and AWS
 {% endembed %}
 
-### BigQuery Lens
+## BigQuery Lens
 
 As powerful as BQ is, it comes at a high cost depending on your analysts' behavior and how your BigQuery architecture is set up. Adding on to this, trying to identify BigQuery resource inefficiencies without knowing _what_ you're looking for can be a huge time-suck.
 
@@ -186,7 +186,7 @@ Additionally, you can view your order history of all licenses and subscriptions 
 
 ### Advanced billing
 
-CMP gives you capabilities unavailable in Google Cloud or AWS to customize _precisely_ how you'd like to billed via Billing Profiles, Invoices, and Invoice Buckets.
+CMP gives you capabilities unavailable in Google Cloud or AWS to customize _precisely_ how you'd like to be billed via Billing Profiles, Invoices, and Invoice Buckets.
 
 [**Billing Profiles**](invoices-and-payments/setting-up-a-new-billing-profile.md) are for when your company has different entities requiring separate invoices. For instance, you may use a different payment method or currency depending on the entity.
 
@@ -201,7 +201,7 @@ From the Invoices page, you can:
 * Click on an invoice to view a detailed breakdown.
 * Download invoices.
 * Sort invoices by billing profile, cloud service, date, etc.
-* Get an at-a-glance look of the invoice status, the product its referencing, and the total/balance.
+* Get an at-a-glance look at the invoice status, the product it's referencing, and the total/balance.
 
 Any tags placed on assets will also appear in invoices so you can more easily identify invoice items.
 
@@ -211,7 +211,7 @@ This is especially useful when you have different cost centers such as R\&D or O
 
 With invoice buckets, you will receive separate invoices for each invoice bucket, billed to the billing profile it is associated with.
 
-[Go here](invoices-and-payments/managing-invoices.md) for the full list of your billing and payment related capabilities.
+[Go here](invoices-and-payments/managing-invoices.md) for the full list of your billing and payment-related capabilities.
 
 ### Contract management
 
@@ -224,7 +224,7 @@ Use User Management to:
 * [Add colleagues](user-management/creating-a-new-user.md) to your CMP team.
 * Management Billing Profile assignments.
 * Configure notifications for alerts like payment reminders, new invoices, and more.
-* [Set up and grant roles](user-management/manage-roles.md)that give access to various CMP features.
+* [Set up and grant roles](user-management/manage-roles.md) that give access to various CMP features.
 
 ### Managed cloud support
 

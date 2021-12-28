@@ -2,21 +2,21 @@
 description: How to modify the currency a particular Billing Profile is billed in.
 ---
 
-# Change Billing Currency
+# Change billing currency
 
-If you need to change your company's Billing Currency, a new Billing Profile must be registered using the Cloud Management Platform. The currency of existing billing profiles cannot be changed.
+If you need to change your company's billing currency, a new billing profile must be registered using the Cloud Management Platform. The currency of existing billing profiles cannot be changed.
 
-From the main dashboard, locate the three-dots icon on the right-hand side of the page and click 'New Billing Profile'.
+From the main CMP dashboard, select the three vertical dots icon in the top right-hand corner of the screen and then select _New Billing Profile_.
 
-![A screenshot showing you the location of the three-dots icon](../.gitbook/assets/more-vert-icon.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/new-billing-profile-menu-item.png)
 
-![A screenshot showing you the New Billing Profile button](../.gitbook/assets/new-billing-profile.png)
+Selecting this menu item will take you to the _New Billing Profile_ page:
 
-Once there you will be prompted to 'New Billing Profile' and start filling out the information about your company.
+![A screenshot showing you the _New Billing Profile_ page](../.gitbook/assets/new-billing-profile-screen.png)
 
-![A screenshot showing you the New Billing Profile form](<../.gitbook/assets/create-new-billing-profile-2- (1) (1) (1).png>)
+From this screen, you can proceed to fill out the the details of your new billing profile.
 
-After completing all the required fields in each section, you will be asked what Billing Currency you'd like to use.
+After completing all the required fields, you will be asked what billing currency you would like to use.
 
 ![A screenshot showing you the \_Billing Currency drop-down menu](../.gitbook/assets/currency.png)
 
@@ -34,8 +34,11 @@ You may choose between the following payment methods and currencies; The followi
 * :flag\_sg: SGD (Singapore dollar)
 * :flag\_mx: MXN (Mexican peso)
 
-Available payment methods are: **Wire Transfer** (IBAN/SWIFT), **Credit Card (**1.5% processing fee may apply**)**, **Bill.com**, or **ACH** Payment.
+Available payment methods are:
 
-![A screenshot showing you the payment methods radio button options](<../.gitbook/assets/payment-method-and-currency (1) (1) (1) (1) (1) (1).png>)
+* **Wire transfer** (IBAN/SWIFT)
+* **Credit card** (1.5% processing fee may apply)
+* **Bill.com**
+* **ACH** payment
 
-Click Submit once you've completed the entire registration form.
+After completing the form, select the _SUBMIT_ button to create your new billing profile.

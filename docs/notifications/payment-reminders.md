@@ -4,8 +4,6 @@ Customers can be notified when charges on upcoming invoices are soon to be due (
 
 In order to enable or disable the notification itself, click your profile icon in the upper-right corner of the page header, then select **Profile.**
 
-![A screenshot showing the location of the Profile option](<../.gitbook/assets/profile-1- (2) (3) (3) (1) (1) (1).png>)
-
 In the Profile dialog, you will find the '**Payment Reminders**' notification setting.
 
 ![A screenshot showing the location of the Payment Reminders checkbox](../.gitbook/assets/payment-reminders-notification.png)

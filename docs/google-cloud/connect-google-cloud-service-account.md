@@ -18,11 +18,11 @@ Required Permissions: **Manage Settings**
 
 From the top menu, select the gear icon (_Settings_) in the upper right-hand corner, then select _Google Cloud_ under _Cloud settings_:
 
-![A screenshot showing the _Google Cloud_ settings menu item](<../.gitbook/assets/google-cloud-settings-menu.png>)
+![A screenshot showing the _Google Cloud_ settings menu item](../.gitbook/assets/google-cloud-settings-menu.png)
 
 This will take you to the Google Cloud settings screen:
 
-![A screenshot showing the _Google Cloud_ settings screen](<../.gitbook/assets/google-cloud-settings.png>)
+![A screenshot showing the _Google Cloud_ settings screen](../.gitbook/assets/google-cloud-settings.png)
 
 To create a Google Cloud Service account, please execute the following steps:
 

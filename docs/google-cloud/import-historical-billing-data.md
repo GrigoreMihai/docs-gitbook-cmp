@@ -14,11 +14,11 @@ To get started, first, you need to ensure that you have a Service Account that c
 
 From the top menu, select the gear icon (_Settings_) in the upper right-hand corner, then select _Google Cloud_ under _Cloud settings_:
 
-![A screenshot showing the _Google Cloud_ settings menu item](<../.gitbook/assets/google-cloud-settings-menu.png>)
+![A screenshot showing the _Google Cloud_ settings menu item](../.gitbook/assets/google-cloud-settings-menu.png)
 
 This will take you to the Google Cloud settings screen:
 
-![A screenshot showing the _Google Cloud_ settings screen](<../.gitbook/assets/google-cloud-settings.png>)
+![A screenshot showing the _Google Cloud_ settings screen](../.gitbook/assets/google-cloud-settings.png)
 
 If you do not have a service account configured yet, you will need to [create a service account](connect-google-cloud-service-account.md) before you can continue.
 

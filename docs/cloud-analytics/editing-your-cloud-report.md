@@ -8,7 +8,7 @@ If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we rec
 
 An example cloud analytics report:
 
-![A screenshot showing and example report](<../.gitbook/assets/example-report.png>)
+![A screenshot showing and example report](../.gitbook/assets/example-report.png)
 
 There are several types of edits you can make to a report like this:
 

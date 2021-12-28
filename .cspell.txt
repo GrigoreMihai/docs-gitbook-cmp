@@ -55,6 +55,7 @@ ELB
 ENA
 enablement
 Ent
+FDB
 GBP
 gcloud
 GCP

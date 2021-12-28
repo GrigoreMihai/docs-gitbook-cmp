@@ -21,7 +21,7 @@ Required Permissions: **Cloud Analytics**
 
 Here's an example report:
 
-![A screenshot showing and example report](<../.gitbook/assets/example-report.png>)
+![A screenshot showing and example report](../.gitbook/assets/example-report.png)
 
 * For PNG or PDF exports, click on the hamburger menu in the top-right corner of the report visualization (directly below the _Timezone_ dropdown at the top of the visualization) and select the format you want.
 

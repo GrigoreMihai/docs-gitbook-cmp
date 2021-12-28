@@ -47,7 +47,7 @@ There are four steps to setting up your cloud report:
 
 After a few seconds, your report will appear, ready for your analysis.
 
-![A screenshot showing and example report](<../../.gitbook/assets/example-report.png>)
+![A screenshot showing and example report](../../.gitbook/assets/example-report.png)
 
 ## FAQ
 

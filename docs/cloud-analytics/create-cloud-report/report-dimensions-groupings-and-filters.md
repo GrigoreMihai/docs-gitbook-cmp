@@ -4,13 +4,13 @@
 
 When you first create a new report, you will see an interface like this:
 
-![A screenshot showing a Cloud Analytics report](<../../.gitbook/assets/new-report.png>)
+![A screenshot showing a Cloud Analytics report]../../.gitbook/assets/new-report.png)
 
 **Dimensions** determine the fields along the X-axis of the chart and **“Group by”** determines the fields along the Y-axis of the chart.
 
 In the screenshot below you can see that projects are being grouped along the vertical axis, and project data is being displayed along the horizontal axis. The year, month and day have been added as "Dimensions" so the data/columns are displayed along the horizontal axis.
 
-![A screenshot showing a Cloud Analytics report](<../../.gitbook/assets/example-report-table.png>)
+![A screenshot showing a Cloud Analytics report](../../.gitbook/assets/example-report-table.png)
 
 **Filters** allow you to view more specific information. For example, if you only want to look at GCP, you can Filter on Cloud = GCP without having to show AWS on the chart.
 

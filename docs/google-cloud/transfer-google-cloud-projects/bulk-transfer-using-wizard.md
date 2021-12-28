@@ -10,7 +10,7 @@ Please mind the Google Marketplace [note](./).
 
 From the [CMP dashboard](https://app.doit-intl.com) select _Manage Licenses & Assets_ located in the middle of the screen:
 
-![A screenshot showing the CMP dashboard](<../../.gitbook/assets/dashboard.png>)
+![A screenshot showing the CMP dashboard](../../.gitbook/assets/dashboard.png)
 
 From the _Assets_ screen, select the _Google Cloud_ menu option from the left-hand menu:
 

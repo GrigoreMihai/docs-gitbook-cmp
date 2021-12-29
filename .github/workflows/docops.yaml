@@ -32,6 +32,34 @@ jobs:
       # purposes only. This step should never fail.
       # - run: docops-gloss-terms --quiet docs
 
+      # In regular prose, "DoiT" should be capitalized properly. However, in
+      # some contexts, it is appropriate to use lowercase.
+      #
+      # The proper way to test for this would involve the use of a tool that
+      # understands the semantics of the markup language (e.g., Vale) and knows
+      # that, for example, to ignore quoted literals and code blocks.
+      #
+      # Implementing Vale is going to be involved project, so this is a
+      # temporary bodge. For now, we string a bunch of greps together to filter
+      # out all the acceptable uses of the word. If anything remains, we echo
+      # it to the log and raise an error.
+      - name: 'Check word case'
+        run: |
+          (
+            grep -rsi DoiT . |
+            grep -v "DoiT" |
+            grep -v doitintl |
+            grep -v -- '-doit' |
+            grep -v 'doit-' |
+            grep -v 'doit\\'
+          ) >/tmp/doit-case-check.txt || true
+      - name: Report case errrors
+        run: |
+          if test -s /tmp/doit-case-check.txt; then
+            cat /tmp/doit-case-check.txt
+            false
+          fi
+
       # Third-party tooling
       # -----------------------------------------------------------------------
       # The rest of the steps in this job are performed by third-party actions.

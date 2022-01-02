@@ -136,6 +136,7 @@
 * [New Invoices Notifications](notifications/new-invoices.md)
 * [Cloud Credits Notifications](notifications/cloud-credits.md)
 * [Slack Notifications](notifications/managing-alerts-in-shared-slack-channels.md)
+* [Default Notifications](notifications/default-notifications.md)
 
 ## Vendor Information
 

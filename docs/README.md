@@ -6,6 +6,15 @@ description: An overview of DoiT International's Cloud Management Platform
 
 DoiT International's _Cloud Management Platform_ (CMP) helps the developers and system administrators at digital-native companies improve cloud operations, maintain security, control cost, and ensure governance of its cloud estate.
 
+{% hint style="info" %}
+Quick links:\
+
+
+* [What's new](https://changelog.doit-intl.com) — Our public changelog
+* [Log in](./#summary) — Start using the CMP
+* [Developer docs](https://developer.doit-intl.com) — Work with our public API
+{% endhint %}
+
 The CMP has five strategic pillars:
 
 * [Cloud analytics](./#cloud-analytics)
@@ -15,15 +24,6 @@ The CMP has five strategic pillars:
 * [Cloud governance](./#cloud-governance)
 
 In this document, we'll explain. briefly go over each of the main capabilities you have access to in the CMP, along with links to other articles for each feature if you're interested in doing a deeper dive.
-
-{% hint style="info" %}
-Quick links:\
-
-
-* [What's new](https://changelog.doit-intl.com) — Our public changelog
-* [Log in](./#summary) — Start using the CMP
-* [Developer docs](https://developer.doit-intl.com) — Work with our public API
-{% endhint %}
 
 ## Summary
 

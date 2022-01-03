@@ -16,6 +16,15 @@ The CMP has five strategic pillars:
 
 In this document, we'll explain. briefly go over each of the main capabilities you have access to in the CMP, along with links to other articles for each feature if you're interested in doing a deeper dive.
 
+{% hint style="info" %}
+Quick links:\
+
+
+* [What's new](https://changelog.doit-intl.com) — Our public changelog
+* [Log in](./#summary) — Start using the CMP
+* [Developer docs](https://developer.doit-intl.com) — Work with our public API
+{% endhint %}
+
 ## Summary
 
 The following table offers a brief summary of our support for [Google Cloud Platform](https://cloud.google.com/gcp) (GCP), [Amazon Web Services](https://aws.amazon.com) (AWS), and [Microsoft Azure](https://azure.microsoft.com):

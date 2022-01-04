@@ -19,7 +19,7 @@ We set the root user’s email address to a unique DoiT-owned email account. Aut
 You can manage all access as either:
 
 * Users within the DoiT [Cloud Management Platform](https://app.doit-intl.com)
-* IAM Roles for AWS resources, such as EC2 instances (see [AWS Identity and Access Management](https://docs.rackspace.com/docs/fanatical-support-aws/access-and-permissions/#aws-iam))
+* IAM Roles for AWS resources, such as EC2 instances
 
 For the specific tasks that require AWS account root user permission, a small set of DoiT staff can carry out the tasks.
 
@@ -34,5 +34,3 @@ Our tools and employees accomplish most AWS account management by using IAM role
 There are two relevant scenarios: the closure of an account and a reverse assumption (customers taking billing ownership of accounts). If you close an account, root credentials lead to a _dead end_ so we don’t need to destroy them.
 
 When customers terminate management services with DoiT International, we follow a _reverse assumption_ process. This includes changing the root user credentials to those defined by the customer.
-
-\

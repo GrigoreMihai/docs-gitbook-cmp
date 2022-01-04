@@ -65,7 +65,7 @@ jobs:
           # Try to catch broken Markdown link syntaax while allowing other uses
           # of the closing `]` bracket. This issue is not flagged by
           # markdownlint.
-          ! grep -rsiE '[^0-9]\][^( :,]'
+          ! grep -rsiE '[^0-9]\][^( :,]' docs
 
       # Third-party tooling
       # -----------------------------------------------------------------------

@@ -4,7 +4,7 @@
 
 When you first create a new report, you will see an interface like this:
 
-![A screenshot showing a Cloud Analytics report]../../.gitbook/assets/new-report.png)
+![A screenshot showing a Cloud Analytics report](../../.gitbook/assets/new-report.png)
 
 **Dimensions** determine the fields along the X-axis of the chart and **“Group by”** determines the fields along the Y-axis of the chart.
 

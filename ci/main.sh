@@ -12,7 +12,7 @@ append_tmp_errors() {
     type="${1}"
     tmpfile="${2}"
     if test -s "${tmpfile}"; then
-        echo "${type} errors:"
+        echo "${type} errors:" >>"${OUTPUT_FILE}"
         cat <"${tmpfile}" >>"${OUTPUT_FILE}"
     fi
     rm -f "${tmpfile}"

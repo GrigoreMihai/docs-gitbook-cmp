@@ -54,7 +54,7 @@ export PIPX_HOME
 PIPX_BIN_DIR=/usr/local/bin
 export PIPX_BIN_DIR
 
-PATH="$PIPX_BIN_DIR:$PATH"
+PATH="${PIPX_BIN_DIR}:${PATH}"
 export PATH
 
 pipx install doitintl-docops
@@ -87,7 +87,7 @@ npm install --global --no-audit --prefer-dedupe \
 # Go
 # -----------------------------------------------------------------------------
 
-# Avoid installing Rust and compiling from source, which pulls in a lot of
+# Avoid installing Go and compiling from source, which pulls in a lot of
 # dependencies and takes a lot of time
 
 MISSPELL_BIN="misspell"

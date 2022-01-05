@@ -75,6 +75,14 @@ grep -rsiE '[^0-9]\][^( :,]' docs \
 
 append_tmp_errors "Markdown" "${tmp_file}"
 
+# Unused images
+# -----------------------------------------------------------------------------
+
+find docs/.gitbook/assets -type f | while read -r file; do
+    asset_basename="$(basename "${file}")"
+    echo $asset_basename
+done
+
 # Output
 # -----------------------------------------------------------------------------
 

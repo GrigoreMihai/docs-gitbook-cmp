@@ -1,4 +1,8 @@
 {
-  "image": "mcr.microsoft.com/vscode/devcontainers/base:alpine",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [],
   "remoteUser": "vscode"
 }

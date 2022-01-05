@@ -1,7 +1,8 @@
 {
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "image": "ghcr.io/doitintl/docs-gitbook-cmp/devcontainer:main",
+  // "build": {
+  //   "dockerfile": "Dockerfile"
+  // },
   "settings": {},
   "extensions": [],
   "remoteUser": "vscode"

@@ -34,7 +34,7 @@ misc:
 	@ ci/misc.sh
 
 all: ec
-.PHONY: ec # Run EditorsConfig check
+.PHONY: ec # Run EditorConfig check
 ec:
 	$(call print-target)
 	@ ec

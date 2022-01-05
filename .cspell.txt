@@ -81,6 +81,7 @@ orgs
 Oxley
 Paulo
 PCI
+pipx
 PPU
 PREEMPTIBLE
 pro-serv

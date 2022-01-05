@@ -16,6 +16,9 @@ max_line_length = off
 [*.csv]
 max_line_length = off
 
+[*.sh]
+indent_size = 4
+
 [.markdown-link-check.json]
 max_line_length = off
 

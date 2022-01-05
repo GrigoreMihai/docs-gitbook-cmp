@@ -31,7 +31,7 @@ Please feel free to [create an issue][issues] if you would like to:
 ### Create a pull request
 
 The documentation itself lives under the `docs` directory and is written using
-[GitBook-flavoured Markdown][markdown]. If you would like to make changes
+[GitBook-flavored Markdown][markdown]. If you would like to make changes
 directly, please feel free to [fork this repository][fork] and [create a pull
 request][pr].
 

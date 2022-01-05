@@ -53,7 +53,7 @@ After a few seconds, your report will appear, ready for your analysis.
 
 ### When are the metric amounts (Cost, Usage, etc) for a day counted as "final"?
 
-You can consider numbers “final” for 3 days after the date. With that in mind, there is really no SLA for this and numbers can change any time if there are corrections or delays that needs to be applied.
+You can consider numbers "final" for 3 days after the date. With that in mind, there is really no SLA for this and numbers can change any time if there are corrections or delays that needs to be applied.
 
 ### Are the reports back-filled/updated, and at what frequency?
 

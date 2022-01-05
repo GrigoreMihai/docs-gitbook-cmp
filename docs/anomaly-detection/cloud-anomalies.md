@@ -11,7 +11,7 @@ Cloud cost anomaly detection offers end-to-end monitoring of spikes in your Goog
 
 At the core of our cost anomaly detection service is our machine-learning algorithm. It works by monitoring billing data and analyzing the trend of spending in your environment. In addition, the machine learning model identifies billing patterns across many customers, forecasting your cloud spending, and constantly improving itself to provide even more accurate results.
 
-Essentially, billing records that don’t align with your anticipated spending behavior are identified for its deviation from the established patterns. You can also get insights into which resources are causing the anomalies and take corrective actions. Our anomaly detection engine is always running, however, you can opt to get email notifications, to get near-real-time email alerts on detected anomalies.
+Essentially, billing records that don't align with your anticipated spending behavior are identified for its deviation from the established patterns. You can also get insights into which resources are causing the anomalies and take corrective actions. Our anomaly detection engine is always running, however, you can opt to get email notifications, to get near-real-time email alerts on detected anomalies.
 
 ## Manage anomaly notifications
 

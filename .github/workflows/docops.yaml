@@ -7,103 +7,55 @@ on:
       - main
 
 jobs:
-  qa:
-    name: GitBook QA
+  build:
+    name: Build devcontainer
     runs-on: ubuntu-latest
-    # All of the steps in this job run inside a custom DocOps container. We use
-    # the lowest supported Python version provided by the DoiT DocOps container
-    # images. See <https://github.com/doitintl/docops-containers> for more
-    # information.
+    steps:
+      - uses: actions/checkout@v2
+      - uses: rdietrick/did-files-change@v1.2
+        id: check-files
+        with:
+          pathspec: .devcontainer
+      - uses: docker/metadata-action@v3
+        if: ${{ steps.check-files.outputs.changed }}
+        id: meta
+        with:
+          images: ghcr.io/${{ github.repository }}/devcontainer
+          github-token: ${{ github.token }}
+      - uses: docker/login-action@v1
+        if: |
+          ${{ steps.check-files.outputs.changed }} &&
+          github.event_name != 'pull_request'
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v2
+        if: ${{ steps.check-files.outputs.changed }}
+        id: build
+        with:
+          context: .devcontainer
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          push: ${{ github.event_name != 'pull_request' }}
+  check:
+    name: Run checks
+    runs-on: ubuntu-latest
     container:
-      image: ghcr.io/doitintl/docops/python-3.8:main
-      options: --user root
+      image: mcr.microsoft.com/vscode/devcontainers/base:alpine
     steps:
       # Check out the target repository
       - uses: actions/checkout@v2
-
-      # DoiT tooling
-      # -----------------------------------------------------------------------
-      - run: ci/main.sh
-
-      # Third-party tooling
-      # -----------------------------------------------------------------------
-      # The rest of the steps in this job are performed by third-party actions.
-      # If the functionality they provide proves useful, the tooling will be
-      # integrated directly into the the DoiT DevOps containers.
-      #
-      # Bringing the functionality in-house will give us the ability to
-      # configure shared defaults, give us more options for customization in
-      # general, and allow us to use the output for QA automation (e.g.,
-      # creating issues when changes are landed that change the lint status
-      # from passing to failing).
-
-      # Runs EditorConfig (https://editorconfig.org/) on the source files,
-      # reading config from the the `.editorconfig` file at the root of the
-      # repository.
-      - uses: kasperhesthaven/setup-editorconfig-checker@v1.2.0
-        if: always()
-      - run: editorconfig-checker
-
-      # Runs Prettier (https://prettier.io/) on the source files, reading
-      # config from the `.prettierrc.yaml` and `.prettierignore` files at the
-      # root of the repository.
-      #
-      # Note: Prettier has been configured to ignore Markdown files, which are
-      # handled separately.
-      - uses: actionsx/prettier@v2
-        if: always()
-        with:
-          args: --check .
-
-      # Runs cSpell <https://github.com/streetsidesoftware/cspell> on the
-      # source files, reading configuration from a file named `cspell.json` at
-      # the root of the repository (if it exists).
-      - uses: zwaldowski/cspell-action@v1
-        if: always()
-        with:
-          config: .cspell.json
-          paths: 'docs/**/*'
-          unique: true
-
-      # This is third-party action that uses tries to detect non-inclusive
-      # language. See <https://github.com/get-woke/woke> for more information.
-      - uses: get-woke/woke-action@v0
-        if: always()
-        with:
-          workdir: docs
-          fail-on-error: true
-          github-token: ${{ github.token }}
-
-      # This is a third party action that uses markdownlint
-      # <https://github.com/markdownlint/markdownlint> to check for syntax and
-      # stylistic errors in any Markdown files present. This action will read
-      # from a file named `.markdownlint.yaml` at the root of the repository.
-      - uses: nosborn/github-action-markdown-cli@v2.0.0
-        if: always()
-        with:
-          files: .
-
-      # This is a third-party action that uses markdown-link-check
-      # <https://github.com/tcort/markdown-link-check> to scan for broken links
-      # in any Markdown files present. This action can be configured with a
-      # file named `.markdown-link-check.json` at the root of the repository.
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
-        if: always()
-        with:
-          config-file: .markdown-link-check.json
-          use-verbose-mode: yes
-          use-quiet-mode: yes
-          check-modified-files-only: no
-
-      # This is a third-party action that updates Slack with the outcome status
-      # of this job.
+      - run: .devcontainer/setup.sh
+      - run: make all
+      # Update Slack with the status of this job
       - uses: ravsamhq/notify-slack-action@v1
         if: always() && github.event_name != 'pull_request'
         env:
           # TODO: Figure out how to use the name of the job without copying it
-          STATUS: 'GitBook QA: <{run_url}|{status_message}>'
-          COMMIT: 'for commit `<{commit_url}|{commit_sha}>`'
-          BRANCH: 'on branch `{branch}`'
+          STATUS: 'Checks: <{run_url}|{status_message}>'
+          COMMIT: for commit `<{commit_url}|{commit_sha}>`
+          BRANCH: on branch `{branch}`
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         with:
           status: ${{ job.status }}

@@ -6,7 +6,7 @@ description: extract cost insights about your Google Cloud Storage buckets
 
 ## Introduction
 
-Google Cloud Storage (GCS) is object storage for companies of all sizes. You can use GCS to store any amount of data and retrieve it as often as you’d like.
+Google Cloud Storage (GCS) is object storage for companies of all sizes. You can use GCS to store any amount of data and retrieve it as often as you'd like.
 
 Cloud Management Platform (CMP) is a software service that automatically identifies cloud cost issues, gives those insights to relevant teams, and delivers the context you need to get back on track.
 

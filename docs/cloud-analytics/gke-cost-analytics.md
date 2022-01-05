@@ -59,7 +59,7 @@ You can find a more detailed description of these steps in the Google Kubernetes
 
 ## Step 3 - Grant the "BigQuery Data Viewer" role
 
-In order to do this for each GKE usage dataset you’ve created, you will need to ensure this role is assigned to the Service Account email created in [Step 1](gke-cost-analytics.md#step-1-enable-the-gke-cost-analytics-feature-in-the-doit-cmp) above.
+In order to do this for each GKE usage dataset you've created, you will need to ensure this role is assigned to the Service Account email created in [Step 1](gke-cost-analytics.md#step-1-enable-the-gke-cost-analytics-feature-in-the-doit-cmp) above.
 
 First, navigate to the BigQuery console and locate the dataset you chose from [Step 2](gke-cost-analytics.md#step-2-enable-gke-usage-metering-in-the-google-cloud-console) to store the cluster usage information.
 
@@ -78,7 +78,7 @@ Note: Datasets to which the Service Account email is not granted this permission
 ## Step 4 - Make sure you have the Kubernetes Engine API enabled
 
 {% hint style="warning" %}
-If you created the CMP service account in `Project A`, then “Kubernetes Engine API” needs to be enabled in the project in which you created the CMP service account, `Project A.`
+If you created the CMP service account in `Project A`, then "Kubernetes Engine API" needs to be enabled in the project in which you created the CMP service account, `Project A.`
 {% endhint %}
 
 ## Analyzing GKE Cost Data in the CMP
@@ -97,7 +97,7 @@ Drag a GKE chip or a GKE label chip into the "Group By" or "Dimensions" section 
 
 ## Current Limitations
 
-* GKE Reports will only show data from the day that all of the steps were completed. We may be able to load historical data upon request (i.e. “backfill”). Please contact support to file a backfill request.
-* If you did not have “GKE Usage Metering” enabled until now, we will not be able to show historical data for GKE reports.
+* GKE Reports will only show data from the day that all of the steps were completed. We may be able to load historical data upon request (i.e. "backfill"). Please contact support to file a backfill request.
+* If you did not have "GKE Usage Metering" enabled until now, we will not be able to show historical data for GKE reports.
 * It will take a few hours from the moment you complete all steps until you will be able to use GKE Reports in Cloud Analytics. Usually, this process will take around 4 hours.
-* GKE reports are not compatible with some of the dimensions. For example, you will not be able to create a report that is based on the “GKE Cluster” field and the “Zone” field. You also cannot combine both Google Cloud Labels and GKE Labels in the same report.
+* GKE reports are not compatible with some of the dimensions. For example, you will not be able to create a report that is based on the "GKE Cluster" field and the "Zone" field. You also cannot combine both Google Cloud Labels and GKE Labels in the same report.

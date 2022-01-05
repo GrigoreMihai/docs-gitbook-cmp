@@ -10,9 +10,9 @@ We require access to each AWS Master Payer Account (MPA) root credentials to com
 
 We hold the root credentials to secure AWS accounts and prevent fraudulent usage because security compromise is critical to our management of AWS Master Payer Accounts accounts. AWS specifies several Identity and Access Management best practices to minimize the risk of account compromise. These include locking away the AWS account root user access keys and enabling multi-factor authentication (MFA). By holding the root permission and credentials, we can enforce these best practices on AWS accounts.
 
-Amazon requires its partners such as DoiT International to use these root credentials to communicate with Amazon’s billing department to address billing issues.
+Amazon requires its partners such as DoiT International to use these root credentials to communicate with Amazon's billing department to address billing issues.
 
-We set the root user’s email address to a unique DoiT-owned email account. Automation creates and updates tickets in our ticketing systems based on emails sent to that email address. This lets our Customer Reliability Engineering to share important account updates with you through tickets.
+We set the root user's email address to a unique DoiT-owned email account. Automation creates and updates tickets in our ticketing systems based on emails sent to that email address. This lets our Customer Reliability Engineering to share important account updates with you through tickets.
 
 **How are my team and I impacted by not holding our AWS account root user credentials?**
 
@@ -31,6 +31,6 @@ Our tools and employees accomplish most AWS account management by using IAM role
 
 **How does DoiT release root credentials?**
 
-There are two relevant scenarios: the closure of an account and a reverse assumption (customers taking billing ownership of accounts). If you close an account, root credentials lead to a _dead end_ so we don’t need to destroy them.
+There are two relevant scenarios: the closure of an account and a reverse assumption (customers taking billing ownership of accounts). If you close an account, root credentials lead to a _dead end_ so we don't need to destroy them.
 
 When customers terminate management services with DoiT International, we follow a _reverse assumption_ process. This includes changing the root user credentials to those defined by the customer.

@@ -118,7 +118,7 @@ If none of your projects were successfully transferred, you will see this messag
 
 There are a few "edge case" situations in which some or all of your Google Cloud projects won't transfer successfully:
 
-1. The project(s) is associated with another Google Organization that the service account doesn’t have an access to.
+1. The project(s) is associated with another Google Organization that the service account doesn't have an access to.
 2. The origin billing account is not under the Organization the service account has permissions to.
 
 To identify which project(s) didn't transfer successfully, click on the hyperlinked "Click here" in the pop-up shown above. This will copy to clipboard all of the projects you attempted to transfer, as well as their statuses.

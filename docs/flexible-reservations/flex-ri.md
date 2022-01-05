@@ -62,7 +62,7 @@ Under the "Status" column, Flex RI orders can have four possible values:
 * **New**: the order was made, but goes into effect in the following month or beyond \(if a recurring purchase is set up\). New orders can be modified until the third-to-last business day of the month prior to when they go into effect.
 * **Active**: the Flex RI order is currently being applied to the instance\(s\) specified
 * **Retired**: the order is past its expiration date
-* **Canceled**: the order was cancelled and never applied
+* **Canceled**: the order was canceled and never applied
 
 To view usage statistics on a specific order, click on the arrow next to an active or retired order to expand your order and view more details.
 

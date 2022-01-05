@@ -4,7 +4,7 @@ description: How developers on your team can create sandbox accounts in a few cl
 
 # Creating Google Cloud Sandbox
 
-Google Cloud Sandbox for Organizations is the easiest way for companies to set up and manage Google Cloud sandbox accounts. Through the Cloud Management Platform, you’ll be able to create a sandbox and monitor budget utilization.
+Google Cloud Sandbox for Organizations is the easiest way for companies to set up and manage Google Cloud sandbox accounts. Through the Cloud Management Platform, you'll be able to create a sandbox and monitor budget utilization.
 
 {% hint style="info" %}
 Required Permission: **Sandbox User**

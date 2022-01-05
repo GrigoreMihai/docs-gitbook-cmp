@@ -6,7 +6,7 @@ When you first create a new report, you will see an interface like this:
 
 ![A screenshot showing a Cloud Analytics report](../../.gitbook/assets/new-report.png)
 
-**Dimensions** determine the fields along the X-axis of the chart and **“Group by”** determines the fields along the Y-axis of the chart.
+**Dimensions** determine the fields along the X-axis of the chart and **"Group by"** determines the fields along the Y-axis of the chart.
 
 In the screenshot below you can see that projects are being grouped along the vertical axis, and project data is being displayed along the horizontal axis. The year, month and day have been added as "Dimensions" so the data/columns are displayed along the horizontal axis.
 
@@ -30,7 +30,7 @@ In the screenshot below you can see that projects are being grouped along the ve
 
 > **Credit**
 >
-> A credit is usually a cloud provider’s way of implementing discounts such as Committed Use Discount or Sustained Use Discount or free-tier usage of a service
+> A credit is usually a cloud provider's way of implementing discounts such as Committed Use Discount or Sustained Use Discount or free-tier usage of a service
 
 > **Folder**
 >
@@ -58,7 +58,7 @@ In the screenshot below you can see that projects are being grouped along the ve
 
 > **Service**
 >
-> A service is the high-level “type” of cloud technology that can be broken down into SKUs. A SKU is the resource itself for which there’s a given price per unit.
+> A service is the high-level "type" of cloud technology that can be broken down into SKUs. A SKU is the resource itself for which there's a given price per unit.
 
 > **SKU**
 >

@@ -6,7 +6,7 @@ description: >-
 
 # Slack Integration
 
-The DoiT CMP Slack application helps you share rich previews of your Cloud Analytics Reports and Budgets in your Slack workspace when you paste any CMP link. This makes it easy for anyone in your Slack workspace to learn from your CMP analyses, or to glean insights without needing to open the CMP itself.
+The DoiT CMP Slack application helps you share rich previews of your Cloud Analytics Reports and Budgets in your Slack workspace when you paste any CMP link. This makes it easy for anyone in your Slack workspace to learn from your CMP analyzes, or to glean insights without needing to open the CMP itself.
 
 {% hint style="info" %}
 Only Slack Workspace Admins can install Slack applications.

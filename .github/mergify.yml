@@ -2,7 +2,9 @@ pull_request_rules:
   - name: Ready to merge
     conditions:
       - label=ready-to-merge
-      - check-success=GitBook QA
+      - check-success=Build devcontainer
+      - check-success=Run checks
+      - check-success~=GitGuardian
     actions:
       merge:
         method: rebase

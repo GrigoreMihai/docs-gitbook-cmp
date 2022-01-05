@@ -10,7 +10,7 @@ If you have a contract for a G Suite or Google Workspace with DoiT International
 
 To transfer the management of your existing G Suite setup you will need to retrieve your Transfer Token from G Suite, you can retrieve your token by following the below steps:
 
-* [ ] Go to the Retrieve [Transfer Token](http://admin.google.com/TransferToken) page. If you aren’t already logged in, ensure you are signed in as the admin user for your G Suite setup.
+* [ ] Go to the Retrieve [Transfer Token](http://admin.google.com/TransferToken) page. If you aren't already logged in, ensure you are signed in as the admin user for your G Suite setup.
 * [ ] Agree to the terms and conditions by checking the required box.
 * [ ] You will be asked to enter the reseller's public identifier
 

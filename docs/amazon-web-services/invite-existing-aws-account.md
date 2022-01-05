@@ -56,7 +56,7 @@ After signing in to the AWS Console and accepting the invitation, a final email 
 
 ## Frequently asked questions
 
-### I’ve performed all the requested steps, I have spends on my AWS billing account, but my information is still not there. What could be the reason ?
+### I've performed all the requested steps, I have spends on my AWS billing account, but my information is still not there. What could be the reason ?
 
 Once successfully completed it takes 24-72 hours for the data to start flowing through from AWS, then our Cloud Management Platform will update.
 

@@ -35,7 +35,7 @@ Right below this summary you'll find a few important metrics around your FlexSav
 
 ## Understanding FlexSave Recommendation Metrics
 
-![A screenshot of FlexSave metrics](../.gitbook/assets/image%20%2821%29.png)
+![A screenshot of FlexSave metrics](<../.gitbook/assets/image (21).png>)
 
 **Total Instances Eligible:** total number of EC2 instances \(across all recommendations\) that don't appear to be covered by a discounted billing mechanism such as RIs, Savings Plans, etc.
 

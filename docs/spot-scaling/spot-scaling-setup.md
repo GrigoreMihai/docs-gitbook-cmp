@@ -18,7 +18,7 @@ If your account was already linked prior to enabling Spot Scaling functionality,
 
 **Follow** [**these instructions**](https://help.doit-intl.com/amazon-web-services/link-account#adding-a-feature) **on adding a feature to an already-linked AWS account.** Be sure to check the box next to "Spot Scaling", as shown below.
 
-![A screenshot showing the checkbox next to the _Spot Scaling_ option](../.gitbook/assets/image%20%2869%29.png)
+![A screenshot showing the checkbox next to the _Spot Scaling_ option](<../.gitbook/assets/image (69).png>)
 
 ## Implement Spot Scaling Recommendations
 

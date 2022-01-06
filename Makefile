@@ -33,6 +33,12 @@ misc:
 	$(call print-target)
 	@ ci/misc.sh
 
+all: images
+.PHONY: images # Run image checks
+images:
+	$(call print-target)
+	@ ci/images.sh
+
 all: ec
 .PHONY: ec # Run EditorConfig check
 ec:
@@ -43,17 +49,19 @@ all: wtf
 .PHONY: wtf # Run Whitespace Total Fixer
 wtf:
 	$(call print-target)
-	@ find . -type f \
-		-not -path './.git/*' \
-		-exec grep -Iq . {} \; -print0 | \
-		xargs -0 wtf --quiet -E lf --dry-run
+	@ tmp_file="$$(mktemp)" && find . -type f \
+		-not -path './.git/*' -not -path './*.log' \
+		-exec grep -Iq . {} \; -print0 | while read -r file; do \
+			wtf --quiet -E lf "$${file}" >"$${tmp_file}"; \
+			diff -u "$${file}" "$${tmp_file}"; \
+	done
 
 all: lintspaces
 .PHONY: lintspaces # Run lintspaces
 lintspaces:
 	$(call print-target)
 	@ find . -type f \
-		-not -path './.git/*' \
+		-not -path './.git/*' -not -path './*.log' \
 		-exec grep -Iq . {} \; -print0 | \
 		xargs -0 lintspaces --editorconfig .editorconfig --matchdotfiles
 
@@ -91,7 +99,8 @@ all: cspell
 cspell:
 	$(call print-target)
 	@ find . -type f \
-		-not -path './.git/*' -not -path './.cspell.txt' -print0 | \
+		-not -path './.git/*'  -not -path './*.log' \
+		-not -path './.cspell.txt' -print0 | \
 		xargs -0 cspell --config .cspell.json --no-progress --no-summary
 
 all: misspell
@@ -99,7 +108,7 @@ all: misspell
 misspell:
 	$(call print-target)
 	@ find . -type f \
-		-not -path './.git/*' -print0  | \
+		-not -path './.git/*' -not -path './*.log' -print0  | \
 		xargs -0 misspell -locale US --
 
 all: woke

@@ -32,7 +32,7 @@ Complete your Flexible Reserved Instances order by providing the following infor
 | Recurring        | For orders with a recurring basis, select the last month you want this order to go                        |
 | Notes            | Use notes to give more context to your order such as PO numbers, workload names, etc.                     |
 
-![A screenshot of the _Flexible Reserved Instances Order_ modal dialog](../.gitbook/assets/image%20%286%29.png)
+![A screenshot of the _Flexible Reserved Instances Order_ modal dialog](../.gitbook/assets/image (6).png)
 
 Click "Submit" and your order will be created and become visible in the list:
 

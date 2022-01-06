@@ -133,7 +133,8 @@ all: markdown-link-check
 .PHONY: markdown-link-check # Run markdown-link-check
 markdown-link-check:
 	$(call print-target)
-	@ find . -type f -name '*.md' | \
+	@ find . -type f \
+		-name '*.md' -not -path './archive/*' | \
 		parallel -k \
 		markdown-link-check --quiet --config .markdown-link-check.json
 

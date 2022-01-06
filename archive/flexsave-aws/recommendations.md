@@ -35,7 +35,7 @@ Right below this summary you'll find a few important metrics around your FlexSav
 
 ## Understanding FlexSave Recommendation Metrics
 
-![A screenshot of FlexSave metrics](<../.gitbook/assets/image (21).png>)
+![A screenshot of FlexSave metrics](../.gitbook/assets/flex-ri-recommendations-metrics.png)
 
 **Total Instances Eligible:** total number of EC2 instances \(across all recommendations\) that don't appear to be covered by a discounted billing mechanism such as RIs, Savings Plans, etc.
 
@@ -79,7 +79,7 @@ This will open an Order Confirmation pop-up which lets you know:
 
 After reviewing, click "Confirm" to place your order. You will still be able to edit your orders up until the final 24 hours of the current month.
 
-![A screenshot showing the _Order Confirmation_ modal dialog](../.gitbook/assets/cleanshot-2021-06-22-at-12.33.33.jpg)
+![A screenshot showing the _Order Confirmation_ modal dialog](../.gitbook/assets/order-confirmation-dialog.jpg)
 
 ## Modifying Orders
 
@@ -91,10 +91,10 @@ You can easily identify your orders by filtering for orders that have Status == 
 
 Then click on the "Edit Order" icon next to the order you wish to modify.
 
-![A screenshot identifying the _Status_ column and showing the location of the _Edit Order_ icon](../.gitbook/assets/cleanshot-2021-06-22-at-12.35.09.jpg)
+![A screenshot identifying the _Status_ column and showing the location of the _Edit Order_ icon](../.gitbook/assets/status-column-edit-order-icon.jpg)
 
 Here you can modify any aspect of your order, including number of instances.
 
 You can also make the order a recurring purchase up to a certain month and year, or modify the Order Notes to give the Flex RI purchase more context.
 
-![A screenshot of the _FlexSave Instances Order_ modal dialog](../.gitbook/assets/cleanshot-2021-06-22-at-12.35.59.jpg)
+![A screenshot of the _FlexSave Instances Order_ modal dialog](../.gitbook/assets/flexsave-instances-order-dialog.jpg)

@@ -65,11 +65,11 @@ First, navigate to the BigQuery console and locate the dataset you chose from [S
 
 From there, select "Share Dataset"
 
-![A screenshot showing you the location of the Share Dataset button](<../.gitbook/assets/image (23) (1).png>)
+![A screenshot showing you the location of the Share Dataset button](../.gitbook/assets/share-dataset-button.png)
 
 Then enter the service account email in the "Add members" field. Finally, grant this email the "BigQuery Data Viewer" role and click "Add", then "Done" to apply the changes.
 
-![A screenshot showing how to grant the BigQuery Data Viewer role](<../.gitbook/assets/image (25) (1).png>)
+![A screenshot showing how to grant the BigQuery Data Viewer role](../.gitbook/assets/grant-bigquery-data-view-role.png)
 
 {% hint style="info" %}
 Note: Datasets to which the Service Account email is not granted this permission will not be available in the GKE Cost Analytics feature of the DoiT CMP.
@@ -87,11 +87,11 @@ Once everything is set up, your team's GKE metering data can be analyzed using t
 
 To start, open a new Report. You should see new GKE dimensions appear alongside your other billing dimensions, as highlighted below.
 
-![A screenshot showing the GKE dimensions](<../.gitbook/assets/image (31) (1).png>)
+![A screenshot showing the GKE dimensions](../.gitbook/assets/gke-dimensions.png)
 
 You will also find any GKE labels in the Labels chip, under the "GKE Labels" header in the dropdown.
 
-![A screenshot showing the GKE Labels dropdown](<../.gitbook/assets/image (30) (1).png>)
+![A screenshot showing the GKE Labels dropdown](../.gitbook/assets/gke-labels-dropdown.png)
 
 Drag a GKE chip or a GKE label chip into the "Group By" or "Dimensions" section to start understanding the real costs of running Kubernetes-based workloads on Google Kubernetes Engine.
 

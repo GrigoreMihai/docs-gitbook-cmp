@@ -16,7 +16,7 @@ To get started, first, you need to ensure that you have a Service Account that c
 2. Select "**Google Cloud**" tab
 3. Locate the "**Service Account**" listed in Configured Accounts
 
-![A screenshot showing you how to identify the linked service accounts](<../.gitbook/assets/image (103).png>)
+![A screenshot showing you how to identify the linked service accounts](../.gitbook/assets/identify-linked-service-accounts.png)
 
 If you do not have this configured yet, you need to create a service account and connect CMP to your Google Cloud Organization. Follow the steps in this link: [Connect Google Cloud Service Account](https://help.doit-intl.com/google-cloud/connect-google-cloud-service-account)
 
@@ -36,9 +36,9 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 4. Click "**Add**"
 5. Click "**Done**"
 
-![A screenshot showing you the location of the _Share Dataset_ button](<../.gitbook/assets/image (96).png>)
+![A screenshot showing you the location of the _Share Dataset_ button](../.gitbook/assets/share-dataset-button.png)
 
-![A screenshot showing you how to grant the _BigQuery Data Viewer_ role](<../.gitbook/assets/image (94).png>)
+![A screenshot showing you how to grant the _BigQuery Data Viewer_ role](../.gitbook/assets/grant-bigquery-data-viewer-role.png)
 
 ## Step 3. Link your Google Cloud Direct Billing Account
 
@@ -50,7 +50,7 @@ Required Permission: CMP Assets Manager or CMP Admin ?
 2. Select "**Google Cloud**" tab
 3. Click the dropdown button next to "New Billing Account" and select "**Link Direct Account**"
 
-![A screenshot showing you how to link your _Google Cloud Direct Billing_ account](../.gitbook/assets/image (107).png)
+![A screenshot showing you how to link your _Google Cloud Direct Billing_ account](../.gitbook/assets/link-google-cloud-billing-account.png)
 
 You can now import your historical billing data into CMP. You need the following information to complete the process:
 
@@ -58,10 +58,10 @@ You can now import your historical billing data into CMP. You need the following
 * Source Project: Enter the "**Project ID"**
 * Source Dataset: Enter the "**Dataset ID"**
 
-![A screenshot showing you the _Link your Google Cloud Direct Billing Account_ form](<../.gitbook/assets/image (119).png>)
+![A screenshot showing you the _Link your Google Cloud Direct Billing Account_ form](../.gitbook/assets/link-google-account-form.png)
 
 Once you click "**Import**" a new card will be added to your assets reflecting the details and progress or completion status.
 
-![A screenshot showing you the new asset loading card](<../.gitbook/assets/image (115).png>)
+![A screenshot showing you the new asset loading card](../.gitbook/assets/new-asset-loading-card.png)
 
-![A screenshot showing you the _Create Google Billing Account_ modal dialog](<../.gitbook/assets/image (118).png>)
+![A screenshot showing you the _Create Google Billing Account_ modal dialog](../.gitbook/assets/create-google-billing-account-dialog.png)

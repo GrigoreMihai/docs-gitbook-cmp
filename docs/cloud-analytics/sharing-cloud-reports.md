@@ -36,13 +36,13 @@ Once you've entered the email(s) of who you're sharing your Cloud Report with, c
 
 Once a report is shared, the recipient(s) will receive an email that looks like this:
 
-![A screenshot showing an invitation email](../.gitbook/assets/cleanshot-2020-07-01-at-12.56.13.png)
+![A screenshot showing an invitation email](../.gitbook/assets/invitation-email.png)
 
 ### Editing a user's role
 
 To change a user's role, make them the owner of the report, or remove them from the report, click on the dropdown next to their email in the Share Report pop-up. From there, make a selection and click "Save" to apply the changes.
 
-![A screenshot showing the Share Report modal dialog](<../.gitbook/assets/userrolesreports (1).png>)
+![A screenshot showing the Share Report modal dialog](../.gitbook/assets/share-report-dialog.png)
 
 ## Exporting Cloud Analytics Reports
 

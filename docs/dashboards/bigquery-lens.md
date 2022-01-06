@@ -185,7 +185,7 @@ We may not be able to detect which table is being scanned because of:
 * Queries we are unable to parse due to complexity (i.e., a parser time out), or
 * Queries that use a function or statement that we do not support yet
 
-![A screenshot highlighting the _Not yet allocated_ figure](<../.gitbook/assets/image (29) (1).png>)
+![A screenshot highlighting the _Not yet allocated_ figure](../.gitbook/assets/not-yet-allocated.png)
 
 ### How much does BigQuery Lens cost monthly?
 

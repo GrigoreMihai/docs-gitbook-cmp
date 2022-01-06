@@ -18,7 +18,7 @@ If your account was already linked prior to enabling Spot Scaling functionality,
 
 **Follow** [**these instructions**](https://help.doit-intl.com/amazon-web-services/link-account#adding-a-feature) **on adding a feature to an already-linked AWS account.** Be sure to check the box next to "Spot Scaling", as shown below.
 
-![A screenshot showing the checkbox next to the _Spot Scaling_ option](<../.gitbook/assets/image (69).png>)
+![A screenshot showing the checkbox next to the _Spot Scaling_ option](../.gitbook/assets/spot-scaling-checkbox.png)
 
 ## Implement Spot Scaling Recommendations
 
@@ -26,7 +26,7 @@ If your account was already linked prior to enabling Spot Scaling functionality,
 
 To navigate to your Spot Scaling recommendations, click on the Spot Scaling icon in your lefthand navigation panel.
 
-![A screenshot showing the location of the _Spot Scaling_ menu item](../.gitbook/assets/cleanshot-2021-06-22-at-13.44.17.jpg)
+![A screenshot showing the location of the _Spot Scaling_ menu item](../.gitbook/assets/spot-scaling-menu-item.jpg)
 
 Once an AWS account is linked, any Auto Scaling Groups \(ASGs\) associated with it which aren't optimized will appear in your Spot Scaling page.
 

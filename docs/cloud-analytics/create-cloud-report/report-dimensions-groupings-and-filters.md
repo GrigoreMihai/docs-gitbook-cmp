@@ -74,11 +74,11 @@ In the screenshot below you can see that projects are being grouped along the ve
 >
 > By default, when you create a new report, the "**Year**", "**Month**", and "**Day**" dimensions would already be added as shown on the example image below.
 
-![A screenshot showing the date and time dimensions input widget](<../../.gitbook/assets/image (127) (2) (2) (2) (2).png>)
+![A screenshot showing the date and time dimensions input widget](../../.gitbook/assets/date-time-dimensions-widget.png)
 
 > The Date/Time dimension is also linked to the display option "**Time Interval**", thus the selection here will add/remove a Date/Time dimension accordingly. For example, when Time Interval "Hour" is selected, "Hour" will also be automatically added to the dimensions.
 
-![A screenshot showing Hour in the list of report dimension](<../../.gitbook/assets/image (125) (1) (1).png>)
+![A screenshot showing Hour in the list of report dimension](../../.gitbook/assets/hour-report-dimension.png)
 
 ## Labels
 
@@ -126,4 +126,4 @@ The four GKE dimensions \[Namespace, Cluster, Region, and Resource] add levels o
 
 Below is a sample report snippet with a full breakdown of the four GKE dimensions:
 
-![A screenshot of a report snippet](<../../.gitbook/assets/image (126) (1) (1).png>)
+![A screenshot of a report snippet](../../.gitbook/assets/report-snippet.png)

@@ -38,7 +38,7 @@ You can make a partial payment for an invoice by manually editing the amount.
 
 For customers that have already paid with a credit card in the past, the window will appear with the history of your cards that were previously used. If you see more than one credit card, please select one from the list with which you'd like to pay this invoice.
 
-![A screenshot of the _Pay with Credit Card_ modal dialog showing previous credit cards on file](../.gitbook/assets/2-cards.png)
+![A screenshot of the _Pay with Credit Card_ modal dialog showing previous credit cards on file](../.gitbook/assets/pay-credit-card-dialog.png)
 
 After clicking on 'Pay Now' your order transaction will begin to be processed, and once approved by the credit card processor, you will receive the following notification on the bottom left-hand corner of your page. If the payment was successful, the status of the invoice will be switched to _Paid_.
 

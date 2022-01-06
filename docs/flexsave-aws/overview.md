@@ -32,7 +32,7 @@ After enabling FlexSave, you'll see your FlexSave Dashboard which displays impor
 
 Let's go over the elements of your FlexSave Dashboard:
 
-![A screenshot of an example FlexSave dashboard](../.gitbook/assets/FlexSave-dashboard.png)
+![A screenshot of an example FlexSave dashboard](../.gitbook/assets/flexsave-dashboard.png)
 
 ### FlexSave Dashboard
 
@@ -52,7 +52,7 @@ By default, the three widgets in your FlexSave Dashboard display data for the cu
 
 You may adjust the time range by clicking in the dropdown under "Time range" as shown below and selecting a different time interval.
 
-![A screenshot showing the location of the Time range drop-down](../.gitbook/assets/FlexSave-dashboard-time-range.png)
+![A screenshot showing the location of the Time range drop-down](../.gitbook/assets/flexsave-dashboard-time-range.png)
 
 Finally, your FlexSave Dashboard contains a stacked-column chart displaying FlexSave savings and net on-demand EC2 spend from previous months, your current month, and a forecast of both for the next month.
 
@@ -78,7 +78,7 @@ A confirmation pop-up will appear, explaining that FlexSave will continue to gen
 
 Click "Disable" to turn off FlexSave.
 
-![A screenshot of the Disable FlexSave modal dialog with a Disable button](../.gitbook/assets/cleanshot-2021-08-31-at-11.50.38.jpg)
+![A screenshot of the Disable FlexSave modal dialog with a Disable button](../.gitbook/assets/disable-flexsave-dialog.jpg)
 
 ### FlexSave Invoices
 
@@ -91,4 +91,4 @@ In your monthly bill you'll see a line item with the following details in your i
 
 The dollar amount displayed under "PPU" will be subtracted from your overall EC2 spend.
 
-![A screenshot of an example FlexSave invoice](../.gitbook/assets/cleanshot-2021-08-31-at-11.25.09.jpg)
+![A screenshot of an example FlexSave invoice](../.gitbook/assets/flexsave-invoice.jpg)

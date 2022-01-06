@@ -66,6 +66,7 @@ enablement
 endef
 ent
 env
+eqv
 esbenp
 esockettimedout
 fdb

@@ -26,7 +26,7 @@ Let's go over how to navigate the Feedback Hub and upvote ideas.
 
 From the home page, select a category whose ideas you'd like to take a look at. Alternatively, you can search for them directly in the search box.
 
-![A screenshot of the Feedback Hub showing a list of categories](../.gitbook/assets/feedbackhub2-2.jpg)
+![A screenshot of the Feedback Hub showing a list of categories](../.gitbook/assets/feedback-hub-categories.jpg)
 
 After clicking on a category, you can search for ideas by their sub-categories on the left-hand side. Additionally, you can sort through them via categories such as "Hot", "Top Ideas", "New", or "Status".
 

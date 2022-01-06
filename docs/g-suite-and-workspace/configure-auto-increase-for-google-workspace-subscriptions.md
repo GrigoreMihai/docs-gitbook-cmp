@@ -30,11 +30,11 @@ from the _Assets_ page, select _Google Workspace_ from the left-hand menu:
 
 Locate the subscription you'd like to configure auto-increase for, and click on the ellipsis icon on the right-hand side of the widget. Then choose 'Configure Auto Increase'.
 
-![A screenshot showing the Configure Auto-Increase option](../.gitbook/assets/cleanshot-2021-01-19-at-11.34.47.jpg)
+![A screenshot showing the Configure Auto-Increase option](../.gitbook/assets/configure-auto-increase-option.jpg)
 
 Configure the number of licenses you want to have available at all times. Once licenses get assigned to users in your organization, a new license(s) will be added automatically.
 
-![A screenshot showing the Configure Auto-Increase modal dialog](<../.gitbook/assets/image (184).png>)
+![A screenshot showing the Configure Auto-Increase modal dialog](../.gitbook/assets/configure-auto-increase-dialog.png)
 
 After you click "Save" you will see a success message in the lower-left corner of your screen, confirming your adjustment. Our system will check for and add, if necessary, additional licenses every 30 minutes.
 

@@ -10,15 +10,15 @@ Metric Filters are a feature that allow you to filter the data composing your re
 
 You can add a metric filter by selecting the link below the Metric dropdown or via the filter chip:
 
-![A screenshot of the Metric input](<../.gitbook/assets/image (211).png>)
+![A screenshot of the Metric input](../.gitbook/assets/metric-input.png)
 
-![A screenshot of the search menu](<../.gitbook/assets/image (173).png>)
+![A screenshot of the search menu](../.gitbook/assets/search-menu.png)
 
 Selecting this option will allow you to configure your filter based on a set a criterion you select
 
 Select the metric you would like to filter, the operator, and the value.
 
-![Metric Configuration Window](<../.gitbook/assets/image (171).png>)
+![Metric Configuration Window](../.gitbook/assets/metric-configuration-window.png)
 
 {% hint style="info" %}
 You can filter on a Metric that is not visible! For instance you can chart **Usage**, but filter any interval with a **Cost < $50**
@@ -26,13 +26,12 @@ You can filter on a Metric that is not visible! For instance you can chart **Usa
 
 We support a range of operators:
 
-![A screenshot of the Metric filter form](<../.gitbook/assets/image (168).png>)
+![A screenshot of the Metric filter form](../.gitbook/assets/metric-filter-form.png)
 
 When applied a filter chip will appear in the metric bar:
 
-![A screenshot of the
-operators drop-down menu](<../.gitbook/assets/image (175).png>)
+![A screenshot of the operators drop-down menu](../.gitbook/assets/operators-menu.png)
 
 This chip will be blue when applied to the currently shown metric, and white while filtering a metric not currently shown in the report:
 
-![A screenshot of the Metric filter chip](<../.gitbook/assets/image (224).png>)
+![A screenshot of the Metric filter chip](../.gitbook/assets/metric-filter-chip.png)

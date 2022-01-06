@@ -78,7 +78,7 @@ If you are still having issues, you can [open a support ticket](https://hello.do
 
 ### My payer account is showing as N/A, what does that mean?
 
-!["CloudHealth Status: Unknown"](<../.gitbook/assets/image (73) (1).png>)
+!["CloudHealth Status: Unknown"](../.gitbook/assets/cloudhealth-status-unknown.png)
 
 It means that your Cloudhealth configuration was not done properly.
 

@@ -59,7 +59,7 @@ Selecting one or more attributions from the dropdown will generate a daily cost 
 
 The email will be sent at 6:00 UTC.
 
-![A screenshot of the email that will be sent](<../.gitbook/assets/image (226).png>)
+![A screenshot of the email that will be sent](../.gitbook/assets/daily-digest-email.png)
 
 ### API
 

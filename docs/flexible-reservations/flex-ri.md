@@ -18,7 +18,7 @@ Required Permissions: **Flexible RI Admin**
 
 To begin, click the 'Flexible RIs' icon on the left-hand side of the page. Once you're at the Flexible Reserved Instances page, click on 'New Order', located on the right-hand side of the page.
 
-![A screenshot showing the location of the _New Order_ menu item](../.gitbook/assets/cleanshot-2020-11-26-at-10.42.36.jpg)
+![A screenshot showing the location of the _New Order_ menu item](../.gitbook/assets/new-order-menu-item.jpg)
 
 Complete your Flexible Reserved Instances order by providing the following information:
 
@@ -32,7 +32,7 @@ Complete your Flexible Reserved Instances order by providing the following infor
 | Recurring        | For orders with a recurring basis, select the last month you want this order to go                        |
 | Notes            | Use notes to give more context to your order such as PO numbers, workload names, etc.                     |
 
-![A screenshot of the _Flexible Reserved Instances Order_ modal dialog](../.gitbook/assets/image (6).png)
+![A screenshot of the _Flexible Reserved Instances Order_ modal dialog](../.gitbook/assets/flex-ri-order-dialog.png)
 
 Click "Submit" and your order will be created and become visible in the list:
 

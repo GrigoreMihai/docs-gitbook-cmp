@@ -35,7 +35,7 @@ Then, configure the scheduled delivery:
 
 If you've included someone who doesn't have access to the report, you will be asked to add that user to the report. You can choose whether to grant the "Viewer" or "Editor" access.
 
-![A screenshot showing the Some recipients need access to this report modal dialog](<../.gitbook/assets/image (28) (1).png>)
+![A screenshot showing the Some recipients need access to this report modal dialog](../.gitbook/assets/some-recipients-need-access-dialog.png)
 
 ## About Cron expressions
 

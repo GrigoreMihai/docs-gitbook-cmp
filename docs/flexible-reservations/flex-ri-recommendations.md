@@ -25,13 +25,13 @@ Towards the top, you'll see a summary of the recommendations displayed in a blue
 All recommendations are for the following month, and based on your EC2 usage data over the previous seven days.
 {% endhint %}
 
-![A screenshot showing the _Flexible RIs_ menu item, _Recommendations_ tab, and information box](<../.gitbook/assets/image (22).png>)
+![A screenshot showing the _Flexible RIs_ menu item, _Recommendations_ tab, and information box](../.gitbook/assets/flex-ri-recommendations.png)
 
 Right below this summary you'll find a few important metrics around your Flex RI Recommendations. These metrics will update dynamically based upon your selections from the table below.
 
 ## Understanding Flex RI Recommendation Metrics
 
-![A screenshot of the _Flex RI_ recommendations metrics](<../.gitbook/assets/image (21).png>)
+![A screenshot of the _Flex RI_ recommendations metrics](../.gitbook/assets/flex-ri-recommendations-metrics.png)
 
 **Total Instances Eligible:** total number of EC2 instances \(across all recommendations\) that don't appear to be covered by a discounted billing mechanism such as RIs, Savings Plans, etc.
 
@@ -63,7 +63,7 @@ Again, the numbers displayed in the widgets will adjust accordingly.
 
 Finally, if you change your mind and want to revert back to the original recommendations, click the "Reset" button in the blue information box.
 
-![A screenshot showing the location of the _Reset_ button](<../.gitbook/assets/image (19).png>)
+![A screenshot showing the location of the _Reset_ button](../.gitbook/assets/flex-ri-reset-button.png)
 
 ### Create your order
 
@@ -77,7 +77,7 @@ This will open an Order Confirmation pop-up which lets you know:
 
 After reviewing, click "Confirm" to place your order. You will still be able to edit your orders up until the last 24 hours of the current month.
 
-![A screenshot showing the _Order Confirmation_ dialog](<../.gitbook/assets/image (18).png>)
+![A screenshot showing the _Order Confirmation_ dialog](../.gitbook/assets/flex-ri-order-confirmation-dialog.png)
 
 ## Modifying Orders
 
@@ -89,10 +89,10 @@ You can easily identify your orders by filtering for orders that have Status == 
 
 Then click on the "Edit Order" icon next to the order you wish to modify.
 
-![A screenshot showing the location of the _Edit Order_ icon for new orders](<../.gitbook/assets/image (27).png>)
+![A screenshot showing the location of the _Edit Order_ icon for new orders](../.gitbook/assets/edit-order-icon.png)
 
 Here you can modify any aspect of your order, including number of instances.
 
 You can also make the order a recurring purchase up to a certain month and year, or modify the Order Notes to give the Flex RI purchase more context.
 
-![A screenshot showing the _Flexible Reserved Instances Order_ modal dialog](<../.gitbook/assets/image (26).png>)
+![A screenshot showing the _Flexible Reserved Instances Order_ modal dialog](../.gitbook/assets/flex-ri-reserved-instances-dialog.png)

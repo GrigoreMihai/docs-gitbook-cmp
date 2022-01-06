@@ -12,12 +12,12 @@ Below are three examples of payment reminder email notifications we will send ou
 
 1. Seven days _before_ the invoice is due.
 
-   ![A screenshot of an invoice notification email](../.gitbook/assets/7-days-before-overdue-invoice.png)
+   ![A screenshot of an invoice notification email](../.gitbook/assets/overdue-invoice-7.png)
 
 2. Four days _after_ the overdue is due.
 
-   ![A screenshot of an invoice notification email](../.gitbook/assets/4-days-after-invoice-is-overdue.png)
+   ![A screenshot of an invoice notification email](../.gitbook/assets/overdue-invoice-4.png)
 
 3. 10 days _after_ the overdue is due.
 
-   ![A screenshot of an invoice notification email](../.gitbook/assets/10-days-after-invoice-is-overdue.png)
+   ![A screenshot of an invoice notification email](../.gitbook/assets/overdue-invoice-10.png)

@@ -11,25 +11,25 @@ Please follow the below steps to switch your Google Cloud projects to use DoiT-p
 * Go to [https://console.cloud.google.com/billing](https://console.cloud.google.com/billing)
 * Make sure your organization is selected and then click on your the billing account from the list
 
-![A screenshot showing you the organization selection menu and the billing account list](<../../.gitbook/assets/image (62) (1).png>)
+![A screenshot showing you the organization selection menu and the billing account list](../../.gitbook/assets/organization-menu-billing-account-list.png)
 
 * Click on Manage
 
-![A screenshot showing the location of the Manager option](<../../.gitbook/assets/image (65) (1).png>)
+![A screenshot showing the location of the Manager option](../../.gitbook/assets/manager-option.png)
 
 * The list of your Google Cloud projects currently linked to this billing account will be displayed. For each of the projects, click on the three-dots menu and select "Change billing"
 
-![A screenshot showing the location of the Change Billing option](<../../.gitbook/assets/image (63) (1).png>)
+![A screenshot showing the location of the Change Billing option](../../.gitbook/assets/change-billing-option.png)
 
 * In the popup modal, please select the new billing account provided to you by DoiT International
 
-![A screenshot showing you the billing account dropdown menu](<../../.gitbook/assets/image (60) (1).png>)
+![A screenshot showing you the billing account dropdown menu](../../.gitbook/assets/billing-account-menu.png)
 
 * Repeat for each projects on the list
 
 Within an hour, your transferred projects will appear in DoiT [Cloud Management Platform](https://hello.doit-intl.com).
 
-![A screenshot showing you how to access the list of transferred projects](<../../.gitbook/assets/image (61) (1).png>)
+![A screenshot showing you how to access the list of transferred projects](../../.gitbook/assets/access-transferred-projects.png)
 
 ## Troubleshooting
 
@@ -45,6 +45,6 @@ To change billing account for a project you need to have proper permissions on t
 
 Make sure you have access to the target Billing Account. To verify, please go to hello.doit-intl.com and check if your name is on the list:
 
-![A screenshot showing you how to verify you have access to the billing account](<../../.gitbook/assets/image (59) (1).png>)
+![A screenshot showing you how to verify you have access to the billing account](../../.gitbook/assets/verify-access-billing-account.png)
 
 If it's not, please contact one of the persons who are on the list to add you.

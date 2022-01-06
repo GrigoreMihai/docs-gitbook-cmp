@@ -1,24 +1,24 @@
 #!/bin/sh -e
 
-# Image checks
+# Asset checks
 # =============================================================================
 
-# Unused images
+# Orphaned assets
 # -----------------------------------------------------------------------------
 
-echo 'Checking unused images...'
+echo 'Checking orphaned assets...'
 
 find docs/.gitbook/assets -type f | while read -r file; do
     asset_basename="$(basename "${file}")"
     if ! grep -rsqF "${asset_basename}" --include="*.md" docs; then
-        echo "Unused image: ${file}"
+        echo "Orphaned asset: ${file}"
     fi
 done
 
-# Image filenames
+# Asset filenames
 # -----------------------------------------------------------------------------
 
-echo 'Checking image filenames...'
+echo 'Checking asset filenames...'
 
 check_basename() {
     basename="${1}"
@@ -54,3 +54,18 @@ done
 
 status_code="$(cat "${status_code_file}")"
 exit "${status_code}"
+
+# Incorrect asset formats
+# -----------------------------------------------------------------------------
+
+# TODO
+
+# Identical images
+# -----------------------------------------------------------------------------
+
+# TODO
+
+# Uncompressed images
+# -----------------------------------------------------------------------------
+
+# TODO

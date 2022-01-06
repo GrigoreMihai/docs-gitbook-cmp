@@ -33,11 +33,11 @@ misc:
 	$(call print-target)
 	@ ci/misc.sh
 
-all: images
-.PHONY: images # Run image checks
-images:
+all: assets
+.PHONY: assets # Run asset checks
+assets:
 	$(call print-target)
-	@ ci/images.sh
+	@ ci/assets.sh
 
 all: tree
 .PHONY: tree # Run page tree checks

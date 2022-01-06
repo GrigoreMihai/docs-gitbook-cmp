@@ -22,7 +22,7 @@ Required Role\*\*: Admin\*\*
 5. Input a new tag or select from the list of previously created tags
 6. Click 'Save'
 
-![A screenshot showing the 3-dot menu options, including 'Tag Asset'](../.gitbook/assets/tag-asset-dots-menu.png)
+![A screenshot showing the 3-dot menu options, including 'Tag Asset'](../.gitbook/assets/assets-page.png)
 
 ![A screenshot showing the 'Tag Asset' modal and input](../.gitbook/assets/tag-asset-input.png)
 

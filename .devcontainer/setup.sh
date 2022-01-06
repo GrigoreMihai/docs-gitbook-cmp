@@ -15,6 +15,7 @@ apk add --no-cache \
     zlib-dev \
     jpeg-dev \
     util-linux \
+    rsync \
     parallel \
     imagemagick \
     python3 \

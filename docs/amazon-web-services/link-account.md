@@ -144,7 +144,7 @@ After the JSON for the new policy you want to create is pasted, click "**Next: T
 
 Finally, give your policy an identifiable name, like "spotscaling\_policy", and a description if necessary. Then click on "**Create Policy**".
 
-![A screenshot of the policy name](../.gitbook/assets/aws-create-policy-screen.png)
+![A screenshot of the policy name](../.gitbook/assets/linking-aws-8.png)
 
 #### [Quota Monitoring](aws-quotas.md)
 

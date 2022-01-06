@@ -88,14 +88,23 @@ done
 
 check_status_code
 
-# TODO
-
-# Identical images
+# Duplicate assets
 # -----------------------------------------------------------------------------
 
-# TODO
+echo 'Checking for duplicate assets...'
 
-# Uncompressed images
+# The `fdupes` program provides no way to exclude directories, so we copy the
+# repository clone to a temporary directory and remove the `.git` directory
+# prior to running `fdupes`
+tmp_dir="$(mktemp -d)"
+rsync -a . "${tmp_dir}"
+rm -rf "${tmp_dir}/.git"
+
+fdupes -r "${tmp_dir}" | sed "s,${tmp_dir}/,,"
+
+rm -rf "${tmp_dir}"
+
+# Uncompressed assets
 # -----------------------------------------------------------------------------
 
 # TODO

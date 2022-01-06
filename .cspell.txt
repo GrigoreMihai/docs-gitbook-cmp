@@ -90,6 +90,7 @@ esbenp
 esockettimedout
 fargate
 fdb
+fdupes
 finops
 firestore
 flexri

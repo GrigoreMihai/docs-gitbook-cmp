@@ -25,7 +25,16 @@ apk add --no-cache \
     editorconfig-checker \
     bash-completion
 
-echo "will cite" | parallel --citation >/dev/null 2>&1 || true
+ensure_citation() {
+    user="${1}"
+    home="${2}"
+    mkdir -p "${home}/.parallel"
+    touch "${home}/.parallel/will-cite"
+    chown -R "${user}:${user}" "${home}/.parallel"
+}
+
+ensure_citation root /root
+ensure_citation vscode /home/vscode
 
 ensure_bash_completion() {
     filename="${1}"

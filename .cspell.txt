@@ -86,6 +86,7 @@ kubernetes
 mbps
 mcr
 mirrorings
+mkdir
 mpa
 mx
 mxn

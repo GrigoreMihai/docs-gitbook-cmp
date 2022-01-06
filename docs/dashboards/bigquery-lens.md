@@ -70,7 +70,7 @@ Below is a list of the elements that make up the BigQuery Lens dashboard, corres
 
 1. _Time range and Usage type dropdowns_:
 
-   * _Time range_ — Adjusts the timeframe of the data you're looking at, and has options of _Last 30 days_, _Last 7 days_, or _Last day_
+   * _Time range_ — Adjusts the time frame of the data you're looking at, and has options of _Last 30 days_, _Last 7 days_, or _Last day_
 
    * _Usage type_ — Determines which BigQuery projects you're looking at, based on the pricing model you're using to pay for them, and has options of _On demand_ or _Flat-rate_
 

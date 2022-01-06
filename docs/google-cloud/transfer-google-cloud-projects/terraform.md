@@ -37,7 +37,7 @@ To grant permission for projects that are managed by Terraform, follow these ste
 
 5. Click **Add Principal**
 
-   ![A screnshot showing the location of the ADD PRINCIPAL button](../../.gitbook/assets/add-principal-button.png)
+   ![A screenshot showing the location of the ADD PRINCIPAL button](../../.gitbook/assets/add-principal-button.png)
 
 6. Input the terraform service account as **New Principal** and select **`Billing Account User`** role, then Save.
 

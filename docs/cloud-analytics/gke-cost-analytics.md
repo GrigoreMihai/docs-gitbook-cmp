@@ -28,7 +28,7 @@ GKE Cost Analytics is not applicable to **Autopilot clusters** because they curr
 
 ## Step 1 - Enable the GKE Cost Analytics
 
-In order to do this, you will need to [connect your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) to the CMP. Please navigate to the Settings page via the gear icon in your lefthand navigation panel.
+In order to do this, you will need to [connect your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) to the CMP. Please navigate to the Settings page via the gear icon in your left-hand navigation panel.
 
 Then check the box(es) of the additional features you'd like to enable, making sure to select "GKE Cost Analytics" here.
 

@@ -32,7 +32,7 @@ This will open a pop-up that will give you two options when sharing:
 
 Once you've entered the email(s) of who you're sharing your Cloud Report with, click "Add" and then hit "Save" to apply your changes.
 
-![A screenshot showing the location of the Share Report modal dialog](../.gitbook/assets/sharingreportgif.gif)
+![A screenshot showing the location of the Share Report modal dialog](../.gitbook/assets/share-report-demo.gif)
 
 Once a report is shared, the recipient(s) will receive an email that looks like this:
 

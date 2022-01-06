@@ -8,6 +8,13 @@ OUTPUT_FILE='/tmp/ci-output.txt'
 # Reset the output file
 rm -f "$OUTPUT_FILE"
 
+check_output() {
+    if test -s "${OUTPUT_FILE}"; then
+        cat "${OUTPUT_FILE}"
+        exit 1
+    fi
+}
+
 append_tmp_errors() {
     type="${1}"
     tmpfile="${2}"
@@ -16,6 +23,7 @@ append_tmp_errors() {
         cat <"${tmpfile}" >>"${OUTPUT_FILE}"
     fi
     rm -f "${tmpfile}"
+    check_output
 }
 
 # Word case
@@ -95,6 +103,8 @@ fi
 rm -f "${tmp_file_ascii}"
 rm -f "${tmp_file_sorted}"
 
+check_output
+
 printf 'Checking presence of cSpell dictionary words...'
 
 tmp_script=$(mktemp)
@@ -105,7 +115,12 @@ word="\${1}"
 output_file="\${2}"
 
 printf '.'
-if ! grep -rsi "\${word}" --exclude='.cspell.txt' . >/dev/null; then
+if ! grep -rsiq "\${word}" \
+    --exclude='.cspell.txt' \
+    --exclude='.git/*' \
+    --exclude='*.log' \
+    --exclude='archive/*' \
+    .; then
     echo "cSpell dictionary contains unused word: \${word}" >>"${OUTPUT_FILE}"
 fi
 EOF
@@ -117,13 +132,4 @@ rm -f "${tmp_script}"
 
 printf '\n'
 
-# Output
-# -----------------------------------------------------------------------------
-
-# If there is any output text, print it to the console and exit with a non-zero
-# exit code
-
-if test -s "${OUTPUT_FILE}"; then
-    cat "${OUTPUT_FILE}"
-    exit 1
-fi
+check_output

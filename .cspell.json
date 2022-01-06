@@ -2,7 +2,7 @@
   "version": "0.2",
   "language": "en-US",
   "caseSensitive": false,
-  "allowCompoundWords": true,
+  "allowCompoundWords": false,
   "minWordLength": 2,
   "dictionaries": ["custom"],
   "dictionaryDefinitions": [{ "name": "custom", "path": ".cspell.txt" }]

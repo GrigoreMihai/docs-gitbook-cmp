@@ -57,8 +57,10 @@ all: wtf
 wtf:
 	$(call print-target)
 	@ tmp_file="$$(mktemp)" && find . -type f \
-		-not -path './.git/*' -not -path './*.log' \
-		-exec grep -Iq . {} \; -print0 | while read -r file; do \
+		-not -path './.git/*' \
+		-not -path './*.log' \
+		-exec grep -Iq . {} \; \
+		-print0 | while read -r file; do \
 			wtf --quiet -E lf "$${file}" >"$${tmp_file}"; \
 			diff -u "$${file}" "$${tmp_file}"; \
 	done
@@ -68,8 +70,10 @@ all: lintspaces
 lintspaces:
 	$(call print-target)
 	@ find . -type f \
-		-not -path './.git/*' -not -path './*.log' \
-		-exec grep -Iq . {} \; -print0 | \
+		-not -path './.git/*' \
+		-not -path './*.log' \
+		-exec grep -Iq . {} \; \
+		-print0 | \
 		xargs -0 lintspaces --editorconfig .editorconfig --matchdotfiles
 
 all: prettier
@@ -77,8 +81,10 @@ all: prettier
 prettier:
 	$(call print-target)
 	@ find . -type f \
-		-not -path './.git/*' -not -path '*.md' \
-		-exec grep -Iq . {} \; -print0 | \
+		-not -path './.git/*' \
+		-not -path '*.md' \
+		-exec grep -Iq . {} \; \
+		-print0 | \
 		xargs -0 prettier --check --ignore-unknown
 
 all: yamllint
@@ -106,8 +112,11 @@ all: cspell
 cspell:
 	$(call print-target)
 	@ find . -type f \
-		-not -path './.git/*'  -not -path './*.log' \
-		-not -path './.cspell.txt' -print0 | \
+		-not -path './.git/*' \
+		-not -path './*.log' \
+		-not -path './archive/*' \
+		-not -path './.cspell.txt' \
+		-print0 | \
 		xargs -0 cspell --config .cspell.json --no-progress --no-summary
 
 all: misspell
@@ -115,7 +124,10 @@ all: misspell
 misspell:
 	$(call print-target)
 	@ find . -type f \
-		-not -path './.git/*' -not -path './*.log' -print0  | \
+		-not -path './.git/*' \
+		-not -path './*.log' \
+		-not -path './archive/*' \
+		-print0  | \
 		xargs -0 misspell -locale US --
 
 all: woke
@@ -141,7 +153,8 @@ all: markdown-link-check
 markdown-link-check:
 	$(call print-target)
 	@ find . -type f \
-		-name '*.md' -not -path './archive/*' | \
+		-name '*.md' \
+		-not -path './archive/*' | \
 		parallel -k \
 		markdown-link-check --quiet --config .markdown-link-check.json
 

@@ -22,7 +22,7 @@ This action will take you to the _Invoices_ screen:
 
 You can filter the invoices per billing profile to which it was issued, and by issue date of the invoice. To filter the invoices, use the drop-down controls at the top of the page.
 
-In addition, there is the option to download the invoice summary as a CSV file by clicking the download icon (cloud with a downard arrow) in the top-right corner of the page.
+In addition, there is the option to download the invoice summary as a CSV file by clicking the download icon (cloud with a downward arrow) in the top-right corner of the page.
 
 There are five possible statuses for invoices:
 

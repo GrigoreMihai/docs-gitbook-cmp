@@ -24,7 +24,7 @@ To begin, click the 'Sandbox Accounts' icon on the left-hand side of the page. O
 
 A notification will pop up informing you that the sandbox policy doesn't guarantee you won't exceed the budget. Click on 'Accept' to proceed.
 
-![A screenshot showing the location of the Sandbox Policy modal dialog Accept button](../.gitbook/assets/sandbox-policy1.png)
+![A screenshot showing the location of the Sandbox Policy modal dialog Accept button](../.gitbook/assets/sandbox-policy-1.png)
 
 Complete the Sandbox Management Policy form:
 
@@ -37,7 +37,7 @@ Complete the Sandbox Management Policy form:
 * Budget Type - One Time or Monthly
 * End of Budget Action - Send Alert or Disable Billing
 
-![A screenshot showing the Sandbox Policy modal dialog](../.gitbook/assets/sandbox-policy2.png)
+![A screenshot showing the Sandbox Policy modal dialog](../.gitbook/assets/sandbox-policy-2.png)
 
 The Sandbox Admin can disable the policy to prevent the creation of additional sandboxes. This action will not disable any preexisting sandboxes. Click on 'Update Policy', and locate the disable/enable button. To finish, click 'Save'.
 

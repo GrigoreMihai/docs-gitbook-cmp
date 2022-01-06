@@ -31,7 +31,7 @@ Choose the Billing Profile to which you're creating the account for while choosi
 
 Click 'Create' and a popup will appear that the account was created successfully.
 
-!["Account created successfully! Check your email for further instructions"](../.gitbook/assets/aws-account-successful2.png)
+!["Account created successfully! Check your email for further instructions"](../.gitbook/assets/aws-account-successful.png)
 
 As listed in the popup, an email is sent out for further instructions, here is an example.
 

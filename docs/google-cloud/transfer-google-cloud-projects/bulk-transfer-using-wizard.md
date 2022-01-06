@@ -28,7 +28,7 @@ After you begin the transfer process, a dedicated Google Cloud service account w
 
 Finally, **copy the service account name**. You will need it for the next step.
 
-![A screenshot showing the Edit your IAM section of the Transfer Projects flow](../../.gitbook/assets/transfer-projects3.png)
+![A screenshot showing the Edit your IAM section of the Transfer Projects flow](../../.gitbook/assets/transfer-projects-3.png)
 
 ## Grant permissions to the service account
 
@@ -86,15 +86,15 @@ If you incorrectly add the service account to one of your Google Project IAM and
 
 Select the projects you want to transfer to your new Google Cloud Billing Account with DoiT International.
 
-![A screenshot showing you the list of available billing accounts](../../.gitbook/assets/transfer-projects6.png)
+![A screenshot showing you the list of available billing accounts](../../.gitbook/assets/transfer-projects-6.png)
 
 By clicking the **>** button, the selected projects are designated to be transferred. Review the list of projects you intend to transfer, validate it and click 'Finish'.
 
-![A screenshot showing you the list of projects for review](../../.gitbook/assets/transfer-projects7.png)
+![A screenshot showing you the list of projects for review](../../.gitbook/assets/transfer-projects-7.png)
 
 The confirmation page informs you of how many projects were transferred, and by selecting the 'Click here' button you can retrieve the full list of transferred projects as they will be copied to your clipboard.
 
-![A screenshot showing you the final confirmation screen](../../.gitbook/assets/transfer-projects8.png)
+![A screenshot showing you the final confirmation screen](../../.gitbook/assets/transfer-projects-8.png)
 
 Congrats! You have successfully reassigned your existing Google Cloud projects to your new billing account with DoiT International! Well done!
 

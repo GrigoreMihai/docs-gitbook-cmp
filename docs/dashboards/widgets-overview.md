@@ -84,4 +84,4 @@ The dark blue section of the bar displays the actual spend, and you will be able
 
 The light blue section of the bar displays the remaining commitment. The pink section of the bar displays the shortfall, i.e., your actual consumption is less than the commitment.
 
-![A screenshot showing the _Cloud Commitment_ widget](../.gitbook/assets/cloud-commitments2.png)
+![A screenshot showing the _Cloud Commitment_ widget](../.gitbook/assets/cloud-commitments.png)

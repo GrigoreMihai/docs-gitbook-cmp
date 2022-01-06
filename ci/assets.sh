@@ -39,13 +39,15 @@ check_basename() {
         return 1
     }
     # Check disallowed sequences
-    echo "${basename}" | grep -Eqv '(--|image|shot)' || {
+    echo "${basename}" |
+        sed -E 's,(-s3|s3-),,' |
+        grep -Eqv '(--|[a-z][0-9]|image|shot)' || {
         return 1
     }
     # Check for numbers that do not directly precede the extension (with
     # allowed exceptions filtered out)
     echo "${basename}" |
-        sed 's,office-365,,' | sed 's,s3,,' |
+        sed 's,office-365,,' | sed -E 's,(-s3|s3-),,' |
         grep -Eqv '[0-9][^.0-9]' || {
         return 1
     }

@@ -22,11 +22,11 @@ Navigate to the dashboard you'd like to add the widget to, locate the 'Add Widge
 
 If the Service Usage API is disabled in your cloud environment, you'll need to enable it via the 'Click Here' button within the widget. Once you do so, confirm the action by clicking on 'I Have Enabled The Service'.
 
-![A screenshot showing the I Have Enabled This Service button](../.gitbook/assets/recommendations4.png)
+![A screenshot showing the I Have Enabled This Service button](../.gitbook/assets/recommendations-4.png)
 
 Recommendations for cost savings will now be presented. Click on the recommendation to further inspect the instance.
 
-![A screenshot showing the Google Cloud Recommendations section](../.gitbook/assets/recommendations3.png)
+![A screenshot showing the Google Cloud Recommendations section](../.gitbook/assets/recommendations-3.png)
 
 In this dialog, you will be able to apply the recommendations in order to save costs by changing machine types. DoiT International provides any further recommendations within 24 hours after the change. Afterward, instance recommendations are refreshed at regular intervals throughout the day. To apply the recommendation, stop the instance for the Current machine type that's currently under the status 'Running', then click 'Apply'. You will then be able to start the instance for the New machine type once it reloads.
 

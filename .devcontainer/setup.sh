@@ -16,6 +16,7 @@ apk add --no-cache \
     jpeg-dev \
     util-linux \
     parallel \
+    imagemagick \
     python3 \
     python3-dev \
     py3-pip \

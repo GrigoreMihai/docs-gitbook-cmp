@@ -78,7 +78,7 @@ A confirmation pop-up will appear, explaining that FlexSave will continue to gen
 
 Click "Disable" to turn off FlexSave.
 
-![A screenshot of the Disable FlexSave modal dialog with a Disable button](../.gitbook/assets/disable-flexsave-dialog.jpg)
+![A screenshot of the Disable FlexSave modal dialog with a Disable button](../.gitbook/assets/disable-flexsave-dialog.png)
 
 ### FlexSave Invoices
 
@@ -91,4 +91,4 @@ In your monthly bill you'll see a line item with the following details in your i
 
 The dollar amount displayed under "PPU" will be subtracted from your overall EC2 spend.
 
-![A screenshot of an example FlexSave invoice](../.gitbook/assets/flexsave-invoice.jpg)
+![A screenshot of an example FlexSave invoice](../.gitbook/assets/flexsave-invoice.png)

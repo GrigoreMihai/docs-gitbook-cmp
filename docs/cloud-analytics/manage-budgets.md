@@ -110,7 +110,7 @@ When you exceed a budget threshold, you'll receive an email detailing:
 
 Here is what a typical alert looks like:
 
-![A screenshot showing an email alert](../.gitbook/assets/budgetalert.jpg)
+![A screenshot showing an email alert](../.gitbook/assets/budget-alert.png)
 
 ## Video walk-through
 

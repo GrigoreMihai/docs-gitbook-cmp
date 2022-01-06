@@ -64,7 +64,7 @@ Next, click on "**Manage Billing Accounts**"
 
 Make sure your organization is selected. Then select the billing account you want to edit.
 
-![A screenshot showing you the list of billing accounts to select from](../../.gitbook/assets/step3.jpg)
+![A screenshot showing you the list of billing accounts to select from](../../.gitbook/assets/billing-accounts-list.png)
 
 In the Billing Overview screen, select "Manage" on the right.
 
@@ -72,7 +72,7 @@ In the Billing Overview screen, select "Manage" on the right.
 
 Then, click the "**Show Info**" panel at the top-right to manage billing account members. From there, click "**Add Member**".
 
-![A screenshot showing you how to access to the Add Member button](../../.gitbook/assets/add-member-project-transfer.jpg)
+![A screenshot showing you how to access to the Add Member button](../../.gitbook/assets/add-member-project-transfer.png)
 
 Finally, paste the service account you copied earlier from the CMP Project Transfer tool and add the "Billing Account Administrator" role, then click "Save".
 

@@ -31,7 +31,7 @@ Then, configure the scheduled delivery:
 * Optionally, update email's subject and the message to provide more context for recipients
 * Set up when you'd like to be delivered (using [_cron expression_](https://crontab.guru))
 
-![A screenshot showing the Schedule Report Email Delivery modal dialog](../.gitbook/assets/schedulereport2.jpg)
+![A screenshot showing the Schedule Report Email Delivery modal dialog](../.gitbook/assets/schedule-report-email-dialog.png)
 
 If you've included someone who doesn't have access to the report, you will be asked to add that user to the report. You can choose whether to grant the "Viewer" or "Editor" access.
 
@@ -64,13 +64,13 @@ Your scheduled report will look something like the image below. From the email, 
 
 Select the access level you'd like to give them, and click "Add" to give them access to the report and add them to the list of scheduled report recipients.
 
-![A screenshot showing the Some recipients need access to this report modal dialog](../.gitbook/assets/addpersonschedule.jpg)
+![A screenshot showing the Some recipients need access to this report modal dialog](../.gitbook/assets/recipients-need-access-dialog.png)
 
 Your scheduled report will look something like the image below. From the email, you'll be able to preview the report and open an interactive report in Cloud Analytics, by using the "Open Live Report" button.
 
 Your scheduled report will look something like in the example below. From the email, you'll be able to preview the report and open an interactive report in Cloud Analytics, by using the "Open Live Report" button.
 
-![A screenshot showing the location of the Open Live Report button](../.gitbook/assets/scheduledemail.jpg)
+![A screenshot showing the location of the Open Live Report button](../.gitbook/assets/open-live-report-button.png)
 
 ### Scheduling via the Cloud Analytics page
 
@@ -96,7 +96,7 @@ Using the same methods as above, you can also subscribe to other people's schedu
 
 If you need to delete the scheduled report, please use the Delete button on the "Schedule Report Email Delivery" dialog.
 
-![A screenshot showing the Schedule Report Email Delivery dialog](../.gitbook/assets/updateschedule2.jpg)
+![A screenshot showing the Schedule Report Email Delivery dialog](../.gitbook/assets/schedule-report-delivery-dialog.png)
 
 ## Limitations
 

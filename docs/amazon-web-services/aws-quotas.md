@@ -32,11 +32,11 @@ Once set up, you can add the 'Amazon Web Services Quotas' widget to any of your 
 
 To do so, first go to the dashboard you'd like to add the widget to. Then, locate the 'Add Widgets' button in the lower-right corner of your screen and find the 'Amazon Web Services Quotas' option.
 
-![A screenshot of the _Amazon Web Services Quotas_ option](../.gitbook/assets/addwidgetawsquotas.jpg)
+![A screenshot of the _Amazon Web Services Quotas_ option](../.gitbook/assets/add-widget-aws-quotas.png)
 
 Finally, click on the widget option to add it as a widget to your dashboard.
 
-![A screenshot of the quotas widget](../.gitbook/assets/awsquotaswidget.jpg)
+![A screenshot of the quotas widget](../.gitbook/assets/aws-quotas-widget.png)
 
 To request a quota increase, click on the 'Modify' button and read the instructions provided by AWS in their [documentation](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html) of service quotas.
 

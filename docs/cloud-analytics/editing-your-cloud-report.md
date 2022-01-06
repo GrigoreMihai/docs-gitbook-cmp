@@ -121,7 +121,7 @@ You may also exclude a selection of values, or limit results to a specific numbe
 
 Next, click "Save" in the lower-right corner of the popup modal.
 
-![A screenshot showing you the location of the Save button](../.gitbook/assets/cloudreports-filters.jpg)
+![A screenshot showing you the location of the Save button](../.gitbook/assets/cloudreports-filters.png)
 
 {% hint style="info" %}
 

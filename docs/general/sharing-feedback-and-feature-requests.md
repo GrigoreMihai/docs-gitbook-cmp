@@ -26,16 +26,16 @@ Let's go over how to navigate the Feedback Hub and upvote ideas.
 
 From the home page, select a category whose ideas you'd like to take a look at. Alternatively, you can search for them directly in the search box.
 
-![A screenshot of the Feedback Hub showing a list of categories](../.gitbook/assets/feedback-hub-categories.jpg)
+![A screenshot of the Feedback Hub showing a list of categories](../.gitbook/assets/feedback-hub-categories.png)
 
 After clicking on a category, you can search for ideas by their sub-categories on the left-hand side. Additionally, you can sort through them via categories such as "Hot", "Top Ideas", "New", or "Status".
 
 If an idea has been added to the roadmap or development has begun, you will see a colored status icon similar to the yellow "Planned" rectangle in the screenshot below.
 
-![A screenshot showing the location of the Status icon](../.gitbook/assets/feedbackhub2.jpg)
+![A screenshot showing the location of the Status icon](../.gitbook/assets/feedback-hub-status-icon.png)
 
 Upvote an idea that interests you by clicking on the "Vote" button next to the idea. Finally — if you aren't signed in already — enter your email or sign in with Google to submit your vote.
 
 You will be notified if the status of the idea changes or ultimately gets released in the product it corresponds to.
 
-![A screenshot showing the voting modal dialog](../.gitbook/assets/feedbackhub4.jpg)
+![A screenshot showing the voting modal dialog](../.gitbook/assets/feedback-hub-voting-dialog.png)

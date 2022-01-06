@@ -38,7 +38,7 @@ You will have every cloud billing dimension to choose from; as well as any custo
 
 From there, filter your selections either by keyword, exclusion, or regular expression just as you would do in Cloud Analytics Reports. Continuing our example from above, let's filter for projects which the production team uses.
 
-![A screenshot showing the _Filter Projects_ form](../.gitbook/assets/filter-projects-form.jpg)
+![A screenshot showing the _Filter Projects_ form](../.gitbook/assets/filter-projects-form.png)
 
 Finally, click "Save" to apply the filter on your condition.
 
@@ -58,7 +58,7 @@ In the event that you have many attributions, make sure to click on the Attribut
 
 In the example below, only the production, dev, and ops team attributions will be included in the report:
 
-![A screenshot showing the _Filter attributions_ form](../.gitbook/assets/filterattributions-2.jpg)
+![A screenshot showing the _Filter attributions_ form](../.gitbook/assets/filter-attributions-form.png)
 
 View the bite-sized video below for a closer look at Attributions and using them in your Cloud Reports.
 

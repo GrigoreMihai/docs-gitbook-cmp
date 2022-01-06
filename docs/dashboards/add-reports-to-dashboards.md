@@ -24,17 +24,17 @@ Next, select which dashboard(s) you'd like to add the report to. You may also to
 
 Additionally, you may also add a report to a new, yet-to-be-created dashboard. To add the report to a new dashboard, click on the "**NEW DASHBOARD**" button, give your dashboard a name, and click "**Save**".
 
-![A screenshot showing you the location of the Save button](../.gitbook/assets/new-dashboard.jpg)
+![A screenshot showing you the location of the Save button](../.gitbook/assets/new-dashboard.png)
 
 Check the box of the newly-created dashboard to add your report there as well.
 
-![A screenshot showing you the checkbox for your new dashboard](../.gitbook/assets/new-dashboard-2.jpg)
+![A screenshot showing you the checkbox for your new dashboard](../.gitbook/assets/new-dashboard-2.png)
 
 Next, navigate to your dashboard(s) to view the report(s) you added.
 
 From there, you're free to [customize](customizing-dashboards.md) the size and arrangement of the widgets as you see fit. Note that report data displayed in the widget will refresh every four hours.
 
-![An animated screenshot demoing a dashboard widget](../.gitbook/assets/dashboards--widgets-3.gif)
+![An animated screenshot demoing a dashboard widget](../.gitbook/assets/dashboard-widget-demo.gif)
 
 Finally, if you'd like to quickly navigate to your report to investigate further or edit something, you may click on the report's name in the widget.
 

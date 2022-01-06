@@ -39,6 +39,13 @@ images:
 	$(call print-target)
 	@ ci/images.sh
 
+all: tree
+.PHONY: tree # Run page tree checks
+tree:
+	$(call print-target)
+	@ ci/tree.sh
+
+
 all: ec
 .PHONY: ec # Run EditorConfig check
 ec:

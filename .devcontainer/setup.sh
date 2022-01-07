@@ -18,6 +18,7 @@ apk add --no-cache \
     rsync \
     parallel \
     imagemagick \
+    optipng \
     fdupes \
     python3 \
     python3-dev \

@@ -3,28 +3,9 @@
 # Miscellaneous checks
 # =============================================================================
 
-OUTPUT_FILE='/tmp/ci-output.txt'
+. ci/common.sh
 
-# Reset the output file
-rm -f "$OUTPUT_FILE"
-
-check_output() {
-    if test -s "${OUTPUT_FILE}"; then
-        cat "${OUTPUT_FILE}"
-        exit 1
-    fi
-}
-
-append_tmp_errors() {
-    type="${1}"
-    tmpfile="${2}"
-    if test -s "${tmpfile}"; then
-        echo "${type} errors:" >>"${OUTPUT_FILE}"
-        cat <"${tmpfile}" >>"${OUTPUT_FILE}"
-    fi
-    rm -f "${tmpfile}"
-    check_output
-}
+CSPELL_DICT='.cspell.txt'
 
 # Word case
 # -----------------------------------------------------------------------------
@@ -43,7 +24,7 @@ echo 'Checking word case...'
 # acceptable uses of the word. If anything remains, we echo it to the log and
 # raise an error.
 
-tmp_file=$(mktemp)
+errors="$(create_tmp_file)"
 
 grep -rsi 'doit' docs |
     grep -v 'DoiT' |
@@ -51,9 +32,9 @@ grep -rsi 'doit' docs |
     grep -v -- '-doit' |
     grep -v 'doit-' |
     grep -vF "doit\\" \
-        >"${tmp_file}" || true
+        >"${errors}" || true
 
-append_tmp_errors 'Word case' "${tmp_file}"
+check_errors "${errors}"
 
 # Markdown
 # -----------------------------------------------------------------------------
@@ -63,56 +44,55 @@ echo 'Checking Markdown...'
 # Try to catch broken Markdown link syntax while allowing other uses of the
 # closing `]` bracket. This issue is not flagged by markdownlint.
 
-tmp_file=$(mktemp)
+errors="$(create_tmp_file)"
 
 grep -rsiE '[^0-9]\][^( :,]' docs \
-    >"${tmp_file}" || true
+    >"${errors}" || true
 
-append_tmp_errors 'Markdown' "${tmp_file}"
+check_errors "${errors}"
 
 # Curly quotes
 # -----------------------------------------------------------------------------
 
 echo 'Checking curly quotes...'
 
-tmp_file=$(mktemp)
+errors="$(create_tmp_file)"
 
 grep -rsiE "[‘’]" docs \
-    >>"${tmp_file}" || true
+    >>"${errors}" || true
 
 grep -rsiE '[“”]' docs \
-    >>"${tmp_file}" || true
+    >>"${errors}" || true
 
-append_tmp_errors 'Curly quotes' "${tmp_file}"
+check_errors "${errors}"
 
 # cSpell configuration
 # -----------------------------------------------------------------------------
 
 echo 'Checking cSpell dictionary sort...'
 
-CSPELL_DICT='.cspell.txt'
+errors="$(create_tmp_file)"
 
-tmp_file_ascii=$(mktemp)
-tmp_file_sorted=$(mktemp)
+tmp_file_ascii="$(create_tmp_file)"
+tmp_file_sorted="$(create_tmp_file)"
+
 iconv -f utf-8 -t ascii <"${CSPELL_DICT}" >"${tmp_file_ascii}"
 sort <"${tmp_file_ascii}" >"${tmp_file_sorted}"
 if ! diff "${tmp_file_ascii}" "${tmp_file_sorted}" >/dev/null; then
-    echo "cSpell dictionary is not sorted: ${CSPELL_DICT}" >>"${OUTPUT_FILE}"
+    echo "cSpell dictionary is not sorted: ${CSPELL_DICT}" >>"${errors}"
 fi
 
-rm -f "${tmp_file_ascii}"
-rm -f "${tmp_file_sorted}"
+check_errors "${errors}"
 
-check_output
+echo 'Checking presence of cSpell dictionary words...'
 
-printf 'Checking presence of cSpell dictionary words...'
+errors="$(create_tmp_file)"
 
-tmp_script=$(mktemp)
+tmp_script="$(create_tmp_file)"
 cat >"${tmp_script}" <<EOF
 #!/bin/sh -e
 
 word="\${1}"
-output_file="\${2}"
 
 printf '.'
 if ! grep -rsiq "\${word}" \
@@ -121,15 +101,13 @@ if ! grep -rsiq "\${word}" \
     --exclude='*.log' \
     --exclude='archive/*' \
     .; then
-    echo "cSpell dictionary contains unused word: \${word}" >>"${OUTPUT_FILE}"
+    echo "cSpell dictionary contains unused word: \${word}" >>"${errors}"
 fi
 EOF
 chmod 755 "${tmp_script}"
 
 grep -vE '^!' <"${CSPELL_DICT}" | parallel -k "${tmp_script}"
 
-rm -f "${tmp_script}"
-
 printf '\n'
 
-check_output
+check_errors "${errors}"

@@ -3,38 +3,28 @@
 # Asset checks
 # =============================================================================
 
-# We use a file to cache the status code because piping to `while` creates a
-# subshell, meaning we can't update any variables in the global scope
-status_code_file="$(mktemp)"
-echo 0 >"${status_code_file}"
+. ci/common.sh
 
-check_status_code() {
-    status_code="$(cat "${status_code_file}")"
-    if test "${status_code}" -ne 0; then
-        return "${status_code}"
-    fi
-}
+ASSETS_DIR='docs/.gitbook/assets'
+IMGDUPIGNORE_FILE='../.imgdupignore'
 
-# Test that a command can be found (use prior to pipes that would otherwise
-# nullify the non-zero return code from a missing command)
-test_command() {
-    command="${1}"
-    if ! which "${command}" >/dev/null 2>&1; then
-        echo "ERROR: Command not found: ${command}"
-    fi
-}
+root_dir="$(pwd)"
 
 # Orphaned assets
 # -----------------------------------------------------------------------------
 
 echo 'Checking orphaned assets...'
 
-find docs/.gitbook/assets -type f | while read -r file; do
+errors="$(create_tmp_file)"
+
+find "${ASSETS_DIR}" -type f | while read -r file; do
     asset_basename="$(basename "${file}")"
     if ! grep -rsqF "${asset_basename}" --include="*.md" docs; then
-        echo "Orphaned asset: ${file}"
+        echo "Orphaned asset: ${file}" >>"${errors}"
     fi
 done
+
+check_errors "${errors}"
 
 # Asset filenames
 # -----------------------------------------------------------------------------
@@ -62,15 +52,16 @@ check_basename() {
     }
 }
 
-find docs/.gitbook/assets -type f | sort | while read -r file; do
+errors="$(create_tmp_file)"
+
+find "${ASSETS_DIR}" -type f | sort | while read -r file; do
     asset_basename="$(basename "${file}")"
     if ! check_basename "${asset_basename}"; then
-        echo "Invalid filename: docs/.gitbook/assets/${asset_basename}"
-        echo 1 >"${status_code_file}"
+        echo "Invalid filename: ${ASSETS_DIR}/${asset_basename}" >>"${errors}"
     fi
 done
 
-check_status_code
+check_errors "${errors}"
 
 # Incorrect asset formats
 # -----------------------------------------------------------------------------
@@ -84,51 +75,40 @@ check_basename() {
     }
 }
 
-# We use a file to cache the status code because the pipe to `while` creates a
-# subshell, meaning we can't update any variables in the global scope
-status_code_file="$(mktemp)"
-echo 0 >"${status_code_file}"
+errors="$(create_tmp_file)"
 
-find docs/.gitbook/assets -type f | sort | while read -r file; do
+find "${ASSETS_DIR}" -type f | sort | while read -r file; do
     asset_basename="$(basename "${file}")"
     if ! check_basename "${asset_basename}"; then
-        echo "Invalid format: docs/.gitbook/assets/${asset_basename}"
-        echo 1 >"${status_code_file}"
+        echo "Invalid format: ${ASSETS_DIR}/${asset_basename}" >>"${errors}"
     fi
 done
 
-check_status_code
+check_errors "${errors}"
 
 # Duplicate assets
 # -----------------------------------------------------------------------------
 
-echo 'Checking for exact duplicates...'
-
-# The `fdupes` program provides no way to exclude directories, so we copy the
-# repository clone to a temporary directory and remove the `.git` directory
-# prior to running `fdupes`
-tmp_dir="$(mktemp -d)"
-rsync -qa . "${tmp_dir}"
-rm -rf "${tmp_dir}/.git"
+echo 'Checking for exact file duplicates...'
 
 test_command fdupes
 
-fdupes -r "${tmp_dir}" | sed "s,${tmp_dir}/,,"
+tmp_repo_copy="$(create_tmp_repo_copy)"
 
-rm -rf "${tmp_dir}"
+fdupes -qr "${tmp_repo_copy}" | sed "s,${tmp_repo_copy}/,,"
 
-echo 'Checking for approximate duplicates...'
+echo 'Checking for approximate image duplicates...'
 
 test_command imgdup2go
 
-cd docs/.gitbook/assets
+cd "${ASSETS_DIR}"
 
-tmp_file="$(mktemp)"
+errors="$(create_tmp_file)"
 
 # Verify ignore entries
-sed 's, matches: .*,,' <../.imgdupignore | while read -r file; do
+sed 's, matches: .*,,' <"${IMGDUPIGNORE_FILE}" | while read -r file; do
     if ! test -f "${file}"; then
-        echo "Ignored file does not exist: ${file}" >>"${tmp_file}"
+        echo "Ignored file does not exist: ${file}" >>"${errors}"
     fi
 done
 
@@ -136,16 +116,53 @@ done
 imgdup2go -dryrun -algo diff |
     grep 'imgdup2go.go:246' |
     sed 's,.*:246: ,,' |
-    grep -vFf ../.imgdupignore \
-        >>"${tmp_file}" ||
+    grep -vFf "${IMGDUPIGNORE_FILE}" \
+        >>"${errors}" ||
     true
 
-if test -s "${tmp_file}"; then
-    cat "${tmp_file}"
-    return 1
-fi
+check_errors "${errors}"
+
+cd "${root_dir}"
 
 # Uncompressed assets
 # -----------------------------------------------------------------------------
 
-# TODO
+echo 'Checking for compressible images...'
+
+cd "${tmp_repo_copy}"
+
+errors="$(create_tmp_file)"
+
+tmp_script="$(create_tmp_file)"
+cat >"${tmp_script}" <<EOF
+#!/bin/sh -e
+
+file="\${1}"
+
+get_file_size() {
+    file="\${1}"
+    du -k "\${file}" | cut -f1
+}
+
+printf '.'
+size_before="\$(get_file_size "\${file}")"
+optipng -quiet -strip all "\$file"
+size_after="\$(get_file_size "\${file}")"
+if test "\${size_before}" -gt "\${size_after}"; then
+    png_basename="\$(basename "\${file}")"
+    echo "Uncompressed image: ${ASSETS_DIR}/\${png_basename}" >>"${errors}"
+fi
+EOF
+chmod 755 "${tmp_script}"
+
+find "${ASSETS_DIR}" -type f -name '*.png' | sort |
+    parallel -k "${tmp_script}"
+
+printf '\n'
+
+if ! check_errors "${errors}"; then
+    echo
+    echo "Run \`optipng -quiet -strip all FILE\` to fix"
+fi
+
+cd "${root_dir}"

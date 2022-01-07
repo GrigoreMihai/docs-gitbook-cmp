@@ -15,6 +15,15 @@ check_status_code() {
     fi
 }
 
+# Test that a command can be found (use prior to pipes that would otherwise
+# nullify the non-zero return code from a missing command)
+test_command() {
+    command="${1}"
+    if ! which "${command}" 2>/dev/null; then
+        echo "ERROR: Command not found: ${command}"
+    fi
+}
+
 # Orphaned assets
 # -----------------------------------------------------------------------------
 
@@ -102,11 +111,15 @@ tmp_dir="$(mktemp -d)"
 rsync -a . "${tmp_dir}"
 rm -rf "${tmp_dir}/.git"
 
+test_command fdupes
+
 fdupes -r "${tmp_dir}" | sed "s,${tmp_dir}/,,"
 
 rm -rf "${tmp_dir}"
 
 echo 'Checking for approximate duplicates...'
+
+test_command imgdup2go
 
 tmp_script=$(mktemp)
 cat >"${tmp_script}" <<EOF

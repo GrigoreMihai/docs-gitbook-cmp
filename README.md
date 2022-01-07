@@ -1,7 +1,6 @@
 # DoiT CMP User Documentation
 
-_GitBook repository for the DoiT Cloud Management Platform (CMP) User
-Documentation_
+_GitBook repository for the DoiT Cloud Management Platform (CMP) User Documentation_
 
 [![Build][actions-build-img]][actions-build]
 
@@ -17,8 +16,7 @@ Documentation_
 
 ## Contribute
 
-This project is primarily maintained by [DoiT International][doit-org] staff.
-However, we do welcome community contributions!
+This project is primarily maintained by [DoiT International][doit-org] staff. However, we do welcome community contributions!
 
 ### Create an issue
 
@@ -30,10 +28,7 @@ Please feel free to [create an issue][issues] if you would like to:
 
 ### Create a pull request
 
-The documentation itself lives under the `docs` directory and is written using
-[GitBook-flavored Markdown][markdown]. If you would like to make changes
-directly, please feel free to [fork this repository][fork] and [create a pull
-request][pr].
+The documentation itself lives under the `docs` directory and is written using [GitBook-flavored Markdown][markdown]. If you would like to make changes directly, please feel free to [fork this repository][fork] and [create a pull request][pr].
 
 [doit-org]: https://github.com/doitintl/
 [issues]: https://github.com/doitintl/cmp-docs/issues

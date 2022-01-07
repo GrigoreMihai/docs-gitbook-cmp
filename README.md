@@ -3,7 +3,7 @@
 _GitBook repository for the DoiT Cloud Management Platform (CMP) User
 Documentation_
 
-[![DocOps][actions-docops-img]][actions-docops]
+[![Build][actions-build-img]][actions-build]
 
 **Table of contents**
 
@@ -12,8 +12,8 @@ Documentation_
   - [Create a pull request](#create-a-pull-request)
 - [See also](#see-also)
 
-[actions-docops-img]: https://github.com/doitintl/cmp-docs/actions/workflows/docops.yaml/badge.svg
-[actions-docops]: https://github.com/doitintl/cmp-docs/actions/workflows/docops.yaml
+[actions-build-img]: https://github.com/doitintl/docs-gitbook-cmp/actions/workflows/build.yaml/badge.svg
+[actions-build]: https://github.com/doitintl/docs-gitbook-cmp/actions/workflows/build.yaml
 
 ## Contribute
 

@@ -22,6 +22,7 @@ apk add --no-cache \
     python3 \
     python3-dev \
     py3-pip \
+    py3-wheel \
     npm \
     shfmt \
     shellcheck \

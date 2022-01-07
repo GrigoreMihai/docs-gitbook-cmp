@@ -19,7 +19,7 @@ check_status_code() {
 # nullify the non-zero return code from a missing command)
 test_command() {
     command="${1}"
-    if ! which "${command}" 2>/dev/null; then
+    if ! which "${command}" >/dev/null 2>&1; then
         echo "ERROR: Command not found: ${command}"
     fi
 }
@@ -121,19 +121,14 @@ echo 'Checking for approximate duplicates...'
 
 test_command imgdup2go
 
-tmp_script=$(mktemp)
-cat >"${tmp_script}" <<EOF
-#!/bin/sh -e
-
-img_dir="\${1}"
-cd "\${img_dir}"
+cd docs/.gitbook/assets
 
 tmp_file="$(mktemp)"
 
 # Verify ignore entries
 sed 's, matches: .*,,' <../.imgdupignore | while read -r file; do
-    if ! test -f "\${file}"; then
-        echo "Ignored file does not exist: \${file}" >>"\${tmp_file}"
+    if ! test -f "${file}"; then
+        echo "Ignored file does not exist: ${file}" >>"${tmp_file}"
     fi
 done
 
@@ -142,22 +137,13 @@ imgdup2go -dryrun -algo diff |
     grep 'imgdup2go.go:246' |
     sed 's,.*:246: ,,' |
     grep -vFf ../.imgdupignore \
-        >>"\${tmp_file}" ||
+        >>"${tmp_file}" ||
     true
 
-if test -s "\${tmp_file}"; then
-    cat "\${tmp_file}"
+if test -s "${tmp_file}"; then
+    cat "${tmp_file}"
     return 1
 fi
-EOF
-chmod 755 "${tmp_script}"
-
-parallel -k "${tmp_script}" <<EOF
-docs/.gitbook/assets
-archive/.gitbook/assets
-EOF
-
-rm -f "${tmp_script}"
 
 # Uncompressed assets
 # -----------------------------------------------------------------------------

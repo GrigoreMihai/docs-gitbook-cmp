@@ -108,7 +108,7 @@ echo 'Checking for exact duplicates...'
 # repository clone to a temporary directory and remove the `.git` directory
 # prior to running `fdupes`
 tmp_dir="$(mktemp -d)"
-rsync -a . "${tmp_dir}"
+rsync -qa . "${tmp_dir}"
 rm -rf "${tmp_dir}/.git"
 
 test_command fdupes

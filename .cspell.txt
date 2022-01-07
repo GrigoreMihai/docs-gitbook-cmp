@@ -72,6 +72,7 @@ dockerfilelint
 docops
 doit
 doitintl
+dryrun
 eamodio
 ecam
 editmsg
@@ -111,6 +112,9 @@ hpc
 iban
 idps
 iec
+img
+imgdup
+imgdupignore
 iops
 kpis
 kubernetes

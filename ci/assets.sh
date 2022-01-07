@@ -93,7 +93,7 @@ check_status_code
 # Duplicate assets
 # -----------------------------------------------------------------------------
 
-echo 'Checking for duplicate assets...'
+echo 'Checking for exact duplicates...'
 
 # The `fdupes` program provides no way to exclude directories, so we copy the
 # repository clone to a temporary directory and remove the `.git` directory
@@ -105,6 +105,46 @@ rm -rf "${tmp_dir}/.git"
 fdupes -r "${tmp_dir}" | sed "s,${tmp_dir}/,,"
 
 rm -rf "${tmp_dir}"
+
+echo 'Checking for approximate duplicates...'
+
+tmp_script=$(mktemp)
+cat >"${tmp_script}" <<EOF
+#!/bin/sh -e
+
+img_dir="\${1}"
+cd "\${img_dir}"
+
+tmp_file="$(mktemp)"
+
+# Verify ignore entries
+sed 's, matches: .*,,' <../.imgdupignore | while read -r file; do
+    if ! test -f "\${file}"; then
+        echo "Ignored file does not exist: \${file}" >>"\${tmp_file}"
+    fi
+done
+
+# Analyze directory contents and filter out ignored results
+imgdup2go -dryrun -algo diff |
+    grep 'imgdup2go.go:246' |
+    sed 's,.*:246: ,,' |
+    grep -vFf ../.imgdupignore \
+        >>"\${tmp_file}" ||
+    true
+
+if test -s "\${tmp_file}"; then
+    cat "\${tmp_file}"
+    return 1
+fi
+EOF
+chmod 755 "${tmp_script}"
+
+parallel -k "${tmp_script}" <<EOF
+docs/.gitbook/assets
+archive/.gitbook/assets
+EOF
+
+rm -f "${tmp_script}"
 
 # Uncompressed assets
 # -----------------------------------------------------------------------------

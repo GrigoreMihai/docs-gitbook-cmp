@@ -18,6 +18,7 @@ apk add --no-cache \
     rsync \
     parallel \
     imagemagick \
+    fdupes \
     python3 \
     python3-dev \
     py3-pip \
@@ -122,6 +123,17 @@ tar -xzf "${WOKE_TGZ}"
 chown root:root "${WOKE_PKG}/${WOKE_BIN}"
 chmod 755 "${WOKE_PKG}/${WOKE_BIN}"
 mv "${WOKE_PKG}/${WOKE_BIN}" /usr/local/bin
+
+IMGDUP2GO_BIN="imgdup2go"
+IMGDUP2GO_PKG="${IMGDUP2GO_BIN}-2.1.0_linux_amd64"
+IMGDUP2GO_TGZ="${IMGDUP2GO_PKG}.tar.gz"
+IMGDUP2GO_URL="https://git.io/JS7TA"
+
+curl -fsSL "${IMGDUP2GO_URL}" >"${IMGDUP2GO_TGZ}"
+tar -xzf "${IMGDUP2GO_TGZ}"
+chown root:root "${IMGDUP2GO_BIN}"
+chmod 755 "${IMGDUP2GO_BIN}"
+mv "${IMGDUP2GO_BIN}" /usr/local/bin
 
 # Cleanup
 # -----------------------------------------------------------------------------

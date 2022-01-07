@@ -15,7 +15,7 @@ To access the BigQuery Lens, you must verify that your Google Cloud service acco
 
 To check the status of your service account, select the _Settings_ icon (a gear) from the top menu bar, then select _Google Cloud_:
 
-![A screenshot of the _Google Cloud_ settings screen"](../.gitbook/assets/enable-bg-lens.png)
+![A screenshot of the _Google Cloud_ settings screen"](../.gitbook/assets/google-cloud-settings.png)
 
 You will need to enable the BigQuery Lens feature on this screen to use the
 BigQuery Lens. The same is true for BigQuery Lens Advanced.

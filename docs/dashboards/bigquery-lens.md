@@ -17,8 +17,7 @@ To check the status of your service account, select the _Settings_ icon (a gear)
 
 ![A screenshot of the _Google Cloud_ settings screen"](../.gitbook/assets/cmp-google-cloud-settings.png)
 
-You will need to enable the BigQuery Lens feature on this screen to use the
-BigQuery Lens. The same is true for BigQuery Lens Advanced.
+You will need to enable the BigQuery Lens feature on this screen to use the BigQuery Lens. The same is true for BigQuery Lens Advanced.
 
 After your service account has been uploaded and you have enabled the features you want, you will see:
 
@@ -28,9 +27,9 @@ After your service account has been uploaded and you have enabled the features y
 
 ## Setup
 
-Once the Google Cloud Service Account setup is complete, select the _Attach_ button on from the CMP dashboard:
+Once the Google Cloud Service Account setup is complete, select the _Attach_ button from the dashboard navigation bar:
 
-![A screenshot showing the location of the _Attach_ icon](../.gitbook/assets/cmp-dashboard-attach.png)
+![A screenshot showing the location of the _Attach_ icon](../.gitbook/assets/cmp-dashboard-attach-bigquery-lens.png)
 
 Select _BigQuery Lens_ from the list of options.
 

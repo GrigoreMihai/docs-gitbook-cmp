@@ -1,38 +1,54 @@
 # Create New Dashboard
 
-You can maintain multiple dashboards in your Cloud Management Platform to visualize metrics, manage licenses, and access important data for your organization.
+You can maintain multiple dashboards in your Cloud Management Platform to visualize metrics, manage licenses, and access essential data for your organization.
 
-In order to create a new dashboard, go to the right-hand side of the page and click 'Add Dashboard'.
+Start from an existing dashboard:
 
-![A screenshot showing the _Add dashboard_ modal dialog](../.gitbook/assets/cmp-create-new-dashboard-1.png)
+![A screenshot the default CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
-Create the 'New Dashboard' and choose a name, for example, 'AWS', 'Google Cloud', 'Finance', 'Ops', or anything else that suits your use case.
+Select the _New Dashboard_ button from the right-hand side of the dashboard navigation bar:
 
-Every dashboard can be 'Private', or 'Public'.
+![A screenshot showing the _New Dashboard_ modal dialog](../.gitbook/assets/cmp-dashboard-add-new.png)
 
-* Private - only you can view the dashboard
-* Public - any user in your organization can access this dashboard
+Choose a name that suits your use-case (e.g., "Finance", "Google Cloud", "AWS", and so on).
 
-When creating a new public dashboard, choose whether or not to grant other users permission to edit the dashboard by switching on the 'Enable others to edit' toggle.
+Every dashboard can be _Private_ or _Public_:
 
-![A screenshot showing the details of the Add Dashboard modal dialog](../.gitbook/assets/cmp-add-dashboard.png)
+* Private — only you can view the dashboard
+* Public — any user in your organization can access this dashboard
 
-Once a dashboard has been created, adding widgets is the next step in the dashboard customization process. Go to the bottom right-hand corner and click 'Add Widgets'.
+If you select _Public_, you will be given the option to allow other people in your organization to edit the dashboard.
 
-![A screenshot showing the location of the Add Widgets icon](../.gitbook/assets/cmp-add-widgets.png)
+The _Density_ determines the layout of the dashboard (with more dense dashboards having smaller widgets but more display space, and vice-versa).
 
-Select widgets from the Widgets Library you'd like to add to your dashboard.
+Select _Create_ to create your new dashboard.
 
-![A screenshot of the Widgets Library menu](../.gitbook/assets/cmp-dashboard-widgets-library.png)
+The CMP will create your new dashboard and take you to the new dashboard page.
 
-In the following example, I created a customized dashboard named "Cloud FinOps".
+## Add widgets
 
-![A screenshot showing the location of the _Add Widgets_ button](../.gitbook/assets/cmp-create-new-dashboard-2.png)
+Once a dashboard has been created, you can add widgets by selecting the _Add Widget_ button from the right-hand side of the dashboard navigation bar.
 
-Considering that a user can have multiple dashboards which can be either 'Private' and 'Public', notice the globe icon next to a dashboard title; the globe icon represents a 'Public' dashboard. There are a few dependencies for recognizing a dashboard as Private or Public :
+Selecting _Add Widget_ will slide open the widgets panel:
 
-1. Globe icon **+** 'Customize' button disabled **+** 'Add Widgets' button doesn't appear - public, non-editable dashboard
-2. Lock icon - your own private dashboard
-3. Dashboard title text is highlighted blue - currently viewing dashboard
+![A screenshot showing the location the widgets panel](../.gitbook/assets/cmp-dashboard-new-add-widgets.png)
 
-For more info on accessing a Public Dashboard, go [here](accessing-a-public-dashboard.md).
+Select the plus icon next to the widget you want to add to your dashboard.
+
+This example shows a dashboard named "Finance" with three finance-related widgets:
+
+![A screenshot showing an example dashboard](../.gitbook/assets/cmp-dashboard-new-example.png)
+
+## Edit widgets
+
+To edit widgets, select _Customize_ from the right-hand side of the dashboard navigation bar.
+
+After selecting _Customize_, two icons will appear in the top right-hand corner of each widget. The first icon (two columns of three dots) allows you to drag widgets around and rearrange the dashboard. The second icon (a trash can) allows you to remove the widget from the dashboard.
+
+When you are finished editing the dashboard, select _Done_ from the right-hand side of the dashboard navigation bar to save your changes.
+
+{% hint style="info" %}
+
+See also: [Accessing a public dashboard](accessing-a-public-dashboard.md)
+
+{% endhint %}

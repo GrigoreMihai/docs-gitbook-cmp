@@ -28,13 +28,15 @@ Read [this article](link-account.md) to see how to link your AWS IAM Role, and s
 
 ## Adding the Quotas widget to your dashboard
 
-Once set up, you can add the 'Amazon Web Services Quotas' widget to any of your dashboards within the Cloud Management Platform. You will also start receiving the email notifications as you get close or reach the service limits.
+Once set up, you can add the _Amazon Web Services Quotas_ widget to any of your dashboards within the Cloud Management Platform. You will also start receiving the email notifications as you get close or reach the service limits.
 
-To do so, first go to the dashboard you'd like to add the widget to. Then, locate the 'Add Widgets' button in the lower-right corner of your screen and find the 'Amazon Web Services Quotas' option.
+To do so, first go to the dashboard you'd like to add the widget to. Then, select _Add Widget_ from the dashboard navigation bar.
 
-![A screenshot of the _Amazon Web Services Quotas_ option](../.gitbook/assets/cmp-add-widget-aws-quotas.png)
+Selecting _Add Widget_ will slide open the widgets panel:
 
-Finally, click on the widget option to add it as a widget to your dashboard.
+![A screenshot showing the location the widgets panel](../.gitbook/assets/cmp-dashboard-add-widgets.png)
+
+With the widgets panel open, find the _Amazon Web Services Quotas_ widget and select the plus icon to add it to your dashboard:
 
 ![A screenshot of the quotas widget](../.gitbook/assets/cmp-aws-quotas-widget.png)
 

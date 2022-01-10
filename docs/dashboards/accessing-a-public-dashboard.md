@@ -1,17 +1,14 @@
 # Access Public Dashboard
 
-In order to access a Public Dashboard that was created by another user in your organization, go to the right-hand side of the page, and click 'Attach'.
+To access a dashboard that someone else in your organization has made public, select the _Attach_ button from the right-hand side of the dashboard navigation bar:
 
-![A screenshot highlighting the location of the _Attach_ icon](../.gitbook/assets/cmp-public-dashboard-1.png)
+![A screenshot the default CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
-Choose a dashboard from the dropdown list, and click 'Attach'.
+A modal dialog will open with a drop-down menu allowing you to select which dashboard you want to attach. Select the _Attach_ button when you have made your choice.
 
-![A screenshot showing the list of available dashboards](../.gitbook/assets/cmp-attach-dashboard.png)
+After selecting _Attach_, you will be taken to the dashboard, and a new button will be added to the left-hand side of your dashboard navigation bar.
 
-Instantly, you'll see the dashboard appear in the exact format from which it was created. As a user, you have the ability to edit this dashboard by using the 'Customize' button. The 'Add Widgets' button on the bottom right is available as well.
+An arrow icon will appear if you hover over the new button on your dashboard navigation bar. Selecting the arrow will display a drop-down menu with two options:
 
-{% hint style="info" %}
-
-If the owner did not enable others to edit, you will not be to customize the Dashboard.
-
-{% endhint %}
+1. _Set As Default_ — Sets this dashboard as your default dashboard
+2. _Detach_ — Removes this dashboard from your dashboard navigation bar

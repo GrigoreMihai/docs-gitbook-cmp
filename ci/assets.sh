@@ -19,7 +19,7 @@ errors="$(create_tmp_file)"
 
 find "${ASSETS_DIR}" -type f | while read -r file; do
     asset_basename="$(basename "${file}")"
-    if ! grep -rsqF "${asset_basename}" --include="*.md" docs; then
+    if ! grep -rsqF "assets/${asset_basename}" --include="*.md" docs; then
         echo "Orphaned asset: ${file}" >>"${errors}"
     fi
 done

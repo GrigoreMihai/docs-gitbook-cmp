@@ -110,11 +110,11 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
 
 If one of the built-in roles doesn't work for you, you can create a custom role with your own set of permissions. To create a custom user role, select the _Settings_ icon (a gear) from the top menu bar, then select _Identity and access_.
 
-![A screenshot of the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
+![A screenshot of the _Identity and access_ screen](../.gitbook/assets/cmp-iam-screen.png)
 
 From there, select _Roles_ from the left-hand menu:
 
-![A screenshot showing the _Roles_ screen_](../.gitbook/assets/roles.png)
+![A screenshot showing the _Roles_ screen_](../.gitbook/assets/cmp-roles.png)
 
 You will see a list of preset roles as well as any other custom roles created by your team.
 
@@ -122,7 +122,7 @@ Create a new role by selecting the _NEW_ button in the top right-hand of the
 screen. Doing this will take you to the _New role_ screen, with a [list of
 permissions](user-permissions-explained.md) available for you to group into the new role:
 
-![A screenshot showing the _New role_ screen_](../.gitbook/assets/permissions.png)
+![A screenshot showing the _New role_ screen_](../.gitbook/assets/cmp-permissions.png)
 
 To get started:
 

@@ -33,7 +33,7 @@ To request the perk for your team, click on the "Request Perk" button in the top
 
 After a few seconds, you will see the following message on the lower-left corner of your screen if the request is successful:
 
-!["Your request is submitted. We'll reach out to you during the next 48 hours"](../.gitbook/assets/perk-request-submitted.png)
+!["Your request is submitted. We'll reach out to you during the next 48 hours"](../.gitbook/assets/cmp-perk-request-submitted.png)
 
 Additionally, you will receive an email confirming that your request has been received.
 

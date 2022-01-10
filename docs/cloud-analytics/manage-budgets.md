@@ -20,7 +20,7 @@ Required Permissions: **Cloud Analytics**
 
 Go to the _Budgets_ page by selecting _Governance_ from the top menu bar, then selecting _Budgets_:
 
-![A screenshot of the _Budgets_ page](../.gitbook/assets/budget-screen.png)
+![A screenshot of the _Budgets_ page](../.gitbook/assets/cmp-budget-screen.png)
 
 To create a new budget, select the _NEW BUDGET_ button in the top right-hand corner of the screen.
 
@@ -28,7 +28,7 @@ To create a new budget, select the _NEW BUDGET_ button in the top right-hand cor
 
 After selecting _NEW BUDGET_, you will be taken to the budget creation form:
 
-![A screenshot of the new budget form](../.gitbook/assets/new-budget.png)
+![A screenshot of the new budget form](../.gitbook/assets/cmp-new-budget.png)
 
 Give your budget a suitable name and the budget's scope by selecting the attributions your budget will be allocated to.
 
@@ -40,7 +40,7 @@ Select the _Refresh_ icon to view your last period's cost, given the budget scop
 
 After refreshing and setting a budget amount, two visual bars will appear below:
 
-![A screenshot of a budget preview](../.gitbook/assets/budget-preview.png)
+![A screenshot of a budget preview](../.gitbook/assets/cmp-budget-preview.png)
 
 The two bars represent:
 
@@ -110,7 +110,7 @@ When you exceed a budget threshold, you'll receive an email detailing:
 
 Here is what a typical alert looks like:
 
-![A screenshot showing an email alert](../.gitbook/assets/budget-alert.png)
+![A screenshot showing an email alert](../.gitbook/assets/email-budget-alert.png)
 
 ## Video walk-through
 

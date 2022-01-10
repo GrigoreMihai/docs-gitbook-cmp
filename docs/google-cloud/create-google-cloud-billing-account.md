@@ -24,11 +24,11 @@ Please note: Your user account must be linked to at least one billing profile in
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select _Manage Licenses & Assets_ from the main dashboard:
 
-![A screenshot showing you CMP dashboard](../.gitbook/assets/dashboard.png)
+![A screenshot showing you CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
 Once you're at the Assets page, switch to the Google Cloud tab and select _New Billing Account_, located in the top right-hand corner of the screen:
 
-![A screenshot showing the Google Cloud assets screen](../.gitbook/assets/assets-google-cloud.png)
+![A screenshot showing the Google Cloud assets screen](../.gitbook/assets/cmp-assets-google-cloud.png)
 
 You will be prompted with a pop-up requesting you to enter your Google _Billing Account Name_, _Billing Profile_, and the email addresses of designated _Billing Account Administrators_.
 

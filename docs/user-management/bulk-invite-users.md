@@ -8,7 +8,7 @@ Whether you're just creating your team in the CMP or simply want to add a lot of
 
 Begin by selecting the _Settings_ icon (a gear) from the top menu bar, then _Identity and access_:
 
-![A screenshot of the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
+![A screenshot of the _Identity and access_ screen](../.gitbook/assets/cmp-iam-screen.png)
 
 Next, select the vertical ellipsis icon in the top right-hand corner of the screen to open the upload and download menu.
 
@@ -16,4 +16,4 @@ To bulk invite users, select the _Upload Users_ option, and then upload a CSV fi
 
 To ensure your CSV file is structured properly, download the template below and use it to format your bulk invitations.
 
-{% file src="../.gitbook/assets/new-user-bulk-upload-template.csv" caption="User Bulk Invite Template" %}
+{% file src="../.gitbook/assets/file-new-user-bulk-upload-template.csv" caption="User Bulk Invite Template" %}

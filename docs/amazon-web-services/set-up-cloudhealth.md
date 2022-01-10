@@ -48,8 +48,8 @@ If you require any further assistance with the creation of the CloudHealth IAM R
 If you have SSO enabled in CloudHealth, you will not be able to add users that use usernames and passwords. In order to add users they must first be added to the proper role group within the IDPs directory.
 {% endhint %}
 
-![Inviting a user in Setup > Users is not possible when SSO is enabled results in an error](../.gitbook/assets/setup-users-error.png)
+![Inviting a user in Setup > Users is not possible when SSO is enabled results in an error](../.gitbook/assets/cloudhealth-setup-users-error.png)
 
-![SSO in Cloudhealth](../.gitbook/assets/sso-cloudhealth.png)
+![SSO in Cloudhealth](../.gitbook/assets/cloudhealth-sso.png)
 
 See also: [AWS Single Sign-On Service Integration Guide For CloudHealth](https://www.cloudhealthtech.com/blog/aws-single-sign-on-service-integration-guide-for-cloudhealth)

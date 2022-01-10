@@ -20,7 +20,7 @@ You're now on the creation page of the ticket. Choose your Cloud Platform, Produ
 
 Note that we will also display any [Known Issues](cloud-infrastructure-known-issues.md) related to the cloud platforms you use. If one of the known issues displayed looks to be related to the service issues you're experiencing, it's fine to open a ticket with DoiT International but it is likely we are already working together with the cloud vendor engineers on whichever cloud platform the issue is arising from.
 
-![A screenshot of step one of the issue creation process](../.gitbook/assets/support-1.png)
+![A screenshot of step one of the issue creation process](../.gitbook/assets/cmp-support-1.png)
 
 It is essential to be specific when choosing the Severity of your request, as each issue has a dedicated response time for the support team:
 
@@ -33,7 +33,7 @@ Fill in the details of the issue with a clear Subject, relevant folks CC'd, and 
 
 Once ready, click Submit.
 
-![A screenshot showing you the final screen before submitting an issue](../.gitbook/assets/support-2.png)
+![A screenshot showing you the final screen before submitting an issue](../.gitbook/assets/cmp-support-2.png)
 
 {% hint style="info" %}
 Please note that in some cases, your cloud vendor representative such as an account manager or customer engineer can be automatically copied on your request. If you do not wish to copy the vendor representative, please remove the vendor's email address from the "Additional CCs" list.

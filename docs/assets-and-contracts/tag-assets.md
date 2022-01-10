@@ -22,9 +22,9 @@ Required Role\*\*: Admin\*\*
 5. Input a new tag or select from the list of previously created tags
 6. Click 'Save'
 
-![A screenshot showing the 3-dot menu options, including 'Tag Asset'](../.gitbook/assets/assets-page.png)
+![A screenshot showing the 3-dot menu options, including 'Tag Asset'](../.gitbook/assets/cmp-assets-page.png)
 
-![A screenshot showing the 'Tag Asset' modal and input](../.gitbook/assets/tag-asset-input.png)
+![A screenshot showing the 'Tag Asset' modal and input](../.gitbook/assets/cmp-tag-asset-input.png)
 
 All new tags you save will be added to the tag selection list and will be available to use for other assets.
 

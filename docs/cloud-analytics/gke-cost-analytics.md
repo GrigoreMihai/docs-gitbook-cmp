@@ -32,7 +32,7 @@ In order to do this, you will need to [connect your Google Cloud Organization](.
 
 Then check the box(es) of the additional features you'd like to enable, making sure to select "GKE Cost Analytics" here.
 
-![A screenshot showing you the location of the location of the Upload Key button](../.gitbook/assets/gke-cost-analytics-enable.png)
+![A screenshot showing you the location of the location of the Upload Key button](../.gitbook/assets/cmp-gke-cost-analytics-enable.png)
 
 Click on the "Create Service Account" button. This will display all of the Google SDK ([gcloud)](https://cloud.google.com/sdk) commands you need to run sequentially to create the service account that contains the permissions for all of the features you checked.
 
@@ -65,11 +65,11 @@ First, navigate to the BigQuery console and locate the dataset you chose from [S
 
 From there, select "Share Dataset"
 
-![A screenshot showing you the location of the Share Dataset button](../.gitbook/assets/share-dataset-button.png)
+![A screenshot showing you the location of the Share Dataset button](../.gitbook/assets/gcp-share-dataset-button.png)
 
 Then enter the service account email in the "Add members" field. Finally, grant this email the "BigQuery Data Viewer" role and click "Add", then "Done" to apply the changes.
 
-![A screenshot showing how to grant the BigQuery Data Viewer role](../.gitbook/assets/grant-bigquery-data-view-role.png)
+![A screenshot showing how to grant the BigQuery Data Viewer role](../.gitbook/assets/gcp-grant-bigquery-data-view-role.png)
 
 {% hint style="info" %}
 Note: Datasets to which the Service Account email is not granted this permission will not be available in the GKE Cost Analytics feature of the DoiT CMP.
@@ -87,11 +87,11 @@ Once everything is set up, your team's GKE metering data can be analyzed using t
 
 To start, open a new Report. You should see new GKE dimensions appear alongside your other billing dimensions, as highlighted below.
 
-![A screenshot showing the GKE dimensions](../.gitbook/assets/gke-dimensions.png)
+![A screenshot showing the GKE dimensions](../.gitbook/assets/cmp-gke-dimensions.png)
 
 You will also find any GKE labels in the Labels chip, under the "GKE Labels" header in the dropdown.
 
-![A screenshot showing the GKE Labels dropdown](../.gitbook/assets/gke-labels-dropdown.png)
+![A screenshot showing the GKE Labels dropdown](../.gitbook/assets/cmp-gke-labels-dropdown.png)
 
 Drag a GKE chip or a GKE label chip into the "Group By" or "Dimensions" section to start understanding the real costs of running Kubernetes-based workloads on Google Kubernetes Engine.
 

@@ -17,13 +17,13 @@ Essentially, billing records that don't align with your anticipated spending beh
 
 To manage your notifications, select the _Settings_ icon (a gear) from the top menu, then select _Identity and access_.
 
-![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
+![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/cmp-iam-screen.png)
 
 On this screen, select your own user account.
 
 Then, on your user profile page, select _Notifications_ from the left-hand menu:
 
-![A screenshot showing the _Notifications_ screen](../.gitbook/assets/notifications.png)
+![A screenshot showing the _Notifications_ screen](../.gitbook/assets/cmp-notifications.png)
 
 If you'd like to be notified of potential anomalies, check the _Cloud Cost Anomalies_ box and then set the minimum severity threshold you'd like to be alerted on.
 

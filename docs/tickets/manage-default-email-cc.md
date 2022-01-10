@@ -16,8 +16,8 @@ Locate the settings gear icon at the top-right of the page
 
 Select 'Manage Default Emails List'
 
-![A screenshot showing you the location of the _Manage Default Emails List_ options](../.gitbook/assets/default-email-1.png)
+![A screenshot showing you the location of the _Manage Default Emails List_ options](../.gitbook/assets/cmp-default-email-1.png)
 
 Add people you'd like to be always copied on new requests and click "Save"
 
-![A screenshot showing you the option to manage default CC addresses](../.gitbook/assets/default-email-2.png)
+![A screenshot showing you the option to manage default CC addresses](../.gitbook/assets/cmp-default-email-2.png)

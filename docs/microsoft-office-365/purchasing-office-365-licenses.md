@@ -16,11 +16,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
 From the _Assets_ page, select _Office 365_ from the left-hand menu:
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/ms-office-365.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-ms-office-365.png)
 
 You can see the number of licenses in use next to each _Quantity_ label.
 
@@ -30,7 +30,7 @@ To apply your changes, select the _APPLY_ button in the bottom right-hand corner
 
 If you are purchasing additional licenses, you will be prompted to approve the purchase before continuing:
 
-![A screenshot showing you the location of the Approve option](../.gitbook/assets/office-license.png)
+![A screenshot showing you the location of the Approve option](../.gitbook/assets/cmp-office-license.png)
 
 If you remove licenses, charges will be deducted from your account as reflected in the next month's billing to your organization.
 

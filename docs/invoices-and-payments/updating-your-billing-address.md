@@ -18,11 +18,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main CMP dashboard, select the edit icon next to the billing profile you would like to update.
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
 From the billing profile page, select _Billing Address_ from the left-hand menu:
 
-![A screenshot of the _Billing Address_ screen](../.gitbook/assets/billing-address-screen.png)
+![A screenshot of the _Billing Address_ screen](../.gitbook/assets/cmp-billing-address-screen.png)
 
 After updating your details, select the _SAVE_ button in the bottom right-hand corner of the screen.
 

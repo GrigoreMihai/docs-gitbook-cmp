@@ -14,6 +14,6 @@ Start with logging into the [Cloud Management Platform](../general/log-in.md) an
 
 Locate the settings gear icon at the top-right of the page and click 'Enable Ticket Sharing'.
 
-![A screenshot showing the location of the _Enable Ticket Sharing_ option](../.gitbook/assets/sharing-1.png)
+![A screenshot showing the location of the _Enable Ticket Sharing_ option](../.gitbook/assets/cmp-sharing-1.png)
 
 Once enabled, you will be able to see tickets opened by others in your organization.

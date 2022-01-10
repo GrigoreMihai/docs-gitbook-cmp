@@ -6,18 +6,18 @@ In order to enable or disable the notification itself, click your profile icon i
 
 In the Profile dialog, you will find the '**Payment Reminders**' notification setting.
 
-![A screenshot showing the location of the Payment Reminders checkbox](../.gitbook/assets/payment-reminders-notification.png)
+![A screenshot showing the location of the Payment Reminders checkbox](../.gitbook/assets/cmp-payment-reminders-notification.png)
 
 Below are three examples of payment reminder email notifications we will send out:
 
 1. Seven days _before_ the invoice is due.
 
-   ![A screenshot of an invoice notification email](../.gitbook/assets/overdue-invoice-7.png)
+   ![A screenshot of an invoice notification email](../.gitbook/assets/email-overdue-invoice-7.png)
 
 2. Four days _after_ the overdue is due.
 
-   ![A screenshot of an invoice notification email](../.gitbook/assets/overdue-invoice-4.png)
+   ![A screenshot of an invoice notification email](../.gitbook/assets/email-overdue-invoice-4.png)
 
 3. 10 days _after_ the overdue is due.
 
-   ![A screenshot of an invoice notification email](../.gitbook/assets/overdue-invoice-10.png)
+   ![A screenshot of an invoice notification email](../.gitbook/assets/email-overdue-invoice-10.png)

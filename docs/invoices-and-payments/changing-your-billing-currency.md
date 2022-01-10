@@ -8,17 +8,17 @@ If you need to change your company's billing currency, a new billing profile mus
 
 From the main CMP dashboard, select the three vertical dots icon in the top right-hand corner of the screen and then select _New Billing Profile_.
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/new-billing-profile-menu-item.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-new-billing-profile-menu-item.png)
 
 Selecting this menu item will take you to the _New Billing Profile_ page:
 
-![A screenshot showing you the _New Billing Profile_ page](../.gitbook/assets/new-billing-profile-screen.png)
+![A screenshot showing you the _New Billing Profile_ page](../.gitbook/assets/cmp-new-billing-profile-screen.png)
 
 From this screen, you can proceed to fill out the the details of your new billing profile.
 
 After completing all the required fields, you will be asked what billing currency you would like to use.
 
-![A screenshot showing you the \_Billing Currency drop-down menu](../.gitbook/assets/currency.png)
+![A screenshot showing you the \_Billing Currency drop-down menu](../.gitbook/assets/cmp-currency.png)
 
 You may choose between the following payment methods and currencies; The following currencies are currently supported:
 

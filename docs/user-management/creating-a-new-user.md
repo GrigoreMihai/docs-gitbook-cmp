@@ -10,13 +10,13 @@ Required Permissions: **User Manager**
 
 Select the _Settings_ icon (a gear icon), then select the _Identity and access_.
 
-![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
+![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/cmp-iam-screen.png)
 
 Next, select the _INVITE USER_ button on the right-hand side of the page.
 
 A modal dialog will appear, allowing you to add multiple email addresses you want to invite. You are also given the option to check a box indicating that you would like to continue on to editing their user profiles.
 
-![A screenshot showing the location of the _Continue to editing user profile_ checkbox and the _Invite_ button](../.gitbook/assets/edit-user-profile-invite-button.png)
+![A screenshot showing the location of the _Continue to editing user profile_ checkbox and the _Invite_ button](../.gitbook/assets/cmp-edit-user-profile-invite-button.png)
 
 The recipient(s) you invited will receive an email, which you will be CC'd on, inviting them to complete the sign up and use the CMP.
 
@@ -44,7 +44,7 @@ Once you've made your desired changes, select the _UPDATE_ button to confirm the
 
 You can also bulk delete users from your organization. Instead of selecting _UPDATE_, select _DELETE_.
 
-![A screenshot showing the _Bulk Update Users_ modal dialog](../.gitbook/assets/bulk-update-dialog.png)
+![A screenshot showing the _Bulk Update Users_ modal dialog](../.gitbook/assets/cmp-bulk-update-dialog.png)
 
 ### Notification Types
 

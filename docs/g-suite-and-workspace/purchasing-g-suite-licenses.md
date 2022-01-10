@@ -20,11 +20,11 @@ Please note that you must be assigned access to the specific billing profile und
 
 Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
 from the _Assets_ page, select _Google Workspace_ from the left-hand menu:
 
-![A screenshot showing the Google Workspace screen](../.gitbook/assets/google-workspace-screen.png)
+![A screenshot showing the Google Workspace screen](../.gitbook/assets/cmp-google-workspace-screen.png)
 
 You can see the number of licenses in use next to each _Quantity_ label.
 
@@ -34,7 +34,7 @@ To apply your changes, select the _APPLY_ button in the bottom right-hand corner
 
 If you are purchasing additional licenses, you will be prompted to approve the purchase before continuing:
 
-![A screenshot of the Add Licenses modal dialog with an Approve button](../.gitbook/assets/approve.png)
+![A screenshot of the Add Licenses modal dialog with an Approve button](../.gitbook/assets/cmp-approve.png)
 
 If you remove licenses, you will not have to pay for the licenses available if you aren't planning to use them. The charges will be deducted from your account as reflected in the next month's billing to your organization.
 

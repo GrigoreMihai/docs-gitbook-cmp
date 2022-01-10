@@ -44,6 +44,8 @@ echo 'Checking Markdown...'
 # Try to catch broken Markdown link syntax while allowing other uses of the
 # closing `]` bracket. This issue is not flagged by markdownlint.
 
+# TODO: Catch first line errors (should always start with `---`)
+
 errors="$(create_tmp_file)"
 
 grep -rsiE '[^0-9]\][^( :,]' docs \

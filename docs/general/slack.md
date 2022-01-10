@@ -22,7 +22,7 @@ To enable the integration, make sure you're logged in to both the CMP and Slack.
 
 Finally, click "Allow" to give the DoiT CMP Slack app permission to access your Slack workspace.
 
-![A screenshot of the permission request screen](../.gitbook/assets/permission-request-screen.png)
+![A screenshot of the permission request screen](../.gitbook/assets/slack-permission-request-screen.png)
 
 DoiT CMP is now a part of your Slack workspace, and any CMP Report or Budget links you send in Slack will unfurl with metadata, and if applicable a chart preview.
 

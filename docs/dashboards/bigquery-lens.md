@@ -15,7 +15,7 @@ To access the BigQuery Lens, you must verify that your Google Cloud service acco
 
 To check the status of your service account, select the _Settings_ icon (a gear) from the top menu bar, then select _Google Cloud_:
 
-![A screenshot of the _Google Cloud_ settings screen"](../.gitbook/assets/google-cloud-settings.png)
+![A screenshot of the _Google Cloud_ settings screen"](../.gitbook/assets/cmp-google-cloud-settings.png)
 
 You will need to enable the BigQuery Lens feature on this screen to use the
 BigQuery Lens. The same is true for BigQuery Lens Advanced.
@@ -30,7 +30,7 @@ After your service account has been uploaded and you have enabled the features y
 
 Once the Google Cloud Service Account setup is complete, select the _Attach_ button on from the CMP dashboard:
 
-![A screenshot showing the location of the _Attach_ icon](../.gitbook/assets/dashboard-attach.png)
+![A screenshot showing the location of the _Attach_ icon](../.gitbook/assets/cmp-dashboard-attach.png)
 
 Select _BigQuery Lens_ from the list of options.
 
@@ -62,7 +62,7 @@ The BigQuery historical jobs are backfilled for the last 30 days.
 
 The BigQuery Lens dashboard is made up of  widgets that, each designed to highlight a different aspect of your BigQuery usage.
 
-![A partial screenshot of the BigQuery Lens dashboard](../.gitbook/assets/bg-lens-dashboard.png)
+![A partial screenshot of the BigQuery Lens dashboard](../.gitbook/assets/cmp-bg-lens-dashboard.png)
 
 ### Elements of the Dashboard
 
@@ -185,7 +185,7 @@ We may not be able to detect which table is being scanned because of:
 * Queries we are unable to parse due to complexity (i.e., a parser time out), or
 * Queries that use a function or statement that we do not support yet
 
-![A screenshot highlighting the _Not yet allocated_ figure](../.gitbook/assets/not-yet-allocated.png)
+![A screenshot highlighting the _Not yet allocated_ figure](../.gitbook/assets/cmp-not-yet-allocated.png)
 
 ### How much does BigQuery Lens cost monthly?
 

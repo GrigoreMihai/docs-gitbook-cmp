@@ -18,7 +18,7 @@ Required Permissions: **Cloud Analytics**
 
 Select _Analytics_ from the top menu and then select _Attributions_ to access your attributions:
 
-![A screenshot of the _Attributions_ screen](../.gitbook/assets/attributions-screen.png)
+![A screenshot of the _Attributions_ screen](../.gitbook/assets/cmp-attributions-screen.png)
 
 To create a new attribution, select the _NEW ATTRIBUTION_ button.
 
@@ -30,15 +30,15 @@ If you want to give even more context to your Attribution, you may give it a des
 
 Now it's time to configure the conditions, or the criteria, which will determine what falls under your Attribution. You have the option to either set as meet "**ALL**" or "**ANY**" of the conditions. This will switch between "AND" to "OR" relations.
 
-![A screenshot showing the location of the items listed above](../.gitbook/assets/all-any.png)
+![A screenshot showing the location of the items listed above](../.gitbook/assets/cmp-all-any.png)
 
 You will have every cloud billing dimension to choose from; as well as any custom, project, and system labels. Select the field(s) you'd like to include as part of your Attribution from the dropdown:
 
-![A screenshot showing the dropdown menu](../.gitbook/assets/attributions.png)
+![A screenshot showing the dropdown menu](../.gitbook/assets/cmp-attributions.png)
 
 From there, filter your selections either by keyword, exclusion, or regular expression just as you would do in Cloud Analytics Reports. Continuing our example from above, let's filter for projects which the production team uses.
 
-![A screenshot showing the _Filter Projects_ form](../.gitbook/assets/filter-projects-form.png)
+![A screenshot showing the _Filter Projects_ form](../.gitbook/assets/cmp-filter-projects-form.png)
 
 Finally, click "Save" to apply the filter on your condition.
 
@@ -58,7 +58,7 @@ In the event that you have many attributions, make sure to click on the Attribut
 
 In the example below, only the production, dev, and ops team attributions will be included in the report:
 
-![A screenshot showing the _Filter attributions_ form](../.gitbook/assets/filter-attributions-form.png)
+![A screenshot showing the _Filter attributions_ form](../.gitbook/assets/cmp-filter-attributions-form.png)
 
 View the bite-sized video below for a closer look at Attributions and using them in your Cloud Reports.
 

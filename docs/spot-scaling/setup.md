@@ -22,7 +22,7 @@ If your account was already linked prior to enabling Spot Scaling functionality,
 
 **Follow** [these instructions](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#adding-a-feature) **on adding a feature to an already-linked AWS account**. Be sure to check the box next to "Spot Scaling", as shown below.
 
-![A screenshot showing the checkbox next to Spot Scaling](../.gitbook/assets/spot-scaling-checkbox.png)
+![A screenshot showing the checkbox next to Spot Scaling](../.gitbook/assets/cmp-spot-scaling-checkbox.png)
 
 ## Implement Spot Scaling Recommendations
 
@@ -34,11 +34,11 @@ Once an AWS account is linked, any Auto Scaling Groups (ASGs) associated with it
 
 These ASGs will have a value of "Not Optimized" under the "Optimization Status" column.
 
-![A screenshot showing the location of the 'Not Optimized' status](../.gitbook/assets/spot-scaling-not-optimized.png)
+![A screenshot showing the location of the 'Not Optimized' status](../.gitbook/assets/cmp-spot-scaling-not-optimized.png)
 
 Click on the ASG to view its Spot Scaling recommendation.
 
-![A screenshot showing the location of the ASG name](../.gitbook/assets/spot-scaling-asg.png)
+![A screenshot showing the location of the ASG name](../.gitbook/assets/cmp-spot-scaling-asg.png)
 
 Your ASG's current configuration is displayed under the "Current Values" column. Spot Scaling's recommendations are displayed under the "Recommended Values" column.
 
@@ -48,7 +48,7 @@ After selecting an un-optimized Auto Scaling Group, its current configuration wi
 
 You will also see the current on-demand costs and hours running for that Auto Scaling Group at the top-left corner.
 
-![A screenshot showing the location of the Current Values and Recommended Values sections](../.gitbook/assets/current-values-recommended-values.png)
+![A screenshot showing the location of the Current Values and Recommended Values sections](../.gitbook/assets/cmp-current-values-recommended-values.png)
 
 Examine the recommendations. If needed, you can adjust several aspects of the recommendation to your liking. You may modify the following values of a recommendation:
 

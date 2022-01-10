@@ -24,8 +24,8 @@ When using sign in with Google for the first time, admin consent should not be n
 
 Start at [https://app.doit-intl.com](https://app.doit-intl.com)
 
-![A screenshot of the CMP login page](../.gitbook/assets/hello.png)
+![A screenshot of the CMP login page](../.gitbook/assets/cmp-hello.png)
 
 Click on the 'Forgot password?' button if you need it, and you will be prompted to follow the instructions.
 
-!["Please check your inbox for a password reset email"](../.gitbook/assets/password-reset.png)
+!["Please check your inbox for a password reset email"](../.gitbook/assets/cmp-password-reset.png)

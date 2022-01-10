@@ -6,14 +6,14 @@ In order to enable or disable the notification itself, click your profile icon i
 
 In the Profile dialog, you will find the '**Credit Alerts**' notification setting.
 
-![A screenshot showing the location of the Credit Alerts checkbox](../.gitbook/assets/credit-alerts-notification.png)
+![A screenshot showing the location of the Credit Alerts checkbox](../.gitbook/assets/cmp-credit-alerts-notification.png)
 
 Below are two examples of credit alerts email notifications we will send out:
 
 When the credit is due to end.
 
-![A screenshot of a notification email](../.gitbook/assets/credits-due-to-end.png)
+![A screenshot of a notification email](../.gitbook/assets/email-credits-due-to-end.png)
 
 When the credit has exhausted.
 
-![A screenshot of a notification email](../.gitbook/assets/credits-exhausted.png)
+![A screenshot of a notification email](../.gitbook/assets/email-credits-exhausted.png)

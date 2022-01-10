@@ -21,11 +21,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Choose the Billing Profile to which you'd like to have the existing AWS account now be a part of. Enter the 12-digit AWS Account ID and any optional notes before clicking 'Invite'.
 
-![A screenshot of the AWS _Invitations_ screen](../.gitbook/assets/invite-aws-4.png)
+![A screenshot of the AWS _Invitations_ screen](../.gitbook/assets/aws-invite-4.png)
 
 An email will be sent on behalf of AWS.
 
-![A screenshot of an email sent by DoiT](../.gitbook/assets/invite-existing-3.png)
+![A screenshot of an email sent by DoiT](../.gitbook/assets/email-invite-existing-3.png)
 
 If within five minutes you haven't received the above email, please re-enter your AWS Account ID in the DoiT Cloud Management Platform and invite once again.
 
@@ -52,7 +52,7 @@ For each account you must:
 
 After signing in to the AWS Console and accepting the invitation, a final email will be sent instructing how to complete the IAM access for CloudHealth.
 
-![A screenshot of an email sent by DoiT](../.gitbook/assets/invite-aws-5.png)
+![A screenshot of an email sent by DoiT](../.gitbook/assets/email-invite-5.png)
 
 ## Frequently asked questions
 
@@ -64,7 +64,7 @@ Once successfully completed it takes 24-72 hours for the data to start flowing t
 
 On your organization's page, check if you can see the invite:
 
-![A screenshot of the _AWS Organizations_ page](../.gitbook/assets/invite-aws-6.png)
+![A screenshot of the _AWS Organizations_ page](../.gitbook/assets/aws-invite-6.png)
 
 If you can't see that invite, check if you have left your organization as specified in the above "Multiple Accounts Under a Master Organization" steps.
 
@@ -78,7 +78,7 @@ If you are still having issues, you can [open a support ticket](https://hello.do
 
 ### My payer account is showing as N/A, what does that mean?
 
-!["CloudHealth Status: Unknown"](../.gitbook/assets/cloudhealth-status-unknown.png)
+!["CloudHealth Status: Unknown"](../.gitbook/assets/cmp-cloudhealth-status-unknown.png)
 
 It means that your Cloudhealth configuration was not done properly.
 

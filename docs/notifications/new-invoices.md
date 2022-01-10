@@ -8,4 +8,4 @@ Select the '**Notifications**' tab and check the box for '**New Invoices**'. Thi
 
 Below is an example of the new invoice email notification we will send out.
 
-![A screenshot of an invoice email](../.gitbook/assets/new-invoice-alert.png)
+![A screenshot of an invoice email](../.gitbook/assets/email-new-invoice-alert.png)

@@ -18,11 +18,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main CMP dashboard, select the edit icon next to the billing profile you would like to update.
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
 From the billing profile page, select _Invoices Contact_ from the left-hand menu:
 
-![A screenshot of the _Invoices Contact_ screen](../.gitbook/assets/invoices-contact.png)
+![A screenshot of the _Invoices Contact_ screen](../.gitbook/assets/cmp-invoices-contact.png)
 
 When you're finished updating your details, select the _SAVE_ button in the bottom right-hand corner of the screen.
 

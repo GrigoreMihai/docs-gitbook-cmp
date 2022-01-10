@@ -31,7 +31,9 @@ check_errors "${errors}"
 
 echo 'Checking asset filenames...'
 
-check_basename() {
+# TODO: Disallow all numbers (with exceptions)
+
+check_filename() {
     basename="${1}"
     # Check stem for valid characters
     echo "${basename}" | grep -Eq '^[a-z0-9-]+\..+$' || {
@@ -56,8 +58,34 @@ errors="$(create_tmp_file)"
 
 find "${ASSETS_DIR}" -type f | sort | while read -r file; do
     asset_basename="$(basename "${file}")"
-    if ! check_basename "${asset_basename}"; then
+    if ! check_filename "${asset_basename}"; then
         echo "Invalid filename: ${ASSETS_DIR}/${asset_basename}" >>"${errors}"
+    fi
+done
+
+check_errors "${errors}"
+
+# Asset filename prefixes
+# -----------------------------------------------------------------------------
+
+echo 'Checking asset filename prefixes...'
+
+ALLOWED_PREFIXES='cmp|aws|gcp|ms|slack|cloudhealth|feedback-hub|email|file'
+
+check_filename_prefix() {
+    basename="${1}"
+    echo "${basename}" |
+        grep -Eq "^(${ALLOWED_PREFIXES})-" || {
+        return 1
+    }
+}
+
+errors="$(create_tmp_file)"
+
+find "${ASSETS_DIR}" -type f | sort | while read -r file; do
+    asset_basename="$(basename "${file}")"
+    if ! check_filename_prefix "${asset_basename}"; then
+        echo "Invalid prefix: ${ASSETS_DIR}/${asset_basename}" >>"${errors}"
     fi
 done
 

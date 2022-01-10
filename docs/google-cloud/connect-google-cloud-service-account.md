@@ -18,11 +18,11 @@ Required Permissions: **Manage Settings**
 
 From the top menu, select the gear icon (_Settings_) in the upper right-hand corner, then select _Google Cloud_ under _Cloud settings_:
 
-![A screenshot showing the _Google Cloud_ settings menu item](../.gitbook/assets/google-cloud-settings-menu.png)
+![A screenshot showing the _Google Cloud_ settings menu item](../.gitbook/assets/cmp-google-cloud-settings-menu.png)
 
 This will take you to the Google Cloud settings screen:
 
-![A screenshot showing the _Google Cloud_ settings screen](../.gitbook/assets/google-cloud-settings.png)
+![A screenshot showing the _Google Cloud_ settings screen](../.gitbook/assets/cmp-google-cloud-settings.png)
 
 To create a Google Cloud Service account, please execute the following steps:
 
@@ -42,7 +42,7 @@ The `gcloud` commands vary according to the boxes of the features you checked
 
 Once you finished to run the `gcloud` commands, you can download the key in the JSON file for your new service account.
 
-![A screenshot showing the location of the Download File menu item](../.gitbook/assets/gcloud-download-file.png)
+![A screenshot showing the location of the Download File menu item](../.gitbook/assets/gcp-gcloud-download-file.png)
 
 {% hint style="info" %}
 
@@ -52,7 +52,7 @@ The `gcloud` command achieves the following: the service account is created in o
 
 Congratulations! You have now created a new `doit_cmp_role` linked to the "DoiT CMP Service Account", under your organization.
 
-![A screenshot of a list of organization roles](../.gitbook/assets/created-doit-cmp-role.png)
+![A screenshot of a list of organization roles](../.gitbook/assets/gcp-created-doit-cmp-role.png)
 
 ## Upload the Service Account Key
 
@@ -64,7 +64,7 @@ If configured successfully, you should see a "**Healthy**" or "**Partial**" valu
 
 If there is something wrong with the JSON file you uploaded, you will see an "**Unhealthy**" value under the "Status" column.
 
-![A screenshot showing the _Google Cloud_ settings screen](../.gitbook/assets/google-cloud-settings.png)
+![A screenshot showing the _Google Cloud_ settings screen](../.gitbook/assets/cmp-google-cloud-settings.png)
 
 ## Updating your Service Account
 

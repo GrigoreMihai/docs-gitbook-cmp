@@ -30,7 +30,7 @@ DoiT International uses secure [Identity Providers](https://docs.aws.amazon.com/
 
 When you request technical support and create a new service request with DoiT International, you will be prompted to grant DoiT International access to your AWS account:
 
-![A screenshot of the AWS _Grant Read-Only Access_ prompt](../.gitbook/assets/aws-support-access.png)
+![A screenshot of the AWS _Grant Read-Only Access_ prompt](../.gitbook/assets/cmp-aws-support-access.png)
 
 To enable this process, you must configure an AWS CloudFormation stack which allows our system to interact with your account. We have prepared a [template configuration](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateUrl=https%3A%2F%2Fdoit-aws-ops-prod-templates.s3.amazonaws.com%2Fawsops\_sns.yaml\&stackName=DoiT-Management-Stack\&param\_AccountNumberParameter=462932234033\&param\_ServiceToken=arn%3Aaws%3Asns%3Aus-east-1%3A462932234033%3Aprod-cfn) for you to install.
 

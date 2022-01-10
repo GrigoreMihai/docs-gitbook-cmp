@@ -20,11 +20,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main CMP dashboard, select the edit icon next to the billing profile you would like to update.
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
 From the billing profile page, select _Payment Methods_ from the left-hand menu:
 
-![A screenshot of the _Payment Methods_ screen](../.gitbook/assets/payment-methods.png)
+![A screenshot of the _Payment Methods_ screen](../.gitbook/assets/cmp-payment-methods.png)
 
 Assuming that the _Wire Transfer_ setting is enabled and you'd like to switch to paying by credit card, select the _Credit Card_ radio button and enter your card details.
 

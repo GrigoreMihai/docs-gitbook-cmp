@@ -18,11 +18,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main CMP dashboard, select the edit icon next to the billing profile you would like to update.
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
 From the billing profile screen, select _Invoice Settings_ from the left-hand menu:
 
-![A screenshot of the _Invoice Settings_ screen](../.gitbook/assets/invoice-settings-screen.png)
+![A screenshot of the _Invoice Settings_ screen](../.gitbook/assets/cmp-invoice-settings-screen.png)
 
 ## Invoice Bucketing
 
@@ -32,7 +32,7 @@ As a customer, you have two options for each one of your billing profiles:
 
 **Invoice using custom bucketing** — buckets allow you to combine assets into a group. If you have 16 assets and group them into two buckets, then two invoices will be generated, with eight assets per invoice.
 
-![A screenshot showing you the custom bucketing option](../.gitbook/assets/invoice-custom-bucketing.png)
+![A screenshot showing you the custom bucketing option](../.gitbook/assets/cmp-invoice-custom-bucketing.png)
 
 You can create as many buckets as you want and separate your assets into those buckets.
 

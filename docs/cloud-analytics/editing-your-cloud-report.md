@@ -8,7 +8,7 @@ If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we rec
 
 An example cloud analytics report:
 
-![A screenshot showing and example report](../.gitbook/assets/example-report.png)
+![A screenshot showing and example report](../.gitbook/assets/cmp-example-report.png)
 
 There are several types of edits you can make to a report like this:
 
@@ -55,13 +55,13 @@ Specify the frequency in which data is aggregated. For the time interval, you ha
 
 For the time range, the options are the following:
 
-![A screenshot showing you the options for Time Range](../.gitbook/assets/time-range-options.png)
+![A screenshot showing you the options for Time Range](../.gitbook/assets/cmp-time-range-options.png)
 
 ### Exclude partial Intervals
 
 When looking at at a report the most current interval is always incomplete. If the report is **Daily** then the current day will always be collecting billing data throughout the day. By checking this checkbox, cloud analytics will remove any incomplete time interval from the data of the report.
 
-![A screenshot of the Time Range drop-down menu](../.gitbook/assets/time-range-menu.png)
+![A screenshot of the Time Range drop-down menu](../.gitbook/assets/cmp-time-range-menu.png)
 
 This means that we will hide data for the current day for daily intervals, current week for monthly intervals, etc.
 
@@ -91,7 +91,7 @@ The **Compare Data** dropdown will automatically add either **% change** or **ac
 
 To enable Comparison mode select either **Show actuals** or **Show percentage** from the _Comparative data_ drop-down in Edit mode of Cloud Analytics Reports
 
-![A screenshot of the Comparative data drop-down menu](../.gitbook/assets/comparative-data-menu.png)
+![A screenshot of the Comparative data drop-down menu](../.gitbook/assets/cmp-comparative-data-menu.png)
 
 Comparison mode is
 
@@ -101,13 +101,13 @@ Comparison mode is
 
 When selected _**we will automatically adjust your report**_, you will be warned of the changes and asked to confirm.
 
-![A screenshot of the Show Comparative Report modal dialog](../.gitbook/assets/show-comparative-report-dialog.png)
+![A screenshot of the Show Comparative Report modal dialog](../.gitbook/assets/cmp-show-comparative-report-dialog.png)
 
 Once enabled, you will see new columns in your table based view showing the ∆ between time intervals. This difference (∆) appears **after** the intervals compared.
 
 For example below: Months 07 (July) and 08 (August) show the % change after in the column ∆08 (Change to August)
 
-![Report with highlighted comparison columns](../.gitbook/assets/report-highlighted-columns.png)
+![Report with highlighted comparison columns](../.gitbook/assets/cmp-report-highlighted-columns.png)
 
 _Note: Column headings will contain a % symbol when showing % change_
 
@@ -121,7 +121,7 @@ You may also exclude a selection of values, or limit results to a specific numbe
 
 Next, click "Save" in the lower-right corner of the popup modal.
 
-![A screenshot showing you the location of the Save button](../.gitbook/assets/cloudreports-filters.png)
+![A screenshot showing you the location of the Save button](../.gitbook/assets/cmp-cloudreports-filters.png)
 
 {% hint style="info" %}
 

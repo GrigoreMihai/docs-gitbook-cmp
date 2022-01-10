@@ -27,21 +27,21 @@ To grant permission for projects that are managed by Terraform, follow these ste
 
    ➜ To locate a different Cloud Billing account, select Manage billing accounts and then choose the account that you want to manage.
 
-   ![A screenshot of the You have multiple billing accounts message](../../.gitbook/assets/you-have-multiple-billing-accounts.png)
+   ![A screenshot of the You have multiple billing accounts message](../../.gitbook/assets/gcp-you-have-multiple-billing-accounts.png)
 
 3. In the Billing navigation menu, click **Account management**.
 
-   ![A screenshot of the Billing menu](../../.gitbook/assets/terraform-billing-menu.png)
+   ![A screenshot of the Billing menu](../../.gitbook/assets/gcp-terraform-billing-menu.png)
 
 4. Use the **Permissions panel** to edit permissions for the selected Cloud Billing account. If the panel isn't already visible, click `SHOW INFO PANEL` to open it.
 
 5. Click **Add Principal**
 
-   ![A screenshot showing the location of the ADD PRINCIPAL button](../../.gitbook/assets/add-principal-button.png)
+   ![A screenshot showing the location of the ADD PRINCIPAL button](../../.gitbook/assets/gcp-add-principal-button.png)
 
 6. Input the terraform service account as **New Principal** and select **`Billing Account User`** role, then Save.
 
-   ![A screenshot of the Add principals and roles form](../../.gitbook/assets/add-principals-and-roles-form.png)
+   ![A screenshot of the Add principals and roles form](../../.gitbook/assets/gcp-add-principals-and-roles-form.png)
 
 {% hint style="info" %}
 

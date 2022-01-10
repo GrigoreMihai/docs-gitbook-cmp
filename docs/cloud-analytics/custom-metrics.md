@@ -47,11 +47,11 @@ You must create these attributions before you creating a custom metric.
 
 Select _Analytics_ from the top menu bar, then select _Metrics_ to access your custom metrics:
 
-![A screenshot showing the Metrics screen](../.gitbook/assets/metrics-screen.png)
+![A screenshot showing the Metrics screen](../.gitbook/assets/cmp-metrics-screen.png)
 
 To create a new metric, select the _New Metric_ button to access the _New Metric_ screen:
 
-![A screenshot showing the _New Metric_ screen](../.gitbook/assets/new-metric.png)
+![A screenshot showing the _New Metric_ screen](../.gitbook/assets/cmp-new-metric.png)
 
 From here:
 

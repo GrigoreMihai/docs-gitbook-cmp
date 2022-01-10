@@ -22,19 +22,19 @@ _Please note that you must be assigned access to the specific Billing Profile un
 
 Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
 from the _Assets_ page, select _Google Workspace_ from the left-hand menu:
 
-![A screenshot showing the Google Workspace screen](../.gitbook/assets/google-workspace-screen.png)
+![A screenshot showing the Google Workspace screen](../.gitbook/assets/cmp-google-workspace-screen.png)
 
 Locate the subscription you'd like to configure auto-increase for, and click on the ellipsis icon on the right-hand side of the widget. Then choose 'Configure Auto Increase'.
 
-![A screenshot showing the Configure Auto-Increase option](../.gitbook/assets/configure-auto-increase-option.png)
+![A screenshot showing the Configure Auto-Increase option](../.gitbook/assets/cmp-configure-auto-increase-option.png)
 
 Configure the number of licenses you want to have available at all times. Once licenses get assigned to users in your organization, a new license(s) will be added automatically.
 
-![A screenshot showing the Configure Auto-Increase modal dialog](../.gitbook/assets/configure-auto-increase-dialog.png)
+![A screenshot showing the Configure Auto-Increase modal dialog](../.gitbook/assets/cmp-configure-auto-increase-dialog.png)
 
 After you click "Save" you will see a success message in the lower-left corner of your screen, confirming your adjustment. Our system will check for and add, if necessary, additional licenses every 30 minutes.
 

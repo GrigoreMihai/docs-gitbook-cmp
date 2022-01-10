@@ -18,15 +18,15 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/dashboard.png)
+![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 
 from the _Assets_ page, select _Google Workspace_ from the left-hand menu:
 
-![A screenshot showing the Google Workspace screen](../.gitbook/assets/google-workspace-screen.png)
+![A screenshot showing the Google Workspace screen](../.gitbook/assets/cmp-google-workspace-screen.png)
 
 To upgrade to a higher edition, locate the G Suite subscription for which you want to upgrade, and click on the three-dots icon on the right-hand side of the widget. Then choose 'Change G Suite Edition'.
 
-![A screenshot showing the location of the Change G Suite Edition option](../.gitbook/assets/change-g-suite-edition.png)
+![A screenshot showing the location of the Change G Suite Edition option](../.gitbook/assets/cmp-change-g-suite-edition.png)
 
 Upgrade options:
 
@@ -35,8 +35,8 @@ Upgrade options:
 
 Select the G Suite edition you'd like to upgrade to, and click on 'Submit'.
 
-![A screenshot showing the \_Change g Suite Edition modal dialog](../.gitbook/assets/g-suite-business.png)
+![A screenshot showing the \_Change g Suite Edition modal dialog](../.gitbook/assets/cmp-g-suite-business.png)
 
 An email notification confirming your recent order will be sent to you.
 
-![A screenshot showing a confirmation notification email](../.gitbook/assets/upgrade-g-suite-email.png)
+![A screenshot showing a confirmation notification email](../.gitbook/assets/email-upgrade-g-suite.png)

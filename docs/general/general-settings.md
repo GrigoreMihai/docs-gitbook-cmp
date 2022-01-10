@@ -10,7 +10,7 @@ The General tab contains two settings:
 
 ## Timezone
 
-![A screenshot of the Timezone drop-down menu](../.gitbook/assets/timezone-menu.png)
+![A screenshot of the Timezone drop-down menu](../.gitbook/assets/cmp-timezone-menu.png)
 
 When selected timezone will be used as a default in the following features:
 
@@ -22,7 +22,7 @@ When selected timezone will be used as a default in the following features:
 
 ## Currency
 
-![A screenshot of the Currency drop-down menu](../.gitbook/assets/currency-menu.png)
+![A screenshot of the Currency drop-down menu](../.gitbook/assets/cmp-currency-menu.png)
 
 | Section         | Feature | Behavior                                                                                                                         |
 | --------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |

@@ -40,13 +40,13 @@ Organizations use attributions to control what data is included.
 
 Select _Analytics_ from the top menu bar, then _Attributions_:
 
-![A screenshot showing the Attributions tab](../.gitbook/assets/attributions-screen.png)
+![A screenshot showing the Attributions tab](../.gitbook/assets/cmp-attributions-screen.png)
 
 If you already have an attribution configured, select it and confirm that it matches the set of data you would like to use as an organization.
 
 {% hint style="info" %}
 
-[Learn more about attributions](../cloud-analytics/attributing-cloud-spend.md#creating-an-attribution.png)
+[Learn more about attributions](../cloud-analytics/attributing-cloud-spend.md)
 
 {% endhint %}
 
@@ -54,17 +54,17 @@ If you already have an attribution configured, select it and confirm that it mat
 
 Select the _Settings_ icon (a gear) from the top menu bar, then _Identity and access_:
 
-![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/iam-screen.png)
+![A screenshot showing the _Identity and access_ screen](../.gitbook/assets/cmp-iam-screen.png)
 
 From this screen, select _Organizations_ from the left-hand menu:
 
-![A screenshot showing the Organizations menu](../.gitbook/assets/iam-org-screen.png)
+![A screenshot showing the Organizations menu](../.gitbook/assets/cmp-iam-org-screen.png)
 
 On this screen, select the _NEW ORGANIZATION_ button.
 
 ### Step 3. Configure your organization <a href="step-3-configure-your-organization" id="step-3-configure-your-organization"></a>
 
-![A screenshot showing the organization configuration screen](../.gitbook/assets/new-organization-screen.png)
+![A screenshot showing the organization configuration screen](../.gitbook/assets/cmp-new-organization-screen.png)
 
 Select the attribution or set of attributions that define your organization.
 

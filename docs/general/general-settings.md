@@ -6,30 +6,15 @@ description: Settings > General
 
 The **General** tab of the Settings section contains options that provide company-specific defaults for all users within the CMP.
 
-The General tab contains two settings:
-
-## Timezone
-
-![A screenshot of the Timezone drop-down menu](../.gitbook/assets/cmp-timezone-menu.png)
-
-When selected timezone will be used as a default in the following features:
-
-| Section         | Feature | Behavior                                                                                                                         |
-| --------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Dashboards      | Pulse   | Pulse Dashboard will show all reports in your default timezone                                                                   |
-| Cloud Analytics | Reports | Timezone will be the default timezone for any report in [_Explore_ or _New Report_](../cloud-analytics/create-cloud-report/)\_\_ |
-| Cloud Analytics | Budgets | Timezone will be used as the default for any newly [created Budget](../cloud-analytics/manage-budgets.md#creating-budgets)       |
-
 ## Currency
 
 ![A screenshot of the Currency drop-down menu](../.gitbook/assets/cmp-currency-menu.png)
 
-| Section         | Feature | Behavior                                                                                                                         |
-| --------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Dashboards      | Pulse   | Pulse Dashboard will show all reports in your default currency                                                                   |
-| Cloud Analytics | Reports | Currency will be the default timezone for any report in [_Explore_ or _New Report_](../cloud-analytics/create-cloud-report/)\_\_ |
-| Cloud Analytics | Budgets | Currency will be used as the default for any newly [created Budget](../cloud-analytics/manage-budgets.md#creating-budgets)       |
+| Section    | Feature        | Behavior                                                                                                                         |
+| ---------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Dashboards | Pulse          | Pulse Dashboard will show all reports in your default currency                                                                   |
+| Analytics  | Reports        | Currency will be the default timezone for any report in [_Explore_ or _New Report_](../cloud-analytics/create-cloud-report/)\_\_ |
+| Analytics  | Budgets        | Currency will be used as the default for any newly [created Budget](../cloud-analytics/manage-budgets.md#creating-budgets)       |
+| Governance | Cost Anomalies | Cost Anomalies will show in configured default currency                                                                          |
 
-These settings represent defaults across your users. Reports and Budgets can be overridden to show any desired timezone or currency. That configuration will be saved with the report.
-
-Changing these values will immediately apply the setting to your account and requires no additional save action.
+Changing this value will immediately apply the setting to your account and requires no additional save action.

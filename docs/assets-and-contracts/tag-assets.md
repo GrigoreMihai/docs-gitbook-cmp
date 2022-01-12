@@ -11,21 +11,25 @@ You can tag an asset for classification purposes. Tags will appear on invoices s
 Note that only one tag is allowed per asset. To add tags to assets, see the following instructions.
 
 {% hint style="info" %}
-Required Role\*\*: Admin\*\*
+
+Required Role: **Admin**
+
 {% endhint %}
 
-1. Navigate to 'Assets' via the settings cog in the top-right hand section of the main navigation
-2. Within the 'Assets' section, select the 'Asset Type' you want to tag (AWS, Google Cloud, etc.)
-3. Once on the chosen tab, click the 3-dot menu of the asset you wish to tag
-   * The assets are shown as cards
-4. Select 'Tag Asset'
+1. Navigate to the _Assets_ page via the _Billing_ menu from the top navigation bar
+2. From the _Assets_ page, select the asset type from the left-hand menu (_Amazon Web Services_, _Google Workspace_, and so on)
+3. After finding the asset you want to tag, select the three dots icon in the top right-hand corner of the asset card
+4. Select _Tag Asset_ from the drop-down menu:
+
+   ![A screenshot showing the asset drop-down menu](../.gitbook/assets/cmp-assets-drop-down-menu.png)
+
+   The CMP will open a new modal dialog:
+
+   ![A screenshot showing the _Tag Asset_ modal dialog](../.gitbook/assets/cmp-assets-tag-asset-modal.png)
+
 5. Input a new tag or select from the list of previously created tags
-6. Click 'Save'
+6. Select _Save_
 
-![A screenshot showing the 3-dot menu options, including 'Tag Asset'](../.gitbook/assets/cmp-assets-page.png)
+After selecting _Save_, the tag will be visible under the asset name in the form of a grey chip.
 
-![A screenshot showing the 'Tag Asset' modal and input](../.gitbook/assets/cmp-tag-asset-input.png)
-
-All new tags you save will be added to the tag selection list and will be available to use for other assets.
-
-After clicking save, the tag will be visible under the asset name in the form of a grey chip.
+All new tags you save will be added to the global tag list and will be available for use with other assets.

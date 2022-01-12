@@ -12,7 +12,7 @@ Required Permission: **Sandbox User**
 
 After a [policy has been configured](configuring-a-policy-for-sandbox-accounts.md), a user can create sandbox accounts up to the amount which was defined by the Admin in the Sandbox Policy.
 
-From the dashboard, select _Governance_ from the top menu bar, then select _Sandbox accounts_:
+Within the CMP, select _Governance_ from the top menu bar, then select _Sandbox accounts_:
 
 ![A screenshot of an empty _Sandbox accounts_ screen](../.gitbook/assets/cmp-sandbox-accounts-empty.png)
 

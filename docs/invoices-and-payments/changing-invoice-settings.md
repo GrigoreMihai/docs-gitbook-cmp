@@ -13,10 +13,10 @@ Required Permissions: **Billing Profile Admin**
 {% endhint %}
 
 {% hint style="warning" %}
-Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a license.
+Please note that you must be assigned access to the specific billing profile under which the domain is managed in order to purchase a license.
 {% endhint %}
 
-From the main CMP dashboard, select the edit icon next to the billing profile you would like to update.
+From the main CMP dashboard, find the _Billing Profiles_ widget, then select the edit icon next to the billing profile you would like to update:
 
 ![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
 

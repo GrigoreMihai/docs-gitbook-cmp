@@ -12,11 +12,7 @@ As a customer, you can access your company invoices, including their full detail
 Required Permissions: **Invoice Viewer**
 {% endhint %}
 
-From the main CMP dashboard, select _Billing_ from the top menu bar, then select _Invoices_.
-
-![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
-
-This action will take you to the _Invoices_ screen:
+Within the CMP, select _Billing_ from the top menu bar, then select _Invoices_:
 
 ![A screenshot of the _Invoices_ screen](../.gitbook/assets/cmp-invoices-screen.png)
 

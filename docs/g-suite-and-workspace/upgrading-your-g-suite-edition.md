@@ -16,13 +16,11 @@ Required Permission: **Assets Manager**
 Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to upgrade your subscription.
 {% endhint %}
 
-Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
+Within the CMP, select _Billing_ from the top navigation bar and then select _Assets_. The CMP will take you to the _Assets_ page.
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
+From the _Assets_ page, select _Google Workspace_ from the left-hand menu:
 
-from the _Assets_ page, select _Google Workspace_ from the left-hand menu:
-
-![A screenshot showing the Google Workspace screen](../.gitbook/assets/cmp-google-workspace-screen.png)
+![A screenshot showing the Google Workspace screen](../.gitbook/assets/cmp-assets-google-workspace-screen.png)
 
 To upgrade to a higher edition, locate the G Suite subscription for which you want to upgrade, and click on the three-dots icon on the right-hand side of the widget. Then choose 'Change G Suite Edition'.
 

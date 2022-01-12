@@ -6,7 +6,7 @@ description: How to modify the currency a particular Billing Profile is billed i
 
 If you need to change your company's billing currency, a new billing profile must be registered using the Cloud Management Platform. The currency of existing billing profiles cannot be changed.
 
-From the main CMP dashboard, select the three vertical dots icon in the top right-hand corner of the screen and then select _New Billing Profile_.
+From the CMP dashboard, select the three vertical dots icon in the top right-hand corner of the screen and then select _New Billing Profile_.
 
 ![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-new-billing-profile-menu-item.png)
 

@@ -30,7 +30,7 @@ Since FlexSave relies on AWS Convertible Reservations, you can check for support
 
 Your actual savings is displayed in your FlexSave Dashboard. Your CFO should have access to this dashboard if they have the FlexSave Admin permission and would be able to monitor the utilization as well as the actual savings yielded by the FlexSave.
 
-This is your [FlexSave Dashboard](overview.md#flexsave-dashboard)
+This is your [FlexSave dashboard](overview.md#flexsave-dashboard):
 
 ![A screenshot of an example FlexSave dashboard](../.gitbook/assets/cmp-flexsave-dashboard.png)
 

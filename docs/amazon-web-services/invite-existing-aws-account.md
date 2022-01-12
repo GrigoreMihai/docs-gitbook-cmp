@@ -14,24 +14,39 @@ Required Permission: **Licenses Manager**
 Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to invite an existing account.
 {% endhint %}
 
-1. Log into the [Cloud Management Platform](https://app.doit-intl.com)
-2. Click on the "setting" ⚙ icon located at the top right side of the navigation bar
-3. Click on "assets" under "cloud settings"
-4. Once you're at the Assets page, go to the right-hand side of the page and click on '**Invite Account**'.
+Within the CMP, select _Billing_ from the top navigation bar and then select _Assets_. The CMP will take you to the _Assets_ page.
 
-Choose the Billing Profile to which you'd like to have the existing AWS account now be a part of. Enter the 12-digit AWS Account ID and any optional notes before clicking 'Invite'.
+From the _Assets_ page, select _Amazon Web Services_ from the left-hand menu:
 
-![A screenshot of the AWS _Invitations_ screen](../.gitbook/assets/aws-invite-4.png)
+![A screenshot showing the Amazon Web Services assets page](../.gitbook/assets/cmp-assets-aws.png)
 
-An email will be sent on behalf of AWS.
+From the Amazon Web Services assets page, select the _Invite Account_ button.
+
+The CMP will open a modal dialog:
+
+![A screenshot showing the _Invite Account_ modal dialog](../.gitbook/assets/cmp-assets-aws-invite-account-modal.png)
+
+Then:
+
+1. Select the billing profile you would like to invite
+2. Enter the 12-digit AWS Account ID
+3. Add invitation notes (optional
+
+When you are done, select _Invite_.
+
+You should then receive an email from Amazon Web Services with a link to accept the invitation:
 
 ![A screenshot of an email sent by DoiT](../.gitbook/assets/email-invite-existing-3.png)
 
-If within five minutes you haven't received the above email, please re-enter your AWS Account ID in the DoiT Cloud Management Platform and invite once again.
+If you haven't received the above email within five minutes, please re-enter your AWS Account ID in the DoiT Cloud Management Platform and send the invite again.
 
-To complete the process, sign in to the [AWS Organizations Console](https://console.aws.amazon.com/organizations/). On the Invitations page in the console, you can see your open invitations to join organizations. Finally, click the "Accept" button to accept the invitation.
+To complete the process, sign in to the [AWS Organizations Console](https://console.aws.amazon.com/organizations/). On the Invitations page in the console, you can see your open invitations to join organizations:
 
-Afterward, you will be redirected to the **Organization overview** page with details about the organization that your account is now a member of. You can view the organization's ID and the owner's email address.
+![A screenshot of the AWS _Invitations_ screen](../.gitbook/assets/aws-invite-4.png)
+
+Finally, select the _Accept_ button to accept the invitation.
+
+Afterward, you will be redirected to the _Organization overview_ page that provides details about the organization that your account has joined. You can view the organization's ID and the owner's email address.
 
 ## Multiple Accounts Under a Master Organization
 

@@ -22,17 +22,23 @@ Please note: Your user account must be linked to at least one billing profile in
 
 ## Create a new billing account
 
-Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select _Manage Licenses & Assets_ from the main dashboard:
+Within the CMP, select _Billing_ from the top navigation bar and then select _Assets_. The CMP will take you to the _Assets_ page.
 
-![A screenshot showing you CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
+From the _Assets_ page, select _Google Cloud_ from the left-hand navigation to access the Google Cloud assets page:
 
-Once you're at the Assets page, switch to the Google Cloud tab and select _New Billing Account_, located in the top right-hand corner of the screen:
+![A screenshot showing the Google Cloud assets page](../.gitbook/assets/cmp-assets-google-cloud.png)
 
-![A screenshot showing the Google Cloud assets screen](../.gitbook/assets/cmp-assets-google-cloud.png)
+From the Google Cloud assets page, select the _New Billing Account_ button.
 
-You will be prompted with a pop-up requesting you to enter your Google _Billing Account Name_, _Billing Profile_, and the email addresses of designated _Billing Account Administrators_.
+The CMP will open a modal dialog:
 
-After completing the form, you should now see the new billing account listed on the Google Cloud assets page.
+![A screenshot showing the _New Billing Account_ modal dialog](../.gitbook/assets/cmp-assets-google-cloud-new-billing-account.png)
+
+Enter your Google _Billing Account Name_, _Billing Profile_, and the email addresses of designated _Billing Account Administrators_.
+
+When you are done, select _Create_.
+
+The new billing account will now be listed on the Google Cloud assets page.
 
 {% hint style="info" %}
 Your domain is added as a _Billing Account User_ on the new Billing Accounts you create in the CMP. This allows anyone on the domain to link projects to the billing account.

@@ -18,13 +18,11 @@ Please note that you must be assigned access to the specific billing profile und
 
 {% endhint %}
 
-Start from the main CMP dashboard and select the _MANAGE LICENSES & ASSETS_ button in the middle of the screen:
+Within the CMP, select _Billing_ from the top navigation bar and then select _Assets_. The CMP will take you to the _Assets_ page.
 
-![A screenshot of the CMP dashboard](../.gitbook/assets/cmp-dashboard.png)
+From the _Assets_ page, select _Google Workspace_ from the left-hand menu:
 
-from the _Assets_ page, select _Google Workspace_ from the left-hand menu:
-
-![A screenshot showing the Google Workspace screen](../.gitbook/assets/cmp-google-workspace-screen.png)
+![A screenshot showing the Google Workspace screen](../.gitbook/assets/cmp-assets-google-workspace-screen.png)
 
 You can see the number of licenses in use next to each _Quantity_ label.
 

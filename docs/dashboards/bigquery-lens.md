@@ -27,11 +27,7 @@ After your service account has been uploaded and you have enabled the features y
 
 ## Setup
 
-Once the Google Cloud Service Account setup is complete, select the _Attach_ button from the dashboard navigation bar:
-
-![A screenshot showing the location of the _Attach_ icon](../.gitbook/assets/cmp-dashboard-attach-bigquery-lens.png)
-
-Select _BigQuery Lens_ from the list of options.
+Once the Google Cloud Service Account setup is complete, select the _Attach_ button from the dashboard navigation bar, then select _BigQuery Lens_ from the list of options.
 
 After attaching the BigQuery Lens dashboard, a BigQuery Lens icon will appear on your dashboard and the CMP will start gathering information about your account usage patterns.
 
@@ -59,9 +55,9 @@ The BigQuery historical jobs are backfilled for the last 30 days.
 
 ## Understanding the BigQuery Lens
 
-The BigQuery Lens dashboard is made up of  widgets that, each designed to highlight a different aspect of your BigQuery usage.
+The BigQuery Lens dashboard is made up of  widgets that, each designed to highlight a different aspect of your BigQuery usage:
 
-![A partial screenshot of the BigQuery Lens dashboard](../.gitbook/assets/cmp-bg-lens-dashboard.png)
+![A partial screenshot of the BigQuery Lens dashboard](../.gitbook/assets/cmp-dashboard-bigquery-lens.png)
 
 ### Elements of the Dashboard
 

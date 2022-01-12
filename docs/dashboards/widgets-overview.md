@@ -4,15 +4,17 @@ description: Widgets are cards you can place on dashboards for additional functi
 
 # Widgets Overview
 
-Widgets are an essential aspect of the home dashboard in the Cloud Management Platform customization. You can change the location of the widgets by clicking the 'Customize' button and reordering the widgets on your dashboard, as well as remove them altogether if you wish.
+Widgets are the building blocks of a dashboard:
 
-**Manage Licenses & Assets** opens the assets page which you can use to purchase additional licenses and subscriptions for G Suite and Office 365.
+![A screenshot showing the default dashboard](../.gitbook/assets/cmp-dashboard.png)
 
-**Access & Pay Invoices** provides a list of your company's invoices from DoiT International, including their amounts, payment status, and invoice details.
+If you have permission to edit a dashboard, you can add, remove, and reorder the widgets using the _Customize_ button.
 
-**Access Support** is used to create new customer service requests or access existing requests previously opened by you or someone on your team.
+{% hint style="info" %}
 
-_Please note that if one of the items on that list is disabled \(grayed out\), it means your user doesn't have the appropriate credentials required to perform this action._
+See also: [Customizing Dashboards](customizing-dashboards.md)
+
+{% endhint %}
 
 ## Essential Contacts
 

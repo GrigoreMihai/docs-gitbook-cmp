@@ -12,11 +12,7 @@ To get started, first, you need to ensure that you have a Service Account that c
 
 ## Identify the service account
 
-From the top menu, select the gear icon (_Settings_) in the upper right-hand corner, then select _Google Cloud_ under _Cloud settings_:
-
-![A screenshot showing the _Google Cloud_ settings menu item](../.gitbook/assets/cmp-google-cloud-settings-menu.png)
-
-This will take you to the Google Cloud settings screen:
+Within the CMP, select the gear icon (_Settings_) from the top navigation bar, then select _Google Cloud_ under _Cloud settings_. The CMP will take you to the Google Cloud settings screen:
 
 ![A screenshot showing the _Google Cloud_ settings screen](../.gitbook/assets/cmp-google-cloud-settings.png)
 
@@ -66,24 +62,30 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 ## Link your Google Cloud Direct Billing Account
 
 {% hint style="info" %}
-Required Permission: Assets Manager
+Required Permission: **Assets Manager**
 {% endhint %}
 
-1. From CMP's left side navigation menu, click "**Assets**"
-2. Select "**Google Cloud**" tab
-3. Click the dropdown button next to "New Billing Account" and select "**Link Direct Account**"
+Within the CMP, select _Billing_ from the top navigation bar and then select _Assets_. The CMP will take you to the _Assets_ page.
 
-![A screenshot showing the location of the Assets menu item, the Google Cloud tab, and the Link Direct Account option](../.gitbook/assets/gcp-link-account.png)
+From the _Assets_ page, select _Google Cloud_ from the left-hand navigation to access the Google Cloud assets page:
 
-You can now import your historical billing data into CMP. You need the following information to complete the process:
+![A screenshot showing the Google Cloud assets page](../.gitbook/assets/cmp-assets-google-cloud.png)
 
-* Billing Account ID: _example_ "**01CF51-9FDB87-7894FD**"
-* Source Project: Enter the "**Project ID"**
-* Source Dataset: Enter the "**Dataset ID"**
+From the Google Cloud assets page, select arrow next to the _New Billing Account_ button, then select _Link Direct Account_ from the drop-down menu that appears. Finally, select the button a second time (which should now read _Link Direct Account_).
 
-![A screenshot of the Link your Google Cloud Direct Billing Account modal dialog](../.gitbook/assets/cmp-link-google-cloud-billing-account-dialog.png
+The CMP will open a modal dialog:
 
-Once you select _Import_, a new card will be added to your Google Cloud assets screen with status information:
+![A screenshot showing the _Link Direct Account_ modal dialog](../.gitbook/assets/cmp-assets-google-cloud-link-direct-account.png)
+
+To import your historical billing data into the CMP, enter the following:
+
+* Billing Account ID — For example `01CF51-9FDB87-7894FD`
+* Source Project — Enter the _Project ID_
+* Source Dataset — Enter the _Dataset ID_
+
+When you are done, select _Import_ to continue.
+
+The CMP will add a new card to your Google Cloud assets page with import status information:
 
 ![A screenshot showing the new Google Cloud card with a "Processing" status](../.gitbook/assets/cmp-google-cloud-card-processing.png)
 
